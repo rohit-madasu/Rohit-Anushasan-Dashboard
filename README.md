@@ -8,14 +8,16 @@ The site is published from the `main` branch with GitHub Pages.
 
 ## Source
 
-`index.html` is a self-contained snapshot generated from the firm's reconciled court-diary data. It includes the interface, styles, client-side filtering, and embedded evidence data, so it does not require a build step or server.
+`index.html`, `styles.css`, and `app.js` provide the responsive calendar. `calendar-core.js` groups evidence records into proceeding cards without changing the source data. `data.js` contains the preserved source snapshot. No build step or external library is required.
+
+On mobile, tapping a date moves directly to cards showing the file serial, parties, case number, court and stage. Search covers all dates, and source filters distinguish verified and provisional records. Full qualifications and the audit export remain available.
 
 ## Updating the dashboard
 
 1. Reconcile the master diary, official court checks, office/document reports, and unresolved file mappings.
-2. Generate a replacement self-contained HTML snapshot.
+2. Replace the `window.HEARING_DATA` JSON object in `data.js` with the reconciled snapshot, retaining the existing schema and evidence history.
 3. Remove local filesystem paths and confirm that no credentials are present.
-4. Replace `index.html`, test calendar navigation/search/filtering at desktop and mobile widths, then commit and push to `main`.
+4. Test calendar navigation, date selection, search and filtering at desktop and mobile widths, then commit and push to `main`.
 
 ## Important
 
