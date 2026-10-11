@@ -12,6 +12,8 @@ The site is published from the `main` branch with GitHub Pages.
 
 On mobile, tapping a date moves directly to cards showing the file serial, parties, case number, court and stage. Search covers all dates, and source filters distinguish verified and provisional records. Full qualifications and the audit export remain available.
 
+The arrows beside the selected date move backward or forward one calendar day, including days with no cases. The green counters follow the selection: the selected date, the following date, and the displayed calendar month. Counts reflect the current source filter and search; repeated evidence for a proceeding is grouped using the same rules as the case cards.
+
 ## Updating the dashboard
 
 1. Reconcile the master diary, official court checks, office/document reports, and unresolved file mappings.
