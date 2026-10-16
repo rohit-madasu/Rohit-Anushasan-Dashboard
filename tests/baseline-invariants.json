@@ -1,0 +1,29 @@
+{
+  "sourceSha256": "a5d92012d75e2ec2772cb4aad4d94a9e9fabcbab1b37c711d1836b431af63e4a",
+  "sourceVersion": "Current_Case_Hearings_and_Stages_2026-10-16_daily_update.docx",
+  "fields": {
+    "currentRows": {
+      "count": 190,
+      "sha256": "008bccb973ed3387f9ffac476744b10bfe5344be663d5fb6032e731d0f1dc415"
+    },
+    "historyRows": {
+      "count": 480,
+      "sha256": "b3eea0970966aab2cc569956bd7f5efac9f3a4245e8b68d58adf1cf20fb5e050"
+    },
+    "unidentifiedLeads": {
+      "count": 20,
+      "sha256": "7e02ceaddd23901397c9b3672c7e3311cfdd3b7abe135203ecd28509503238bc"
+    },
+    "limitationProfiles": {
+      "count": 223,
+      "sha256": "59af1d8b828afec5bafa4b07ac58777f936dfeb579dd344bcce0bbbb7479b2e7"
+    },
+    "trackingOverlay": {
+      "count": null,
+      "sha256": "49dcb94007f07934abb6d8fb3b56a69cba13a538a4ff0870839a2f34b2375db0"
+    }
+  },
+  "sourceDocumentSha256": "2a5b630d065671d7991926b8be515d9774da042a60fc53045de2d9b0250cece1",
+  "sourcePdfSha256": "fab64d19392125454169d1a714a3ef0e478951a1156195377c288afb4f00a0ff",
+  "createdFor": "Private static dashboard regression checks; source content must be preserved"
+}

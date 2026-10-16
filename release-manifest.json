@@ -1,0 +1,142 @@
+{
+  "edition": "2026-10-17 private interface refresh",
+  "sourceEdition": "2026-10-16",
+  "publication": "Not published; private offline package",
+  "files": [
+    {
+      "path": "index.html",
+      "bytes": 10944,
+      "sha256": "25669ff87d5ff10063b8994221357a5e8893037c8b85cb234d7017db330eccf7"
+    },
+    {
+      "path": "styles.css",
+      "bytes": 24713,
+      "sha256": "308963d2bde9ea66d6ef70d519e43c610156bbb0abd63d637e9c043b87924ff4"
+    },
+    {
+      "path": "court-colors.css",
+      "bytes": 27785,
+      "sha256": "d2207741404fa56fa81e53c10806272b12bd605eb942411e893aa88491a45618"
+    },
+    {
+      "path": "app.js",
+      "bytes": 27182,
+      "sha256": "c1f75c15a19f724cf33bb436c06235d9622af5b7f13d326e64d1a8d170a72fd2"
+    },
+    {
+      "path": "calendar-core.js",
+      "bytes": 6235,
+      "sha256": "cb51e185242a1a8dcd41f42a84ff6947b52a029fbd84c94967b854631ea3fdd0"
+    },
+    {
+      "path": "auth.js",
+      "bytes": 5213,
+      "sha256": "b92451cc15dcccb93c701eaf12d7388d66533fb5b6aa784c5fd79fd301bb3d6f"
+    },
+    {
+      "path": "auth-config.js",
+      "bytes": 227,
+      "sha256": "d44bf3d0ddfa01c95b04f053c3482648456aed27b54c4a8a9e53edaa44ba36bd"
+    },
+    {
+      "path": "data.js",
+      "bytes": 1714859,
+      "sha256": "a5d92012d75e2ec2772cb4aad4d94a9e9fabcbab1b37c711d1836b431af63e4a"
+    },
+    {
+      "path": "case-search-data.js",
+      "bytes": 38376844,
+      "sha256": "0ce5cffb6303b6aa27c99639066716c034ed90605d6536409a094ee2e7167fa5"
+    },
+    {
+      "path": "courts.js",
+      "bytes": 112573,
+      "sha256": "c3fb5b21577af1f19a2416979d09c524f8f1d0d5b2dc9fa624c61a9c152218f4"
+    },
+    {
+      "path": "README.md",
+      "bytes": 7230,
+      "sha256": "1511fa8b80d5274b778a0912116cbe5dd3dc6a26b7407b6bec3101030e754bc9"
+    },
+    {
+      "path": "QA.md",
+      "bytes": 4756,
+      "sha256": "a7640372e90db17efaca4ac30f9486b5cea710b86616aed6d378d2d3a90f78e9"
+    },
+    {
+      "path": "build_assets.py",
+      "bytes": 2615,
+      "sha256": "3c63e4e83e21e28189e74308661c1d6f16da69ac09420deeb9e3d2c62e2461e4"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 110,
+      "sha256": "fab1eb6d7f1ffe1c21bda6f6b8366eaf9b67fd91c37580f1ccc2202eeedbcc45"
+    },
+    {
+      "path": ".nojekyll",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "tests/TEST-PLAN.md",
+      "bytes": 4083,
+      "sha256": "d786cc9e87d2028f52121bbed35158245a845d584986d81d2047516caa512bd9"
+    },
+    {
+      "path": "tests/app-dom.test.cjs",
+      "bytes": 6399,
+      "sha256": "3e314e61c5a421a11eb0d27881e88cc1c4cf79688be5c9d58cf31bcc3d03660c"
+    },
+    {
+      "path": "tests/auth-dom.test.cjs",
+      "bytes": 6269,
+      "sha256": "861c16ca4fda28443532e5aba83eab2113e1a3126ac993f9e1d7025a32ab2237"
+    },
+    {
+      "path": "tests/auth.test.cjs",
+      "bytes": 2856,
+      "sha256": "033470b8cd5b6cca3b31c11cf181d24c4499ec829d346b977f76c797ec7bda24"
+    },
+    {
+      "path": "tests/baseline-invariants.json",
+      "bytes": 1142,
+      "sha256": "9f03a7b5e45d009555d0d7bce840767c7daee2d0e3ce183b2bd960b69ec66615"
+    },
+    {
+      "path": "tests/browser-auth.test.cjs",
+      "bytes": 6755,
+      "sha256": "631b735b778f53b6b19dbfbcda0d6cccaa9622518be937331a805ec567d84f72"
+    },
+    {
+      "path": "tests/calendar-core.test.cjs",
+      "bytes": 6298,
+      "sha256": "416faf5116fe34e6dbdf32f70eb75a902704b15c92ffb0299d2bc98d8760b51a"
+    },
+    {
+      "path": "tests/case-search.test.cjs",
+      "bytes": 1360,
+      "sha256": "8cba34eac499a1fc3e53b1a4f04a1d21b7b93dfdbf7e27c7c217d0d9fbe1cd6a"
+    },
+    {
+      "path": "tests/corpus-and-courts.test.cjs",
+      "bytes": 6385,
+      "sha256": "4e29eddf424a8efce542ae41968889bb02f346f71e6ee73faee1de86438f0074"
+    },
+    {
+      "path": "tests/run-tests.cjs",
+      "bytes": 1545,
+      "sha256": "f64ab6b56d4a62c142ea2d6deb71e7da1f716943928d0563b091e4ca33426e05"
+    },
+    {
+      "path": "tests/source-integrity.test.cjs",
+      "bytes": 1463,
+      "sha256": "6324df9ca184789139e0092a056d35e68493bf4c201be64c645d20324fcc5e27"
+    },
+    {
+      "path": "tests/source-semantics.test.cjs",
+      "bytes": 1744,
+      "sha256": "3f2e089236855d0a7465fd0d3b0e5a239c7a2acf1cfe4aaee791eac6d63e03f8"
+    }
+  ]
+}

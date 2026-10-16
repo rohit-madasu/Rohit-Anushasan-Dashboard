@@ -1,4 +1,8 @@
-.env
-.env.*
-!.env.example
-work/
+.DS_Store
+__pycache__/
+*.pyc
+private_build/
+qa-preview/
+auth-config.json
+case-search-data.json
+tests/results/
