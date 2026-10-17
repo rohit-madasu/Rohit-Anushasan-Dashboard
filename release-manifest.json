@@ -1,73 +1,53 @@
 {
-  "edition": "2026-10-17 private interface refresh",
-  "sourceEdition": "2026-10-16",
-  "publication": "Not published; private offline package",
+  "edition": "2026-10-17 private daily source refresh preserving CNR-safe UI",
+  "sourceEdition": "2026-10-17",
+  "baselineZipSha256": "546155043edc1d07e4ce9d874ead810549dd414bce933200295487bca5073586",
+  "publication": "Private offline package; no public deployment",
+  "sourceBinding": {
+    "verifiedReadback": true,
+    "privatePermissionsVerified": true,
+    "sourceVersion": "Current_Case_Hearings_and_Stages_2026-10-17_daily_update.docx",
+    "sourceDocumentSha256": "ab6766df6f3ffa94070cb259b9e1f63e18821d7e479af475d5bd2d8df7c07487",
+    "sourcePreparedAtIST": "2026-10-17T07:17:46.340702+05:30",
+    "sourceDocumentDriveId": "1T8pO-VM14vKPffRI_uj-8EDG1alOgxyX",
+    "sourceDocumentUrl": "https://drive.google.com/file/d/1T8pO-VM14vKPffRI_uj-8EDG1alOgxyX/view",
+    "sourcePdfDriveId": "1JUqCyUYZSHKjqp4ZfB0aQT-mctStxR3b",
+    "sourcePdfUrl": "https://drive.google.com/file/d/1JUqCyUYZSHKjqp4ZfB0aQT-mctStxR3b/view",
+    "sourcePdfSha256": "caf7b9fc3326a052f473be39f232a962f86490d3179e2f582de04b9e0328d94b",
+    "sourceReadbackVerifiedAtUTC": "2026-10-17T02:00:33.289Z",
+    "runningRegisterDriveId": "1R_ihanbcQ0nxQw_dknLuXoiBy37-Rt0p",
+    "runningRegisterUrl": "https://drive.google.com/file/d/1R_ihanbcQ0nxQw_dknLuXoiBy37-Rt0p/view",
+    "runningRegisterSha256": "72988067b1371c33aa1a3509e03e33da99a68d46d879ebfd040358657bf597f0",
+    "runningRegisterReadbackVerified": true
+  },
+  "counts": {
+    "newEvents": 18,
+    "newStageUnits": 735,
+    "newRunningUnits": 27,
+    "newPartyBindings": 16,
+    "currentRows": 196,
+    "historyRows": 498,
+    "profiles": 455,
+    "corpusUnits": 57656,
+    "newCorpusUnits": 762,
+    "retainedCorpusUnits": 56894,
+    "supplementaryCalendarRows": 5260,
+    "currentTrackingStopRows": 16
+  },
+  "sourceRegistry": {
+    "historicalEntries": 6,
+    "currentDocuments": 4
+  },
+  "verification": {
+    "nodeSuites": 9,
+    "nodeSuitesPassed": 9,
+    "nodeReport": "tests/results/node-test-report.json",
+    "independentReport": "tests/results/independent-verification.json",
+    "browserStatus": "passed",
+    "browserScope": "Final assets were reviewed in the cloud Chrome browser over a bounded loopback-only HTTP preview, with a separate synthetic verifier and clock-control fixture. The shipping authentication assets were unchanged. Desktop and 408px iframe layouts passed visual inspection; the narrow calendar, long party headings and Case Search had no horizontal body overflow (393px content width with scrollbar).\n\nChecks passed: full-month navigation across September, October and November; past-day access; all-source, matched, office, mirror and explicit History filters; the 169/51 three-source-to-one-card examples; four distinct POCSO CNRs on 23 October; OS 103/2025 on 26 November with its old 16 October evidence retained; all 18 new observation headings against available source-grounded names; and the court colour legend. File 123 retained its office-first heading while expanded candidate evidence visibly showed M. Vasavi Alias Durga and the unresolved name mismatch.\n\nCase Search showed all 455 profiles independently of calendar filters. File and CNR queries, a party query, a closed-register result, no-result and clear/reset states passed. Expanded File 254 showed the verified current stage and running-register links. A new running-register physical-page-255 passage was searchable and linked to the new running PDF. Source notes displayed the qualified 8–17 October WhatsApp gap, 16 current tracking stops and complete 57,656-unit coverage.\n\nSynthetic authentication checks passed: locked initial view, rejected incorrect entry, successful entry, same-tab reload retaining the original expiry, expiry after a six-hour fixture-clock advance and focus event, logout, and locked state after logout/reload. No real password was read, entered or logged. No application-origin errors appeared in the filtered browser console query; unrelated browser-extension metadata errors were present. The preview server logged an innocuous missing favicon request. The two QA tabs were closed and the preview server stopped after verification.",
+    "immutableRuntimeVerified": true
+  },
   "files": [
-    {
-      "path": "index.html",
-      "bytes": 10944,
-      "sha256": "25669ff87d5ff10063b8994221357a5e8893037c8b85cb234d7017db330eccf7"
-    },
-    {
-      "path": "styles.css",
-      "bytes": 24713,
-      "sha256": "308963d2bde9ea66d6ef70d519e43c610156bbb0abd63d637e9c043b87924ff4"
-    },
-    {
-      "path": "court-colors.css",
-      "bytes": 27785,
-      "sha256": "d2207741404fa56fa81e53c10806272b12bd605eb942411e893aa88491a45618"
-    },
-    {
-      "path": "app.js",
-      "bytes": 27182,
-      "sha256": "c1f75c15a19f724cf33bb436c06235d9622af5b7f13d326e64d1a8d170a72fd2"
-    },
-    {
-      "path": "calendar-core.js",
-      "bytes": 6235,
-      "sha256": "cb51e185242a1a8dcd41f42a84ff6947b52a029fbd84c94967b854631ea3fdd0"
-    },
-    {
-      "path": "auth.js",
-      "bytes": 5213,
-      "sha256": "b92451cc15dcccb93c701eaf12d7388d66533fb5b6aa784c5fd79fd301bb3d6f"
-    },
-    {
-      "path": "auth-config.js",
-      "bytes": 227,
-      "sha256": "d44bf3d0ddfa01c95b04f053c3482648456aed27b54c4a8a9e53edaa44ba36bd"
-    },
-    {
-      "path": "data.js",
-      "bytes": 1714859,
-      "sha256": "a5d92012d75e2ec2772cb4aad4d94a9e9fabcbab1b37c711d1836b431af63e4a"
-    },
-    {
-      "path": "case-search-data.js",
-      "bytes": 38376844,
-      "sha256": "0ce5cffb6303b6aa27c99639066716c034ed90605d6536409a094ee2e7167fa5"
-    },
-    {
-      "path": "courts.js",
-      "bytes": 112573,
-      "sha256": "c3fb5b21577af1f19a2416979d09c524f8f1d0d5b2dc9fa624c61a9c152218f4"
-    },
-    {
-      "path": "README.md",
-      "bytes": 7230,
-      "sha256": "1511fa8b80d5274b778a0912116cbe5dd3dc6a26b7407b6bec3101030e754bc9"
-    },
-    {
-      "path": "QA.md",
-      "bytes": 4756,
-      "sha256": "a7640372e90db17efaca4ac30f9486b5cea710b86616aed6d378d2d3a90f78e9"
-    },
-    {
-      "path": "build_assets.py",
-      "bytes": 2615,
-      "sha256": "3c63e4e83e21e28189e74308661c1d6f16da69ac09420deeb9e3d2c62e2461e4"
-    },
     {
       "path": ".gitignore",
       "bytes": 110,
@@ -79,14 +59,84 @@
       "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
     },
     {
+      "path": "QA.md",
+      "bytes": 6052,
+      "sha256": "9447d44a1a9373a6d79dca9678dbf7065e8c4ba960c7946384109bfe336336af"
+    },
+    {
+      "path": "README.md",
+      "bytes": 10078,
+      "sha256": "051884023fc8648b03f60eda4481182ef4f68c9d7cd9048a78b27f542be5d09e"
+    },
+    {
+      "path": "app.js",
+      "bytes": 28299,
+      "sha256": "94e1e8ef9beea7fa79a6023209bd975f18c50c4b559e39f91ce227d5201d177d"
+    },
+    {
+      "path": "auth-config.js",
+      "bytes": 227,
+      "sha256": "d44bf3d0ddfa01c95b04f053c3482648456aed27b54c4a8a9e53edaa44ba36bd"
+    },
+    {
+      "path": "auth.js",
+      "bytes": 5213,
+      "sha256": "b92451cc15dcccb93c701eaf12d7388d66533fb5b6aa784c5fd79fd301bb3d6f"
+    },
+    {
+      "path": "build_assets.py",
+      "bytes": 3222,
+      "sha256": "bcda2608a64cbece750ff4e1d78a39b2ff9e7188e6b56b0aa567f2f8e6e76b8a"
+    },
+    {
+      "path": "calendar-core.js",
+      "bytes": 12279,
+      "sha256": "e62d01914462d82cfb6682b54292db6159b48052e7d4edc83e65a513f353aa76"
+    },
+    {
+      "path": "case-search-data.js",
+      "bytes": 39140136,
+      "sha256": "5eea2db0012bae4696a8a2534a7ff0f9a4cecfbfda1b44075ad97f93cb455585"
+    },
+    {
+      "path": "court-aliases.json",
+      "bytes": 3133,
+      "sha256": "3c6fd292e83de8c1c50f71d60f217bb33b80206d88676ea00410bb1424367d53"
+    },
+    {
+      "path": "court-colors.css",
+      "bytes": 25795,
+      "sha256": "2a6c349728082e63a14b20fc9c1a4abefc78ce78e361f630619880d8390bab94"
+    },
+    {
+      "path": "courts.js",
+      "bytes": 207818,
+      "sha256": "6804c7afa52dc90d4525883a42f7207c7126e0e5c93779004370434aa45d9f21"
+    },
+    {
+      "path": "data.js",
+      "bytes": 2049016,
+      "sha256": "1558ee5737f52b1642303021670aeadafb0a065cacf014eddb172a5cfc6ac31f"
+    },
+    {
+      "path": "index.html",
+      "bytes": 10944,
+      "sha256": "25669ff87d5ff10063b8994221357a5e8893037c8b85cb234d7017db330eccf7"
+    },
+    {
+      "path": "styles.css",
+      "bytes": 24713,
+      "sha256": "308963d2bde9ea66d6ef70d519e43c610156bbb0abd63d637e9c043b87924ff4"
+    },
+    {
       "path": "tests/TEST-PLAN.md",
-      "bytes": 4083,
-      "sha256": "d786cc9e87d2028f52121bbed35158245a845d584986d81d2047516caa512bd9"
+      "bytes": 6087,
+      "sha256": "92748ca0314f6244921fee5a6733e58aee4015cc11d9a3b2600e905552ee365b"
     },
     {
       "path": "tests/app-dom.test.cjs",
-      "bytes": 6399,
-      "sha256": "3e314e61c5a421a11eb0d27881e88cc1c4cf79688be5c9d58cf31bcc3d03660c"
+      "bytes": 6397,
+      "sha256": "709b118b0987553c3c6b6407bee0b9e240d250c39713536fe9e0106e94473301"
     },
     {
       "path": "tests/auth-dom.test.cjs",
@@ -99,9 +149,14 @@
       "sha256": "033470b8cd5b6cca3b31c11cf181d24c4499ec829d346b977f76c797ec7bda24"
     },
     {
+      "path": "tests/baseline-calendar-core.js",
+      "bytes": 6235,
+      "sha256": "cb51e185242a1a8dcd41f42a84ff6947b52a029fbd84c94967b854631ea3fdd0"
+    },
+    {
       "path": "tests/baseline-invariants.json",
-      "bytes": 1142,
-      "sha256": "9f03a7b5e45d009555d0d7bce840767c7daee2d0e3ce183b2bd960b69ec66615"
+      "bytes": 1069654,
+      "sha256": "f410faeb33c0f8d7276799904d1af515ef7a514467d2665d9afad528be50c823"
     },
     {
       "path": "tests/browser-auth.test.cjs",
@@ -119,24 +174,49 @@
       "sha256": "8cba34eac499a1fc3e53b1a4f04a1d21b7b93dfdbf7e27c7c217d0d9fbe1cd6a"
     },
     {
+      "path": "tests/cnr-dedup.test.cjs",
+      "bytes": 10163,
+      "sha256": "00d96a0005412393195f13c71e4b277cac8a63f48e99cdf56faeea77c1b63a6f"
+    },
+    {
       "path": "tests/corpus-and-courts.test.cjs",
-      "bytes": 6385,
-      "sha256": "4e29eddf424a8efce542ae41968889bb02f346f71e6ee73faee1de86438f0074"
+      "bytes": 7354,
+      "sha256": "01d47d8621717545863f195f368d7165e33569bce33d75bf8764c849a341a7e3"
+    },
+    {
+      "path": "tests/dedup-audit.cjs",
+      "bytes": 3149,
+      "sha256": "23e7cd5da0f6a30b135a9537a7139df40a0c734b76de9e5d26db677499814b90"
+    },
+    {
+      "path": "tests/results/dedup-audit.json",
+      "bytes": 6583,
+      "sha256": "e5a13af8dc40eba6796f5032bacc6d0a61829cd3007b084d51ac898f9bfea6f5"
+    },
+    {
+      "path": "tests/results/independent-verification.json",
+      "bytes": 6123,
+      "sha256": "c4d9e72c16a5d08e40cdde815dcc66fe51d19bfbeb3254e7c88afaa2ca1201d8"
+    },
+    {
+      "path": "tests/results/node-test-report.json",
+      "bytes": 6947,
+      "sha256": "4ac08ca8a581eb69b181ea8c18a56a44e809363a39b4fa7957833ba544b96e04"
     },
     {
       "path": "tests/run-tests.cjs",
-      "bytes": 1545,
-      "sha256": "f64ab6b56d4a62c142ea2d6deb71e7da1f716943928d0563b091e4ca33426e05"
+      "bytes": 1566,
+      "sha256": "88d68821a5b766458631f0c14e9bb57ba74c6985c6c6e9def3a5b3cfdabf60a3"
     },
     {
       "path": "tests/source-integrity.test.cjs",
-      "bytes": 1463,
-      "sha256": "6324df9ca184789139e0092a056d35e68493bf4c201be64c645d20324fcc5e27"
+      "bytes": 9576,
+      "sha256": "c049a61deac31046b423abb1fb71d41ca8f999a823a87573d0b9bca123980b69"
     },
     {
       "path": "tests/source-semantics.test.cjs",
-      "bytes": 1744,
-      "sha256": "3f2e089236855d0a7465fd0d3b0e5a239c7a2acf1cfe4aaee791eac6d63e03f8"
+      "bytes": 1750,
+      "sha256": "8b94730da71f9b0e64b006fd72f0c5b3c2ff25bfaee07c5ec351fad9e2237dbc"
     }
   ]
 }

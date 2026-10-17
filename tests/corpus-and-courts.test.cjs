@@ -30,7 +30,7 @@ for(const [id,b]of Object.entries(index.rowPartyBindings||{})){
  assert(evidenceIDs.has(id),'Unknown bound evidence row '+id);assert(sourceIds.has(b.sourceId));assert(b.locator&&b.qualification&&b.bindingRule);
  assert.equal(b.sourceMaskPreserved,true);
  // Joining recorded party sides with “vs” is formatting; each literal side must exist in the declared source.
- for(const side of b.parties.split(/\s+(?:vs\.?|versus|v\.?)\s+/i))assert(sourceText.get(b.sourceId).includes(normalized(side)),'Bound party text absent from its source: '+id);
+ for(const side of (b.literalPartyNames||b.parties.split(/\s+(?:vs\.?|versus|v\.?)\s+/i)))assert(sourceText.get(b.sourceId).includes(normalized(side)),'Bound party text absent from its source: '+id);
 }
 console.log(`PASS: ${Object.keys(index.rowPartyBindings||{}).length} party bindings point to retained evidence and recorded source names; original masks remain in raw rows.`);
 assert.equal(Object.keys(index.rowCaseBindings||{}).length,5);
@@ -42,14 +42,15 @@ const supplements=index.supplementaryCalendarRows||[];
 assert.equal(supplements.length,5260);assert.equal(new Set(supplements.map(r=>r.rowId)).size,supplements.length);
 for(const r of supplements){assert(!evidenceIDs.has(r.rowId),'Supplement reuses original ID');assert.equal(r.historyOnly,true);assert.equal(r.checkedThisRun,false);assert.equal(r.freshRecoveryCheck,false);assert.equal(r.includeInMatchedOfficialDefault,false);assert.equal(r.includeInPotentialUpcoming,false);assert(r.sources.length&&r.qualifications.length);}
 const merged={...data,historyRows:[...data.historyRows,...supplements]},futureSupplementIDs=new Set(supplements.filter(r=>r.date>=data.referenceDate).map(r=>r.rowId));
-assert(core.selectRows(merged,{kind:'history'}).length===480+supplements.length);
+assert(core.selectRows(merged,{kind:'history'}).length===data.historyRows.length+supplements.length);
 assert(!core.selectRows(merged,{kind:'all'}).some(r=>futureSupplementIDs.has(r.rowId)),'Historical table dates must not become future appointments');
 console.log(`PASS: ${Object.keys(index.rowCaseBindings).length} source-linked case bindings and ${supplements.length.toLocaleString()} separately qualified historical table rows preserve current appointment semantics.`);
 function luminance(hex){const c=hex.replace('#','').match(/../g).map(x=>parseInt(x,16)/255).map(x=>x<=.04045?x/12.92:((x+.055)/1.055)**2.4);return .2126*c[0]+.7152*c[1]+.0722*c[2];}
 const entries=Object.values(styles),ratios=[];
 const expectedCourtLabels=new Set([...data.currentRows,...data.historyRows,...data.unidentifiedLeads,...(index.supplementaryCalendarRows||[])].map(r=>r.court).concat(profiles.flatMap(p=>[p.court,...(p.courts||[])])).map(v=>String(v||'').trim()).filter(Boolean));
 for(const label of expectedCourtLabels)assert(styles[label],'Missing exact court style: '+label);
-assert.equal(new Set(entries.map(s=>s.className)).size,entries.length);
+assert.equal(new Set(entries.map(s=>s.className)).size,new Set(entries.map(s=>s.canonicalKey)).size);
+for(const a of entries)for(const b of entries)if(a.className===b.className)assert.equal(a.canonicalKey,b.canonicalKey,'Color identity must be explicit');
 const css=fs.readFileSync(path.join(root,'court-colors.css'),'utf8');
 for(const [key,style]of Object.entries(styles)){
  assert.equal(style.label,key);assert(/^#[a-f0-9]{6}$/i.test(style.color));assert(/^#[a-f0-9]{6}$/i.test(style.background));
@@ -57,3 +58,8 @@ for(const [key,style]of Object.entries(styles)){
  assert(css.includes('.'+style.className+'{--court-ink:'+style.color+';--court-soft:'+style.background+'}'),'Court CSS mismatch '+key);
 }
 console.log(`PASS: ${entries.length} exact-label court styles have matching CSS and normal-text contrast of at least ${Math.min(...ratios).toFixed(2)}:1.`);
+const incrementalBaseline=JSON.parse(fs.readFileSync(path.join(__dirname,'baseline-invariants.json'),'utf8')).dailyIncrementalBaseline;
+const digest=v=>require('node:crypto').createHash('sha256').update(typeof v==='string'?v:JSON.stringify(v)).digest('hex');
+for(const[label,hash]of Object.entries(incrementalBaseline.originalCourtStyles))assert.equal(digest(styles[label]),hash,'Original court style changed: '+label);
+const rules=new Set(css.trim().split('\n').map(digest));for(const hash of incrementalBaseline.originalCourtCssRuleHashes)assert(rules.has(hash),'Original court CSS rule removed or changed');
+console.log('PASS: all 462 original court style objects and every original CSS rule remain exact; new labels are additive only.');

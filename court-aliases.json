@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "policy": "Display color aliases only. Exact recorded court labels and historical provenance are never rewritten. Generic labels are bound here only for the two user-confirmed same-CNR example courts; no transfer or court equivalence is inferred from a CNR alone.",
+  "groups": [
+    {
+      "id": "principal-jcj-jmfc-narayanpet",
+      "canonicalLabel": "1-Principal Junior Civil Judge cum JMFC · Jr. Civil Courts, Narayanpet",
+      "aliases": [
+        "1-Principal Junior Civil Judge cum JMFC · Jr. Civil Courts, Narayanpet",
+        "1-Principal Junior Civil Judge cum JMFC, Narayanpet",
+        "Junior Civil Court, Narayanpet",
+        "Junior Civil Court, Narayanpet, Telangana"
+      ],
+      "evidence": {
+        "files": [
+          "169"
+        ],
+        "cnr": "TSNP020001992024",
+        "rowIds": [
+          "baseline:107",
+          "baseline:110",
+          "bounded:official:2026-10-16T07:18:20+05:30:TSNP020001992024:169:listing:2026-10-21"
+        ],
+        "basis": "User-confirmed same-case examples and retained matched official court designation."
+      }
+    },
+    {
+      "id": "ii-jcj-xiii-jmfc-kukatpally",
+      "canonicalLabel": "7-II Addl. Junior Civil Judge-cum-XIII Addl Judicial Magistrate of First Class Medchal-Malkajgiri Dist. at Kukatpally · Prl. Junior Civil Court, Kukatpally",
+      "aliases": [
+        "7-II Addl Junior Civil Judge-cum-XIII Addl Judicial Magistrate of First Class Medchal-Malkajgiri Dist at Kukatpally",
+        "7-II Addl. Junior Civil Judge-cum-XIII Addl Judicial Magistrate of First Class Medchal-Malkajgiri Dist. at Kukatpally",
+        "7-II Addl. Junior Civil Judge-cum-XIII Addl Judicial Magistrate of First Class Medchal-Malkajgiri Dist. at Kukatpally · Prl. Junior Civil Court, Kukatpally",
+        "7-II Addl. Junior Civil Judge-cum-XIII Addl Judicial Magistrate of First Class Medchal-Malkajgiri Dist. at Kukatpally; Prl. Junior Civil Court,Kukatpally",
+        "II Addl. Junior Civil Judge-cum-XIII Addl Judicial Magistrate of First Class Medchal-Malkajgiri Dist. at Kukatpally",
+        "Prl. Junior Civil Court, Kukatpally; 7-II Addl. Junior Civil Judge-cum-XIII Addl Judicial Magistrate of First Class Medchal-Malkajgiri Dist. at Kukatpally.",
+        "XIII Addl. J.M.F.C., Kukatpally [per the summons, 'XIII AJMFC Kukatpally'; seal of the II Addl. Junior Civil Judge-cum-XIII Addl. Judicial Magistrate of First Class] - Kukatpally, Hyderabad",
+        "XIII Addl. JMFC, Kukatpally (earlier summons/diary; not restated)",
+        "XIII M.M. / XIII A.J.M.F.C., Kukatpally [per the register and office court-diary page 268; the message does not name the court] - Kukatpally, Hyderabad"
+      ],
+      "evidence": {
+        "files": [
+          "51"
+        ],
+        "cnr": "TSMM110055252022",
+        "rowIds": [
+          "baseline:108",
+          "baseline:111",
+          "bounded:official:2026-10-16T07:17:32+05:30:TSMM110055252022:51:listing:2026-10-21"
+        ],
+        "basis": "User-confirmed same-case example, same XIII magistrate designation, and retained matched official current court."
+      }
+    }
+  ]
+}

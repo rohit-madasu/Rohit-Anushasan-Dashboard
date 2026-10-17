@@ -1,46 +1,45 @@
-# Verification report · Private dashboard refresh
+# Verification report · 17 October private daily edition
 
-Prepared 17 October 2026 IST. This is an offline interface/data refresh from retained, source-bound records. It is not a new court review.
+Baseline: the 35-file CNR-safe private repository, ZIP SHA-256 `546155043edc1d07e4ce9d874ead810549dd414bce933200295487bca5073586`.
 
 ## Automated checks
 
-All eight Node regression suites pass against the final runtime source. Run `node tests/run-tests.cjs` to repeat them.
+All nine Node suites pass against the final bound runtime hashes. They cover exact retained source and profile prefixes, original event/source hashes, every original current object or exact archival snapshot, proceeding-scoped exclusions, complete stage occurrence mapping, 455 profiles, all source units, CNR-safe grouping, all confidence filters, search, court contrast, app DOM events and the six-hour absolute authentication model.
 
-- Original source preservation: the 190 current rows, 480 historical rows, 20 leads, limitation profiles, tracking directives and source-document bindings remain byte-equivalent to the verified baseline objects.
-- Display identity: exact known locator/case/party grouping, file suffix separation, punctuation-sensitive identity boundaries, source preservation within groups and separate dates.
-- Full months: earlier months/years, leap dates, month/day controls, party-first previews/cards and non-calendar-filtered case search.
-- Calendar semantics: unassigned leads excluded from ordinary counts; stopped/superseded future rows not restored; explicit History retains all evidence.
-- Complete search registry: all 298 running-source profiles, 299 locators and 157 separate closed-register rows; all 56,894 traceable source units.
-- Supplemental evidence: all 5,260 historical table rows retain historical/nonfresh/nonappointment flags and source locators; 113 party and 5 identifier bindings refer to source-visible text.
-- Login logic: PBKDF2 verification, wrong/correct login, exact six-hour duration, no sliding expiry, reload/session restoration, logout, focus, visibility, page restoration, timer, malformed/future storage, storage denial and interrupted login.
-- Render/event model: whole-month controls, case-search clear/no-result flows, source passages not present in any profile, escaping, profile details and cleared search state on logout.
-- Court palette: all 462 exact-label styles have corresponding CSS. Minimum foreground/background contrast is 5.39:1, above the 4.5:1 normal-text threshold. Written labels accompany every colour.
+The daily regressions verify 15 fresh records and three separately dated prior candidates; exact fractional observation times and whole-second ranking fields; five new listing dates with old dates retained only in history; unchanged 169/51 three-to-one grouping; separate POCSO CNRs; distinct File 255 proceedings; File 130's year conflict; Files 123/257 candidate caveats; and File 191's FIR placeholder qualification.
 
-Known partial names are retained. For example, a known party followed by “opposing party not stated” is not replaced by an unavailable-name placeholder. Wholly absent/masked source names remain unavailable. No official identity is inferred from an office label.
+Preserved: 56,894 exact old source units, 480 exact old history rows, 5,260 supplemental history rows, 455 profile identities/categories, 113 original party and five case bindings, 20 leads, 223 limitations and all tracking directives. Added: 735 stage units, 27 running-register page units, 18 observations and 16 safely derived party bindings. Current display: 196 rows. History: 498 rows. All 47 changed/retired prior display objects are exact archival snapshots (12 elapsed plus 35 flag-only).
 
-## Actual browser checks
+## Corpus-wide display audit
 
-A dedicated local HTTP preview was tested in the cloud browser using a synthetic test verifier, with the shipping authentication code unchanged. The preview did not include private build workspaces or source document binaries.
+`tests/results/dedup-audit.json` records all filters. On the refreshed dataset, All potential sources yields 2,939 display cards from 5,664 eligible evidence rows over 1,055 dates. Explicit History yields 2,973 cards from 5,758 evidence rows over 1,056 dates. The included legacy module is only a historical grouping comparator; these before/after counts are not extra daily changes.
 
-Verified: wrong and correct password, same absolute expiry after reload, expired-session lock, lock retained after reload, logout/input clearing and locked reload; calendar click and keyboard movement, previous/next month, empty-date warning and full-index search.
+On 21 October, Files 169 and 51 each retain three evidence rows in one card, with their dated 16 October matched official summaries. All evidence filters keep safe identity boundaries. Different dates remain separate. Counts are display entries, not unique proceedings or verified attendance.
 
-Responsive browser checks covered desktop and narrow CSS widths including approximately 510 and 408 pixels without horizontal overflow. The final browser audit found no remaining blocker in data completeness, runtime or browser smoke checks. A final typography-only edit replaced an unsupported diagonal-arrow glyph with a standard arrow; layout and behavior were unchanged.
+## Independent verification
 
-Direct `file://` browser execution was not available in this test environment. The package uses only relative scripts/styles, no fetch or external dependencies, and is designed to open directly as a local file. That exact browser transport was not exercised here. A physical Android/iPhone device was not tested; narrow desktop-browser layouts are not a device-performance claim.
+See `tests/results/independent-verification.json` for the final independent report and exact scope. Earlier baseline browser checks are not claimed as new checks for this edition.
 
-## Search performance
+## Browser verification
 
-Computation-only benchmark on this cloud executor (Node v24), before browser layout:
+Status: passed.
 
-- 400 full-profile queries: median 6.64 ms, p95 8.94 ms
-- Full-source inverted-index queries: median 0.50 ms, p95 2.53 ms
-- Profile index construction: approximately 485 ms once per load
-- Full-source index construction: approximately 266 ms computation, performed in small background batches in the interface
+Final assets were reviewed in the cloud Chrome browser over a bounded loopback-only HTTP preview, with a separate synthetic verifier and clock-control fixture. The shipping authentication assets were unchanged. Desktop and 408px iframe layouts passed visual inspection; the narrow calendar, long party headings and Case Search had no horizontal body overflow (393px content width with scrollbar).
 
-These are measured cloud-executor values, not guarantees for the user's hardware. Results render in batches of 30 profiles and 20 source passages; full fields are expanded on demand. Large source text is not stringified or scanned in full on each keystroke.
+Checks passed: full-month navigation across September, October and November; past-day access; all-source, matched, office, mirror and explicit History filters; the 169/51 three-source-to-one-card examples; four distinct POCSO CNRs on 23 October; OS 103/2025 on 26 November with its old 16 October evidence retained; all 18 new observation headings against available source-grounded names; and the court colour legend. File 123 retained its office-first heading while expanded candidate evidence visibly showed M. Vasavi Alias Durga and the unresolved name mismatch.
 
-## Privacy and security boundary
+Case Search showed all 455 profiles independently of calendar filters. File and CNR queries, a party query, a closed-register result, no-result and clear/reset states passed. Expanded File 254 showed the verified current stage and running-register links. A new running-register physical-page-255 passage was searchable and linked to the new running PDF. Source notes displayed the qualified 8–17 October WhatsApp gap, 16 current tracking stops and complete 57,656-unit coverage.
 
-The gate is a convenience UI lock, explicitly described that way in the interface and README. The standalone data is not encrypted, and the HTML/password screen is not strong access control. No analytics, automatic external resource loads, new court queries, GitHub publication or sharing changes are part of this refresh.
+Synthetic authentication checks passed: locked initial view, rejected incorrect entry, successful entry, same-tab reload retaining the original expiry, expiry after a six-hour fixture-clock advance and focus event, logout, and locked state after logout/reload. No real password was read, entered or logged. No application-origin errors appeared in the filtered browser console query; unrelated browser-extension metadata errors were present. The preview server logged an innocuous missing favicon request. The two QA tabs were closed and the preview server stopped after verification.
 
-The shipped password configuration is a salted PBKDF2-SHA256 verifier. No plaintext user password or generated browser test fixture is included. Preserve private filesystem/Drive permissions.
+Direct file-protocol access, a physical phone and the real user password are not claimed as tested. Any isolated synthetic authentication fixture is outside the shipping repository; shipping auth assets remain byte-exact. Browser checks are separate from the nine Node source/model/DOM suites.
+
+## Source coverage limits
+
+The bounded official batch covers 15 records across 11 profiles, with 16 submissions and one rejected CAPTCHA. Thirteen source associations are matched and two remain candidates; no new identity or category change is inferred. Three 16 October candidate records retain their original clocks and do not inflate fresh counts. Exact observation times remain source evidence, with whole-second compatibility display/ranking timestamps only. Business history is not an additional appointment.
+
+The 8–17 October WhatsApp window was not freshly reviewed: both groups were logged out. Fresh text/image/PDF counts are zero. Last verified group checkpoints remain 16 October 07:11:39 and 07:10:54 IST. No absence of messages or overlap is certified; the diary is unchanged.
+
+## Privacy and packaging
+
+The package contains only local runtime assets, tests and documentation; no analytics, external dependencies, browser fixture or plaintext password. Source links open only on explicit action. The six-hour lock is convenience UI, not encryption. Keep this package private. No Drive retention action, GitHub mutation or public deployment was performed by the dashboard build.

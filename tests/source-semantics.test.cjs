@@ -2,7 +2,7 @@
 const fs=require('node:fs'),vm=require('node:vm'),assert=require('node:assert/strict'),path=require('node:path');
 const core=require('../calendar-core.js'),sandbox={window:{}};
 vm.runInNewContext(fs.readFileSync(path.join(__dirname,'..','data.js'),'utf8'),sandbox);
-const data=sandbox.window.HEARING_DATA,today='2026-10-16';
+const data=sandbox.window.HEARING_DATA,today=data.referenceDate;
 const leads=new Set(data.unidentifiedLeads.map(r=>r.rowId));
 const stopped=new Set(data.trackingOverlay.matchedHistoricalRowIds);
 const history=core.selectRows(data,{kind:'history',today});

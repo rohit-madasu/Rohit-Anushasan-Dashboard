@@ -4,15 +4,15 @@ This plan tests the local private artifact only. No deployment, repository write
 
 ## Source fidelity and conservative grouping
 - Compare original current/history/leads/limitations/tracking arrays and document bindings with baseline hashes.
-- Group only exact normalized full file locators, case identifiers, and parties. Preserve letter suffixes, individual parties, separate cases, and different file locator sets.
-- Never infer identity equivalence from spelling variants, masked/unknown parties or identifiers, or a missing file locator.
+- Use same valid CNR and exact file sets as primary identity; retain distinct case numbers/types, applications, conflicting profile mappings and different CNRs. Without CNR use canonical typed case or exact literal case with complete party binding. Preserve letter suffixes and all original evidence.
+- Spelling differences alone never establish identity. A valid CNR with safe exact file mapping may consolidate party-label variants; missing or conflicting locators remain separate. Unknown CNR/case rows must not bridge ambiguous established identities.
 - A calendar appearance on one date must not remove a separate appearance on another date.
 - Collapsing duplicate display rows must preserve source IDs/hashes/timestamps, every conflicting date/court/stage/qualification, and each original row in evidence detail/export.
 - Never expose or fabricate names masked in source. Missing names should be visibly unavailable, with the recorded case identifier secondary.
 
 ## Party-first and court presentation
 - Check rendered cards, search results, calendar previews, and accessible preview labels: party text first, case identifier next.
-- Court colors must be consistent between cards, previews, and a readable legend. Exact/unknown court labels remain visible; colors must not be the only cue.
+- Court colors must be consistent between cards, previews, and a readable legend. Exact/unknown court labels remain in evidence. Current summaries use the preferred matched court; evidenced aliases share a color. Colors must not be the only cue.
 - Measure foreground/background text contrast of chips and legend entries (minimum 4.5:1 for normal text), inspect keyboard focus, desktop/mobile layouts, overflow, and zoom.
 
 ## Historical calendar and search
@@ -38,3 +38,11 @@ This plan tests the local private artifact only. No deployment, repository write
 - Run Chromium/Playwright on the final local standalone HTML, with an isolated synthetic-password verifier fixture for auth paths; do not rewrite the deliverable verifier.
 - Record exact artifact hash, checks passed/failed/not run, browser errors, request log, and screenshots at desktop and mobile sizes.
 - Re-run affected tests after implementation changes, and verify the final packaged artifact itself before reporting completion.
+
+## 17 October daily incremental additions
+
+The source-integrity suite also verifies the exact prefixes of all 56,894 retained source units, every original profile/source/history prefix, all 480 original calendar history rows and each former current object in current display or its exact archival snapshot. The only retained-row changes allowed are the two run-local fresh-check flags, with an exact original snapshot. The old tracking summary reconstructs the original overlay; only its current-date counts age from 22 to 16. The complete new DOCX occurrence map must contain every paragraph exactly once, without re-appending the 42,508 retained stage units.
+
+The CNR suite tests the 18 new observations, distinguishing 15 fresh Oct 17 records from three Oct 16 candidates; all exact fractional clocks versus normalized compatibility display/ranking clocks; newest official summary ranking; five changed next dates and historic prior dates; POCSO candidate separation; File 255's distinct proceedings; File 130's conflicting office year; Files 123 and 257's retained identity limitations; and File 191's blank FIR/Year 0 qualification. Existing grouping, filters, names, colours, profile identities/categories and six-hour auth invariants remain in force.
+
+Browser verification must use final bound assets, a loopback HTTP server, and an isolated synthetic verifier if needed. No production auth bytes may change. Record the exact observed scope in QA.md. Older browser reports are baseline history, not evidence that the daily edition was tested. No direct file-protocol or actual user-credential test is claimed unless explicitly performed and documented.
