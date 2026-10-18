@@ -4,10 +4,11 @@
     "case-search-data.js",
     "case-search-corpus-01.js",
     "case-search-corpus-02.js",
-    "case-search-corpus-03.js"
+    "case-search-corpus-03.js",
+    "display-bindings.js"
   ],
-  "completeDatasetCanonicalJsSha256": "71c595d015a78abfb6f06653c5899836a9d239202890716284ebe88476fdf2ea",
-  "corpusUnits": 95924,
+  "completeDatasetCanonicalJsSha256": "977c06c00bfac4a95a1d23663f724627f05103e32364e823b0075bbd4a51be05",
+  "corpusUnits": 98830,
   "profiles": 455,
   "chunks": [
     {
@@ -25,15 +26,15 @@
     {
       "file": "case-search-corpus-03.js",
       "startUnitIndex": 70000,
-      "endUnitIndexExclusive": 95924,
-      "units": 25924
+      "endUnitIndexExclusive": 98830,
+      "units": 28830
     }
   ],
   "scriptAssets": {
     "case-search-data.js": {
-      "sha256": "ffcdbe3df50dbc4dcc93d36b7e1bc6cf250a3097a48a13c97b9616f136341cd0",
-      "bytes": 37296968,
-      "deflateBytes": 3717185
+      "sha256": "999ea223cbbb89f0ba67b7eb2a99454c25e65a4dd9636b2d0b758738f7c9e31f",
+      "bytes": 47427868,
+      "deflateBytes": 4905787
     },
     "case-search-corpus-01.js": {
       "sha256": "a941a066c4bededf5f4ba873199e09e435313e890860183eb04e2d24375fc9a3",
@@ -46,10 +47,22 @@
       "deflateBytes": 1737302
     },
     "case-search-corpus-03.js": {
-      "sha256": "3e0bc635a1aea170d3b5786e8dcaca7f751243ca3dea1e1a50b93d3d763e0394",
-      "bytes": 10727858,
-      "deflateBytes": 915366
+      "sha256": "625eb5e988ba24b5e85d9371603fcf79e1ac3f080dbee85c652cc02168a2b57e",
+      "bytes": 12017903,
+      "deflateBytes": 1039515
+    },
+    "display-bindings.js": {
+      "sha256": "dcf805d6befcb4d419d13492c963c5447207e8310f528a8ec46bc54e13381e61",
+      "bytes": 1729378,
+      "deflateBytes": 107987
     }
   },
-  "loadRule": "Load every script in the listed order before app.js. Ordinary deferred classic scripts work offline with file://; no network fetch or module loader is used."
+  "loadRule": "Load every script in the listed order before app.js. Ordinary deferred classic scripts work offline with file://; no network fetch or module loader is used.",
+  "displayBindings": {
+    "rows": 1643,
+    "tables": 41,
+    "profiles": 38,
+    "sourceDataSha256": "ffcdbe3df50dbc4dcc93d36b7e1bc6cf250a3097a48a13c97b9616f136341cd0",
+    "rule": "Exact retained source table and section attribution, display only; canonical source dataset unchanged."
+  }
 }

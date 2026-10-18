@@ -1,6 +1,6 @@
 # Anushasan Associates · Private court diary
 
-18 October 2026 comprehensive bounded evidence revision. Keep the complete folder private. No installation, build, server, module loader, CDN, analytics or automatic court query is needed.
+18 October 2026 consolidated case-display and register-correction revision. Keep the complete folder private. No installation, build, server, module loader, CDN, analytics or automatic court query is needed.
 
 ## Open the complete offline edition
 
@@ -14,16 +14,17 @@ The existing password screen and six-hour session runtime are unchanged. This sc
 
 Party names appear first, with case and file identifiers beneath. Location colours and readable court labels are retained. All past and current months remain navigable. Calendar clicks, month arrows, keyboard dates and history filters are supported. An empty date does not prove there are no hearings.
 
-Case Search covers every one of the 455 retained profiles and the full source corpus independently of the calendar filter. Unassigned FCOP 280/2025 and SC 233/2026 remain searchable without invented file numbers. Different CNRs, applications, courts and candidate file associations remain separate. Original dates, qualifications, evidence hashes and raw historical source URLs remain traceable.
+Case Search covers every one of the 455 retained profiles and the full source corpus independently of the calendar filter. Unassigned FCOP 280/2025 and SC 233/2026 remain searchable without invented file numbers. Distinct applications and candidate file associations remain qualified; explicitly evidenced transfer lineages retain both original CNRs. Original dates, qualifications, evidence hashes and raw historical source URLs remain traceable.
 
 ## Exact research scope
 
-- 107 distinct official CNR records were freshly observed on 18 October; 97 extend the preceding ten-record manual edition.
-- The initial 129 CNR targets are accounted for as 104 fresh checks, 24 retained district observations from 17–18 October, and one retained transfer-donor relationship. Two additional stopped-scope checks and one new identification bring fresh distinct CNRs to 107.
-- 92 source-profile identities/scopes remain unresolved. This is not a claim that all legal matters are verified or that the query target count is the total active caseload. Exact Search/CAPTCHA/retry action totals are unclaimed.
-- All 298 running profiles, 299 file locators, 157 closed source rows and original categories remain. Fresh official findings do not silently merge or reclassify source profiles.
-- The prior 69,448 corpus units, 709 historical rows, 5,260 supplementary history rows and 97 scoped tracking stops remain intact. New document occurrences are mapped without duplicating retained occurrences within a document.
-- Fifteen original retained 17 October raw captures are unavailable locally; their structured source records and attributed hashes remain. Those records are not labelled as fresh or newly raw-verified.
+- 122 distinct official CNRs were freshly observed on 18 October. Ten subsequent observations revisit seven and freshly read three already retained CNRs after the 119-check edition. These are not unique active matter counts.
+- Eighteen existing running-register profiles were reconciled. File281’s explicit MC30/2026 to MC20/2026 correction is supported by a named official record; the old wording remains history.
+- All455 profiles remain:298 case-stage profiles and157 closed-register rows. No profile was merged, added or reclassified by display consolidation.
+- The complete119 edition is retained, including97,513 previous corpus units and831 history rows. Current totals are98,830 corpus units,841 explicit history rows and276 current source rows, plus5,260 separately qualified historical table rows.
+- The92 unresolved source-profile scopes are a retained baseline, not a current recount. Not all legal matters are verified.
+- Same supported docket/date entries consolidate their source evidence into one card. Exact source-message/photo repeats are bundled. Provisional official links, conflicting identifiers, transfer histories and separate applications remain qualified.
+- Four unassigned office tasks appear in their own dated section. Case Search retains the complete running/closed profiles and all original source history.
 
 ## Important limits
 

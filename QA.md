@@ -1,21 +1,13 @@
-# Verification · Comprehensive 18 October revision
+# Verification · 18 October consolidated revision
 
-Status: verified private offline repository. Current private-source readbacks, current-hash independent review, all eleven automated suites and final browser runtime-hash verification are complete. No public publication performed.
+All 12 automated suites pass. Independent checks cover all 10 evidence modes, every retained source row, evidence identifier and qualification. No exact CNR + typed case + date duplicate splits remain. Different applications and distinct proceedings remain separate.
 
-## Automated checks
+The verified 119-check predecessor is preserved: all 455 profiles, 97,513 corpus units, 831 history rows, source records, scoped tracking stops, and all 279 original current objects remain, either current or explicitly retained in history/superseded snapshots. The new edition contains 98,830 corpus units, 841 history rows and 276 current source rows. Ten subsequent observations bring the cumulative distinct fresh CNR count to 122, not 122 unique active matters. Eighteen existing register profiles were reconciled; no profile was added.
 
-11/11 suites pass: all ten original source/model/calendar/search/auth/location suites plus the comprehensive precision suite. The report binds the tests to every ordered script hash. Production authentication bytes are unchanged.
+All-source mode retains 5,814 eligible rows as 2,534 case/source-reference entries plus four separate office tasks. History retains 6,101 rows as 2,596 entries plus four tasks. These display counts include provisional links and combined source references; they are not a certified unique-proceeding total. All 1,643 reviewed historical table bindings match their original source hashes. The source register profiles remain unmerged.
 
-The precision suite checks complete baseline corpus/history preservation, all 455 profiles and 97 stops, 107 fresh/129 accounted/92 unresolved coverage, distinct unassigned CNRs, stale-date exclusions, A 1-only disposition scope, party-specific High Court relief, transfer directions, original holiday overlay, literal 22.06.206 source typo, and byte-exact reconstruction from all local script files. It builds the complete search index and runs party/file/case queries without a server or remote data.
+Desktop and 408px mobile-width preview checks confirm readable party-first headings, location colors, click and keyboard date selection, month navigation, empty-date wording and full case search. On 22 October, Baire Shiva appears once; Hridai/Prashansha has its known office names and Malkajgiri court label. The two Mahesh criminal cases remain separate. File 281 search shows corrected MC20 first, historical MC30 next, and the newest official corroboration first; an observed search completed in 14ms.
 
-Current counts: 95,924 source corpus units; 819 explicit historical rows; 273 potential current source rows. These are source/display inputs, not unique verified legal matters. Original categories and all history remain.
+Authentication bytes and the existing verifier are unchanged. Synthetic login and exact six-hour expiry passed in a lightweight browser fixture using the unchanged production authentication script. The full-corpus mobile clock fixture crashed its Chromium preview tab (error9), so the expiry check was repeated in that isolated fixture. No synthetic fixture is shipped. Direct file-URL visual inspection was not performed; ordinary offline script reconstruction and extracted-package tests are separate checks.
 
-Document occurrence mappings cover every current paragraph/page once while retaining prior corpus text exactly. External source bindings are currently verified.
-
-## Offline extraction and browser
-
-All latest ordinary ZIP parts must be extracted into one folder. Package validation verifies the union of archive members, exact file bytes, no duplicate names, safe paths, every ZIP strictly under 5,000,000 bytes, and the tests run again from the combined extraction. Final package receipt records these outcomes. Browser visual and authenticated interaction checks are separate from Node tests and must be recorded after the private-source bindings settle.
-
-Approved deltas cover local script loading, the rebuild utility, and an additive dated current-check note above retained historical profile assessments. Calendar behavior, layout and authentication assets remain exact. No fetch, network import or runtime server is used. No work scripts, preview fixture, synthetic test credential, source working notes or internal paths belong in the package.
-
-Final independent verification is recorded in tests/results/independent-verification.json. The prior manual-edition report is explicitly historical. The browser section of release-manifest.json states the exact observed scope; unsupported or inconclusive interactions are not promoted to passes.
+Unresolved number/date, masking, file-association and transfer qualifications remain visible. The OS469 WhatsApp alternative is still unresolved. File224’s differing donor/receiver CNRs remain separately qualified in history. No new factual identity or case closure is inferred from display consolidation.

@@ -59044,14 +59044,27 @@
     "approvedRuntimeDeltas": {
       "app.js": {
         "beforeSha256": "01d1321089217624be40004daec8f1bf2d078c49fce5c2ad704a114dd2afe26f",
-        "afterSha256": "b48633b6fcb1f904b56cc8b067122e3ad50d5e1f6fb2c86e058a9fbd2ded3c2a",
-        "reason": "Add dated scope-specific current official review before retained historical profile assessments; all original fields and authentication behavior remain unchanged.",
-        "immediatePriorManualSha256": "db5461b9adb79382e5cddc41dbd7562899f8efb3a6eb9df5971e44cf2d947eba"
+        "afterSha256": "2ad0bbdefc89e48a3977e378f02cbbc7994fe7fbea2d35612a66d81c05949380",
+        "immediatePriorSha256": "93c04c6fae28b5e340d705c72fe6d4b57b23cc220b329b30f8c41953c1bb45df",
+        "reason": "User-requested source-bound display consolidation, named private headings, explicit transfer lineage, separate office tasks and complete119 venue palette. Original sources and authentication preserved."
       },
       "index.html": {
         "beforeSha256": "f03c5b4d72f5e8a746eecaff65f43dc6d18a877affe6984638fe83fb64762dcd",
-        "afterSha256": "cbbbc82e9109859bed77ce320a196b544119bb2748d700a2588ccf8aea79dd57",
-        "reason": "Approved local-only payload partition; exact source dataset is unchanged; load all complete corpus chunks synchronously before app.js."
+        "afterSha256": "e260118789ebdc0f2dd25f8a3ae2caba72192190955687a52b86dd849af5e364",
+        "immediatePriorSha256": "cbbbc82e9109859bed77ce320a196b544119bb2748d700a2588ccf8aea79dd57",
+        "reason": "User-requested source-bound display consolidation, named private headings, explicit transfer lineage, separate office tasks and complete119 venue palette. Original sources and authentication preserved."
+      },
+      "calendar-core.js": {
+        "beforeSha256": "e62d01914462d82cfb6682b54292db6159b48052e7d4edc83e65a513f353aa76",
+        "afterSha256": "47a0769b2e4fd96dc32fa261e0286cfa52f57a784f815a48c1e17524e805f214",
+        "immediatePriorSha256": "acb8b4859bdbfdc7a4119490c6f2657bd8648bac262f5309c6373c4cd2bb5cb0",
+        "reason": "User-requested source-bound display consolidation, named private headings, explicit transfer lineage, separate office tasks and complete119 venue palette. Original sources and authentication preserved."
+      },
+      "court_locations.py": {
+        "beforeSha256": "1a9417faab04d279cd7d31a543216478e8a1f114d7426431a68ac2f77bfbc617",
+        "afterSha256": "bbf0e52f1ec6a527e0c832d0f824349db8ac9406521aff8a1a745c8441be8f01",
+        "immediatePriorSha256": "1a9417faab04d279cd7d31a543216478e8a1f114d7426431a68ac2f77bfbc617",
+        "reason": "User-requested source-bound display consolidation, named private headings, explicit transfer lineage, separate office tasks and complete119 venue palette. Original sources and authentication preserved."
       }
     }
   }

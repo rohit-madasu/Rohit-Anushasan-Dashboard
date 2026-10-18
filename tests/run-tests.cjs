@@ -1,6 +1,6 @@
 'use strict';
 const fs=require('node:fs'),path=require('node:path'),crypto=require('node:crypto'),{spawnSync}=require('node:child_process');
-const tests=['source-integrity.test.cjs','calendar-core.test.cjs','cnr-dedup.test.cjs','case-search.test.cjs','auth.test.cjs','auth-dom.test.cjs','app-dom.test.cjs','source-semantics.test.cjs','corpus-and-courts.test.cjs','location-colours.test.cjs','comprehensive-precision.test.cjs'];
+const tests=['source-integrity.test.cjs','display-consolidation.test.cjs','calendar-core.test.cjs','cnr-dedup.test.cjs','case-search.test.cjs','auth.test.cjs','auth-dom.test.cjs','app-dom.test.cjs','source-semantics.test.cjs','corpus-and-courts.test.cjs','location-colours.test.cjs','comprehensive-precision.test.cjs'];
 const root=path.resolve(__dirname,'..');
 const artifacts=['data.js','calendar-core.js','app.js','auth.js','index.html','styles.css',...JSON.parse(fs.readFileSync(path.join(root,'search-assets.json'),'utf8')).orderedScripts,'courts.js','court-colors.css'].filter(f=>fs.existsSync(path.join(root,f)));
 const report={testedAt:new Date().toISOString(),scope:'Node source/model/render-event checks; browser visual and offline-file checks are separate.',files:Object.fromEntries(artifacts.map(f=>[f,crypto.createHash('sha256').update(fs.readFileSync(path.join(root,f))).digest('hex')])),tests:[]};

@@ -14,6 +14,10 @@ GROUPS = {
  'devarakonda': ('Devarakonda', '#76507b', '#f9f1fa'),
  'mancherial': ('Mancherial', '#345c75', '#eff6fa'),
  'suryapet': ('Suryapet', '#6e4141', '#faf0f0'),
+ 'ramannapet': ('Ramannapet', '#2c6777', '#edf7fa'),
+ 'medchal': ('Medchal', '#5a4080', '#f5f0fc'),
+ 'vijayawada': ('Vijayawada', '#2b6553', '#eef8f3'),
+ 'nellore': ('Nellore', '#895124', '#fff5ea'),
  'unknown': ('Location unconfirmed', '#475569', '#f1f5f9')
 }
 
@@ -24,9 +28,10 @@ def resolve_location(label, alias=None):
  compact=re.sub(r'[^a-z0-9]', '', text)
  hits=set()
  for key in GROUPS:
-  if key in ('unknown','lb-nagar','malkajgiri'): continue
+  if key in ('unknown','lb-nagar','malkajgiri','medchal'): continue
   token='kalpa(?:tha|ta)ru' if key=='kalpataru' else re.escape(key)
   if re.search(token,text): hits.add(key)
+ if re.search(r'(?:at\s+medchal\b|courts?[, ·/]+\s*medchal\b(?!-))',text): hits.add('medchal')
  if 'lbnagar' in compact: hits.add('lb-nagar')
  # District name alone is insufficient: require an explicit venue expression.
  if re.search(r'(?:at|courts?[, ·/]+)\s*malkajgiri\b',text): hits.add('malkajgiri')

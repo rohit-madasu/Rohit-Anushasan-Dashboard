@@ -9,8 +9,9 @@ const row=(change={})=>({rowId:'a',date:'2026-10-21',files:['51'],cnr:'TSMM11005
 const pairs=[['CC 405/2026','Criminal Complaint Case 405/2026'],['D.V.C. 92/2022','DVC92/2022'],['F.C.O.P. 386/2024','FCOP386/2024']];
 for(const [a,b]of pairs)assert.equal(C.canonicalCase(a),C.canonicalCase(b));
 for(const [a,b]of pairs)assert.equal(C.groupRows([row({case:a}),row({rowId:'b',case:b})]).length,1);
-for(const change of [{cnr:'TSMM110055262022'},{files:['51A']},{files:['52']},{case:'DVC 93/2022'},{case:'CC 92/2022'},{case:'EP 92/2022'},{case:'IA 1/2026 in DVC 92/2022'},{combinedSourceReference:true},{case:'OS 1/2020 and OS 2/2020'},{identityConflict:true}])assert.equal(C.groupRows([row(),row({rowId:'b',...change})]).length,2,JSON.stringify(change));
-assert.equal(C.groupRows([row({profileId:'running:51'}),row({rowId:'b',profileId:'running:52'})]).length,2);
+for(const change of [{cnr:'TSMM110055262022'},{case:'DVC 93/2022'},{case:'CC 92/2022'},{case:'EP 92/2022'},{case:'IA 1/2026 in DVC 92/2022'},{combinedSourceReference:true},{case:'OS 1/2020 and OS 2/2020'},{identityConflict:true}])assert.equal(C.groupRows([row(),row({rowId:'b',...change})]).length,2,JSON.stringify(change));
+assert.equal(C.groupRows([row({profileId:'running:51'}),row({rowId:'b',profileId:'running:52'})]).length,1,'Exact docket can share a card while separate profile associations remain');
+for(const files of [['51A'],['52']]){const g=C.groupRows([row(),row({rowId:'b',files})]);assert.equal(g.length,1);assert.equal(g[0].fileAssociations.length,2);assert(g[0].multipleFileAssociations);}
 assert.equal(C.groupRows([row({case:'IA 1/2026 in OS 2/2024'}),row({rowId:'b',case:'IA 2/2026 in OS 2/2024'})]).length,2);
 assert.equal(C.groupRows([row({case:'OS 1/2024'}),row({rowId:'b',case:'EP 1/2024'})]).length,2);
 assert.equal(C.groupRows([row({cnr:'',case:'D.V.C. 92/2022'}),row({cnr:'',rowId:'b',case:'DVC92/2022'})]).length,1);
@@ -28,7 +29,7 @@ for(const file of ['169','51']){
 for(const kind of ['all','matched','official','office','mirror','candidate','order','named','history','historical_source']){
  const rows=C.selectRows(dataView,{kind,today:data.referenceDate}),original=JSON.stringify(rows),groups=C.groupRows(rows);
  assert.equal(groups.reduce((n,g)=>n+g.records.length,0),rows.length,kind+' loses source rows');assert.equal(JSON.stringify(rows),original,kind+' mutates sources');
- for(const group of groups){assert.equal(new Set(group.records.map(r=>C.validCnr(r.cnr)).filter(Boolean)).size<=1,true,'Different CNRs merged');assert.equal(new Set(group.records.map(r=>C.fileIdentity(r))).size,1,'Different file sets merged');assert.equal(new Set(group.records.map(r=>r.date)).size,1,'Different calendar days merged');}
+ for(const group of groups){assert.equal(new Set(group.records.map(r=>C.validCnr(r.displayDocketCnr||r.cnr)).filter(Boolean)).size<=1,true,'Different CNRs merged');assert(new Set(group.records.map(r=>C.fileIdentity(r))).size===1||group.multipleFileAssociations,'Different file associations must remain explicit');assert.equal(new Set(group.records.map(r=>r.date)).size,1,'Different calendar days merged');}
 }
 assert.equal(search.profiles.length,455);assert.equal(new Set(search.profiles.map(p=>p.id)).size,455);
 console.log('PASS: CNR identity, explicit case aliases, independent applications, distinct CNRs, file suffixes, conflicting profiles, ambiguous bridges, fallback, source preservation, all filters, latest official summaries and example court colors.');
@@ -60,7 +61,7 @@ if(data.referenceDate==='2026-10-17'){
 
 assert.equal(data.referenceDate,'2026-10-18');
 const fresh=data.historyRows.filter(r=>r.rowId.startsWith('manual-official:'));
-assert.equal(fresh.length,10);assert.equal(fresh.filter(r=>r.profileIdentityVerified).length,8);assert.equal(data.currentRows.filter(r=>r.checkedThisRun&&r.rowId.startsWith('manual-official:')).length,6);assert(data.currentRows.some(r=>r.rowId.startsWith('comprehensive-official:')));
+assert.equal(fresh.length,10);assert.equal(fresh.filter(r=>r.profileIdentityVerified).length,8);assert.equal(data.currentRows.filter(r=>r.checkedThisRun&&r.rowId.startsWith('manual-official:')).length,4);assert(data.historyRows.some(r=>r.rowId.startsWith('manual-official:150:')));assert(data.historyRows.some(r=>r.rowId.startsWith('manual-official:130:')));assert(data.currentRows.some(r=>r.rowId.startsWith('comprehensive-official:')));
 for(const file of ['110','233'])assert(!C.selectRows(dataView,{kind:'all',today:data.referenceDate}).some(r=>r.files.includes(file)&&r.date>=data.referenceDate),'Stopped future record reappeared');
 for(const file of ['130','155']){const r=fresh.find(r=>r.files.includes(file));assert.equal(C.identityParts(r),null,'Candidate must not merge because of copied CNR');}
 for(const file of ['51','220']){const r=data.currentRows.find(r=>r.rowId.startsWith('manual-official:'+file+':'));assert.equal(r.date,'2026-10-22');assert(!data.currentRows.some(r=>r.files.length===1&&r.files[0]===file&&r.date==='2026-10-21'));}
