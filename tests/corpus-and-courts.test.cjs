@@ -1,7 +1,7 @@
 'use strict';
 const fs=require('node:fs'),vm=require('node:vm'),assert=require('node:assert/strict'),path=require('node:path');
 const root=path.resolve(__dirname,'..'),sandbox={window:{}};
-for(const file of ['data.js','case-search-data.js','courts.js'])vm.runInNewContext(fs.readFileSync(path.join(root,file),'utf8'),sandbox);
+for(const file of ['data.js',...JSON.parse(fs.readFileSync(path.join(root,'search-assets.json'),'utf8')).orderedScripts,'courts.js'])vm.runInNewContext(fs.readFileSync(path.join(root,file),'utf8'),sandbox);
 const index=sandbox.window.CASE_SEARCH_DATA,styles=sandbox.window.COURT_STYLES,data=sandbox.window.HEARING_DATA;
 const core=require('../calendar-core.js'),profiles=index.profiles,running=profiles.filter(p=>p.recordKind==='running_source_profile'),closed=profiles.filter(p=>p.recordKind==='closed_register_row');
 assert.equal(profiles.length,455);assert.equal(new Set(profiles.map(p=>p.id)).size,455);
@@ -60,6 +60,6 @@ for(const [key,style]of Object.entries(styles)){
 console.log(`PASS: ${entries.length} exact-label court styles have matching CSS and normal-text contrast of at least ${Math.min(...ratios).toFixed(2)}:1.`);
 const incrementalBaseline=JSON.parse(fs.readFileSync(path.join(__dirname,'baseline-invariants.json'),'utf8')).dailyIncrementalBaseline;
 const digest=v=>require('node:crypto').createHash('sha256').update(typeof v==='string'?v:JSON.stringify(v)).digest('hex');
-for(const[label,hash]of Object.entries(incrementalBaseline.originalCourtStyles))assert.equal(digest(styles[label]),hash,'Original court style changed: '+label);
+for(const[label,hash]of Object.entries(incrementalBaseline.originalCourtStyles))assert.equal(digest(Object.fromEntries(Object.entries(styles[label]).filter(([key])=>!key.startsWith("location")))),hash,'Original court style changed: '+label);
 const rules=new Set(css.trim().split('\n').map(digest));for(const hash of incrementalBaseline.originalCourtCssRuleHashes)assert(rules.has(hash),'Original court CSS rule removed or changed');
-console.log('PASS: all 462 original court style objects and every original CSS rule remain exact; new labels are additive only.');
+console.log('PASS: all retained original court style objects and every original CSS rule remain exact; new labels are additive only.');

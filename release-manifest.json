@@ -1,222 +1,650 @@
 {
-  "edition": "2026-10-17 private daily source refresh preserving CNR-safe UI",
-  "sourceEdition": "2026-10-17",
-  "baselineZipSha256": "546155043edc1d07e4ce9d874ead810549dd414bce933200295487bca5073586",
-  "publication": "Private offline package; no public deployment",
+  "edition": "18 October 2026 comprehensive bounded evidence revision",
+  "publication": "Verified private offline repository. No GitHub or public hosting publication performed.",
+  "releaseReady": true,
   "sourceBinding": {
     "verifiedReadback": true,
-    "privatePermissionsVerified": true,
-    "sourceVersion": "Current_Case_Hearings_and_Stages_2026-10-17_daily_update.docx",
-    "sourceDocumentSha256": "ab6766df6f3ffa94070cb259b9e1f63e18821d7e479af475d5bd2d8df7c07487",
-    "sourcePreparedAtIST": "2026-10-17T07:17:46.340702+05:30",
-    "sourceDocumentDriveId": "1T8pO-VM14vKPffRI_uj-8EDG1alOgxyX",
-    "sourceDocumentUrl": "https://drive.google.com/file/d/1T8pO-VM14vKPffRI_uj-8EDG1alOgxyX/view",
-    "sourcePdfDriveId": "1JUqCyUYZSHKjqp4ZfB0aQT-mctStxR3b",
-    "sourcePdfUrl": "https://drive.google.com/file/d/1JUqCyUYZSHKjqp4ZfB0aQT-mctStxR3b/view",
-    "sourcePdfSha256": "caf7b9fc3326a052f473be39f232a962f86490d3179e2f582de04b9e0328d94b",
-    "sourceReadbackVerifiedAtUTC": "2026-10-17T02:00:33.289Z",
-    "runningRegisterDriveId": "1R_ihanbcQ0nxQw_dknLuXoiBy37-Rt0p",
-    "runningRegisterUrl": "https://drive.google.com/file/d/1R_ihanbcQ0nxQw_dknLuXoiBy37-Rt0p/view",
-    "runningRegisterSha256": "72988067b1371c33aa1a3509e03e33da99a68d46d879ebfd040358657bf597f0",
-    "runningRegisterReadbackVerified": true
+    "status": "Verified current private document readbacks",
+    "currentSourceCatalog": {
+      "asOf": "2026-10-18",
+      "stage": {
+        "sourceId": "stage-2026-10-18-comprehensive",
+        "url": "https://docs.google.com/document/d/1txFxPrYJCorN48dpTyx-r-P30riYeJa1/edit?usp=drivesdk&ouid=114145581713538354167&rtpof=true&sd=true",
+        "sha256": "ca2ff9fa39d0041496cb2b2fb7982dfa6c6be715f74e6940184d2bba1ecfc63b",
+        "totalDocumentUnits": 60863
+      },
+      "running": {
+        "sourceId": "running-2026-10-18-comprehensive",
+        "url": "https://drive.google.com/file/d/1_bx9U7KmV86zglJNH_HSiDJ4PYDOjBLH/view?usp=drivesdk",
+        "sha256": "6a32d23338dc003c72dd0186b916b9076eab50a2d818761b67a03685d95df1c5",
+        "totalDocumentUnits": 918
+      },
+      "diary": {
+        "sourceId": "diary-2026-10-18-comprehensive",
+        "url": "https://docs.google.com/document/d/1D7lDO33jWv_pR8x2A3Eg_8NFdSDT0nnd/edit?usp=drivesdk&ouid=114145581713538354167&rtpof=true&sd=true",
+        "sha256": "af9a6e7c27478fb3205e9139a8644a22619b5b3387048fb1a0c54b18f23592c6",
+        "totalDocumentUnits": 46638
+      },
+      "closed": {
+        "sourceId": "closed",
+        "url": "https://drive.google.com/file/d/1BruuKPpHyigORpOwJnBhBwAtmg58nrzG/view",
+        "sha256": "8c10b1b38753ca904cf7477b5241117c75b8e5cd6606447e43e03155849627e6",
+        "totalDocumentUnits": 9
+      },
+      "orders": {
+        "sourceId": "orders-2026-10-18-manual",
+        "url": "https://docs.google.com/document/d/1bLJgJUxeLFw9Qlv18-vo5wT8lNRYNc9t/edit",
+        "sha256": "9dafc9e54d8e8a46158820b044a74e46c4467222773fb4777a6cbc64745507dc",
+        "totalDocumentUnits": 632,
+        "sourceRows": 127,
+        "sourceSectionParagraphs": 622
+      },
+      "active": {
+        "sourceId": "active-2026-10-18-comprehensive",
+        "url": "https://docs.google.com/document/d/1pBBQl5RJcLZqfVnL9_baOc22gJYMPVqu/edit?usp=drivesdk&ouid=114145581713538354167&rtpof=true&sd=true",
+        "sha256": "f07bf4a20f1dd6036d63ad744446c61523a16c38d8ddfb775a0658687368aef7",
+        "totalDocumentUnits": 50389
+      },
+      "disposed": {
+        "sourceId": "disposed-2026-10-18-comprehensive",
+        "url": "https://docs.google.com/document/d/1UiCyI06VtK-hYQim2q5dyuUiPJzoeGBf/edit?usp=drivesdk&ouid=114145581713538354167&rtpof=true&sd=true",
+        "sha256": "85af59e597cba2870cd8deeb48f0b202758a7b819f9b03bd8118bee2620630e3",
+        "totalDocumentUnits": 41300
+      },
+      "unclear": {
+        "sourceId": "unclear-2026-10-18-comprehensive",
+        "url": "https://docs.google.com/document/d/1SF0HF6jc0kvZV3wvQRK7ZZNMiQCao4UB/edit?usp=drivesdk&ouid=114145581713538354167&rtpof=true&sd=true",
+        "sha256": "f328b2b1aaed4409f30bb265e33e4a0b946b3643fb0f761ec9d4a00158059bfa",
+        "totalDocumentUnits": 48441
+      }
+    }
   },
   "counts": {
-    "newEvents": 18,
-    "newStageUnits": 735,
-    "newRunningUnits": 27,
-    "newPartyBindings": 16,
-    "currentRows": 196,
-    "historyRows": 498,
+    "bindingVerified": true,
     "profiles": 455,
-    "corpusUnits": 57656,
-    "newCorpusUnits": 762,
-    "retainedCorpusUnits": 56894,
-    "supplementaryCalendarRows": 5260,
-    "currentTrackingStopRows": 16
+    "runningProfiles": 298,
+    "closedProfiles": 157,
+    "baselineCorpusUnitsRetained": 69448,
+    "corpusUnits": 95924,
+    "baselineHistoryRowsRetained": 709,
+    "historyRows": 819,
+    "newHistoryRows": 110,
+    "currentRows": 273,
+    "freshCNRs": 107,
+    "newFreshCNRs": 97,
+    "unresolvedProfileScopes": 92,
+    "profilesMerged": 0,
+    "classificationChanges": 0,
+    "trackingDirectiveChanges": 0,
+    "whatsAppResweepPerformed": false,
+    "externalWrites": 0,
+    "publicPublication": false,
+    "protectedAuthHashesUnchanged": true
   },
-  "sourceRegistry": {
-    "historicalEntries": 6,
-    "currentDocuments": 4
+  "sourceMappings": {
+    "stage": {
+      "totalDocumentUnits": 60863,
+      "reusedOccurrences": 48484,
+      "newOccurrences": 12379,
+      "retiredPredecessorOccurrences": 0,
+      "allCurrentOccurrencesMapped": true
+    },
+    "diary": {
+      "totalDocumentUnits": 46638,
+      "reusedOccurrences": 33351,
+      "newOccurrences": 13287,
+      "retiredPredecessorOccurrences": 0,
+      "allCurrentOccurrencesMapped": true
+    },
+    "active": {
+      "totalDocumentUnits": 50389,
+      "reusedOccurrences": 50389,
+      "newOccurrences": 0,
+      "retiredPredecessorOccurrences": 0,
+      "allCurrentOccurrencesMapped": true
+    },
+    "disposed": {
+      "totalDocumentUnits": 41300,
+      "reusedOccurrences": 41300,
+      "newOccurrences": 0,
+      "retiredPredecessorOccurrences": 0,
+      "allCurrentOccurrencesMapped": true
+    },
+    "unclear": {
+      "totalDocumentUnits": 48441,
+      "reusedOccurrences": 48441,
+      "newOccurrences": 0,
+      "retiredPredecessorOccurrences": 0,
+      "allCurrentOccurrencesMapped": true
+    },
+    "running": {
+      "totalDocumentUnits": 918,
+      "reusedOccurrences": 523,
+      "newOccurrences": 395,
+      "retiredPredecessorOccurrences": 0,
+      "allCurrentOccurrencesMapped": true
+    }
+  },
+  "officialCoverage": {
+    "dateIST": "2026-10-18",
+    "runId": "2026-10-18-comprehensive",
+    "runLabel": "comprehensive bounded review",
+    "distinctRecordsChecked": 107,
+    "newRecordsBeyondPriorPublication": 97,
+    "uniqueProfilesChecked": 111,
+    "uniqueProfilesAttempted": 111,
+    "profileCount": 298,
+    "uncheckedProfileCount": null,
+    "routineEligibleProfiles": null,
+    "routineQueueFreshlyRebuilt": true,
+    "queryActions": null,
+    "confirmedSubmissions": null,
+    "uncertainSubmissions": null,
+    "successfulRecordSubmissions": 107,
+    "matchedSourceAssociationRecords": 54,
+    "candidateSourceAssociationRecords": 62,
+    "checkedAtLatestIST": "2026-10-18T19:33:53.340000+05:30",
+    "scope": "107 distinct CNR records freshly checked on 18 October: 104 of 129 initial targets, two stopped-scope conflicts and one new identification. The remaining initial targets comprise 24 retained 17–18 October district observations and one transfer-donor relationship. All 129 targets are accounted for; 92 source-profile identities/scopes remain unresolved. This is not a claim that every active matter is verified.",
+    "classificationChanges": 0,
+    "trackingDirectiveChanges": 0,
+    "queueCoverage": {
+      "initialCNRTargets": 129,
+      "freshInitialTargets": 104,
+      "retainedRecentDistrictTargets": 24,
+      "retainedTransferDonorRelationships": 1,
+      "initialTargetsAccounted": 129,
+      "additionalStoppedScopeConflictChecks": 2,
+      "additionalNewlyIdentifiedCNRs": 1,
+      "totalFreshDistinctCNRs": 107,
+      "unresolvedProfileScopes": 92,
+      "allCasesVerified": false,
+      "freshAccessBlockedCNRs": 0,
+      "unknownsNote": "92 residual source profiles require identity/scope resolution; additional scope items also exist within actionable profiles. This is not a certified total of distinct active legal matters."
+    },
+    "packetStatus": "sealed_comprehensive_bounded",
+    "remainingQueueDescription": "92 residual source profiles require identity/scope resolution; additional scope items also exist within actionable profiles. This is not a certified total of distinct active legal matters."
+  },
+  "whatsAppCoverage": {
+    "status": "reviewed_bounded",
+    "date_ist": "2026-10-18",
+    "authorized_window_ist": [
+      "2026-10-09",
+      "2026-10-18"
+    ],
+    "blocker": null,
+    "fresh_text_posts_reviewed": 57,
+    "fresh_images_reviewed": 35,
+    "fresh_pdf_pages_reviewed": 11,
+    "fresh_overlap_certified": false,
+    "groups": [
+      {
+        "name": "Anushasan Associates",
+        "last_verified_review_utc": "2026-10-18T11:49:24Z",
+        "last_observed_message_raw_ui": "17 October2026 15:18 +919700185001 Mam where is my sweet box"
+      },
+      {
+        "name": "( CA Info )Anushasan Associates",
+        "last_verified_review_utc": "2026-10-18T11:49:24Z",
+        "last_observed_message_raw_ui": "18 October2026 09:34 +917989748529 Bathukamma YouTube greeting"
+      }
+    ],
+    "daily_ledger": [
+      {
+        "date": "2026-10-09",
+        "main": "Rendered in-scope chronology reviewed",
+        "CA": "Rendered in-scope chronology reviewed"
+      },
+      {
+        "date": "2026-10-10",
+        "main": "Rendered in-scope chronology reviewed",
+        "CA": "Rendered in-scope chronology reviewed"
+      },
+      {
+        "date": "2026-10-11",
+        "main": "Rendered in-scope chronology reviewed",
+        "CA": "Rendered in-scope chronology reviewed"
+      },
+      {
+        "date": "2026-10-12",
+        "main": "Rendered in-scope chronology reviewed",
+        "CA": "Rendered in-scope chronology reviewed"
+      },
+      {
+        "date": "2026-10-13",
+        "main": "Rendered in-scope chronology reviewed",
+        "CA": "Rendered in-scope chronology reviewed"
+      },
+      {
+        "date": "2026-10-14",
+        "main": "Rendered in-scope chronology reviewed",
+        "CA": "Rendered in-scope chronology reviewed"
+      },
+      {
+        "date": "2026-10-15",
+        "main": "Rendered in-scope chronology reviewed",
+        "CA": "Rendered in-scope chronology reviewed"
+      },
+      {
+        "date": "2026-10-16",
+        "main": "Rendered in-scope chronology reviewed",
+        "CA": "Rendered in-scope chronology reviewed"
+      },
+      {
+        "date": "2026-10-17",
+        "main": "Rendered in-scope chronology reviewed",
+        "CA": "Rendered in-scope chronology reviewed"
+      },
+      {
+        "date": "2026-10-18",
+        "main": "Rendered chronology reviewed; available content retained;18October partial through review time",
+        "CA": "Rendered chronology reviewed; available content retained;18October partial through review time"
+      }
+    ],
+    "historical_limits": "Main pre14August incomplete; CA earliest26September2026 20:05IST; no older backfill.",
+    "all_fresh_counts_zero": false,
+    "reviewStatus": "reviewed_bounded",
+    "freshReviewCompleted": true,
+    "authorizedWindowIST": [
+      "2026-10-09",
+      "2026-10-18"
+    ],
+    "textPostsReviewed": 57,
+    "freshImagesReopenedThisRun": 35,
+    "pdfsOpenedThisRun": 2,
+    "pdfPagesReviewedThisRun": 11,
+    "reviewScope": "2026-10-09 through 2026-10-18",
+    "limitation": "Main-group history before 14 August is incomplete; CA history begins 26 September at 20:05 IST in the retained source. Deleted or edited content does not erase earlier versions. Raw UI message timezone is unverified.",
+    "displaySummary": "Both authorized WhatsApp groups were reviewed over 9–18 October through 17:19:24 IST on 18 October. The full review captured 55 text messages. Two omitted texts were recovered separately at 12:20:32–12:21:40 UTC, giving 57 captured texts in total. The full-review cutoff remains 11:49:24 UTC. Thirty-five past diary groups and 52 annotated repeated rows were reconciled; repeated sheets add no new rows. Raw message UI timezone is unverified. October 18 coverage is partial through the review cutoff.",
+    "observed_response_received_utc": "2026-10-18T11:49:24Z",
+    "observationPrecision": "Review completion clock independently recorded; raw message UI timezone remains unverified.",
+    "review_end_utc": "2026-10-18T11:49:24Z",
+    "review_end_ist": "2026-10-18T17:19:24+05:30",
+    "captured_text_count": 57,
+    "originalReviewCapturedTexts": 55,
+    "targetedRecoveredTexts": 2,
+    "totalCapturedTexts": 57,
+    "targetedRetrievalStartUTC": "2026-10-18T12:20:32Z",
+    "targetedRetrievalEndUTC": "2026-10-18T12:21:40Z",
+    "fullReviewCutoffUnchangedUTC": "2026-10-18T11:49:24Z"
   },
   "verification": {
-    "nodeSuites": 9,
-    "nodeSuitesPassed": 9,
-    "nodeReport": "tests/results/node-test-report.json",
-    "independentReport": "tests/results/independent-verification.json",
-    "browserStatus": "passed",
-    "browserScope": "Final assets were reviewed in the cloud Chrome browser over a bounded loopback-only HTTP preview, with a separate synthetic verifier and clock-control fixture. The shipping authentication assets were unchanged. Desktop and 408px iframe layouts passed visual inspection; the narrow calendar, long party headings and Case Search had no horizontal body overflow (393px content width with scrollbar).\n\nChecks passed: full-month navigation across September, October and November; past-day access; all-source, matched, office, mirror and explicit History filters; the 169/51 three-source-to-one-card examples; four distinct POCSO CNRs on 23 October; OS 103/2025 on 26 November with its old 16 October evidence retained; all 18 new observation headings against available source-grounded names; and the court colour legend. File 123 retained its office-first heading while expanded candidate evidence visibly showed M. Vasavi Alias Durga and the unresolved name mismatch.\n\nCase Search showed all 455 profiles independently of calendar filters. File and CNR queries, a party query, a closed-register result, no-result and clear/reset states passed. Expanded File 254 showed the verified current stage and running-register links. A new running-register physical-page-255 passage was searchable and linked to the new running PDF. Source notes displayed the qualified 8–17 October WhatsApp gap, 16 current tracking stops and complete 57,656-unit coverage.\n\nSynthetic authentication checks passed: locked initial view, rejected incorrect entry, successful entry, same-tab reload retaining the original expiry, expiry after a six-hour fixture-clock advance and focus event, logout, and locked state after logout/reload. No real password was read, entered or logged. No application-origin errors appeared in the filtered browser console query; unrelated browser-extension metadata errors were present. The preview server logged an innocuous missing favicon request. The two QA tabs were closed and the preview server stopped after verification.",
-    "immutableRuntimeVerified": true
+    "nodeSuites": 11,
+    "baseSuites": 10,
+    "precisionSuites": 1,
+    "nodeSuitesPassed": 11,
+    "nodeReportSha256": "654b6f64634cdaf245769490882b5480eac15c7c64323d3f29333b2cf43c2727",
+    "browser": {
+      "status": "final_runtime_hash_verified",
+      "browser": "Private loopback cloud Chrome",
+      "checkedAtUTC": "2026-10-18T15:02:33.446081+00:00",
+      "productionHashesTested": {
+        "index.html": "cbbbc82e9109859bed77ce320a196b544119bb2748d700a2588ccf8aea79dd57",
+        "styles.css": "308963d2bde9ea66d6ef70d519e43c610156bbb0abd63d637e9c043b87924ff4",
+        "court-colors.css": "d81c53310e14aa084193c0b55bcec2a8c526a094e4def1225e4dc07f1785230f",
+        "app.js": "b48633b6fcb1f904b56cc8b067122e3ad50d5e1f6fb2c86e058a9fbd2ded3c2a",
+        "calendar-core.js": "e62d01914462d82cfb6682b54292db6159b48052e7d4edc83e65a513f353aa76",
+        "auth.js": "b92451cc15dcccb93c701eaf12d7388d66533fb5b6aa784c5fd79fd301bb3d6f",
+        "auth-config.js": "d44bf3d0ddfa01c95b04f053c3482648456aed27b54c4a8a9e53edaa44ba36bd",
+        "data.js": "ed448121141b8440250e355d4f0d416b67fe7ea068996d9682b634405613f916",
+        "courts.js": "3d5f129d6279a89d3990254d52b0348d15f303b5d85dfb9173e8f6ea33140197",
+        "case-search-data.js": "ffcdbe3df50dbc4dcc93d36b7e1bc6cf250a3097a48a13c97b9616f136341cd0",
+        "case-search-corpus-01.js": "a941a066c4bededf5f4ba873199e09e435313e890860183eb04e2d24375fc9a3",
+        "case-search-corpus-02.js": "8fa4a5e7c01892ba64fde563ded926763ecb7ec74631a7188d764924adf7e505",
+        "case-search-corpus-03.js": "3e0bc635a1aea170d3b5786e8dcaca7f751243ca3dea1e1a50b93d3d763e0394"
+      },
+      "previewHashesTested": {
+        "index.html": "06598470a171b1c2164abb097f4cca27c238c8b23576bc65fb384a2d149f4d75",
+        "styles.css": "308963d2bde9ea66d6ef70d519e43c610156bbb0abd63d637e9c043b87924ff4",
+        "court-colors.css": "d81c53310e14aa084193c0b55bcec2a8c526a094e4def1225e4dc07f1785230f",
+        "app.js": "b48633b6fcb1f904b56cc8b067122e3ad50d5e1f6fb2c86e058a9fbd2ded3c2a",
+        "calendar-core.js": "e62d01914462d82cfb6682b54292db6159b48052e7d4edc83e65a513f353aa76",
+        "auth.js": "b92451cc15dcccb93c701eaf12d7388d66533fb5b6aa784c5fd79fd301bb3d6f",
+        "auth-config.js": "83698297d4af99b3c845b3af0c611ea42bb23caf3fb26686ecbb05a24323fa76",
+        "data.js": "ed448121141b8440250e355d4f0d416b67fe7ea068996d9682b634405613f916",
+        "courts.js": "3d5f129d6279a89d3990254d52b0348d15f303b5d85dfb9173e8f6ea33140197",
+        "case-search-data.js": "ffcdbe3df50dbc4dcc93d36b7e1bc6cf250a3097a48a13c97b9616f136341cd0",
+        "case-search-corpus-01.js": "a941a066c4bededf5f4ba873199e09e435313e890860183eb04e2d24375fc9a3",
+        "case-search-corpus-02.js": "8fa4a5e7c01892ba64fde563ded926763ecb7ec74631a7188d764924adf7e505",
+        "case-search-corpus-03.js": "3e0bc635a1aea170d3b5786e8dcaca7f751243ca3dea1e1a50b93d3d763e0394"
+      },
+      "fixtureChanges": [
+        "synthetic verifier in preview auth-config.js",
+        "isolated clock controls with read-only synthetic session timestamp display",
+        "preview-only fixture script and stylesheet tags",
+        "408px iframe wrapper"
+      ],
+      "realCredentialUsed": false,
+      "desktopViewport": "1165px wide",
+      "mobileViewport": "408px iframe",
+      "passed": [
+        "Wrong synthetic password rejected; correct synthetic password unlocks.",
+        "Actual reload preserves absolute six-hour session start and expiry.",
+        "Six-hour clock advance locks and clears session timestamps.",
+        "Desktop and narrow-screen logout return to the locked login screen.",
+        "All four local ordered payload scripts served and full 455-profile / 95,924-unit dataset rendered.",
+        "Full Case Search remains independent of calendar filters; exact file and party/CNR queries render traceable results.",
+        "Exact new SC CNR yields 17 source passages and no invented profile.",
+        "File 241 current note shows named docket match and 28 October date before explicitly historical assessment.",
+        "File 189 current note remains a candidate disposed docket with other profile scopes unresolved.",
+        "File 269 full evidence retains A1-only acquittal and second-respondent role/outcome limits.",
+        "179/180 summaries distinguish donor-docket absent next date from the receiving-court 26 October direction.",
+        "Unassigned KVR office alternatives visibly label their old venue historical without merging identities.",
+        "Files 168/169 each retain one 22 October notification card and raw 21 October conflict.",
+        "New sessions case remains a single unassigned current card; live FCOP 280/2025 remains a single unassigned 21 November card.",
+        "October/November month navigation, adjacent keyboard date navigation, empty-date qualification and visible focus previews inspected.",
+        "Party-first cards, location colours and narrow calendar/search layout are readable.",
+        "Top-level and profile source links display verified private successors."
+      ],
+      "sessionReloadEvidence": {
+        "before": {
+          "startedAt": 1792334890615,
+          "expiresAt": 1792356490615
+        },
+        "afterActualReload": {
+          "startedAt": 1792334890615,
+          "expiresAt": 1792356490615
+        },
+        "afterSixHourAdvance": {
+          "startedAt": null,
+          "expiresAt": null
+        }
+      },
+      "fileUrlVerification": "Direct file:// browser opening is unverified: the cloud browser rejected that protocol and permits only HTTP/HTTPS. No bypass was attempted. Complete ordered-script/data loading and ordinary-ZIP extraction were separately tested without a network or server.",
+      "notClaimed": [
+        "Direct file:// browser execution.",
+        "Production-password login; only an isolated synthetic verifier was used.",
+        "No live public-hosting access test or public publication.",
+        "No new court or WhatsApp sweep."
+      ],
+      "previewServerStopped": true,
+      "previewTerminalTabClosed": true,
+      "browserTabsClosed": [
+        "32",
+        "33",
+        "34"
+      ],
+      "remainingEmptyFailedPreviewTabs": [
+        "30",
+        "31"
+      ],
+      "untouchedTabs": [
+        "13 WhatsApp (not operated)",
+        "14 eCourts"
+      ],
+      "publicHosting": false
+    },
+    "independentFinalAudit": "Passed for frozen current artifacts and private source readbacks",
+    "independentAuditSha256": "0315895b8766c2042ef39fe7ac9b47629b9c8e6080875d02d73c0e23e8f3af75",
+    "finalBrowserHashVerified": true
   },
-  "files": [
-    {
-      "path": ".gitignore",
-      "bytes": 110,
-      "sha256": "fab1eb6d7f1ffe1c21bda6f6b8366eaf9b67fd91c37580f1ccc2202eeedbcc45"
+  "searchAssets": {
+    "format": "synchronous_local_classic_scripts_v1",
+    "orderedScripts": [
+      "case-search-data.js",
+      "case-search-corpus-01.js",
+      "case-search-corpus-02.js",
+      "case-search-corpus-03.js"
+    ],
+    "completeDatasetCanonicalJsSha256": "71c595d015a78abfb6f06653c5899836a9d239202890716284ebe88476fdf2ea",
+    "corpusUnits": 95924,
+    "profiles": 455,
+    "chunks": [
+      {
+        "file": "case-search-corpus-01.js",
+        "startUnitIndex": 0,
+        "endUnitIndexExclusive": 35000,
+        "units": 35000
+      },
+      {
+        "file": "case-search-corpus-02.js",
+        "startUnitIndex": 35000,
+        "endUnitIndexExclusive": 70000,
+        "units": 35000
+      },
+      {
+        "file": "case-search-corpus-03.js",
+        "startUnitIndex": 70000,
+        "endUnitIndexExclusive": 95924,
+        "units": 25924
+      }
+    ],
+    "scriptAssets": {
+      "case-search-data.js": {
+        "sha256": "ffcdbe3df50dbc4dcc93d36b7e1bc6cf250a3097a48a13c97b9616f136341cd0",
+        "bytes": 37296968,
+        "deflateBytes": 3717185
+      },
+      "case-search-corpus-01.js": {
+        "sha256": "a941a066c4bededf5f4ba873199e09e435313e890860183eb04e2d24375fc9a3",
+        "bytes": 8214106,
+        "deflateBytes": 907884
+      },
+      "case-search-corpus-02.js": {
+        "sha256": "8fa4a5e7c01892ba64fde563ded926763ecb7ec74631a7188d764924adf7e505",
+        "bytes": 15452138,
+        "deflateBytes": 1737302
+      },
+      "case-search-corpus-03.js": {
+        "sha256": "3e0bc635a1aea170d3b5786e8dcaca7f751243ca3dea1e1a50b93d3d763e0394",
+        "bytes": 10727858,
+        "deflateBytes": 915366
+      }
     },
-    {
-      "path": ".nojekyll",
-      "bytes": 1,
-      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    "loadRule": "Load every script in the listed order before app.js. Ordinary deferred classic scripts work offline with file://; no network fetch or module loader is used."
+  },
+  "approvedRuntimeDeltas": {
+    "app.js": {
+      "beforeSha256": "01d1321089217624be40004daec8f1bf2d078c49fce5c2ad704a114dd2afe26f",
+      "afterSha256": "b48633b6fcb1f904b56cc8b067122e3ad50d5e1f6fb2c86e058a9fbd2ded3c2a",
+      "reason": "Add dated scope-specific current official review before retained historical profile assessments; all original fields and authentication behavior remain unchanged.",
+      "immediatePriorManualSha256": "db5461b9adb79382e5cddc41dbd7562899f8efb3a6eb9df5971e44cf2d947eba"
     },
-    {
-      "path": "QA.md",
-      "bytes": 6052,
-      "sha256": "9447d44a1a9373a6d79dca9678dbf7065e8c4ba960c7946384109bfe336336af"
+    "index.html": {
+      "beforeSha256": "f03c5b4d72f5e8a746eecaff65f43dc6d18a877affe6984638fe83fb64762dcd",
+      "afterSha256": "cbbbc82e9109859bed77ce320a196b544119bb2748d700a2588ccf8aea79dd57",
+      "reason": "Approved local-only payload partition; exact source dataset is unchanged; load all complete corpus chunks synchronously before app.js."
     },
-    {
-      "path": "README.md",
-      "bytes": 10078,
-      "sha256": "051884023fc8648b03f60eda4481182ef4f68c9d7cd9048a78b27f542be5d09e"
-    },
-    {
-      "path": "app.js",
-      "bytes": 28299,
-      "sha256": "94e1e8ef9beea7fa79a6023209bd975f18c50c4b559e39f91ce227d5201d177d"
-    },
-    {
-      "path": "auth-config.js",
-      "bytes": 227,
-      "sha256": "d44bf3d0ddfa01c95b04f053c3482648456aed27b54c4a8a9e53edaa44ba36bd"
-    },
-    {
-      "path": "auth.js",
-      "bytes": 5213,
-      "sha256": "b92451cc15dcccb93c701eaf12d7388d66533fb5b6aa784c5fd79fd301bb3d6f"
-    },
-    {
-      "path": "build_assets.py",
-      "bytes": 3222,
-      "sha256": "bcda2608a64cbece750ff4e1d78a39b2ff9e7188e6b56b0aa567f2f8e6e76b8a"
-    },
-    {
-      "path": "calendar-core.js",
-      "bytes": 12279,
-      "sha256": "e62d01914462d82cfb6682b54292db6159b48052e7d4edc83e65a513f353aa76"
-    },
-    {
-      "path": "case-search-data.js",
-      "bytes": 39140136,
-      "sha256": "5eea2db0012bae4696a8a2534a7ff0f9a4cecfbfda1b44075ad97f93cb455585"
-    },
-    {
-      "path": "court-aliases.json",
-      "bytes": 3133,
-      "sha256": "3c6fd292e83de8c1c50f71d60f217bb33b80206d88676ea00410bb1424367d53"
-    },
-    {
-      "path": "court-colors.css",
-      "bytes": 25795,
-      "sha256": "2a6c349728082e63a14b20fc9c1a4abefc78ce78e361f630619880d8390bab94"
-    },
-    {
-      "path": "courts.js",
-      "bytes": 207818,
-      "sha256": "6804c7afa52dc90d4525883a42f7207c7126e0e5c93779004370434aa45d9f21"
-    },
-    {
-      "path": "data.js",
-      "bytes": 2049016,
-      "sha256": "1558ee5737f52b1642303021670aeadafb0a065cacf014eddb172a5cfc6ac31f"
-    },
-    {
-      "path": "index.html",
-      "bytes": 10944,
-      "sha256": "25669ff87d5ff10063b8994221357a5e8893037c8b85cb234d7017db330eccf7"
-    },
-    {
-      "path": "styles.css",
-      "bytes": 24713,
-      "sha256": "308963d2bde9ea66d6ef70d519e43c610156bbb0abd63d637e9c043b87924ff4"
-    },
-    {
-      "path": "tests/TEST-PLAN.md",
-      "bytes": 6087,
-      "sha256": "92748ca0314f6244921fee5a6733e58aee4015cc11d9a3b2600e905552ee365b"
-    },
-    {
-      "path": "tests/app-dom.test.cjs",
-      "bytes": 6397,
-      "sha256": "709b118b0987553c3c6b6407bee0b9e240d250c39713536fe9e0106e94473301"
-    },
-    {
-      "path": "tests/auth-dom.test.cjs",
-      "bytes": 6269,
-      "sha256": "861c16ca4fda28443532e5aba83eab2113e1a3126ac993f9e1d7025a32ab2237"
-    },
-    {
-      "path": "tests/auth.test.cjs",
-      "bytes": 2856,
-      "sha256": "033470b8cd5b6cca3b31c11cf181d24c4499ec829d346b977f76c797ec7bda24"
-    },
-    {
-      "path": "tests/baseline-calendar-core.js",
-      "bytes": 6235,
-      "sha256": "cb51e185242a1a8dcd41f42a84ff6947b52a029fbd84c94967b854631ea3fdd0"
-    },
-    {
-      "path": "tests/baseline-invariants.json",
-      "bytes": 1069654,
-      "sha256": "f410faeb33c0f8d7276799904d1af515ef7a514467d2665d9afad528be50c823"
-    },
-    {
-      "path": "tests/browser-auth.test.cjs",
-      "bytes": 6755,
-      "sha256": "631b735b778f53b6b19dbfbcda0d6cccaa9622518be937331a805ec567d84f72"
-    },
-    {
-      "path": "tests/calendar-core.test.cjs",
-      "bytes": 6298,
-      "sha256": "416faf5116fe34e6dbdf32f70eb75a902704b15c92ffb0299d2bc98d8760b51a"
-    },
-    {
-      "path": "tests/case-search.test.cjs",
-      "bytes": 1360,
-      "sha256": "8cba34eac499a1fc3e53b1a4f04a1d21b7b93dfdbf7e27c7c217d0d9fbe1cd6a"
-    },
-    {
-      "path": "tests/cnr-dedup.test.cjs",
-      "bytes": 10163,
-      "sha256": "00d96a0005412393195f13c71e4b277cac8a63f48e99cdf56faeea77c1b63a6f"
-    },
-    {
-      "path": "tests/corpus-and-courts.test.cjs",
-      "bytes": 7354,
-      "sha256": "01d47d8621717545863f195f368d7165e33569bce33d75bf8764c849a341a7e3"
-    },
-    {
-      "path": "tests/dedup-audit.cjs",
-      "bytes": 3149,
-      "sha256": "23e7cd5da0f6a30b135a9537a7139df40a0c734b76de9e5d26db677499814b90"
-    },
-    {
-      "path": "tests/results/dedup-audit.json",
-      "bytes": 6583,
-      "sha256": "e5a13af8dc40eba6796f5032bacc6d0a61829cd3007b084d51ac898f9bfea6f5"
-    },
-    {
-      "path": "tests/results/independent-verification.json",
-      "bytes": 6123,
-      "sha256": "c4d9e72c16a5d08e40cdde815dcc66fe51d19bfbeb3254e7c88afaa2ca1201d8"
-    },
-    {
-      "path": "tests/results/node-test-report.json",
-      "bytes": 6947,
-      "sha256": "4ac08ca8a581eb69b181ea8c18a56a44e809363a39b4fa7957833ba544b96e04"
-    },
-    {
-      "path": "tests/run-tests.cjs",
-      "bytes": 1566,
-      "sha256": "88d68821a5b766458631f0c14e9bb57ba74c6985c6c6e9def3a5b3cfdabf60a3"
-    },
-    {
-      "path": "tests/source-integrity.test.cjs",
-      "bytes": 9576,
-      "sha256": "c049a61deac31046b423abb1fb71d41ca8f999a823a87573d0b9bca123980b69"
-    },
-    {
-      "path": "tests/source-semantics.test.cjs",
-      "bytes": 1750,
-      "sha256": "8b94730da71f9b0e64b006fd72f0c5b3c2ff25bfaee07c5ec351fad9e2237dbc"
+    "build_assets.py": {
+      "beforeSha256": "4468ef7008d0b5e9328fccbbebd61ad503505e7e2daa684d5f4cb98b33276bcb",
+      "afterSha256": "c00b9b4f65fd55995da9e962587a6116cb574bb3891ada8746c17d0cf4f1bf15",
+      "reason": "Preserve full segmented corpus in included local rebuild utility."
     }
-  ]
+  },
+  "runtimeAssets": {
+    "index.html": "cbbbc82e9109859bed77ce320a196b544119bb2748d700a2588ccf8aea79dd57",
+    "app.js": "b48633b6fcb1f904b56cc8b067122e3ad50d5e1f6fb2c86e058a9fbd2ded3c2a",
+    "calendar-core.js": "e62d01914462d82cfb6682b54292db6159b48052e7d4edc83e65a513f353aa76",
+    "styles.css": "308963d2bde9ea66d6ef70d519e43c610156bbb0abd63d637e9c043b87924ff4",
+    "auth.js": "b92451cc15dcccb93c701eaf12d7388d66533fb5b6aa784c5fd79fd301bb3d6f",
+    "auth-config.js": "d44bf3d0ddfa01c95b04f053c3482648456aed27b54c4a8a9e53edaa44ba36bd",
+    "data.js": "ed448121141b8440250e355d4f0d416b67fe7ea068996d9682b634405613f916",
+    "courts.js": "3d5f129d6279a89d3990254d52b0348d15f303b5d85dfb9173e8f6ea33140197",
+    "court-colors.css": "d81c53310e14aa084193c0b55bcec2a8c526a094e4def1225e4dc07f1785230f",
+    "case-search-data.js": "ffcdbe3df50dbc4dcc93d36b7e1bc6cf250a3097a48a13c97b9616f136341cd0",
+    "case-search-corpus-01.js": "a941a066c4bededf5f4ba873199e09e435313e890860183eb04e2d24375fc9a3",
+    "case-search-corpus-02.js": "8fa4a5e7c01892ba64fde563ded926763ecb7ec74631a7188d764924adf7e505",
+    "case-search-corpus-03.js": "3e0bc635a1aea170d3b5786e8dcaca7f751243ca3dea1e1a50b93d3d763e0394"
+  },
+  "generatedAtUTC": "2026-10-18T15:02:34.052963+00:00",
+  "repositoryFiles": {
+    ".gitignore": {
+      "sha256": "fab1eb6d7f1ffe1c21bda6f6b8366eaf9b67fd91c37580f1ccc2202eeedbcc45",
+      "bytes": 110
+    },
+    ".nojekyll": {
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "bytes": 1
+    },
+    "QA.md": {
+      "sha256": "be8bdbfd32b78529960454925fb21dfe20279f3d2a4a48ee5c84cc209a028664",
+      "bytes": 2611
+    },
+    "README.md": {
+      "sha256": "29e08dbd1d688f7ff09e0b7cea1340875c138eee2b420489f63eb61719318514",
+      "bytes": 5169
+    },
+    "app.js": {
+      "sha256": "b48633b6fcb1f904b56cc8b067122e3ad50d5e1f6fb2c86e058a9fbd2ded3c2a",
+      "bytes": 30058
+    },
+    "auth-config.js": {
+      "sha256": "d44bf3d0ddfa01c95b04f053c3482648456aed27b54c4a8a9e53edaa44ba36bd",
+      "bytes": 227
+    },
+    "auth.js": {
+      "sha256": "b92451cc15dcccb93c701eaf12d7388d66533fb5b6aa784c5fd79fd301bb3d6f",
+      "bytes": 5213
+    },
+    "build_assets.py": {
+      "sha256": "c00b9b4f65fd55995da9e962587a6116cb574bb3891ada8746c17d0cf4f1bf15",
+      "bytes": 4425
+    },
+    "calendar-core.js": {
+      "sha256": "e62d01914462d82cfb6682b54292db6159b48052e7d4edc83e65a513f353aa76",
+      "bytes": 12279
+    },
+    "case-search-corpus-01.js": {
+      "sha256": "a941a066c4bededf5f4ba873199e09e435313e890860183eb04e2d24375fc9a3",
+      "bytes": 8214106
+    },
+    "case-search-corpus-02.js": {
+      "sha256": "8fa4a5e7c01892ba64fde563ded926763ecb7ec74631a7188d764924adf7e505",
+      "bytes": 15452138
+    },
+    "case-search-corpus-03.js": {
+      "sha256": "3e0bc635a1aea170d3b5786e8dcaca7f751243ca3dea1e1a50b93d3d763e0394",
+      "bytes": 10727858
+    },
+    "case-search-data.js": {
+      "sha256": "ffcdbe3df50dbc4dcc93d36b7e1bc6cf250a3097a48a13c97b9616f136341cd0",
+      "bytes": 37296968
+    },
+    "court-aliases.json": {
+      "sha256": "3c6fd292e83de8c1c50f71d60f217bb33b80206d88676ea00410bb1424367d53",
+      "bytes": 3133
+    },
+    "court-colors.css": {
+      "sha256": "d81c53310e14aa084193c0b55bcec2a8c526a094e4def1225e4dc07f1785230f",
+      "bytes": 35609
+    },
+    "court_locations.py": {
+      "sha256": "1a9417faab04d279cd7d31a543216478e8a1f114d7426431a68ac2f77bfbc617",
+      "bytes": 2182
+    },
+    "courts.js": {
+      "sha256": "3d5f129d6279a89d3990254d52b0348d15f303b5d85dfb9173e8f6ea33140197",
+      "bytes": 433789
+    },
+    "data.js": {
+      "sha256": "ed448121141b8440250e355d4f0d416b67fe7ea068996d9682b634405613f916",
+      "bytes": 6069495
+    },
+    "index.html": {
+      "sha256": "cbbbc82e9109859bed77ce320a196b544119bb2748d700a2588ccf8aea79dd57",
+      "bytes": 11226
+    },
+    "search-assets.json": {
+      "sha256": "7a307781db9335f6ce6bdb667ff6b55abf4256b2eba8437979599646e6db9198",
+      "bytes": 1712
+    },
+    "styles.css": {
+      "sha256": "308963d2bde9ea66d6ef70d519e43c610156bbb0abd63d637e9c043b87924ff4",
+      "bytes": 24713
+    },
+    "tests/TEST-PLAN.md": {
+      "sha256": "2c56d3b9fa21947f21a401abe54e249b4000a83669e5bd93e4d25cf0d0353436",
+      "bytes": 10362
+    },
+    "tests/app-dom.test.cjs": {
+      "sha256": "7aaefbb43fe06b10c26d3125051c6469a488a9c60d497df6bcdaf366b313726d",
+      "bytes": 9665
+    },
+    "tests/auth-dom.test.cjs": {
+      "sha256": "861c16ca4fda28443532e5aba83eab2113e1a3126ac993f9e1d7025a32ab2237",
+      "bytes": 6269
+    },
+    "tests/auth.test.cjs": {
+      "sha256": "033470b8cd5b6cca3b31c11cf181d24c4499ec829d346b977f76c797ec7bda24",
+      "bytes": 2856
+    },
+    "tests/baseline-calendar-core.js": {
+      "sha256": "cb51e185242a1a8dcd41f42a84ff6947b52a029fbd84c94967b854631ea3fdd0",
+      "bytes": 6235
+    },
+    "tests/baseline-invariants.json": {
+      "sha256": "a2f36d3087fe9f300d2dc78c17bc19a5136304d07a0c681fd1c63b230f26ac80",
+      "bytes": 2791796
+    },
+    "tests/browser-auth.test.cjs": {
+      "sha256": "631b735b778f53b6b19dbfbcda0d6cccaa9622518be937331a805ec567d84f72",
+      "bytes": 6755
+    },
+    "tests/calendar-core.test.cjs": {
+      "sha256": "416faf5116fe34e6dbdf32f70eb75a902704b15c92ffb0299d2bc98d8760b51a",
+      "bytes": 6298
+    },
+    "tests/case-search.test.cjs": {
+      "sha256": "8cba34eac499a1fc3e53b1a4f04a1d21b7b93dfdbf7e27c7c217d0d9fbe1cd6a",
+      "bytes": 1360
+    },
+    "tests/cnr-dedup.test.cjs": {
+      "sha256": "76d44537644516bfdc6a533ec543a467fc77de4e062bf38ca00bd1870b4c873e",
+      "bytes": 12016
+    },
+    "tests/comprehensive-invariants.json": {
+      "sha256": "586f35bb7cd10bcb110f6d586a29e799e7e04444ea7e02472a21c0abaf1a2bf2",
+      "bytes": 223658
+    },
+    "tests/comprehensive-precision.test.cjs": {
+      "sha256": "c1b2ad93de4e8b7bba303493fef2a8b7d16b04c2dc1d71962bdc61202fb54d54",
+      "bytes": 8580
+    },
+    "tests/corpus-and-courts.test.cjs": {
+      "sha256": "b3e88d7f38357781484c39a700f1741399093bc320964bb2948126559684eef0",
+      "bytes": 7509
+    },
+    "tests/dedup-audit.cjs": {
+      "sha256": "60b1da2f05e0aaf8404d395f1c814ffe0f8e4b432ecc014ec40ddf29395d6b42",
+      "bytes": 3206
+    },
+    "tests/location-colours.test.cjs": {
+      "sha256": "b654f123fab0106ce77beb5ae457b0981968172a7b64906edf15b128986b3ed8",
+      "bytes": 1878
+    },
+    "tests/results/dedup-audit.json": {
+      "sha256": "e06545dede410374daf7c54dd45ffd8091b1bc66aac4a81222a5a498d25a760d",
+      "bytes": 6476
+    },
+    "tests/results/independent-verification.json": {
+      "sha256": "0315895b8766c2042ef39fe7ac9b47629b9c8e6080875d02d73c0e23e8f3af75",
+      "bytes": 9653
+    },
+    "tests/results/node-test-report.json": {
+      "sha256": "654b6f64634cdaf245769490882b5480eac15c7c64323d3f29333b2cf43c2727",
+      "bytes": 7975
+    },
+    "tests/results/prior-manual-independent-verification.json": {
+      "sha256": "e2dae073297c9313579fc12473ba3fd9d5381955619d4343d2c857d7f1aa26a9",
+      "bytes": 16643
+    },
+    "tests/run-tests.cjs": {
+      "sha256": "b4203a37b3619b23f27e98ce86af57f072ee3f3311b9f566f147e214c96571ca",
+      "bytes": 1698
+    },
+    "tests/source-integrity.test.cjs": {
+      "sha256": "2c67bf55e6b7a40810051e454cf76d615790107b5c5f6d5e198ec68413972041",
+      "bytes": 10458
+    },
+    "tests/source-semantics.test.cjs": {
+      "sha256": "8b94730da71f9b0e64b006fd72f0c5b3c2ff25bfaee07c5ec351fad9e2237dbc",
+      "bytes": 1750
+    }
+  },
+  "archiveIntegrity": {
+    "intendedFileCount": 44,
+    "zipByteLimitExclusive": 5000000,
+    "extraction": "Extract every latest part into the same empty folder; open index.html. Ordinary ZIPs, no joining command.",
+    "hashScope": "All repository files except this self-referential manifest; the external package receipt hashes every member and ZIP.",
+    "excluded": "Work scripts, preview fixtures, caches, raw research working files and internal notes."
+  }
 }

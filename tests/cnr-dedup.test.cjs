@@ -1,7 +1,7 @@
 'use strict';
 const fs=require('node:fs'),vm=require('node:vm'),assert=require('node:assert/strict'),path=require('node:path');
 const C=require('../calendar-core.js'),root=path.resolve(__dirname,'..'),sandbox={window:{}};
-for(const f of ['data.js','case-search-data.js','courts.js'])vm.runInNewContext(fs.readFileSync(path.join(root,f),'utf8'),sandbox);
+for(const f of ['data.js',...JSON.parse(fs.readFileSync(path.join(root,'search-assets.json'),'utf8')).orderedScripts,'courts.js'])vm.runInNewContext(fs.readFileSync(path.join(root,f),'utf8'),sandbox);
 const data=sandbox.window.HEARING_DATA,search=sandbox.window.CASE_SEARCH_DATA,styles=sandbox.window.COURT_STYLES;
 const enrich=r=>({...r,...(search.rowPartyBindings?.[r.rowId]?{privateParties:search.rowPartyBindings[r.rowId].parties,privatePartyBinding:search.rowPartyBindings[r.rowId]}:{}),...(search.rowCaseBindings?.[r.rowId]?{privateCase:search.rowCaseBindings[r.rowId].case||search.rowCaseBindings[r.rowId].caseIdentifier,privateCaseBinding:search.rowCaseBindings[r.rowId]}:{})});
 const dataView={...data,currentRows:data.currentRows.map(enrich),historyRows:[...data.historyRows.map(enrich),...search.supplementaryCalendarRows]};
@@ -26,7 +26,7 @@ for(const file of ['169','51']){
  for(const r of original)assert.equal(styles[r.court].className,styles[group[0].court].className,'Same example court aliases use consistent colors');
 }
 for(const kind of ['all','matched','official','office','mirror','candidate','order','named','history','historical_source']){
- const rows=C.selectRows(dataView,{kind,today:'2026-10-17'}),original=JSON.stringify(rows),groups=C.groupRows(rows);
+ const rows=C.selectRows(dataView,{kind,today:data.referenceDate}),original=JSON.stringify(rows),groups=C.groupRows(rows);
  assert.equal(groups.reduce((n,g)=>n+g.records.length,0),rows.length,kind+' loses source rows');assert.equal(JSON.stringify(rows),original,kind+' mutates sources');
  for(const group of groups){assert.equal(new Set(group.records.map(r=>C.validCnr(r.cnr)).filter(Boolean)).size<=1,true,'Different CNRs merged');assert.equal(new Set(group.records.map(r=>C.fileIdentity(r))).size,1,'Different file sets merged');assert.equal(new Set(group.records.map(r=>r.date)).size,1,'Different calendar days merged');}
 }
@@ -57,3 +57,14 @@ if(data.referenceDate==='2026-10-17'){
  const allNew=Object.entries(search.rowPartyBindings).filter(([id])=>id.startsWith('daily:'));assert.equal(allNew.length,16);assert.equal(allNew.filter(([,b])=>b.sourceId==='stage-2026-10-17').length,10);
  console.log('PASS: all 18 new observation headings display available source-grounded names, with ten null convenience fields safely bound to their exact stage source sections and every original event unchanged.');
 }
+
+assert.equal(data.referenceDate,'2026-10-18');
+const fresh=data.historyRows.filter(r=>r.rowId.startsWith('manual-official:'));
+assert.equal(fresh.length,10);assert.equal(fresh.filter(r=>r.profileIdentityVerified).length,8);assert.equal(data.currentRows.filter(r=>r.checkedThisRun&&r.rowId.startsWith('manual-official:')).length,6);assert(data.currentRows.some(r=>r.rowId.startsWith('comprehensive-official:')));
+for(const file of ['110','233'])assert(!C.selectRows(dataView,{kind:'all',today:data.referenceDate}).some(r=>r.files.includes(file)&&r.date>=data.referenceDate),'Stopped future record reappeared');
+for(const file of ['130','155']){const r=fresh.find(r=>r.files.includes(file));assert.equal(C.identityParts(r),null,'Candidate must not merge because of copied CNR');}
+for(const file of ['51','220']){const r=data.currentRows.find(r=>r.rowId.startsWith('manual-official:'+file+':'));assert.equal(r.date,'2026-10-22');assert(!data.currentRows.some(r=>r.files.length===1&&r.files[0]===file&&r.date==='2026-10-21'));}
+const repeated=data.historyRows.filter(r=>r.rowId.startsWith('manual-diary:'));assert.equal(repeated.length,116);assert.equal(new Set(repeated.map(r=>r.logicalScheduleGroupId)).size,116);
+assert.equal(search.manualDiaryReconciliation.summary.source_rows_preserved,244);assert.equal(search.manualDiaryReconciliation.summary.case_mentions,267);
+const pocso=C.groupRows(C.selectRows(dataView,{kind:'all',today:data.referenceDate})).filter(g=>g.files.includes('259')&&g.date==='2026-10-23');assert.equal(new Set(pocso.map(g=>g.cnr)).size,4);
+console.log('PASS: all ten afternoon records remain independently sourced; stopped rows never resume, masked candidates cannot merge by copied CNR, repeated diary evidence is consolidated without profile merges.');
