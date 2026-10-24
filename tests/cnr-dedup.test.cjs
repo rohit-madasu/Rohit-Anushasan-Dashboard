@@ -59,9 +59,9 @@ if(data.referenceDate==='2026-10-17'){
  console.log('PASS: all 18 new observation headings display available source-grounded names, with ten null convenience fields safely bound to their exact stage source sections and every original event unchanged.');
 }
 
-assert.equal(data.referenceDate,'2026-10-18');
+assert.equal(data.referenceDate,'2026-10-20');
 const fresh=data.historyRows.filter(r=>r.rowId.startsWith('manual-official:'));
-assert.equal(fresh.length,10);assert.equal(fresh.filter(r=>r.profileIdentityVerified).length,8);assert.equal(data.currentRows.filter(r=>r.checkedThisRun&&r.rowId.startsWith('manual-official:')).length,4);assert(data.historyRows.some(r=>r.rowId.startsWith('manual-official:150:')));assert(data.historyRows.some(r=>r.rowId.startsWith('manual-official:130:')));assert(data.currentRows.some(r=>r.rowId.startsWith('comprehensive-official:')));
+assert.equal(fresh.length,10);assert.equal(fresh.filter(r=>r.profileIdentityVerified).length,8);assert.equal(data.currentRows.filter(r=>r.checkedThisRun&&r.rowId.startsWith('manual-official:')).length,0);assert(data.historyRows.some(r=>r.rowId.startsWith('manual-official:150:')));assert(data.historyRows.some(r=>r.rowId.startsWith('manual-official:130:')));assert(data.currentRows.some(r=>r.rowId.startsWith('comprehensive-official:')));
 for(const file of ['110','233'])assert(!C.selectRows(dataView,{kind:'all',today:data.referenceDate}).some(r=>r.files.includes(file)&&r.date>=data.referenceDate),'Stopped future record reappeared');
 for(const file of ['130','155']){const r=fresh.find(r=>r.files.includes(file));assert.equal(C.identityParts(r),null,'Candidate must not merge because of copied CNR');}
 for(const file of ['51','220']){const r=data.currentRows.find(r=>r.rowId.startsWith('manual-official:'+file+':'));assert.equal(r.date,'2026-10-22');assert(!data.currentRows.some(r=>r.files.length===1&&r.files[0]===file&&r.date==='2026-10-21'));}

@@ -7,39 +7,45 @@
     "case-search-corpus-03.js",
     "display-bindings.js"
   ],
-  "completeDatasetCanonicalJsSha256": "977c06c00bfac4a95a1d23663f724627f05103e32364e823b0075bbd4a51be05",
-  "corpusUnits": 98830,
+  "completeDatasetCanonicalJsSha256": "8e9bccc39df677ce420cda63fc27d9b62815a1cc2236b2ca7091866cc2cbaeb2",
+  "corpusUnits": 103404,
   "profiles": 455,
   "chunks": [
     {
       "file": "case-search-corpus-01.js",
       "startUnitIndex": 0,
       "endUnitIndexExclusive": 35000,
-      "units": 35000
+      "units": 35000,
+      "sha256": "eb81fd863ab29acd164a7a7873b607f6dd7ea110cb8167488f1da11bbfa68a6f",
+      "bytes": 35512265
     },
     {
       "file": "case-search-corpus-02.js",
       "startUnitIndex": 35000,
       "endUnitIndexExclusive": 70000,
-      "units": 35000
+      "units": 35000,
+      "sha256": "8fa4a5e7c01892ba64fde563ded926763ecb7ec74631a7188d764924adf7e505",
+      "bytes": 15452138
     },
     {
       "file": "case-search-corpus-03.js",
       "startUnitIndex": 70000,
-      "endUnitIndexExclusive": 98830,
-      "units": 28830
+      "endUnitIndexExclusive": 103404,
+      "units": 33404,
+      "sha256": "2f7806f5df00189e5cee8aff4726424c95fde48617a3544cd9e1fcd8d524c6cc",
+      "bytes": 13168556
     }
   ],
   "scriptAssets": {
     "case-search-data.js": {
-      "sha256": "999ea223cbbb89f0ba67b7eb2a99454c25e65a4dd9636b2d0b758738f7c9e31f",
-      "bytes": 47427868,
-      "deflateBytes": 4905787
+      "sha256": "7aa6593eeb1581dec675d37f869293d2a400aaaf01228308de037066c15408fc",
+      "bytes": 28844744,
+      "deflateBytes": 2747702
     },
     "case-search-corpus-01.js": {
-      "sha256": "a941a066c4bededf5f4ba873199e09e435313e890860183eb04e2d24375fc9a3",
-      "bytes": 8214106,
-      "deflateBytes": 907884
+      "sha256": "eb81fd863ab29acd164a7a7873b607f6dd7ea110cb8167488f1da11bbfa68a6f",
+      "bytes": 35512265,
+      "deflateBytes": 4089635
     },
     "case-search-corpus-02.js": {
       "sha256": "8fa4a5e7c01892ba64fde563ded926763ecb7ec74631a7188d764924adf7e505",
@@ -47,9 +53,9 @@
       "deflateBytes": 1737302
     },
     "case-search-corpus-03.js": {
-      "sha256": "625eb5e988ba24b5e85d9371603fcf79e1ac3f080dbee85c652cc02168a2b57e",
-      "bytes": 12017903,
-      "deflateBytes": 1039515
+      "sha256": "2f7806f5df00189e5cee8aff4726424c95fde48617a3544cd9e1fcd8d524c6cc",
+      "bytes": 13168556,
+      "deflateBytes": 1190782
     },
     "display-bindings.js": {
       "sha256": "dcf805d6befcb4d419d13492c963c5447207e8310f528a8ec46bc54e13381e61",
@@ -57,12 +63,15 @@
       "deflateBytes": 107987
     }
   },
-  "loadRule": "Load every script in the listed order before app.js. Ordinary deferred classic scripts work offline with file://; no network fetch or module loader is used.",
+  "loadRule": "Load every listed local classic script before app.js. The first corpus script restores full sourceRevisionCoverage metadata after corpus units. All data is reconstructed offline; no remote fetch.",
   "displayBindings": {
     "rows": 1643,
     "tables": 41,
     "profiles": 38,
     "sourceDataSha256": "ffcdbe3df50dbc4dcc93d36b7e1bc6cf250a3097a48a13c97b9616f136341cd0",
     "rule": "Exact retained source table and section attribution, display only; canonical source dataset unchanged."
+  },
+  "metadataAssignments": {
+    "sourceRevisionCoverage": "case-search-corpus-01.js"
   }
 }

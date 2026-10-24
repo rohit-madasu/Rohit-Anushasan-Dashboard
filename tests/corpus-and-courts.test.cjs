@@ -8,7 +8,7 @@ assert.equal(profiles.length,455);assert.equal(new Set(profiles.map(p=>p.id)).si
 assert.equal(running.length,298);assert.equal(closed.length,157);
 assert.equal(new Set(running.flatMap(p=>p.files)).size,299);
 for(let n=1;n<=157;n++)assert(closed.some(p=>p.id==='closed:'+String(n).padStart(3,'0')),'closed physical row '+n+' missing');
-for(const [category,count]of Object.entries({active:84,disposed:26,unclear:188}))assert.equal(running.filter(p=>p.category===category).length,count);
+for(const [category,count]of Object.entries({active:86,disposed:26,unclear:186}))assert.equal(running.filter(p=>p.category===category).length,count);
 assert(profiles.every(p=>Array.isArray(p.sourceRecords)&&p.sourceRecords.length),'Every profile must retain separate source records');
 console.log('PASS: all 298 running profiles, 299 running file locators and 157 distinct closed physical rows are preserved without profile merging.');
 const sourceIds=new Set(index.sources.map(s=>s.id));

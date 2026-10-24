@@ -18,14 +18,20 @@ def build():
         for chunk in json.loads(asset_manifest.read_text())['chunks']:
             raw=(ROOT/chunk['file']).read_text()
             search['corpusUnits'].extend(json.loads(raw.split('const units = ',1)[1].split('; for (const unit',1)[0]))
+            marker='window.CASE_SEARCH_DATA.sourceRevisionCoverage = '
+            if marker in raw: search['sourceRevisionCoverage']=json.loads(raw.split(marker,1)[1].rsplit(';',1)[0])
     jsdata('case-search-data.js','CASE_SEARCH_DATA',search)
     if asset_manifest.exists():
         import copy
         manifest=json.loads(asset_manifest.read_text()); whole=copy.deepcopy(search); units=whole['corpusUnits']; whole['corpusUnits']=[]
+        revision_coverage=whole['sourceRevisionCoverage']
+        if manifest.get('metadataAssignments'):whole['sourceRevisionCoverage']={}
         jsdata('case-search-data.js','CASE_SEARCH_DATA',whole)
         for chunk in manifest['chunks']:
             text=json.dumps(units[chunk['startUnitIndex']:chunk['endUnitIndexExclusive']],ensure_ascii=False,separators=(',',':')).replace('</','<\\/')
             (ROOT/chunk['file']).write_text("'use strict';\n{ const units = "+text+"; for (const unit of units) window.CASE_SEARCH_DATA.corpusUnits.push(unit); }\n")
+            if manifest.get('metadataAssignments',{}).get('sourceRevisionCoverage')==chunk['file']:
+                with (ROOT/chunk['file']).open('a') as f:f.write('window.CASE_SEARCH_DATA.sourceRevisionCoverage = '+json.dumps(revision_coverage,ensure_ascii=False,separators=(',',':')).replace('</','<\\/')+';\n')
 
     config_path=ROOT/'auth-config.json'
     config_raw=config_path.read_text() if config_path.exists() else (ROOT/'auth-config.js').read_text()

@@ -59056,9 +59056,9 @@
       },
       "calendar-core.js": {
         "beforeSha256": "e62d01914462d82cfb6682b54292db6159b48052e7d4edc83e65a513f353aa76",
-        "afterSha256": "47a0769b2e4fd96dc32fa261e0286cfa52f57a784f815a48c1e17524e805f214",
-        "immediatePriorSha256": "acb8b4859bdbfdc7a4119490c6f2657bd8648bac262f5309c6373c4cd2bb5cb0",
-        "reason": "User-requested source-bound display consolidation, named private headings, explicit transfer lineage, separate office tasks and complete119 venue palette. Original sources and authentication preserved."
+        "previousEditionSha256": "47a0769b2e4fd96dc32fa261e0286cfa52f57a784f815a48c1e17524e805f214",
+        "afterSha256": "5cdcd3d2397b4a724ab6fe45951672b7f6e363cf7125bf4913eb3cd1bff2de38",
+        "reason": "Nine explicitly reviewed conflicting or combined office-reference patterns bundled for display, preserving source evidence and distinct CNRs."
       },
       "court_locations.py": {
         "beforeSha256": "1a9417faab04d279cd7d31a543216478e8a1f114d7426431a68ac2f77bfbc617",
