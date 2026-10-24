@@ -1,11 +1,13 @@
-# Anushasan Associates · Private court diary
+# Anushasan Associates dashboard code · 24 October 2026
 
-20 October 2026.
+Private offline complete code edition. Extract EVERY latest ZIP into the SAME EMPTY folder, then open index.html. Do not mix editions. Each ordinary ZIP is strictly below 5,000,000 bytes. No public hosting or GitHub Pages update was performed.
 
-20 October 2026: four proceedings freshly verified (files 168, 169, 276 and 277), with unchanged stages and next dates. Two identity resolutions first verified on 19 October (files 276 and 277) are incorporated: 86 active, 26 disposed and 186 unclear source profiles. No new profiles or fresh status changes. Of 221 eligible tracking profiles (131 actionable and 90 with unresolved identity or scope), 4 were freshly verified and 217 were not queried today. The 298 source profiles include 26 disposed and 51 fully user-stopped exclusions; 8 partially stopped profiles retain live scopes. Both WhatsApp groups were swept across 11–20 October using rendered text: main-group checkpoint 07:25:08 IST and CA-group checkpoint 07:25:22 IST. Attachment review ended at 07:38:35 IST. Twenty of 25 in-scope images, including 11 social images, and both PDFs (11 pages) were separately reviewed; no new legal changes were found. Five outgoing 17 October album sheets for 26–30 October remain inaccessible. Full media overlap is incomplete; the last complete WhatsApp review remains 18 October at 17:19:24 IST. The diary is unchanged. Morning 20 October coverage is partial through the stated review time. WhatsApp UI timestamp timezone remains unverified.
+Includes the original HTML/CSS/JavaScript application, full searchable source corpus, court-location colours, party-first case display, confidence filters, historical calendar, evidence links and six-hour convenience lock. The lock is not encryption; keep all files private.
 
-Two prior-day official matches: file 276 CRLA 632/2025 and file 277 CRLA 629/2025, distinct CNRs, pending admission on 23 October. Each office/official pair is one display card. The 629 trial judgment year conflict remains explicit.
+Both WhatsApp groups were reviewed for 15–24 October through 09:44:38 IST; all 32 available attachments were opened. Original message UI timestamps are retained without assumed timezone conversion. Older history limitations remain. 25 High Court docket queries touched 27 profiles; 271 of 298 profiles were not freshly checked. District/AP access failed before case searches. No all-case fresh verification is claimed.
 
-All 455 profiles and full current-month history remain searchable. Court-location colours, party-first headings and six-hour convenience lock unchanged. The lock is not encryption.
+Classification: 86 active, 26 disposed, 186 unclear, totaling 298 source profiles and 299 file locators. A further 157 historical closed-register profiles remain searchable. OS640/2026 is separately unassigned, not an invented register file number.
 
-Extract every latest ZIP into one empty folder and open index.html. Each ordinary ZIP is under 5,000,000 bytes; keep every old part separately for rollback. No public hosting.
+Calendar rows represent evidence, not unique hearings. Office dates, candidate identities, rejected records, payment conditions and unresolved compliance remain qualified. Disposed applications do not establish main-matter closure. The files do not perform unattended live research.
+
+Validation details: QA.md. Complete file integrity manifest: package-manifest.json.

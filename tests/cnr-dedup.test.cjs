@@ -59,13 +59,10 @@ if(data.referenceDate==='2026-10-17'){
  console.log('PASS: all 18 new observation headings display available source-grounded names, with ten null convenience fields safely bound to their exact stage source sections and every original event unchanged.');
 }
 
-assert.equal(data.referenceDate,'2026-10-20');
-const fresh=data.historyRows.filter(r=>r.rowId.startsWith('manual-official:'));
-assert.equal(fresh.length,10);assert.equal(fresh.filter(r=>r.profileIdentityVerified).length,8);assert.equal(data.currentRows.filter(r=>r.checkedThisRun&&r.rowId.startsWith('manual-official:')).length,0);assert(data.historyRows.some(r=>r.rowId.startsWith('manual-official:150:')));assert(data.historyRows.some(r=>r.rowId.startsWith('manual-official:130:')));assert(data.currentRows.some(r=>r.rowId.startsWith('comprehensive-official:')));
-for(const file of ['110','233'])assert(!C.selectRows(dataView,{kind:'all',today:data.referenceDate}).some(r=>r.files.includes(file)&&r.date>=data.referenceDate),'Stopped future record reappeared');
-for(const file of ['130','155']){const r=fresh.find(r=>r.files.includes(file));assert.equal(C.identityParts(r),null,'Candidate must not merge because of copied CNR');}
-for(const file of ['51','220']){const r=data.currentRows.find(r=>r.rowId.startsWith('manual-official:'+file+':'));assert.equal(r.date,'2026-10-22');assert(!data.currentRows.some(r=>r.files.length===1&&r.files[0]===file&&r.date==='2026-10-21'));}
-const repeated=data.historyRows.filter(r=>r.rowId.startsWith('manual-diary:'));assert.equal(repeated.length,116);assert.equal(new Set(repeated.map(r=>r.logicalScheduleGroupId)).size,116);
-assert.equal(search.manualDiaryReconciliation.summary.source_rows_preserved,244);assert.equal(search.manualDiaryReconciliation.summary.case_mentions,267);
-const pocso=C.groupRows(C.selectRows(dataView,{kind:'all',today:data.referenceDate})).filter(g=>g.files.includes('259')&&g.date==='2026-10-23');assert.equal(new Set(pocso.map(g=>g.cnr)).size,4);
-console.log('PASS: all ten afternoon records remain independently sourced; stopped rows never resume, masked candidates cannot merge by copied CNR, repeated diary evidence is consolidated without profile merges.');
+assert.equal(data.referenceDate,'2026-10-24');
+assert(data.currentRows.every(r=>r.date>=data.referenceDate));
+for(const file of ['110','233']) assert(!C.selectRows(dataView,{kind:'all',today:data.referenceDate}).some(r=>r.files.includes(file)&&r.date>=data.referenceDate),'Stopped scope restored');
+assert.equal(data.coverage.freshDistinctRecordChecks,25);assert.equal(data.coverage.currentRun.allCasesChecked,false);
+assert(data.currentRows.some(r=>r.files.includes('48')&&r.date==='2026-11-17'&&r.kind==='office'));
+assert(data.currentRows.some(r=>r.files.includes('108')&&r.date==='2026-11-02'&&r.kind==='office'));
+console.log('PASS: current edition, elapsed segregation, tracking exclusions and new qualified office dates.');

@@ -5,73 +5,107 @@
     "case-search-corpus-01.js",
     "case-search-corpus-02.js",
     "case-search-corpus-03.js",
+    "case-search-corpus-04.js",
+    "case-search-corpus-05.js",
+    "case-search-corpus-06.js",
     "display-bindings.js"
   ],
-  "completeDatasetCanonicalJsSha256": "8e9bccc39df677ce420cda63fc27d9b62815a1cc2236b2ca7091866cc2cbaeb2",
-  "corpusUnits": 103404,
+  "corpusUnits": 109621,
   "profiles": 455,
   "chunks": [
     {
       "file": "case-search-corpus-01.js",
       "startUnitIndex": 0,
-      "endUnitIndexExclusive": 35000,
-      "units": 35000,
-      "sha256": "eb81fd863ab29acd164a7a7873b607f6dd7ea110cb8167488f1da11bbfa68a6f",
-      "bytes": 35512265
+      "endUnitIndexExclusive": 20000,
+      "units": 20000,
+      "sha256": "cfbfd5c1fc86ec4123475afd12df858fe540d1add9e4e6ab8b64c7a7e8692aac",
+      "bytes": 4622982
     },
     {
       "file": "case-search-corpus-02.js",
-      "startUnitIndex": 35000,
-      "endUnitIndexExclusive": 70000,
-      "units": 35000,
-      "sha256": "8fa4a5e7c01892ba64fde563ded926763ecb7ec74631a7188d764924adf7e505",
-      "bytes": 15452138
+      "startUnitIndex": 20000,
+      "endUnitIndexExclusive": 40000,
+      "units": 20000,
+      "sha256": "a58e90a7b1f8d1ccc0274bc2a817261a63ee28e05b4937db94502d4da461dea5",
+      "bytes": 4903774
     },
     {
       "file": "case-search-corpus-03.js",
-      "startUnitIndex": 70000,
-      "endUnitIndexExclusive": 103404,
-      "units": 33404,
-      "sha256": "2f7806f5df00189e5cee8aff4726424c95fde48617a3544cd9e1fcd8d524c6cc",
-      "bytes": 13168556
+      "startUnitIndex": 40000,
+      "endUnitIndexExclusive": 60000,
+      "units": 20000,
+      "sha256": "fcd577171041967cc8bce9098010652d1c2894e08439d936f5f82beac1af89ab",
+      "bytes": 8356821
+    },
+    {
+      "file": "case-search-corpus-04.js",
+      "startUnitIndex": 60000,
+      "endUnitIndexExclusive": 80000,
+      "units": 20000,
+      "sha256": "65fcc6e7b5fa5b80a410b4b0a3b81a0b30072172179cd3d38b93d24992be99a7",
+      "bytes": 9283006
+    },
+    {
+      "file": "case-search-corpus-05.js",
+      "startUnitIndex": 80000,
+      "endUnitIndexExclusive": 100000,
+      "units": 20000,
+      "sha256": "479b65c92a28b4c95039a0d02d0b4376a2eb6fcd1d063a58444853762afa7c5f",
+      "bytes": 8768930
+    },
+    {
+      "file": "case-search-corpus-06.js",
+      "startUnitIndex": 100000,
+      "endUnitIndexExclusive": 109621,
+      "units": 9621,
+      "sha256": "bcaf21b565cbf60570cb4d2ffdc629a5ad113cd4b84279240df5a5c85eb72185",
+      "bytes": 38558445
     }
   ],
+  "metadataAssignments": {
+    "sourceRevisionCoverage": "case-search-corpus-06.js"
+  },
+  "completeDatasetCanonicalJsSha256": "c52c8b13cd39c793793f0d1857540efbfa24629b09feaf7b199fca93ac502972",
   "scriptAssets": {
     "case-search-data.js": {
-      "sha256": "7aa6593eeb1581dec675d37f869293d2a400aaaf01228308de037066c15408fc",
-      "bytes": 28844744,
-      "deflateBytes": 2747702
+      "sha256": "059ce34666ac16a89cb144eeaf2fb8fc11c9232201da0eb016e9553eaee3d343",
+      "bytes": 29036289,
+      "deflateBytes": 2791447
     },
     "case-search-corpus-01.js": {
-      "sha256": "eb81fd863ab29acd164a7a7873b607f6dd7ea110cb8167488f1da11bbfa68a6f",
-      "bytes": 35512265,
-      "deflateBytes": 4089635
+      "sha256": "cfbfd5c1fc86ec4123475afd12df858fe540d1add9e4e6ab8b64c7a7e8692aac",
+      "bytes": 4622982,
+      "deflateBytes": 521643
     },
     "case-search-corpus-02.js": {
-      "sha256": "8fa4a5e7c01892ba64fde563ded926763ecb7ec74631a7188d764924adf7e505",
-      "bytes": 15452138,
-      "deflateBytes": 1737302
+      "sha256": "a58e90a7b1f8d1ccc0274bc2a817261a63ee28e05b4937db94502d4da461dea5",
+      "bytes": 4903774,
+      "deflateBytes": 511086
     },
     "case-search-corpus-03.js": {
-      "sha256": "2f7806f5df00189e5cee8aff4726424c95fde48617a3544cd9e1fcd8d524c6cc",
-      "bytes": 13168556,
-      "deflateBytes": 1190782
+      "sha256": "fcd577171041967cc8bce9098010652d1c2894e08439d936f5f82beac1af89ab",
+      "bytes": 8356821,
+      "deflateBytes": 1043711
+    },
+    "case-search-corpus-04.js": {
+      "sha256": "65fcc6e7b5fa5b80a410b4b0a3b81a0b30072172179cd3d38b93d24992be99a7",
+      "bytes": 9283006,
+      "deflateBytes": 783076
+    },
+    "case-search-corpus-05.js": {
+      "sha256": "479b65c92a28b4c95039a0d02d0b4376a2eb6fcd1d063a58444853762afa7c5f",
+      "bytes": 8768930,
+      "deflateBytes": 855971
+    },
+    "case-search-corpus-06.js": {
+      "sha256": "bcaf21b565cbf60570cb4d2ffdc629a5ad113cd4b84279240df5a5c85eb72185",
+      "bytes": 38558445,
+      "deflateBytes": 4448612
     },
     "display-bindings.js": {
       "sha256": "dcf805d6befcb4d419d13492c963c5447207e8310f528a8ec46bc54e13381e61",
       "bytes": 1729378,
-      "deflateBytes": 107987
+      "deflateBytes": 107993
     }
-  },
-  "loadRule": "Load every listed local classic script before app.js. The first corpus script restores full sourceRevisionCoverage metadata after corpus units. All data is reconstructed offline; no remote fetch.",
-  "displayBindings": {
-    "rows": 1643,
-    "tables": 41,
-    "profiles": 38,
-    "sourceDataSha256": "ffcdbe3df50dbc4dcc93d36b7e1bc6cf250a3097a48a13c97b9616f136341cd0",
-    "rule": "Exact retained source table and section attribution, display only; canonical source dataset unchanged."
-  },
-  "metadataAssignments": {
-    "sourceRevisionCoverage": "case-search-corpus-01.js"
   }
 }
