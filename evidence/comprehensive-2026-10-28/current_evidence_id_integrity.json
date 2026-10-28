@@ -1,0 +1,12 @@
+{
+  "currentReferencesChecked": 743,
+  "dangling": [],
+  "passed": true,
+  "historicalAliasKeysExcluded": [
+    "historicalEvidenceId",
+    "historicalEvidenceIds",
+    "oldEvidenceId",
+    "priorEvidenceId",
+    "priorEvidenceIds"
+  ]
+}

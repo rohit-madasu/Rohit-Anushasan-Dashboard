@@ -1,0 +1,11 @@
+# Comprehensive review source package — 28 October 2026
+
+This package contains the complete private dashboard code, local data, source corpus, styles, court-location assets and regression tests. It is not a public publication. Open the standalone `Hearing_Calendar_Dashboard.html` after download for the offline calendar; the multi-file project retains the existing private dashboard functionality. No unattended live court research is performed by HTML.
+
+The bounded comprehensive review is concluded with explicit unresolved identity and portal limits. The 135 eligible canonical CNR targets comprise 120 retrieved dockets and 15 access-limited High Court targets; retrieval is not proof of firm identity. All 144 overlapping source-identifier references, 20 office leads and the additional Delhi/Mumbai diary scopes are accounted for. The original 188-row rotation is 105 with actual attempts, 52 excluded from current scope and 31 with source-specific gates or retained-reference dispositions. Current source-profile categories are 93 active, 31 disposed and 174 unclear, totaling 298 running-source profiles, not distinct legal proceedings. Source confidence and office/official distinctions remain explicit, including masked-identity candidates and conflicting dates. Original source rows and file locators are preserved separately from display groups and distinct proceedings.
+
+Data additions are in corpus chunks11–12. Chunks1–10 retain their exact historical bytes. Generated successor source mappings retain every paragraph occurrence and dated relocation audit. Verified Drive readback bindings are required before packaging as latest; historical source links remain historical.
+
+Run the current Node regression suite with `node tests/run-tests.cjs`. The previous daily-oct28 test remains a historical limited-run fixture; the current suite uses comprehensive-oct28 preservation and reconciliation checks. Document render/changed-area visual QA and private Drive readback are separate recorded checks. An authorized runnable browser preview was unavailable for visual/mobile dashboard QA; offline Node interaction and logic tests do not claim a visual/mobile pass.
+
+All ZIP parts must be extracted into the same empty directory. Every part is an ordinary independent ZIP; no single HTML-only substitute represents the complete code package.

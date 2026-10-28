@@ -1,0 +1,105 @@
+{
+  "run_date": "2026-10-27",
+  "freeze_ist": "2026-10-27T07:03:00+05:30",
+  "whatsapp": {
+    "status": "signed_out",
+    "checked_at": "2026-10-27T07:00:55+05:30",
+    "first_navigation_ist_approx": "2026-10-27T07:00:22+05:30",
+    "window": "18–27 October 2026 inclusive",
+    "fresh_messages": 0,
+    "fresh_media": 0,
+    "last_verified": "2026-10-24T09:44:38+05:30",
+    "diary_unchanged": true,
+    "ui_timestamp_timezone": "not independently verified",
+    "daily_ledger": "Both authorized groups: all ten requested dates unavailable in this run; not claimed silent. Prior review 15–24 October preserved."
+  },
+  "coverage": {
+    "eligible": 221,
+    "total_profiles": 298,
+    "fresh_profile_queries": 3,
+    "fresh_official_matches": 0,
+    "no_data_daily_list": 3,
+    "fresh_status_dockets": 0,
+    "eligible_unqueried": 218,
+    "total_unqueried": 295,
+    "district_case_queries": 0,
+    "district_blocker": "District-hosted form loads; daily-task CAPTCHA approval remains pending. No CAPTCHA attempted. Initial navigation timeout then form loaded.",
+    "no_inference": "No Data in a particular daily cause list is not disposal, hearing cancellation, outcome or no future listing."
+  },
+  "findings": [
+    {
+      "file": "290",
+      "case": "WP 14632/2025",
+      "parties": "M. Narender versus The State of Telangana",
+      "checked_at": "2026-10-27T07:02:10+05:30",
+      "query": "27-10-2026 daily list; WP/14632/2025",
+      "source": "https://causelist.tshc.gov.in/causelist/caseWiseView",
+      "result": "No Data Available for This Search !!!!",
+      "limits": "Yesterday's confirmed listing preserved as elapsed, no outcome inferred."
+    },
+    {
+      "file": "276",
+      "case": "CRLA 632/2025",
+      "checked_at": "2026-10-27T07:02:31+05:30",
+      "query": "27-10-2026 daily list; CRLA/632/2025",
+      "source": "https://causelist.tshc.gov.in/causelist/caseWiseView",
+      "result": "No Data Available for This Search !!!!",
+      "limits": "Prior pending status and original hearing history retained.",
+      "parties": "Mr M. Krishna Mohan versus State of Telangana (and others)",
+      "cnr": "HBHC010334342025",
+      "identity_source": "Retained baseline association, not current no-data result"
+    },
+    {
+      "file": "277",
+      "case": "CRLA 629/2025",
+      "checked_at": "2026-10-27T07:02:53+05:30",
+      "query": "27-10-2026 daily list; CRLA/629/2025",
+      "source": "https://causelist.tshc.gov.in/causelist/caseWiseView",
+      "result": "No Data Available for This Search !!!!",
+      "limits": "Prior pending status and original hearing history retained.",
+      "parties": "Mr M. Krishna Mohan versus State of Telangana (and others)",
+      "cnr": "HBHC010334202025",
+      "identity_source": "Retained baseline association, not current no-data result"
+    }
+  ],
+  "imported_dated_findings": [
+    {
+      "files": [
+        "179",
+        "180"
+      ],
+      "date": "2026-10-26",
+      "parties": "KVR Enterprises versus Master Roofing",
+      "source": "https://mancherial.dcourts.gov.in/case-status-search-by-case-number/",
+      "result": "CC.NI 5/2026 and 6/2026 at Spl. JFCM Excise Court, Mancherial returned unrelated parties. Two accepted exact party searches in selected complex/year returned no records.",
+      "qualification": "This excludes those particular establishment results only. Do not invalidate prior matching-name candidate CNRs in Jr. Civil Courts, Mancherial; 1-Prl. Junior Civil Judge: CC.NI 6/2026 TSMN020038852026 (file179 source STCNI163/2024), CC.NI 5/2026 TSMN020038842026 (file180 source STCNI164/2024), checked Oct11. Old-file one-to-one linkage and receiving identification remain unproved. Preserve donor/receiver chain alternatives without swapping CNRs. No closure/nonreceipt inference."
+    },
+    {
+      "file": "123",
+      "date": "2026-10-26",
+      "case": "DVC 31/2024",
+      "parties": "Dharunya/Darunya versus Vatten Vikas; candidate M. Vasavi alias Durga versus V. Vikas and others",
+      "result": "Three fresh CAPTCHA submissions rejected as incorrect; no record returned. Candidate alias unproved.",
+      "fresh_today": false
+    },
+    {
+      "file": "141",
+      "date": "2026-10-26",
+      "case": "CC 4913/2021 versus office CC 7913/2021",
+      "parties": "WPS Saroornagar versus Shiva Shanker",
+      "result": "Lead reviewed, no official query after challenge failures. Exact court/CNR/FIR remains needed. Preserve November30 office date as qualified.",
+      "fresh_today": false
+    }
+  ],
+  "categories": {
+    "active": 86,
+    "disposed": 26,
+    "unclear": 186
+  },
+  "current_profiles": 298,
+  "file_locators": 299,
+  "closed_search_profiles": 157,
+  "reclassification": 0,
+  "cleanup": "Recoverable Trash unavailable: Drive UI signed out, connector exposes only permanent delete. Retain older files; no deletion.",
+  "evidence_capture_note": "Exact result heading from rendered official UI retained; full live page contains only no-data heading plus official site footer. Three queries and capture times recorded separately."
+}

@@ -59,10 +59,10 @@ if(data.referenceDate==='2026-10-17'){
  console.log('PASS: all 18 new observation headings display available source-grounded names, with ten null convenience fields safely bound to their exact stage source sections and every original event unchanged.');
 }
 
-assert.equal(data.referenceDate,'2026-10-24');
+assert.equal(data.referenceDate,'2026-10-28');
 assert(data.currentRows.every(r=>r.date>=data.referenceDate));
 for(const file of ['110','233']) assert(!C.selectRows(dataView,{kind:'all',today:data.referenceDate}).some(r=>r.files.includes(file)&&r.date>=data.referenceDate),'Stopped scope restored');
-assert.equal(data.coverage.freshDistinctRecordChecks,25);assert.equal(data.coverage.currentRun.allCasesChecked,false);
+if(data.comprehensiveReviewOct28){assert.equal(data.coverage.freshDistinctRecordChecks,data.comprehensiveReviewOct28.counts.currentRetrievedCNRs);assert.equal(data.coverage.freshStatusDocketChecks,data.coverage.freshDistinctRecordChecks);}else{assert.equal(data.coverage.freshDistinctRecordChecks,0);assert.equal(data.coverage.freshStatusDocketChecks,0);}assert.equal(data.coverage.currentRun.allCasesChecked,false);
 assert(data.currentRows.some(r=>r.files.includes('48')&&r.date==='2026-11-17'&&r.kind==='office'));
 assert(data.currentRows.some(r=>r.files.includes('108')&&r.date==='2026-11-02'&&r.kind==='office'));
 console.log('PASS: current edition, elapsed segregation, tracking exclusions and new qualified office dates.');

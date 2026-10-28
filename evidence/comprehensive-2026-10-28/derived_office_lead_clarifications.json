@@ -1,0 +1,541 @@
+{
+  "lead:unassignedProceedings:0": {
+    "currentStatus": "Named official OS640/2026 identified: TSMM010007742026, pending PROCESS on5January2027.",
+    "currentAction": "No missing case/CNR/court request. Retain26October summons returned unserved; fresh summons/process/correct-address requirement as recorded. Office row remains traceable without inventing a new file serial.",
+    "historicalAction": "Exact case identifier, court/establishment or CNR needed; preserve source and do not infer identity.",
+    "historicalActionTreatment": "Preserved dated triage/attempt wording; currentStatus/currentAction supersede any blanket missing-identifier request inconsistent with the retrieved evidence. Unresolved identity/access limits remain as stated.",
+    "sourceCase": "OS 640/2026",
+    "sourceEvidence": [
+      {
+        "path": "official/mm/results.json",
+        "index": 2,
+        "result": {
+          "query": "Malkajgiri PDJ Court Complex OS640/2026",
+          "checkedAt": "2026-10-28T05:43:17Z",
+          "source": "https://medchalmalkajgiri.dcourts.gov.in/case-status-search-by-case-number/",
+          "result": "verified docket match after magnified challenge reading; prior failures retained",
+          "captchaAttempts": 4,
+          "partiesExpected": "Dasaroju Sravanthi alias Muthyam Sravanthi v Muthyam Surya Narayana",
+          "cnr": "TSMM010007742026",
+          "case": "OS640/2026",
+          "status": "Pending",
+          "stage": "PROCESS",
+          "nextDate": "2027-01-05",
+          "parties": "DASAROJU SRAVANTHI alias MUTHYAM SRAVANTHI v MUTHYAM SURYA NARAYANA; MUTHYAM MAHESWARI",
+          "petitionerAdvocate": "G. DURGA PRASAD",
+          "court": "3-II Addl Senior Civil Judge-cum-Addl Chief Judicial Magistrate at Malkajgiri",
+          "businessDate": "2026-10-26",
+          "business": "Summons of D1, D2 returned as unserved. Hence issue fresh summons to D1, D2 on payment of process to correct address. Call on 05.01.2027."
+        }
+      }
+    ],
+    "asOfUTC": "2026-10-28T09:30:46Z"
+  },
+  "lead:unidentifiedLeads:0": {
+    "currentStatus": "Named official CC672/2020 identified: APKR050007422020, pending9November2026 PART HEARD TRIAL.",
+    "currentAction": "Track this verified criminal proceeding independently of related FCOP514; no missing case/CNR request.",
+    "historicalAction": "CC672/2020 named official APKR050007422020 retrieved; next9Nov2026 PART HEARD TRIAL. Distinct from related FCOP514, now independently checked.",
+    "historicalActionTreatment": "Preserved dated triage/attempt wording; currentStatus/currentAction supersede any blanket missing-identifier request inconsistent with the retrieved evidence. Unresolved identity/access limits remain as stated.",
+    "sourceCase": "C.C. 672/2020",
+    "sourceEvidence": [
+      {
+        "path": "official/mm/results.json",
+        "cnr": "APKR050007422020"
+      }
+    ],
+    "asOfUTC": "2026-10-28T09:30:46Z"
+  },
+  "lead:unidentifiedLeads:1": {
+    "currentStatus": "FCOP279/2026 candidate TSMM090004912026 retrieved; masked parties, pending28December2026 reconciliation.",
+    "currentAction": "Obtain party-identifying petition/order linking Samuel/VijayRukmani source to this candidate. Court/number/CNR known; identity not proved. Do not confuse MC279/2026 Kalpataru.",
+    "historicalAction": "Exact case identifier, court/establishment or CNR needed; preserve source and do not infer identity.",
+    "historicalActionTreatment": "Preserved dated triage/attempt wording; currentStatus/currentAction supersede any blanket missing-identifier request inconsistent with the retrieved evidence. Unresolved identity/access limits remain as stated.",
+    "sourceCase": "F.C.O.P. 279/2026",
+    "sourceEvidence": [
+      {
+        "path": "official/mm/results.json",
+        "index": 34,
+        "result": {
+          "cnr": "TSMM090004912026",
+          "file": "diary Samuel/VijayRukmani FCOP279/2026",
+          "query": "Kukatpally ADJ FCOP279/2026",
+          "checkedAt": "2026-10-28T07:30:15Z",
+          "source": "https://medchalmalkajgiri.dcourts.gov.in/case-status-search-by-case-number/",
+          "result": "Candidate exact number/year/court; parties masked, no named identity resolution. Not MC279/2026 Kalpataru.",
+          "status": "Pending",
+          "stage": "FOR RECONCILIATION",
+          "nextDate": "2026-12-28",
+          "parties": "XXXXXXX v XXX masked",
+          "court": "5-Additional Family Court Kukatpally",
+          "petitionerAdvocate": "JAYALAKSHMI",
+          "businessDate": "2026-10-06",
+          "business": "History only no business links,6Oct\u219228Dec reconciliation",
+          "filing": "381/2026 dated4Jul2026",
+          "captchaAttempts": 3
+        }
+      }
+    ],
+    "asOfUTC": "2026-10-28T09:30:46Z"
+  },
+  "lead:unidentifiedLeads:2": {
+    "currentStatus": "Named official SC378/2024 identified: TSMM040000922024, PS Dundigal v Kamsani Manipal Reddy and others, pending2December2026 consideration of charges.",
+    "currentAction": "No missing court/CNR request. Same proceeding as lead5; preserve both office references without duplicate checking or extra case count.",
+    "historicalAction": "Exact case identifier, court/establishment or CNR needed; preserve source and do not infer identity.",
+    "historicalActionTreatment": "Preserved dated triage/attempt wording; currentStatus/currentAction supersede any blanket missing-identifier request inconsistent with the retrieved evidence. Unresolved identity/access limits remain as stated.",
+    "sourceCase": "S.C. 378/2024",
+    "sourceEvidence": [
+      {
+        "path": "official/mm/results.json",
+        "index": 36,
+        "result": {
+          "cnr": "TSMM040000922024",
+          "file": "diary SC378/2024 two source mentions",
+          "query": "Medchal ADJ complex SC378/2024",
+          "checkedAt": "2026-10-28T07:42:09Z",
+          "source": "https://medchalmalkajgiri.dcourts.gov.in/case-status-search-by-case-number/",
+          "result": "Named case number/year/court/parties match",
+          "status": "Pending",
+          "stage": "CONSIDERATION OF CHARGES",
+          "nextDate": "2026-12-02",
+          "parties": "PS DUNDIGAL v A1 KAMSANI MANIPAL REDDY AND OTHERS",
+          "court": "1-Fast Track Special Court for expeditious Trial and Disposal of RAPE and POCSO Act Cases at Medchal",
+          "petitionerAdvocate": "APP",
+          "businessDate": "2026-10-07",
+          "business": "A1 to A3 are called present. Their counsel absent. for hearing on charges at request call on 02-12-2026.",
+          "filing": "378/2024 dated3Jul2024",
+          "captchaAttempts": 2
+        }
+      }
+    ],
+    "asOfUTC": "2026-10-28T09:30:46Z"
+  },
+  "lead:unidentifiedLeads:3": {
+    "currentStatus": "Named official CRLA258/2026 identified: TSHM000041542026, Tandra Kashinath Reddy/Bhukya Ravi v MalakpetPS; pending5November2026 CALL WITH MPs.",
+    "currentAction": "Same appeal as lead7. Trial CC14445/2019 file60 now named CMM-MSJ search match, but detail CAPTCHA gate leaves trial CNR/outcome and explicit appeal lower-court linkage unverified. Obtain exact trial detail/judgment, not a generic missing appeal identifier.",
+    "historicalAction": "Verifydocketandtriallink; repeatedsource notadditionalcase.",
+    "historicalActionTreatment": "Preserved dated triage/attempt wording; currentStatus/currentAction supersede any blanket missing-identifier request inconsistent with the retrieved evidence. Unresolved identity/access limits remain as stated.",
+    "sourceCase": "Crl.A. 258/2026",
+    "sourceEvidence": [
+      {
+        "path": "official/other/attempts.jsonl",
+        "index": 9,
+        "result": {
+          "checkedAtUTC": "2026-10-28T06:11:03Z",
+          "cnr": "TSHM000041542026",
+          "files": [],
+          "source": "unassigned current calendar evidence",
+          "query": "CRLA258/2026",
+          "scope": "HYD Criminal Court Complex",
+          "officialSource": "https://hccc.dcourts.gov.in/case-status-search-by-case-number/",
+          "result": "matched",
+          "court": "8-VII Addl. Metropolitan Sessions Judge",
+          "parties": "A1 Tandra Kashinath Reddy; A2 Bhukya Ravi v Malakpet PS",
+          "status": "Pending",
+          "stage": "CALL WITH MPs",
+          "nextDate": "2026-11-05",
+          "advocate": "Kapish Kumar Tiwari for petitioner",
+          "businessDate": "2026-10-14",
+          "business": "Crl.MP.Pending. Call on 05-11-2026.",
+          "filingNumber": "4141/2026",
+          "filingDate": "2026-07-02",
+          "registrationDate": "2026-07-02",
+          "fir": "Malakpet PS101/2019",
+          "qualifications": [
+            "Possible linkage to file60 CC14445/2019 requires explicit lower-court appeal evidence; no case number link shown in this docket.",
+            "No new physical register profile inferred."
+          ],
+          "rawCaptures": [
+            "TSHM000041542026_details.txt",
+            "TSHM000041542026_business_20261014.txt"
+          ]
+        }
+      }
+    ],
+    "asOfUTC": "2026-10-28T09:30:46Z"
+  },
+  "lead:unidentifiedLeads:4": {
+    "currentStatus": "Exact candidate CNR TSRA000033372026 is FCOP725/2026, pending15December2026 reconciliation; advocate S Roja Ramani, parties masked.",
+    "currentAction": "Source profile/party association still unknown. Obtain source party-identifying court paper; keep corrected FCOP type and candidate confidence, not a new proven firm case.",
+    "historicalAction": "Partiesunknown; boundedofficialcandidate querycannotresolvefirmidentityalone.",
+    "historicalActionTreatment": "Preserved dated triage/attempt wording; currentStatus/currentAction supersede any blanket missing-identifier request inconsistent with the retrieved evidence. Unresolved identity/access limits remain as stated.",
+    "sourceCase": "Miscellaneous Judicial Case (Civil) 725/2026",
+    "sourceEvidence": [
+      {
+        "path": "official/tsra_scope_attempts.json",
+        "index": 5,
+        "result": {
+          "id": "lead:unidentifiedLeads:4",
+          "identifier": "FCOP725/2026",
+          "cnr": "TSRA000033372026",
+          "checkedAtUTC": "2026-10-28T07:52:53Z",
+          "query": "ExactCNR centralservice timeout; RR PDJ FCOP725/2026 candidate opened and exactCNR verified",
+          "result": "Exact source record found pending15Dec2026 reconciliation; advocateS ROJA RAMANI; partiesmasked/sourceunnamed. Type corrected genericmirror\u2192FCOP, profileassociation unresolved.",
+          "record_paths": [
+            "TSRA000033372026_details.txt"
+          ]
+        }
+      }
+    ],
+    "asOfUTC": "2026-10-28T09:30:46Z"
+  },
+  "lead:unidentifiedLeads:5": {
+    "currentStatus": "Named official SC378/2024 identified: TSMM040000922024; same proceeding as lead2.",
+    "currentAction": "Track2December2026 consideration of charges once, retaining both source posts. No missing CNR/court request.",
+    "historicalAction": "Exact case identifier, court/establishment or CNR needed; preserve source and do not infer identity.",
+    "historicalActionTreatment": "Preserved dated triage/attempt wording; currentStatus/currentAction supersede any blanket missing-identifier request inconsistent with the retrieved evidence. Unresolved identity/access limits remain as stated.",
+    "sourceCase": "SC378/2024",
+    "sourceEvidence": [
+      {
+        "path": "official/mm/results.json",
+        "index": 36,
+        "result": {
+          "cnr": "TSMM040000922024",
+          "file": "diary SC378/2024 two source mentions",
+          "query": "Medchal ADJ complex SC378/2024",
+          "checkedAt": "2026-10-28T07:42:09Z",
+          "source": "https://medchalmalkajgiri.dcourts.gov.in/case-status-search-by-case-number/",
+          "result": "Named case number/year/court/parties match",
+          "status": "Pending",
+          "stage": "CONSIDERATION OF CHARGES",
+          "nextDate": "2026-12-02",
+          "parties": "PS DUNDIGAL v A1 KAMSANI MANIPAL REDDY AND OTHERS",
+          "court": "1-Fast Track Special Court for expeditious Trial and Disposal of RAPE and POCSO Act Cases at Medchal",
+          "petitionerAdvocate": "APP",
+          "businessDate": "2026-10-07",
+          "business": "A1 to A3 are called present. Their counsel absent. for hearing on charges at request call on 02-12-2026.",
+          "filing": "378/2024 dated3Jul2024",
+          "captchaAttempts": 2
+        }
+      }
+    ],
+    "asOfUTC": "2026-10-28T09:30:46Z"
+  },
+  "lead:unidentifiedLeads:6": {
+    "currentStatus": "Official TRCMP339/2026 identified: HBHC010648582026, Pakkera Sirisha Reddy alias Gone Sirisha Reddy v G Anil Reddy, pending4November2026.",
+    "currentAction": "Same proceeding as lead10. Retain crossed-out/source aliases and procedural history; no new transfer outcome inferred. No generic missing case identifier request.",
+    "historicalAction": "Usefreshrecord; preservealiases/crossedoutsource and allhistory.",
+    "historicalActionTreatment": "Preserved dated triage/attempt wording; currentStatus/currentAction supersede any blanket missing-identifier request inconsistent with the retrieved evidence. Unresolved identity/access limits remain as stated.",
+    "sourceCase": "TRCMP 339/2026",
+    "sourceEvidence": [
+      {
+        "path": "official/highcourt/results_and_attempts.json",
+        "basis": "TRCMP339/2026 freshofficial record; bothsource mentions same proceeding"
+      }
+    ],
+    "asOfUTC": "2026-10-28T09:30:46Z"
+  },
+  "lead:unidentifiedLeads:7": {
+    "currentStatus": "Named official CRLA258/2026 identified: TSHM000041542026; same appeal as lead3, next5November2026.",
+    "currentAction": "Do not count another appeal. Exact trial CC14445/2019 named search lead is not yet a verified lower-court linkage; trial detail CAPTCHA gap retained.",
+    "historicalAction": "Verifydocketandtriallink; repeatedsource notadditionalcase.",
+    "historicalActionTreatment": "Preserved dated triage/attempt wording; currentStatus/currentAction supersede any blanket missing-identifier request inconsistent with the retrieved evidence. Unresolved identity/access limits remain as stated.",
+    "sourceCase": "Crl A 258/26",
+    "sourceEvidence": [
+      {
+        "path": "official/other/attempts.jsonl",
+        "index": 9,
+        "result": {
+          "checkedAtUTC": "2026-10-28T06:11:03Z",
+          "cnr": "TSHM000041542026",
+          "files": [],
+          "source": "unassigned current calendar evidence",
+          "query": "CRLA258/2026",
+          "scope": "HYD Criminal Court Complex",
+          "officialSource": "https://hccc.dcourts.gov.in/case-status-search-by-case-number/",
+          "result": "matched",
+          "court": "8-VII Addl. Metropolitan Sessions Judge",
+          "parties": "A1 Tandra Kashinath Reddy; A2 Bhukya Ravi v Malakpet PS",
+          "status": "Pending",
+          "stage": "CALL WITH MPs",
+          "nextDate": "2026-11-05",
+          "advocate": "Kapish Kumar Tiwari for petitioner",
+          "businessDate": "2026-10-14",
+          "business": "Crl.MP.Pending. Call on 05-11-2026.",
+          "filingNumber": "4141/2026",
+          "filingDate": "2026-07-02",
+          "registrationDate": "2026-07-02",
+          "fir": "Malakpet PS101/2019",
+          "qualifications": [
+            "Possible linkage to file60 CC14445/2019 requires explicit lower-court appeal evidence; no case number link shown in this docket.",
+            "No new physical register profile inferred."
+          ],
+          "rawCaptures": [
+            "TSHM000041542026_details.txt",
+            "TSHM000041542026_business_20261014.txt"
+          ]
+        }
+      }
+    ],
+    "asOfUTC": "2026-10-28T09:30:46Z"
+  },
+  "lead:unidentifiedLeads:8": {
+    "currentStatus": "FCOP949/2026 candidate TSFC100011082026 retrieved; masked parties, pending18November2026.",
+    "currentAction": "Need party-identifying petition/order to associate PatiSaiPrudvi/Anjali source with the retrieved docket. Candidate CNR/court/number are known; do not treat masking as a no-record result.",
+    "historicalAction": "Exact case identifier, court/establishment or CNR needed; preserve source and do not infer identity.",
+    "historicalActionTreatment": "Preserved dated triage/attempt wording; currentStatus/currentAction supersede any blanket missing-identifier request inconsistent with the retrieved evidence. Unresolved identity/access limits remain as stated.",
+    "sourceCase": "FCOP 949/26",
+    "sourceEvidence": [
+      {
+        "path": "official/family/additional_scope_ledger.json",
+        "index": 0,
+        "result": {
+          "cnr": "TSFC100011082026",
+          "query": "FCOP949/2026",
+          "utc": "2026-10-28T06:08:28Z",
+          "source": "https://hydifc.dcourts.gov.in/case-status-search-by-case-number/",
+          "status": "official_docket_candidate_party_masked",
+          "docketStatus": "Pending",
+          "nextDate": "2026-11-18",
+          "sourceRef": "Pati Sai Prudvi/Anjali diary lead",
+          "qualification": "Court query retrieved docket; masked parties and source association not independently resolved. Do not infer firm file closure or merge from number alone.",
+          "freshFullRecord": true,
+          "fullRecordCapturePaths": [
+            "FCOP949_2026.txt"
+          ],
+          "structuredFromCapture": "FCOP949_2026.txt",
+          "officialCaseType": "F.C.O.P - FAMILY COURT OP",
+          "registrationNumber": "949/2026",
+          "filingNumber": "938/2026",
+          "filingDateLiteral": "16-06-2026",
+          "court": "2-I ADDITIONAL FAMILY COURT",
+          "judge": "Not separately stated in captured court designation",
+          "stage": "NOTICE",
+          "nextDateLiteral": "18-November-2026",
+          "petitionerLiteral": "1) XXXXXXX Advocate - PARTYINPERSON",
+          "respondentLiteral": "1) XXX",
+          "parties": "1) XXXXXXX Advocate - PARTYINPERSON versus 1) XXX",
+          "advocate": "PARTYINPERSON versus 1) XXX"
+        }
+      }
+    ],
+    "asOfUTC": "2026-10-28T09:30:46Z"
+  },
+  "lead:unidentifiedLeads:9": {
+    "currentStatus": "FCOP175/2024 candidate TSMM090005872024 retrieved; masked parties, next18November2026 commissioner report.",
+    "currentAction": "LakshmanRao/Rupa identity and court conflict remain: officialIIIADJ PrincipalFamily versus officeVIADJ. Obtain party-identifying/transfer court paper; no generic missing candidate CNR request.",
+    "historicalAction": "Exact case identifier, court/establishment or CNR needed; preserve source and do not infer identity.",
+    "historicalActionTreatment": "Preserved dated triage/attempt wording; currentStatus/currentAction supersede any blanket missing-identifier request inconsistent with the retrieved evidence. Unresolved identity/access limits remain as stated.",
+    "sourceCase": "FCOP 175/24",
+    "sourceEvidence": [
+      {
+        "path": "official/mm/results.json",
+        "index": 35,
+        "result": {
+          "cnr": "TSMM090005872024",
+          "file": "diary LakshmanRao/Rupa FCOP175/2024",
+          "query": "Kukatpally ADJ FCOP175/2024",
+          "checkedAt": "2026-10-28T07:32:11Z",
+          "source": "https://medchalmalkajgiri.dcourts.gov.in/case-status-search-by-case-number/",
+          "result": "Candidate exact number/year/complex; parties masked. Current court IIIADJ PrincipalFC differs office VIADJ; no named identity resolution",
+          "status": "Pending",
+          "stage": "COMMISSIONER REPORT",
+          "nextDate": "2026-11-18",
+          "parties": "XXXXXXX v XXX masked",
+          "court": "1-IIIADJ cum Principal Family Court Kukatpally",
+          "petitionerAdvocate": "M. Srinivas Rao",
+          "businessDate": "2026-10-13",
+          "business": "History only no business links,13Oct\u219218Nov commissioner report",
+          "filing": "402/2024 dated22May2024",
+          "captchaAttempts": 2
+        }
+      }
+    ],
+    "asOfUTC": "2026-10-28T09:30:46Z"
+  },
+  "lead:unidentifiedLeads:10": {
+    "currentStatus": "Official TRCMP339/2026 identified: HBHC010648582026; same proceeding as lead6.",
+    "currentAction": "Track4November2026 once, preserve both office references/aliases. No missing case identifier request or inferred transfer disposal.",
+    "historicalAction": "Usefreshrecord; preservealiases/crossedoutsource and allhistory.",
+    "historicalActionTreatment": "Preserved dated triage/attempt wording; currentStatus/currentAction supersede any blanket missing-identifier request inconsistent with the retrieved evidence. Unresolved identity/access limits remain as stated.",
+    "sourceCase": "TRCMP 339/26",
+    "sourceEvidence": [
+      {
+        "path": "official/highcourt/results_and_attempts.json",
+        "basis": "TRCMP339/2026 freshofficial record; bothsource mentions same proceeding"
+      }
+    ],
+    "asOfUTC": "2026-10-28T09:30:46Z"
+  },
+  "lead:unidentifiedLeads:11": {
+    "currentStatus": "Unnumbered Mancherial source reference remains unidentified.",
+    "currentAction": "Need parties and case type/number/year or a court paper to associate this post with the separately checked Mancherial donor/receiver chains. Place name alone is insufficient; no new proceeding invented.",
+    "historicalAction": "Exact case identifier, court/establishment or CNR needed; preserve source and do not infer identity.",
+    "historicalActionTreatment": "Preserved dated triage/attempt wording; currentStatus/currentAction supersede any blanket missing-identifier request inconsistent with the retrieved evidence. Unresolved identity/access limits remain as stated.",
+    "sourceCase": "Mancherial matter (case identifier not supplied)",
+    "sourceEvidence": [],
+    "asOfUTC": "2026-10-28T09:30:46Z"
+  },
+  "lead:unidentifiedLeads:12": {
+    "currentStatus": "Four distinct CRLP identifiers10308/10310/10311/10316 of2026 each received official-route attempts; CNR/identity not established.",
+    "currentAction": "CSIS root network failure and four cause-wise NoData results remain access/inconclusive limits, not disposal or no-case findings. Retry supported official access after recovery or obtain case-specific order/CNR; retain four identifiers under shared source.",
+    "historicalAction": "CSISrootnetworkfailure; all4causewiseNoData inconclusive. Preservecombinedsourcebutfourdistinctnumberquerytargets; noCNRidentityverified.",
+    "historicalActionTreatment": "Preserved dated triage/attempt wording; currentStatus/currentAction supersede any blanket missing-identifier request inconsistent with the retrieved evidence. Unresolved identity/access limits remain as stated.",
+    "sourceCase": "CRLP10308/2026,10310/2026,10311/2026,10316/2026",
+    "sourceEvidence": [
+      {
+        "path": "official/highcourt/master_roofing_four_attempts.json",
+        "basis": "Four distinct petitionnumber queries, not onecase"
+      }
+    ],
+    "asOfUTC": "2026-10-28T09:30:46Z"
+  },
+  "lead:unidentifiedLeads:13": {
+    "currentStatus": "Apoorva/Thejeswar DVC filing1548/2026 versus1587/2026 remains conflicted; actual RR filing/party searches recorded.",
+    "currentAction": "1548 returned unrelated matters;1587 and Apoorva searches hit CAPTCHA gates. Need filing acknowledgment/registration or exact court paper resolving both SR variants. EarlierIVMM LB hint retained; do not create two cases solely spelling/number difference.",
+    "historicalAction": "IVMMLBNagar isearliercourthint; samepartiesApoorva/Thejeswar supportaliasinvestigationbutSRnumbersconflict; preserveboth.",
+    "historicalActionTreatment": "Preserved dated triage/attempt wording; currentStatus/currentAction supersede any blanket missing-identifier request inconsistent with the retrieved evidence. Unresolved identity/access limits remain as stated.",
+    "sourceCase": "DVC SR 1587/2026",
+    "sourceEvidence": [
+      {
+        "path": "official/tsra_scope_attempts.json",
+        "index": 4,
+        "result": {
+          "id": "scope:running:287:DVCSR1548/2026",
+          "profileIds": [
+            "running:287"
+          ],
+          "identifier": "DVCSR1548/2026 versus1587/2026",
+          "checkedAtUTC": "2026-10-28T07:49:00Z",
+          "query": "Rangareddy PDJ complex filing1548/2026; filing1587/2026; partyApoorva/2026/Both",
+          "source": "https://rangareddy.dcourts.gov.in/case-status-search-by-filing-number/",
+          "result": "Filing1548 returned unrelated bail/FCOP/STCNI/CC records, no named target DVC. Filing1587 rejected three fresh CAPTCHA submissions; party Apoorva rejected two including magnified transcription. No negative case inference. 27October office message states DIR received, numbering pending. Preserve1548/1587 conflict. Registered CNR/number or filing acknowledgment needed if portal remains gated.",
+          "status": "blocked_unresolved",
+          "record_paths": [
+            "Apoorva_filing1548_2026_results.txt"
+          ]
+        }
+      },
+      {
+        "path": "official/tsra_scope_attempts.json",
+        "index": 8,
+        "result": {
+          "id": "scope:running:235:FCOP372/2026",
+          "profileIds": [
+            "running:235"
+          ],
+          "identifier": "FCOP372/2026",
+          "cnr": "TSRA000015872026",
+          "checkedAtUTC": "2026-10-28T08:03:43Z",
+          "result": "Pending10Dec2026 reconciliation IVADJ/IAdditionalFamily B.Annapurna;partiesmasked, sourceassociationqualified.",
+          "record_paths": [
+            "TSRA000015872026_details.txt"
+          ]
+        }
+      }
+    ],
+    "asOfUTC": "2026-10-28T09:30:46Z"
+  },
+  "lead:unidentifiedLeads:14": {
+    "currentStatus": "Jitender-only office post remains unidentified.",
+    "currentAction": "Need opponent and case number/court or source order. Do not merge with Nikitha/Jithender MC36 or Sunitha/Jithender FCOP218/GWOP32 on first name alone.",
+    "historicalAction": "Jitenderonlywithoutopponent/court; cannotmergewithNikitha/JithenderMC36orSunitha/JithenderFCOP218 bysinglename.",
+    "historicalActionTreatment": "Preserved dated triage/attempt wording; currentStatus/currentAction supersede any blanket missing-identifier request inconsistent with the retrieved evidence. Unresolved identity/access limits remain as stated.",
+    "sourceCase": "Jitender case \u2014 case number not stated",
+    "sourceEvidence": [],
+    "asOfUTC": "2026-10-28T09:30:46Z"
+  },
+  "lead:unidentifiedLeads:15": {
+    "currentStatus": "Crime125/2026 and return-property SR4655/2026 source retained, underlying proceeding unidentified.",
+    "currentAction": "Need police station, IADJ location and filing/order linking the return-property petition to parent case/CNR. Do not infer linkage from generic accused labels.",
+    "historicalAction": "Crime125/2026 return-propertySR4655/2026; IADJlocation/policestation andparentcase/CNR missing. Obtainorder/filingacknowledgment; no genericA2merge.",
+    "historicalActionTreatment": "Preserved dated triage/attempt wording; currentStatus/currentAction supersede any blanket missing-identifier request inconsistent with the retrieved evidence. Unresolved identity/access limits remain as stated.",
+    "sourceCase": "Crime No. 125/2026; return-property petition SR 4655/2026",
+    "sourceEvidence": [],
+    "asOfUTC": "2026-10-28T09:30:46Z"
+  },
+  "lead:unidentifiedLeads:16": {
+    "currentStatus": "Unnumbered MasterRoofing DRT source retained;2November written-statement date is office-reported only.",
+    "currentAction": "Need tribunal/place, OA/SA/IA identifier and opposing party. Do not merge with OA538/2026 or SA255/2022 solely company name; no official status established for this unnumbered source.",
+    "historicalAction": "MasterRoofing DRTtribunalnumber/place, OA/SA/IAidentifier andopponentneeded. Do notmergewithOA538/2026orSA255/2022bynamealone; retain2Novwsdateofficequalified.",
+    "historicalActionTreatment": "Preserved dated triage/attempt wording; currentStatus/currentAction supersede any blanket missing-identifier request inconsistent with the retrieved evidence. Unresolved identity/access limits remain as stated.",
+    "sourceCase": "Master Roofing DRT matter [unnumbered source reference]",
+    "sourceEvidence": [],
+    "asOfUTC": "2026-10-28T09:30:46Z"
+  },
+  "lead:unidentifiedLeads:17": {
+    "currentStatus": "FCOP1246/2026 candidate TSFC100014302026 retrieved, masked; displayed18August2026 date is stale, not upcoming.",
+    "currentAction": "Need CA16462 issuing-court/parent-case proof and party-identifying paper. Do not infer current hearing or source identity from candidate number, nor conflate2025variant.",
+    "historicalAction": "FamilyworkeracceptedbothFCOP1246years forboundedHydIntegrated/RRleadquery; exactcourt/CA16462or18617proofrequired; maskedrecordnotidentityresolution.",
+    "historicalActionTreatment": "Preserved dated triage/attempt wording; currentStatus/currentAction supersede any blanket missing-identifier request inconsistent with the retrieved evidence. Unresolved identity/access limits remain as stated.",
+    "sourceCase": "FCOP 1246/2026",
+    "sourceEvidence": [
+      {
+        "path": "official/family/additional_scope_ledger.json",
+        "index": 1,
+        "result": {
+          "cnr": "TSFC100014302026",
+          "query": "FCOP1246/2026",
+          "utc": "2026-10-28T06:09:24Z",
+          "source": "https://hydifc.dcourts.gov.in/case-status-search-by-case-number/",
+          "status": "official_docket_candidate_party_masked",
+          "docketStatus": "Pending",
+          "nextDate": "2026-08-18",
+          "sourceRef": "CA16462 uncertain parent",
+          "qualification": "Court query retrieved docket; masked parties and source association not independently resolved. Do not infer firm file closure or merge from number alone.",
+          "freshFullRecord": true,
+          "fullRecordCapturePaths": [
+            "FCOP1246_2026_candidate.txt"
+          ],
+          "structuredFromCapture": "FCOP1246_2026_candidate.txt",
+          "officialCaseType": "F.C.O.P - FAMILY COURT OP",
+          "registrationNumber": "1246/2026",
+          "filingNumber": "1205/2026",
+          "filingDateLiteral": "20-07-2026",
+          "court": "2-I ADDITIONAL FAMILY COURT",
+          "judge": "Not separately stated in captured court designation",
+          "stage": "NOTICE",
+          "nextDateLiteral": "18-August-2026",
+          "petitionerLiteral": "1) XXXXXXX Advocate - PARTYINPERSON",
+          "respondentLiteral": "1) XXX",
+          "parties": "1) XXXXXXX Advocate - PARTYINPERSON versus 1) XXX",
+          "advocate": "PARTYINPERSON versus 1) XXX"
+        }
+      }
+    ],
+    "asOfUTC": "2026-10-28T09:30:46Z"
+  },
+  "lead:unidentifiedLeads:18": {
+    "currentStatus": "FCOP1246/2025 candidate TSFC100021302025 retrieved as disposed, parties masked; source association unresolved.",
+    "currentAction": "Need CA18617 issuing-court/parent-case proof and party-identifying paper. Candidate disposal does not close firm profile;2025/2026 references remain distinct uncertain identifiers pending evidence.",
+    "historicalAction": "FamilyworkeracceptedbothFCOP1246years forboundedHydIntegrated/RRleadquery; exactcourt/CA16462or18617proofrequired; maskedrecordnotidentityresolution.",
+    "historicalActionTreatment": "Preserved dated triage/attempt wording; currentStatus/currentAction supersede any blanket missing-identifier request inconsistent with the retrieved evidence. Unresolved identity/access limits remain as stated.",
+    "sourceCase": "FCOP 1246/2025",
+    "sourceEvidence": [
+      {
+        "path": "official/family/additional_scope_ledger.json",
+        "index": 2,
+        "result": {
+          "cnr": "TSFC100021302025",
+          "query": "FCOP1246/2025",
+          "utc": "2026-10-28T06:10:28Z",
+          "source": "https://hydifc.dcourts.gov.in/case-status-search-by-case-number/",
+          "status": "official_docket_candidate_party_masked",
+          "docketStatus": "Case Disposed",
+          "nextDate": null,
+          "sourceRef": "CA18617 uncertain parent",
+          "qualification": "Court query retrieved docket; masked parties and source association not independently resolved. Do not infer firm file closure or merge from number alone.",
+          "freshFullRecord": true,
+          "fullRecordCapturePaths": [
+            "FCOP1246_2025_candidate.txt"
+          ],
+          "structuredFromCapture": "FCOP1246_2025_candidate.txt",
+          "officialCaseType": "F.C.O.P - FAMILY COURT OP",
+          "registrationNumber": "1246/2025",
+          "filingNumber": "1744/2025",
+          "filingDateLiteral": "22-09-2025",
+          "court": "5-II ADDITIONAL FAMILY COURT",
+          "judge": "Not separately stated in captured court designation",
+          "stage": "Not stated",
+          "nextDateLiteral": "Not stated",
+          "decisionDate": "2026-06-03",
+          "disposal": "Uncontested - ALLOWED.",
+          "petitionerLiteral": "1) XXXXXXX Advocate - ILI SURENDER",
+          "respondentLiteral": "1) XXX",
+          "parties": "1) XXXXXXX Advocate - ILI SURENDER versus 1) XXX",
+          "advocate": "ILI SURENDER versus 1) XXX"
+        }
+      }
+    ],
+    "asOfUTC": "2026-10-28T09:30:46Z"
+  }
+}

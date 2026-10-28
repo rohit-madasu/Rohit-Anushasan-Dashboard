@@ -1,0 +1,38 @@
+{
+  "stage": {
+    "url": "https://docs.google.com/document/d/1MTu0ZAWQLkyhneHTVz3bUjvBOWJUpVpp/edit?usp=drivesdk&ouid=114145581713538354167&rtpof=true&sd=true",
+    "sha256": "e3c166eae964636e987d229ed2d3eb0ebab6e0b18e04920572ac84d928178f7c",
+    "filename": "Current_Case_Hearings_and_Stages_2026-10-26_0707IST.docx",
+    "status": "Verified private successor readback"
+  },
+  "running": {
+    "url": "https://drive.google.com/file/d/10xxP97WU7Hno7ChdOSGyGeDXE4P5qql2/view?usp=drivesdk",
+    "sha256": "047ac88f39dc36f8097d8f1b0591fe4bc21b39eab02a925341856f928ccfd2b1",
+    "filename": "Running_Cases_Register_2026-10-26_0707IST.pdf",
+    "status": "Verified private successor readback"
+  },
+  "stage_pdf": {
+    "url": "https://drive.google.com/file/d/1bWsbVDpeaVcMvK-YU9ca3JL2sgdeCI7t/view?usp=drivesdk",
+    "sha256": "b7fa48631ffb0ac7be63800f94b0f20c4411e4d0c458270a826bc44151861919",
+    "filename": "Current_Case_Hearings_and_Stages_2026-10-26_0707IST.pdf",
+    "status": "Verified private successor readback"
+  },
+  "active": {
+    "url": "https://docs.google.com/document/d/1pBBQl5RJcLZqfVnL9_baOc22gJYMPVqu/edit?usp=drivesdk&ouid=114145581713538354167&rtpof=true&sd=true",
+    "sha256": "88ad99a27b8d260f36cec1d8345024a6fcfddf5d289204e8dcef82b8c018aecc",
+    "filename": "Active_cases.docx",
+    "status": "Verified private successor readback"
+  },
+  "disposed": {
+    "url": "https://docs.google.com/document/d/1UiCyI06VtK-hYQim2q5dyuUiPJzoeGBf/edit?usp=drivesdk&ouid=114145581713538354167&rtpof=true&sd=true",
+    "sha256": "b5fa1aa0095b3b5030086c94777ad765df5cf35eda3843b422d9ff0c4ef776c6",
+    "filename": "disposed_cases.docx",
+    "status": "Verified private successor readback"
+  },
+  "unclear": {
+    "url": "https://docs.google.com/document/d/1SF0HF6jc0kvZV3wvQRK7ZZNMiQCao4UB/edit?usp=drivesdk&ouid=114145581713538354167&rtpof=true&sd=true",
+    "sha256": "9677be36b048e68b7b1bda312a83105202a3760926240eb548ea1b4c9c42a3c1",
+    "filename": "unclear_partly_resolved_cases.docx",
+    "status": "Verified private successor readback"
+  }
+}

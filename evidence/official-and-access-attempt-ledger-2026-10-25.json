@@ -1,0 +1,113 @@
+{
+  "review_date": "2026-10-25",
+  "whatsapp": {
+    "checked_at_IST": "07:04",
+    "status": "Scan to log in",
+    "fresh_messages": 0,
+    "window": [
+      "2026-10-16",
+      "2026-10-25"
+    ]
+  },
+  "district_portal": {
+    "url": "https://services.ecourts.gov.in/ecourtindia_v6/",
+    "attempts": 2,
+    "result": "upstream connection timeout before search; zero case queries"
+  },
+  "checks": [
+    {
+      "file": "290",
+      "query": "WP 14632/2025",
+      "CNR": "HBHC010283132025",
+      "parties": "M. Narender v The State of Telangana",
+      "court": "High Court for the State of Telangana",
+      "status": "PENDING",
+      "listing_date": "2026-10-26",
+      "purpose": "SPECIALLY MENTIONED LETTERS-1",
+      "judge": "Justice K. Sarath",
+      "petitioner_advocate": "SUDHAMALLA DINESH KUMAR",
+      "respondent_advocate": "GP FOR SERVICES III",
+      "checked_at_IST": "2026-10-25 07:05:41",
+      "source": "https://csis.tshc.gov.in/",
+      "confidence": "matched"
+    },
+    {
+      "file": "270",
+      "query": "WP 1970/2023",
+      "CNR": "HBHC010036772023",
+      "parties": "Panchagiri Ram Prasad and 3 Others v The State of Telangana and 3 others",
+      "court": "High Court for the State of Telangana",
+      "status": "PENDING",
+      "listing_date": "2026-10-29",
+      "purpose": "ADMISSION (REVENUE)",
+      "judge": "Justice G.M. Mohiuddin",
+      "checked_at_IST": "2026-10-25 07:06:45",
+      "source": "https://csis.tshc.gov.in/",
+      "confidence": "candidate office Jhansi linkage remains unverified"
+    },
+    {
+      "file": "276",
+      "query": "CRLA 632/2025",
+      "CNR": "HBHC010334342025",
+      "parties": "Mr. M. Krishna Mohan v The State of Telangana",
+      "court": "High Court for the State of Telangana",
+      "status": "PENDING",
+      "listing_date": "2026-10-23",
+      "listing_qualification": "Elapsed listing; no later date shown, not disposal",
+      "purpose": "FOR ADMISSION",
+      "judge": "Justice J. Sreenivas Rao",
+      "petitioner_advocate": "G ASHOK REDDY",
+      "respondent_advocate": "PUBLIC PROSECUTOR",
+      "checked_at_IST": "2026-10-25 07:07:18",
+      "source": "https://csis.tshc.gov.in/",
+      "confidence": "matched"
+    },
+    {
+      "file": "277",
+      "query": "CRLA 629/2025",
+      "CNR": "HBHC010334202025",
+      "parties": "Mr. M. Krishna Mohan v The State of Telangana",
+      "court": "High Court for the State of Telangana",
+      "status": "PENDING",
+      "listing_date": "2026-10-23",
+      "listing_qualification": "Elapsed listing; no later date shown, not disposal",
+      "purpose": "FOR ADMISSION",
+      "judge": "Justice J. Sreenivas Rao",
+      "petitioner_advocate": "G ASHOK REDDY",
+      "respondent_advocate": "PUBLIC PROSECUTOR",
+      "checked_at_IST": "2026-10-25 07:07:50",
+      "source": "https://csis.tshc.gov.in/",
+      "confidence": "matched"
+    }
+  ],
+  "coverage": {
+    "distinct_successful_docket_queries": 4,
+    "matched_profiles": 3,
+    "candidate_profiles": 1,
+    "eligible_profiles": 221,
+    "eligible_not_freshly_queried": 217,
+    "total_profiles": 298,
+    "total_not_freshly_queried": 294,
+    "additional_captcha_rejected_submissions": 2,
+    "new_dispositions": 0,
+    "reclassifications": 0,
+    "category_counts": {
+      "active": 86,
+      "disposed": 26,
+      "unclear": 186
+    },
+    "file_locators": 299
+  },
+  "last_verified_whatsapp": "2026-10-24 09:44:38 IST review cutoff; original message UI timezone not verified",
+  "imported_research": {
+    "date": "2026-10-24",
+    "file": "153",
+    "query": "WP 18975/2026",
+    "CNR": "HBHC010388442026",
+    "parties": "Reganti Ravi Kumar and S. Sadalaxmi v State of Telangana and registration officials",
+    "status": "Withdrawn 19 June 2026, no costs",
+    "counsel": "K.S.J. Swaroop representing E. Roja Ramani",
+    "source": "https://csis.tshc.gov.in/hcorders/2026/wp/wp_18975_2026.pdf",
+    "qualification": "Related writ only. No official link to OS116/2024, OS33/2025 or Nagilla Yadaiah; file153 remains unresolved. Imported prior-day official research, not freshly queried25Oct."
+  }
+}

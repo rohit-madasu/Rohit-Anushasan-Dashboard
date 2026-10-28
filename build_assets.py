@@ -20,18 +20,26 @@ def build():
             search['corpusUnits'].extend(json.loads(raw.split('const units = ',1)[1].split('; for (const unit',1)[0]))
             marker='window.CASE_SEARCH_DATA.sourceRevisionCoverage = '
             if marker in raw: search['sourceRevisionCoverage']=json.loads(raw.split(marker,1)[1].rsplit(';',1)[0])
+            extension='Object.assign(window.CASE_SEARCH_DATA.sourceRevisionCoverage, '
+            if extension in raw: search.setdefault('sourceRevisionCoverage',{}).update(json.loads(raw.split(extension,1)[1].rsplit(');',1)[0]))
     jsdata('case-search-data.js','CASE_SEARCH_DATA',search)
     if asset_manifest.exists():
         import copy
         manifest=json.loads(asset_manifest.read_text()); whole=copy.deepcopy(search); units=whole['corpusUnits']; whole['corpusUnits']=[]
         revision_coverage=whole['sourceRevisionCoverage']
+        extension_ids={sid for ids in manifest.get('metadataExtensions',{}).values() for sid in ids}
+        base_revision_coverage={sid:value for sid,value in revision_coverage.items() if sid not in extension_ids}
         if manifest.get('metadataAssignments'):whole['sourceRevisionCoverage']={}
         jsdata('case-search-data.js','CASE_SEARCH_DATA',whole)
         for chunk in manifest['chunks']:
             text=json.dumps(units[chunk['startUnitIndex']:chunk['endUnitIndexExclusive']],ensure_ascii=False,separators=(',',':')).replace('</','<\\/')
             (ROOT/chunk['file']).write_text("'use strict';\n{ const units = "+text+"; for (const unit of units) window.CASE_SEARCH_DATA.corpusUnits.push(unit); }\n")
             if manifest.get('metadataAssignments',{}).get('sourceRevisionCoverage')==chunk['file']:
-                with (ROOT/chunk['file']).open('a') as f:f.write('window.CASE_SEARCH_DATA.sourceRevisionCoverage = '+json.dumps(revision_coverage,ensure_ascii=False,separators=(',',':')).replace('</','<\\/')+';\n')
+                with (ROOT/chunk['file']).open('a') as f:f.write('window.CASE_SEARCH_DATA.sourceRevisionCoverage = '+json.dumps(base_revision_coverage,ensure_ascii=False,separators=(',',':')).replace('</','<\\/')+';\n')
+
+        for filename,source_ids in manifest.get('metadataExtensions',{}).items():
+            extension={sid:revision_coverage[sid] for sid in source_ids}
+            with (ROOT/filename).open('a') as f:f.write('Object.assign(window.CASE_SEARCH_DATA.sourceRevisionCoverage, '+json.dumps(extension,ensure_ascii=False,separators=(',',':')).replace('</','<\\/')+');\n')
 
     config_path=ROOT/'auth-config.json'
     config_raw=config_path.read_text() if config_path.exists() else (ROOT/'auth-config.js').read_text()

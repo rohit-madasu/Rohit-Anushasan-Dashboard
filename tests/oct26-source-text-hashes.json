@@ -1,0 +1,30 @@
+{
+  "stage": {
+    "sourceId": "stage-2026-10-26-daily",
+    "sourceDocumentSha256": "e3c166eae964636e987d229ed2d3eb0ebab6e0b18e04920572ac84d928178f7c",
+    "count": 65281,
+    "sha256": "a2a0e9d3d639d153e4e5ae053d6dd35160208c55b6862fe568176988424473d9",
+    "extraction": "Ordered w:p text, w:t content plus inline w:br newline and w:tab tab; no whitespace normalization."
+  },
+  "active": {
+    "sourceId": "active-2026-10-26-daily",
+    "sourceDocumentSha256": "88ad99a27b8d260f36cec1d8345024a6fcfddf5d289204e8dcef82b8c018aecc",
+    "count": 54814,
+    "sha256": "6dfa3743ee4e6618a6821e8b72cea11c40ee5005f2cf28358b13974ba13d6dc4",
+    "extraction": "Ordered w:p text, w:t content plus inline w:br newline and w:tab tab; no whitespace normalization."
+  },
+  "disposed": {
+    "sourceId": "disposed-2026-10-26-daily",
+    "sourceDocumentSha256": "b5fa1aa0095b3b5030086c94777ad765df5cf35eda3843b422d9ff0c4ef776c6",
+    "count": 45652,
+    "sha256": "87ed781cb569d0fb954a6a247f3a511a6e3eae9cde2905c7c01115cb8fd360c4",
+    "extraction": "Ordered w:p text, w:t content plus inline w:br newline and w:tab tab; no whitespace normalization."
+  },
+  "unclear": {
+    "sourceId": "unclear-2026-10-26-daily",
+    "sourceDocumentSha256": "9677be36b048e68b7b1bda312a83105202a3760926240eb548ea1b4c9c42a3c1",
+    "count": 52779,
+    "sha256": "4f6399df6478706d7edd488d443113401038722b913b8587a2cc3df51e0a5e88",
+    "extraction": "Ordered w:p text, w:t content plus inline w:br newline and w:tab tab; no whitespace normalization."
+  }
+}

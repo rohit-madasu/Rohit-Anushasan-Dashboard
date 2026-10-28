@@ -1,13 +1,17 @@
-# 24 October 2026 private code package verification
+# 26 October 2026 private dashboard verification
 
-- Complete October20 source application recovered from all three verified Drive ZIP parts.
-- All 455 profile identities and historical records retained: 298 current-register profiles plus 157 closed-register profiles. Classification remains86active/26disposed/186unclear for current-register profiles. OS640/2026 stays separately unassigned.
-- All103404 prior corpus units retained exactly; latest corpus109621 units. Current stage, diary, running register and three companion documents mapped completely by source occurrence, with published byte hashes verified. No source paragraph or page is omitted from the mapped complete revisions.
-- Calendar has256 current/future evidence rows and856 historical rows; those are not unique hearings. Every previous calendar row ID retained. Elapsed rows moved to history without disposal inference.
-- The 13 historical October20 suites passed on the recovered baseline. Ten current-edition suites passed: complete source occurrence and preservation; display consolidation; calendar core; CNR identity/deduplication; case search; authentication; authentication DOM; application DOM; source semantics; location colours.
-- Tests cover click/tap-equivalent events, keyboard navigation, empty days, month changes, historical dates, search, escaped source text, confidence filters, unchanged authentication/session logic, local script reconstruction and exact source mappings. Live visual/mobile browser QA remains unavailable; it is not claimed passed.
-- Original production app.js, calendar-core.js, auth.js, auth-config.js, styles.css and display-bindings.js bytes retained exactly. index.html changed only to reference the additional local corpus chunks. court styles regenerated from current source labels. No remote dependencies, analytics, uploads or private-data requests; existing CSP connect-src none retained.
-- October20 fixed-date tests are historical assertions, not current-date results. The current runner uses dated October24 assertions plus unchanged general regression suites; historical tests and prior results are retained for audit.
-- Every package part is an ordinary ZIP under5000000bytes. ZIP CRCs, safe member paths, full combined extraction, SHA256 file manifest and downloaded Drive readback are required before release.
-- Source UI message timezone remains unverified. Review cutoff09:44:38IST is a separately measured wall-clock checkpoint. District/AP portals failed before case query; no all-case fresh check claim.
-- The existing six-hour lock is a convenience screen, not encryption. Keep files and archives private.
+The eleven-suite current runner covers preservation; exact ordered paragraph reconstruction of all four successor DOCX sources; running-PDF occurrence continuity; CNR/date/application grouping; candidates and masks; full-source search; six-hour authentication/session logic; DOM events; calendar navigation; tracking exclusions; and court-location colours. Full output is in `tests/results/node-test-report.json`.
+
+The Oct 25 date/fresh-count fixture in `cnr-dedup.test.cjs` is advanced to Oct 26/one cause-list match, explicitly asserting zero fresh status dockets. Its original fixture is retained under `tests/historical/`. The Oct 25 daily test remains unchanged. Historical fixed-date tests are not passed off as current checks.
+
+All 109,999 prior corpus units, ordered profile source records, histories and search prefixes remain exact. All 455 identities/categories remain. All 860 prior row IDs/evidence remain; only `checkedThisRun` resets. The prior true-flag rows are separately preserved exactly in lineage. Now 863 archive rows,260 current rows,110,822 corpus units.
+
+New evidence: one fresh 26 Oct cause-list match; two no-data logs without invented calendar dates; two imported 25 Oct district observations; access/coverage ledgers; exact new document occurrences. No Data is not disposal. Imported observations retain the date and approximate session range, never invented per-record seconds. Older detailed dockets are not relabelled today's raw response.
+
+Production app/auth/config/calendar/display/styles/court-colour assets are byte-identical. The asset builder supports appended source maps; index only adds the new local corpus script. All uncertainty, masks, purpose conflicts and scoped stops remain.
+
+**Browser visual/mobile QA unavailable:** localhost HTTP refused and file protocol navigation policy-denied. Synthetic preview was not packaged; server sessions stopped. No browser/file workaround or public exposure attempted. Node model/DOM tests do not constitute browser visual verification.
+
+No public hosting action. Existing CSP prohibits network connections. The convenience password screen is not encryption. ZIP CRC, strict part size, complete reconstruction and payload SHA256 checks are separately recorded. Private source readback status is in the release manifest.
+
+The app-DOM coverage fixture is likewise advanced from six actions / 294 unqueried to four actions / 295 unqueried, and explicitly checks zero fresh case-status dockets. Its Oct25 version remains in historical tests.

@@ -1,0 +1,24 @@
+{
+  "files": {
+    "app.js": "2ad0bbdefc89e48a3977e378f02cbbc7994fe7fbea2d35612a66d81c05949380",
+    "calendar-core.js": "5cdcd3d2397b4a724ab6fe45951672b7f6e363cf7125bf4913eb3cd1bff2de38",
+    "styles.css": "308963d2bde9ea66d6ef70d519e43c610156bbb0abd63d637e9c043b87924ff4",
+    "courts.js": "738c935c55c21d9869c6fa8abba783ebc84d02aa96da8c13a0de215fa138f1f8",
+    "court-colors.css": "7d58227e31ed9477cac42dccdba5737930698246f64e262ff61449acccccf1f5",
+    "auth.js": "b92451cc15dcccb93c701eaf12d7388d66533fb5b6aa784c5fd79fd301bb3d6f",
+    "auth-config.js": "d44bf3d0ddfa01c95b04f053c3482648456aed27b54c4a8a9e53edaa44ba36bd",
+    "case-search-corpus-01.js": "4db1013a7e4165804289f6ff04ccbb82a9c841b76cf6085f6d63ea6a50668bba",
+    "case-search-corpus-02.js": "727991e76ff3de9d0e311ba980db0b4fde98c975a88a677d9ca5a352497f7736",
+    "case-search-corpus-03.js": "b572570caecfa8d6df6849ff27884fee76ad1c3dd3f2e6f83df2e1bff53acb9d",
+    "case-search-corpus-04.js": "8de75a25e4e136f8430c0541bb3d6d0c7d86c7376486232237a308cf4e96833a",
+    "case-search-corpus-05.js": "c80435511aff814e0455359cec49e208acf2c27e55fee15d6f0b5a6db8ea5729",
+    "case-search-corpus-06.js": "e31fcdcf8b2d5c0dd88a9885a6f39f95596c3f395b413a08f1b3a768e8eb882f",
+    "case-search-corpus-07.js": "974a72ae7666ddcd1aea0cccb7e8185398c6261d13b0bb54862def5bf3986386",
+    "case-search-corpus-08.js": "2dd95f1e5ebc2672d7ddb3fd04397465c4bed9458775fd9608f329af7b8db595",
+    "case-search-corpus-09.js": "10cc9873a2f3b5e0a51c63fde5a7d1e8cbefb63a1ea191b9636fa5f7a97e9054"
+  },
+  "compactScripts": [
+    "5cdcd3d2397b4a724ab6fe45951672b7f6e363cf7125bf4913eb3cd1bff2de38",
+    "30a648008c152d2f14dee1301259c76bcc0dfb0084870caff14c2a0baac1186d"
+  ]
+}

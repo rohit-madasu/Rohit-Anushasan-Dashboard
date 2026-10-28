@@ -1,0 +1,10 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "Home\nServices\nCase Status\nCase Status : Search by Case Number\nCase Status : Search by Case Number\n Case Number  FIR Number  Party Name  Advocate Name  Case Code  Act  Case Type\nBack\nADJ-cum-Family Courts, Kukatpally\n\nIn The Court Of : VI Additional District and Sessions Judge, RangaReddy District at Kukatpally\n\nCNR Number : TSRA440037902022\n\nCase Number : F.C.O.P/0000735/2019\n\nDate : 23-10-2026\n\nD.Vijaya Babu Versus T.Aruna Kranthi\n\nDaily Status\nBusiness\tNext Purpose\tNext Hearing Date\nBoth parties absent. Learned respondent counsel is present and was also present on 22.09.2026. Hence, the docket order regarding the absence of respondent counsel stands corrected. Heard learned respondent counsel Written arguments of her filed. Section directed to trace out the evidence of Pw1, Pw2, Rw1 and Rw2 along with the exhibits relied upon by both parties, call on 17.11.2026.\tFOR ARGUMENTS\t17-11-2026\nPrint\nBack"
+    }
+  ],
+  "isError": false
+}
+

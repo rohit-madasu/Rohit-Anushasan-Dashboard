@@ -1,0 +1,117 @@
+{
+  "run_date": "2026-10-28",
+  "freeze_ist": "2026-10-28T07:09:00+05:30",
+  "whatsapp": {
+    "status": "signed_out",
+    "checked_at": "2026-10-28T07:05:43+05:30",
+    "first_navigation_ist_approx": "2026-10-28T07:04:10+05:30",
+    "window": "19–28 October 2026 inclusive",
+    "fresh_messages": 0,
+    "fresh_media": 0,
+    "last_verified": "2026-10-24T09:44:38+05:30",
+    "diary_unchanged": true,
+    "daily_ledger": "Both groups: ten requested dates unavailable in this run, not silent. Last completed bounded review 15–24 October preserved.",
+    "ui_timestamp_timezone": "not verified; no messages read"
+  },
+  "coverage": {
+    "eligible": 221,
+    "total_profiles": 298,
+    "fresh_profile_queries": 3,
+    "fresh_official_matches": 0,
+    "no_data_daily_list": 2,
+    "no_data_advance_list": 1,
+    "fresh_status_dockets": 0,
+    "eligible_unqueried": 218,
+    "total_unqueried": 295,
+    "district_case_queries": 0,
+    "district_blocker": "Medchal district-hosted form loaded after navigation timeout; CAPTCHA displayed. Daily-task approval pending, none attempted.",
+    "status_portal_blocker": "https://csis.tshc.gov.in/ returned upstream connect error on initial load and one reload; no case-specific status query.",
+    "no_inference": "No Data in bounded daily/advance lists is not disposal, cancellation, outcome, or proof of no hearing. Tomorrow's previously displayed WP1970 listing remains qualified; advance list can be limited."
+  },
+  "findings": [
+    {
+      "file": "270",
+      "case": "WP 1970/2023",
+      "parties": "Panchagiri Ram Prasad and 3 Others versus State of Telangana and 3 others",
+      "office_identity": "Jhansi office-file linkage unproved",
+      "cnr": "HBHC010036772023",
+      "query": "29-10-2026 advance list; WP/1970/2023",
+      "checked_at": "2026-10-28T07:07:18+05:30",
+      "source": "https://causelist.tshc.gov.in/causelist/advance-list/caseCauseList",
+      "result": "No Data Available for This Search !!!!",
+      "limits": "Retain earlier October29 admission-revenue date as candidate; no negative hearing conclusion."
+    },
+    {
+      "file": "274",
+      "case": "CRLP 10403/2025",
+      "parties": "Arundathi Meesala versus State of Telangana / Meesala Supraja",
+      "cnr": "HBHC010477662025",
+      "query": "28-10-2026 daily list; CRLP/10403/2025",
+      "checked_at": "2026-10-28T07:08:00+05:30",
+      "source": "https://causelist.tshc.gov.in/causelist/caseWiseView",
+      "result": "No Data Available for This Search !!!!",
+      "limits": "Retain prior pending status and identity qualifications; linked stopped file188 not reopened."
+    },
+    {
+      "file": "275",
+      "case": "CRLP 16336/2025",
+      "parties": "Meesala Rama Mohan Rao versus State of Telangana / Meesala Supraja",
+      "cnr": "HBHC010753072025",
+      "query": "28-10-2026 daily list; CRLP/16336/2025",
+      "checked_at": "2026-10-28T07:08:10+05:30",
+      "source": "https://causelist.tshc.gov.in/causelist/caseWiseView",
+      "result": "No Data Available for This Search !!!!",
+      "limits": "Retain prior pending status, no outcome inferred."
+    }
+  ],
+  "imported_dated_findings": [
+    {
+      "file": "141",
+      "parties": "WPS Saroornagar versus Shiva Shankar",
+      "original188_row": 145,
+      "register_case": "CC 4913/2021",
+      "office_candidate": "CC 7913/2021",
+      "court_scope": "Rangareddy, PDJ Court Complex",
+      "source": "https://rangareddy.dcourts.gov.in/case-status-search-by-case-number/",
+      "times_UTC": [
+        "2026-10-27T06:06:51Z",
+        "2026-10-27T06:07:18Z"
+      ],
+      "result": "Two fresh authorized CAPTCHA submissions rejected as incorrect. Stopped; no case-specific record or no-record result received. Not a site-wide outage conclusion.",
+      "next": "Preserve both numbers and November 30 office date. Exact magistrate court, CNR or FIR remains missing. Rotate away unless new identifying evidence or viable verified challenge route."
+    },
+    {
+      "file": "178",
+      "parties_office": "Sandhya Lakshmi versus Chaitanya",
+      "original188_row": 182,
+      "query": "G.W.O.P 17/2025, Kukatpally ADJ Court Complex, Medchal-Malkajgiri",
+      "source": "https://medchalmalkajgiri.dcourts.gov.in/case-status-search-by-case-number/",
+      "time_UTC": "2026-10-27T06:09:26Z",
+      "challenge": "One incorrect challenge at 06:08:52 UTC followed by accepted fresh challenge at 06:09:11 UTC.",
+      "cnr": "TSMM090003972025",
+      "filing": "320/2025",
+      "filing_and_registration_date": "2025-05-14",
+      "court": "5-Additional Family Court, Medchal-Malkajgiri Dist. at Kukatpally",
+      "status": "Pending",
+      "next_date": "2026-10-28",
+      "purpose": "CALL WITH IAS",
+      "advocate": "ANNAPURNA BHARATULA",
+      "public_parties": "Three petitioners and one respondent masked",
+      "act": "GUARDIANS AND WARDS ACT, section 25",
+      "history": "18 rows from 25 July 2025 to 21 September 2026; latest business date 21 September 2026 links hearing 28 October 2026 CALL WITH IAS.",
+      "limits": "No business hyperlinks or order panel exposed. Identity remains provisional because parties masked; no new identity evidence, no reassignment to another office profile.",
+      "next": "Retain fresh candidate status/date and old source history. Seek named primary document for identity; do not repeatedly query before a new event/lead."
+    }
+  ],
+  "categories": {
+    "active": 86,
+    "disposed": 26,
+    "unclear": 186
+  },
+  "current_profiles": 298,
+  "file_locators": 299,
+  "closed_search_profiles": 157,
+  "reclassification": 0,
+  "cleanup": "Recoverable Trash unavailable: Drive UI verified signed out, connector has only permanent delete. No delete.",
+  "scope": "Private pipeline; no email/public hosting/user computer/third-party communications."
+}

@@ -1,0 +1,26 @@
+{
+  "stage": {
+    "sourceId": "stage-2026-10-28-comprehensive",
+    "sourceDocumentSha256": "e68144a2591444ed779d3a83f2feeccb9f1b944177159072186a91c94419e7de",
+    "count": 74154,
+    "sha256": "ab0f1c028eb09958044e873bdf782e4f2b640bbfab57c52bbb4d38add3ce2f04"
+  },
+  "active": {
+    "sourceId": "active-2026-10-28-comprehensive",
+    "sourceDocumentSha256": "655134e0424ff571e5a7821bcfff70a8e4e873146d9bb98a90df612ed8387a50",
+    "count": 58547,
+    "sha256": "28732f6639b1eee2f7e2a8164c2b48bc4ba0dee14b7df3b703c7a3425593e1d4"
+  },
+  "disposed": {
+    "sourceId": "disposed-2026-10-28-comprehensive",
+    "sourceDocumentSha256": "b05418f96fb041ddc96d28733a0b535455c737e872da5f29c0a12a8c1d380405",
+    "count": 46910,
+    "sha256": "36edb50abb8d296e7ce91d456b1daf2c067b83ba5bb6c9a28e8a4070d93cf186"
+  },
+  "unclear": {
+    "sourceId": "unclear-2026-10-28-comprehensive",
+    "sourceDocumentSha256": "53dbabe2e9b444fdb5635295e717342f81d0a1a26e1dc9a92d9ed7719114c50e",
+    "count": 58679,
+    "sha256": "304cd94dd323453555ee66908d83666252fb0c60dbf16503a7bd1da89b767ead"
+  }
+}

@@ -1,0 +1,501 @@
+{
+  "revision": 2,
+  "scope": "Already-captured procedural business faithfully structured; no new research",
+  "countsUnchanged": true,
+  "changedRecords": [
+    {
+      "cnr": "TSFC090000562026",
+      "ledger": "official/family/ledger.json",
+      "oldEvidenceId": "full28:459cd75b0bdab1d618f1",
+      "newEvidenceId": "full28:3585169a9a3679348188",
+      "rawChangedFields": [
+        "priorBusinessSummary",
+        "businessCapture",
+        "businessDate",
+        "business"
+      ],
+      "normalizedChangedFields": [
+        "businessDate",
+        "business"
+      ]
+    },
+    {
+      "cnr": "TSFC090001682025",
+      "ledger": "official/family/ledger.json",
+      "oldEvidenceId": "full28:412441f967ea9fffc0d7",
+      "newEvidenceId": "full28:8686ab46c19c14a0f133",
+      "rawChangedFields": [
+        "businessCapture",
+        "businessDate",
+        "business"
+      ],
+      "normalizedChangedFields": [
+        "businessDate",
+        "business"
+      ]
+    },
+    {
+      "cnr": "TSFC090003532025",
+      "ledger": "official/family/ledger.json",
+      "oldEvidenceId": "full28:def6e35bc20feed51e38",
+      "newEvidenceId": "full28:557b4092685f1431bbe7",
+      "rawChangedFields": [
+        "businessCapture",
+        "businessDate",
+        "business"
+      ],
+      "normalizedChangedFields": [
+        "businessDate",
+        "business"
+      ]
+    },
+    {
+      "cnr": "TSFC090002252025",
+      "ledger": "official/family/ledger.json",
+      "oldEvidenceId": "full28:d0641dd541f8ceb34d42",
+      "newEvidenceId": "full28:46b65194b46c92362129",
+      "rawChangedFields": [
+        "businessCapture",
+        "businessDate",
+        "business"
+      ],
+      "normalizedChangedFields": [
+        "businessDate",
+        "business"
+      ]
+    },
+    {
+      "cnr": "TSFC090052912020",
+      "ledger": "official/family/ledger.json",
+      "oldEvidenceId": "full28:44874e67c8d47d24646f",
+      "newEvidenceId": "full28:54503f4eff9d9da770f6",
+      "rawChangedFields": [
+        "businessCapture",
+        "businessDate",
+        "business"
+      ],
+      "normalizedChangedFields": [
+        "businessDate",
+        "business"
+      ]
+    },
+    {
+      "cnr": "TSFC090000282021",
+      "ledger": "official/family/additional_scope_ledger.json",
+      "oldEvidenceId": "full28:bf498a0753f38a813d9a",
+      "newEvidenceId": "full28:2d2dc0ef360869d8f9e2",
+      "rawChangedFields": [
+        "businessCapture",
+        "businessDate",
+        "business"
+      ],
+      "normalizedChangedFields": [
+        "businessDate",
+        "business"
+      ]
+    },
+    {
+      "cnr": "TSHM000074422024",
+      "ledger": "official/family/msj_tail_ledger.json",
+      "oldEvidenceId": "full28:74c708fc51b974bf736e",
+      "newEvidenceId": "full28:8183087e100570e50deb",
+      "rawChangedFields": [
+        "docketStatus",
+        "businessCapture",
+        "businessDate",
+        "disposal",
+        "business"
+      ],
+      "normalizedChangedFields": [
+        "status",
+        "businessDate",
+        "business"
+      ]
+    },
+    {
+      "cnr": "TSHM000021962023",
+      "ledger": "official/family/msj_tail_ledger.json",
+      "oldEvidenceId": "full28:556fa27f08b5ba937ee2",
+      "newEvidenceId": "full28:cb18eacf8bf1084785a2",
+      "rawChangedFields": [
+        "docketStatus",
+        "businessCapture",
+        "businessDate",
+        "disposal",
+        "business"
+      ],
+      "normalizedChangedFields": [
+        "status",
+        "businessDate",
+        "business"
+      ]
+    },
+    {
+      "cnr": "TSHM000021972023",
+      "ledger": "official/family/msj_tail_ledger.json",
+      "oldEvidenceId": "full28:e8145fc7b3b4bfa13924",
+      "newEvidenceId": "full28:e7ca46d88b10a969f4a5",
+      "rawChangedFields": [
+        "docketStatus",
+        "businessCapture",
+        "businessDate",
+        "disposal",
+        "business"
+      ],
+      "normalizedChangedFields": [
+        "status",
+        "businessDate",
+        "business"
+      ]
+    },
+    {
+      "cnr": "TSHM000021982023",
+      "ledger": "official/family/msj_tail_ledger.json",
+      "oldEvidenceId": "full28:0a7f3d22cc3d4ef423c2",
+      "newEvidenceId": "full28:898f26b24727782bb54e",
+      "rawChangedFields": [
+        "docketStatus",
+        "businessCapture",
+        "businessDate",
+        "disposal",
+        "business"
+      ],
+      "normalizedChangedFields": [
+        "status",
+        "businessDate",
+        "business"
+      ]
+    },
+    {
+      "cnr": "TSMM000014062024",
+      "ledger": "official/mm/results.json",
+      "oldEvidenceId": "full28:25569870653c7317571e",
+      "newEvidenceId": "full28:0aca12c1d385986fb08f",
+      "rawChangedFields": [
+        "businessCaptureFile",
+        "businessTextBasis"
+      ],
+      "normalizedChangedFields": []
+    },
+    {
+      "cnr": "TSMM020040442025",
+      "ledger": "official/mm/results.json",
+      "oldEvidenceId": "full28:4a7bfd305047acc56862",
+      "newEvidenceId": "full28:dd51cd7907d79dfa9ac8",
+      "rawChangedFields": [
+        "businessCaptureFile",
+        "businessDate",
+        "businessTextBasis",
+        "business"
+      ],
+      "normalizedChangedFields": [
+        "businessDate",
+        "business"
+      ]
+    },
+    {
+      "cnr": "TSMM010007742026",
+      "ledger": "official/mm/results.json",
+      "oldEvidenceId": "full28:30fa839463009d0a9401",
+      "newEvidenceId": "full28:e6803e7c999836d66bc8",
+      "rawChangedFields": [
+        "businessCaptureFile",
+        "businessTextBasis"
+      ],
+      "normalizedChangedFields": []
+    },
+    {
+      "cnr": "TSMM000034222024",
+      "ledger": "official/mm/results.json",
+      "oldEvidenceId": "full28:bf77abcc48f8b0b85eac",
+      "newEvidenceId": "full28:7274857235543a4b8f10",
+      "rawChangedFields": [
+        "businessCaptureFile",
+        "businessTextBasis"
+      ],
+      "normalizedChangedFields": []
+    },
+    {
+      "cnr": "TSMM000020662024",
+      "ledger": "official/mm/results.json",
+      "oldEvidenceId": "full28:13e01c4b7e552add23a9",
+      "newEvidenceId": "full28:3ffcd0c1b47e0db75388",
+      "rawChangedFields": [
+        "businessCaptureFile",
+        "businessTextBasis"
+      ],
+      "normalizedChangedFields": []
+    },
+    {
+      "cnr": "TSMM000003612021",
+      "ledger": "official/mm/results.json",
+      "oldEvidenceId": "full28:ebdcd2cf8a73cb27f10c",
+      "newEvidenceId": "full28:95797bcb656b596b109e",
+      "rawChangedFields": [
+        "businessCaptureFile",
+        "businessTextBasis"
+      ],
+      "normalizedChangedFields": []
+    },
+    {
+      "cnr": "TSMM000013752025",
+      "ledger": "official/mm/results.json",
+      "oldEvidenceId": "full28:9d021d4eecba77d05e8a",
+      "newEvidenceId": "full28:7fb7118ab83fc1b62382",
+      "rawChangedFields": [
+        "businessCaptureFile",
+        "businessTextBasis"
+      ],
+      "normalizedChangedFields": []
+    },
+    {
+      "cnr": "TSMM000004832026",
+      "ledger": "official/mm/results.json",
+      "oldEvidenceId": "full28:446093af3fdc87205d6b",
+      "newEvidenceId": "full28:8e4f606b71eb8488ff6a",
+      "rawChangedFields": [
+        "businessCaptureFile",
+        "businessTextBasis"
+      ],
+      "normalizedChangedFields": []
+    },
+    {
+      "cnr": "TSMM020017592025",
+      "ledger": "official/mm/results.json",
+      "oldEvidenceId": "full28:d35af0507a763c4e7e74",
+      "newEvidenceId": "full28:147695af19e19ad0f5c4",
+      "rawChangedFields": [
+        "businessCaptureFile",
+        "businessTextBasis"
+      ],
+      "normalizedChangedFields": []
+    },
+    {
+      "cnr": "TSMM020017092026",
+      "ledger": "official/mm/results.json",
+      "oldEvidenceId": "full28:74d3b16535bd8befa2b9",
+      "newEvidenceId": "full28:ba3de0a2175406502c2b",
+      "rawChangedFields": [
+        "businessCaptureFile",
+        "businessTextBasis"
+      ],
+      "normalizedChangedFields": []
+    },
+    {
+      "cnr": "TSMM020028962025",
+      "ledger": "official/mm/results.json",
+      "oldEvidenceId": "full28:8fac84354caad6a67cbf",
+      "newEvidenceId": "full28:ca7516560b11aa342404",
+      "rawChangedFields": [
+        "businessCaptureFile",
+        "businessTextBasis"
+      ],
+      "normalizedChangedFields": []
+    },
+    {
+      "cnr": "TSMM090005852026",
+      "ledger": "official/mm/results.json",
+      "oldEvidenceId": "full28:1abb7ac403e1e3e8e050",
+      "newEvidenceId": "full28:823a1ee85c628c894dc8",
+      "rawChangedFields": [
+        "businessCaptureFile",
+        "businessTextBasis"
+      ],
+      "normalizedChangedFields": []
+    },
+    {
+      "cnr": "TSMM090004022023",
+      "ledger": "official/mm/results.json",
+      "oldEvidenceId": "full28:6567fcf4ca896c36ccb6",
+      "newEvidenceId": "full28:f9b22286b1278ac1a94e",
+      "rawChangedFields": [
+        "businessCaptureFile",
+        "businessTextBasis"
+      ],
+      "normalizedChangedFields": []
+    },
+    {
+      "cnr": "TSMM110055252022",
+      "ledger": "official/mm/results.json",
+      "oldEvidenceId": "full28:1ee5fde99921fcd59a35",
+      "newEvidenceId": "full28:e7ca8151cbdc22c93c4c",
+      "rawChangedFields": [
+        "businessCaptureFile",
+        "businessTextBasis"
+      ],
+      "normalizedChangedFields": []
+    },
+    {
+      "cnr": "TSMM110005592024",
+      "ledger": "official/mm/results.json",
+      "oldEvidenceId": "full28:5d9118e232e48398451a",
+      "newEvidenceId": "full28:0ac05196bfb70d3748ab",
+      "rawChangedFields": [
+        "businessCaptureFile",
+        "businessTextBasis"
+      ],
+      "normalizedChangedFields": []
+    },
+    {
+      "cnr": "TSMM110055222025",
+      "ledger": "official/mm/results.json",
+      "oldEvidenceId": "full28:088cb4d131833f93df14",
+      "newEvidenceId": "full28:e447bb6fbbbe6c1c2da6",
+      "rawChangedFields": [
+        "businessCaptureFile",
+        "businessTextBasis"
+      ],
+      "normalizedChangedFields": []
+    },
+    {
+      "cnr": "TSMM110046632025",
+      "ledger": "official/mm/results.json",
+      "oldEvidenceId": "full28:a2b30b88e45fa3c454b7",
+      "newEvidenceId": "full28:6450d691e54e93eeabac",
+      "rawChangedFields": [
+        "businessCaptureFile",
+        "businessTextBasis"
+      ],
+      "normalizedChangedFields": []
+    },
+    {
+      "cnr": "TSMM110010052026",
+      "ledger": "official/mm/results.json",
+      "oldEvidenceId": "full28:d7a593fe2ab26181f342",
+      "newEvidenceId": "full28:312cb4b5c255d8bc421e",
+      "rawChangedFields": [
+        "businessCaptureFile",
+        "businessTextBasis"
+      ],
+      "normalizedChangedFields": []
+    },
+    {
+      "cnr": "TSMM130024022026",
+      "ledger": "official/mm/results.json",
+      "oldEvidenceId": "full28:2865dbb3357fdcea1a9e",
+      "newEvidenceId": "full28:a11c567904cb29f06816",
+      "rawChangedFields": [
+        "businessCaptureFile",
+        "businessTextBasis"
+      ],
+      "normalizedChangedFields": []
+    },
+    {
+      "cnr": "TSMM130027702024",
+      "ledger": "official/mm/results.json",
+      "oldEvidenceId": "full28:2b1b2faaacbea0e0ef12",
+      "newEvidenceId": "full28:1c414c7cd6f12bf71a8c",
+      "rawChangedFields": [
+        "businessCaptureFile",
+        "businessTextBasis"
+      ],
+      "normalizedChangedFields": []
+    },
+    {
+      "cnr": "TSMM030016052021",
+      "ledger": "official/mm/results.json",
+      "oldEvidenceId": "full28:93c1a6fc41176ec15cd3",
+      "newEvidenceId": "full28:bb39fbeafc2c5b80e9c2",
+      "rawChangedFields": [
+        "businessCaptureFile",
+        "businessTextBasis"
+      ],
+      "normalizedChangedFields": []
+    },
+    {
+      "cnr": "TSMM030005222025",
+      "ledger": "official/mm/results.json",
+      "oldEvidenceId": "full28:984da6dadd5d6bbcea6d",
+      "newEvidenceId": "full28:64fa732ed88a8a94c3e5",
+      "rawChangedFields": [
+        "businessCaptureFile",
+        "businessTextBasis"
+      ],
+      "normalizedChangedFields": []
+    },
+    {
+      "cnr": "TSMM000180532022",
+      "ledger": "official/mm/results.json",
+      "oldEvidenceId": "full28:5006f37e0d7ec321a3c2",
+      "newEvidenceId": "full28:40873ad1970709961485",
+      "rawChangedFields": [
+        "businessCaptureFile",
+        "priorBusinessSummary",
+        "businessTextBasis",
+        "business"
+      ],
+      "normalizedChangedFields": [
+        "business"
+      ]
+    },
+    {
+      "cnr": "TSMM040000922024",
+      "ledger": "official/mm/results.json",
+      "oldEvidenceId": "full28:1bf9f1ea5ea105770f3e",
+      "newEvidenceId": "full28:b48723ab9197339b616a",
+      "rawChangedFields": [
+        "businessCaptureFile",
+        "businessTextBasis"
+      ],
+      "normalizedChangedFields": []
+    },
+    {
+      "cnr": "TSMM110047112023",
+      "ledger": "official/mm/results.json",
+      "oldEvidenceId": "full28:072977239fa083d1caaa",
+      "newEvidenceId": "full28:310004a5228804d0c3ac",
+      "rawChangedFields": [
+        "businessCaptureFile",
+        "priorBusinessSummary",
+        "businessTextBasis",
+        "business"
+      ],
+      "normalizedChangedFields": [
+        "business"
+      ]
+    },
+    {
+      "cnr": "TSMM130047332025",
+      "ledger": "official/mm/results.json",
+      "oldEvidenceId": "full28:05b7d6fea076b0f27b7c",
+      "newEvidenceId": "full28:d2cd39fb096d60076e71",
+      "rawChangedFields": [
+        "businessCaptureFile",
+        "businessTextBasis"
+      ],
+      "normalizedChangedFields": []
+    },
+    {
+      "cnr": "APKR050012652020",
+      "ledger": "official/mm/results.json",
+      "oldEvidenceId": "full28:d98989c29eb1d3670ad6",
+      "newEvidenceId": "full28:d4d1d6c78f5b821b5a46",
+      "rawChangedFields": [
+        "businessCaptureFile",
+        "businessTextBasis"
+      ],
+      "normalizedChangedFields": []
+    },
+    {
+      "cnr": "APKR050007422020",
+      "ledger": "official/mm/results.json",
+      "oldEvidenceId": "full28:0ea7144e3acf17703c7e",
+      "newEvidenceId": "full28:b2f378210d9208828914",
+      "rawChangedFields": [
+        "businessCaptureFile",
+        "businessTextBasis"
+      ],
+      "normalizedChangedFields": []
+    },
+    {
+      "cnr": "TSRA000074662022",
+      "ledger": "official/tsra_results.json",
+      "oldEvidenceId": "full28:47fb1b71563f98af5ee6",
+      "newEvidenceId": "full28:47fb1b71563f98af5ee6",
+      "rawChangedFields": [],
+      "normalizedChangedFields": [
+        "business"
+      ]
+    }
+  ]
+}

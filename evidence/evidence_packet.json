@@ -1,0 +1,115 @@
+{
+  "run_date": "2026-10-26",
+  "freeze_ist": "2026-10-26T07:07:35+05:30",
+  "whatsapp": {
+    "status": "signed_out",
+    "checked_at": "2026-10-26T07:02:49+05:30",
+    "window": "17–26 October 2026 inclusive",
+    "fresh_messages": 0,
+    "last_verified": "2026-10-24T09:44:38+05:30",
+    "diary_unchanged": true,
+    "ui_timestamp_timezone": "not independently verified"
+  },
+  "coverage": {
+    "eligible": 221,
+    "total_profiles": 298,
+    "fresh_profile_queries": 3,
+    "fresh_official_matches": 1,
+    "no_data_daily_list": 2,
+    "fresh_status_dockets": 0,
+    "eligible_unqueried": 218,
+    "total_unqueried": 295,
+    "district_case_queries": 0,
+    "district_blocker": "Official district-hosted search loads but CAPTCHA approval pending; no CAPTCHA attempted",
+    "no_inference": "Daily cause-list No Data is not disposal or proof no future listing."
+  },
+  "findings": [
+    {
+      "file": "290",
+      "case": "WP 14632/2025",
+      "cnr": "HBHC010283132025",
+      "parties": "M. Narender versus The State of Telangana",
+      "checked_at": "2026-10-26T07:06:37+05:30",
+      "source": "https://causelist.tshc.gov.in/causelist/caseWiseView",
+      "source_entry": "https://causelist.tshc.gov.in/showDailyCauseList",
+      "query": "26-10-2026 daily list; WP/14632/2025",
+      "result": "matched",
+      "next_date": "2026-10-26",
+      "purpose": "SPECIALLY MENTIONED LETTERS-1",
+      "court": "Court No. 6",
+      "judge": "Justice K. Sarath",
+      "sequence": "Serial 53; AFTER ADJOURNED MOTION LIST",
+      "application": "IA 1/2025 (Direction Petition)",
+      "petitioner_advocate": "Sudhamalla Dinesh Kumar",
+      "respondent_advocates": "M Murali Krishna (R6); GP for Services III; K Balakrishna (R5)",
+      "evidence": "narender_causelist_raw.json",
+      "limits": "Cause-list listing only, not today's outcome. CNR carried from matched prior record; current cause list displays exact case/year and party identity."
+    },
+    {
+      "file": "276",
+      "case": "CRLA 632/2025",
+      "checked_at": "2026-10-26T07:07:24+05:30",
+      "source": "https://causelist.tshc.gov.in/causelist/caseWiseView",
+      "query": "26-10-2026 daily list; CRLA/632/2025",
+      "result": "No Data Available for This Search !!!!",
+      "limits": "No next-date/status inference. Preserve last verified pending status and elapsed October23 FOR ADMISSION, not fresh status check."
+    },
+    {
+      "file": "277",
+      "case": "CRLA 629/2025",
+      "checked_at": "2026-10-26T07:07:35+05:30",
+      "source": "https://causelist.tshc.gov.in/causelist/caseWiseView",
+      "query": "26-10-2026 daily list; CRLA/629/2025",
+      "result": "No Data Available for This Search !!!!",
+      "limits": "No next-date/status inference. Preserve last verified pending status and elapsed October23 FOR ADMISSION, not fresh status check."
+    }
+  ],
+  "imported_dated_findings": [
+    {
+      "file": "48",
+      "date": "2026-10-25",
+      "case": "FCOP 735/2019",
+      "cnr": "TSRA440037902022",
+      "parties": "D. Vijaya Babu versus T. Aruna Kranthi",
+      "next_date": "2026-11-17",
+      "purpose": "FOR ARGUMENTS",
+      "status": "Pending",
+      "court": "VI Additional District and Sessions Judge, Ranga Reddy at Kukatpally",
+      "business": "October23: both parties absent; respondent counsel present and also present September22, earlier absence docket corrected; counsel heard and written arguments filed; section to trace PW1/PW2/RW1/RW2 evidence and exhibits.",
+      "source": "https://rangareddy.dcourts.gov.in/case-status-search-by-case-number/",
+      "evidence": "aruna_oct25.txt",
+      "fresh_today": false
+    },
+    {
+      "file": "108",
+      "date": "2026-10-25",
+      "case": "MC 121/2023",
+      "cnr": "TSFC070010032023",
+      "parties": "Santosha / Gnanabhaskar (office association; official parties masked)",
+      "next_date": "2026-11-02",
+      "purpose": "CALL WITH MPs",
+      "status": "Pending",
+      "court": "Family Court, Ranga Reddy, court1 Family Court Judge",
+      "advocate": "P. Vijaya Laxmi",
+      "source": "https://rangareddy.dcourts.gov.in/case-status-search-by-case-number/",
+      "evidence": "mc121_oct25.txt",
+      "fresh_today": false,
+      "limits": "Office FOR ARGUMENTS conflicts with official CALL WITH MPs. No exposed detailed order/fine/arrears/payment proof. Do not infer nothing due."
+    }
+  ],
+  "preliminary_attempts": [
+    {
+      "source": "tshc.gov.in",
+      "result": "Initial timeout, one reload succeeded"
+    },
+    {
+      "query": "14632",
+      "source": "official daily cause list",
+      "result": "No Data; superseded by successful full WP/14632/2025 query; not separate profile query"
+    },
+    {
+      "source": "tshc.gov.in/displayListForParent?id=240",
+      "result": "Archive date control produced no cause-list result; switched to official daily-list UI"
+    }
+  ]
+}

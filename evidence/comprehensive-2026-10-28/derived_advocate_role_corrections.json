@@ -1,0 +1,412 @@
+{
+  "frozenNormalizedSha256": "33f6338c5fa9e4a295db478409a50ff37f4cee2e7b13ac2584c80fd89b25ecf6",
+  "records": [
+    {
+      "cnr": "TSFC100002812026",
+      "field": "advocate",
+      "priorParsedDisplay": "B. ANNAPURNA versus 1) XXX",
+      "correctedDisplay": "Petitioner-side portal listing: B. ANNAPURNA | Respondent-side portal listing: Not stated",
+      "basis": "Exact separately captured petitionerLiteral/respondentLiteral fields; opponent name is not advocate. Portal listing is not proof of attendance.",
+      "sourceCapture": "TSFC100002812026_refresh_073743.txt",
+      "evidenceIdUnchanged": "full28:49602bb07ea5c5525428"
+    },
+    {
+      "cnr": "TSFC070017602023",
+      "field": "advocate",
+      "priorParsedDisplay": "Hari Gopal Neela versus 1) XXX",
+      "correctedDisplay": "Petitioner-side portal listing: Hari Gopal Neela | Respondent-side portal listing: Not stated",
+      "basis": "Exact separately captured petitionerLiteral/respondentLiteral fields; opponent name is not advocate. Portal listing is not proof of attendance.",
+      "sourceCapture": "TSFC070017602023.txt",
+      "evidenceIdUnchanged": "full28:4972db2b665ce58ef26f"
+    },
+    {
+      "cnr": "TSFC070017722023",
+      "field": "advocate",
+      "priorParsedDisplay": "B.Annapurna versus 1) XXX",
+      "correctedDisplay": "Petitioner-side portal listing: B.Annapurna | Respondent-side portal listing: Not stated",
+      "basis": "Exact separately captured petitionerLiteral/respondentLiteral fields; opponent name is not advocate. Portal listing is not proof of attendance.",
+      "sourceCapture": "TSFC070017722023_verified.txt",
+      "evidenceIdUnchanged": "full28:f8f59a95aebd39b50e65"
+    },
+    {
+      "cnr": "TSFC100023212025",
+      "field": "advocate",
+      "priorParsedDisplay": "AZHAR AHMED BAIG versus 1) XXX Advocate - B. ANNAPURNA",
+      "correctedDisplay": "Petitioner-side portal listing: AZHAR AHMED BAIG | Respondent-side portal listing: B. ANNAPURNA",
+      "basis": "Exact separately captured petitionerLiteral/respondentLiteral fields; opponent name is not advocate. Portal listing is not proof of attendance.",
+      "sourceCapture": "TSFC100023212025.txt",
+      "evidenceIdUnchanged": "full28:ee51509278f02d8735f0"
+    },
+    {
+      "cnr": "TSFC090002252025",
+      "field": "advocate",
+      "priorParsedDisplay": "B. Annapurna versus 1) Abdul Khadeer",
+      "correctedDisplay": "Petitioner-side portal listing: B. Annapurna | Respondent-side portal listing: Not stated",
+      "basis": "Exact separately captured petitionerLiteral/respondentLiteral fields; opponent name is not advocate. Portal listing is not proof of attendance.",
+      "sourceCapture": "TSFC090002252025_verified.txt",
+      "evidenceIdUnchanged": "full28:46b65194b46c92362129"
+    },
+    {
+      "cnr": "TSFC070019092025",
+      "field": "advocate",
+      "priorParsedDisplay": "B.ANNAPURNA versus 1) XXX",
+      "correctedDisplay": "Petitioner-side portal listing: B.ANNAPURNA | Respondent-side portal listing: Not stated",
+      "basis": "Exact separately captured petitionerLiteral/respondentLiteral fields; opponent name is not advocate. Portal listing is not proof of attendance.",
+      "sourceCapture": "TSFC070019092025_verified.txt",
+      "evidenceIdUnchanged": "full28:dea0f3386ef34bec1bc3"
+    },
+    {
+      "cnr": "TSFC100002842026",
+      "field": "advocate",
+      "priorParsedDisplay": "B. ANNAPURNA versus 1) XXX",
+      "correctedDisplay": "Petitioner-side portal listing: B. ANNAPURNA | Respondent-side portal listing: Not stated",
+      "basis": "Exact separately captured petitionerLiteral/respondentLiteral fields; opponent name is not advocate. Portal listing is not proof of attendance.",
+      "sourceCapture": "TSFC100002842026.txt",
+      "evidenceIdUnchanged": "full28:a60118a7022655258e1a"
+    },
+    {
+      "cnr": "TSFC090052912020",
+      "field": "advocate",
+      "priorParsedDisplay": "No Vakalath yet versus 1) MTV Prasad",
+      "correctedDisplay": "Petitioner-side portal listing: No Vakalath yet | Respondent-side portal listing: Not stated",
+      "basis": "Exact separately captured petitionerLiteral/respondentLiteral fields; opponent name is not advocate. Portal listing is not proof of attendance.",
+      "sourceCapture": "TSFC090052912020.txt",
+      "evidenceIdUnchanged": "full28:54503f4eff9d9da770f6"
+    },
+    {
+      "cnr": "TSFC100009032024",
+      "field": "advocate",
+      "priorParsedDisplay": "B Annapurna versus 1) XXX",
+      "correctedDisplay": "Petitioner-side portal listing: B Annapurna | Respondent-side portal listing: Not stated",
+      "basis": "Exact separately captured petitionerLiteral/respondentLiteral fields; opponent name is not advocate. Portal listing is not proof of attendance.",
+      "sourceCapture": "TSFC100009032024.txt",
+      "evidenceIdUnchanged": "full28:5c4e30c8959c20cf9c0f"
+    },
+    {
+      "cnr": "TSFC100000612025",
+      "field": "advocate",
+      "priorParsedDisplay": "PARTYINPERSON versus 1) XXX",
+      "correctedDisplay": "Petitioner-side portal listing: PARTYINPERSON | Respondent-side portal listing: Not stated",
+      "basis": "Exact separately captured petitionerLiteral/respondentLiteral fields; opponent name is not advocate. Portal listing is not proof of attendance.",
+      "sourceCapture": "TSFC100000612025.txt",
+      "evidenceIdUnchanged": "full28:95fe1f69ee4918d32636"
+    },
+    {
+      "cnr": "TSFC100018332026",
+      "field": "advocate",
+      "priorParsedDisplay": "PARTYINPERSON versus 1) XXX",
+      "correctedDisplay": "Petitioner-side portal listing: PARTYINPERSON | Respondent-side portal listing: Not stated",
+      "basis": "Exact separately captured petitionerLiteral/respondentLiteral fields; opponent name is not advocate. Portal listing is not proof of attendance.",
+      "sourceCapture": "TSFC100018332026.txt",
+      "evidenceIdUnchanged": "full28:ea3d1be5b74e066fc236"
+    },
+    {
+      "cnr": "TSFC100001382022",
+      "field": "advocate",
+      "priorParsedDisplay": "Ravi Kishore versus 1) XXX",
+      "correctedDisplay": "Petitioner-side portal listing: Ravi Kishore | Respondent-side portal listing: Not stated",
+      "basis": "Exact separately captured petitionerLiteral/respondentLiteral fields; opponent name is not advocate. Portal listing is not proof of attendance.",
+      "sourceCapture": "TSFC100001382022.txt",
+      "evidenceIdUnchanged": "full28:cdb2f944b1b94e13f642"
+    },
+    {
+      "cnr": "TSHC080002582022",
+      "field": "advocate",
+      "priorParsedDisplay": "Nitesh Kylasa versus 1) XXX",
+      "correctedDisplay": "Petitioner-side portal listing: Nitesh Kylasa | Respondent-side portal listing: Not stated",
+      "basis": "Exact separately captured petitionerLiteral/respondentLiteral fields; opponent name is not advocate. Portal listing is not proof of attendance.",
+      "sourceCapture": "TSHC080002582022.txt",
+      "evidenceIdUnchanged": "full28:4f420ea65ef16a43ba10"
+    },
+    {
+      "cnr": "TSFC100003232026",
+      "field": "advocate",
+      "priorParsedDisplay": "PARTYINPERSON versus 1) XXX",
+      "correctedDisplay": "Petitioner-side portal listing: PARTYINPERSON | Respondent-side portal listing: Not stated",
+      "basis": "Exact separately captured petitionerLiteral/respondentLiteral fields; opponent name is not advocate. Portal listing is not proof of attendance.",
+      "sourceCapture": "TSFC100003232026.txt",
+      "evidenceIdUnchanged": "full28:17310f32a4301b0f6622"
+    },
+    {
+      "cnr": "TSFC100008892026",
+      "field": "advocate",
+      "priorParsedDisplay": "AZHAR AHMED BAIG versus 1) XXX",
+      "correctedDisplay": "Petitioner-side portal listing: AZHAR AHMED BAIG | Respondent-side portal listing: Not stated",
+      "basis": "Exact separately captured petitionerLiteral/respondentLiteral fields; opponent name is not advocate. Portal listing is not proof of attendance.",
+      "sourceCapture": "TSFC100008892026.txt",
+      "evidenceIdUnchanged": "full28:949b70ea8530d9626e45"
+    },
+    {
+      "cnr": "TSFC100013012026",
+      "field": "advocate",
+      "priorParsedDisplay": "DAMODAR T. versus 1) XXX",
+      "correctedDisplay": "Petitioner-side portal listing: DAMODAR T. | Respondent-side portal listing: Not stated",
+      "basis": "Exact separately captured petitionerLiteral/respondentLiteral fields; opponent name is not advocate. Portal listing is not proof of attendance.",
+      "sourceCapture": "TSFC100013012026_verified.txt",
+      "evidenceIdUnchanged": "full28:43414e4559c0e5e01c92"
+    },
+    {
+      "cnr": "TSFC100011082026",
+      "field": "advocate",
+      "priorParsedDisplay": "PARTYINPERSON versus 1) XXX",
+      "correctedDisplay": "Petitioner-side portal listing: PARTYINPERSON | Respondent-side portal listing: Not stated",
+      "basis": "Exact separately captured petitionerLiteral/respondentLiteral fields; opponent name is not advocate. Portal listing is not proof of attendance.",
+      "sourceCapture": "FCOP949_2026.txt",
+      "evidenceIdUnchanged": "full28:d57b9cd753ce2818042c"
+    },
+    {
+      "cnr": "TSFC100014302026",
+      "field": "advocate",
+      "priorParsedDisplay": "PARTYINPERSON versus 1) XXX",
+      "correctedDisplay": "Petitioner-side portal listing: PARTYINPERSON | Respondent-side portal listing: Not stated",
+      "basis": "Exact separately captured petitionerLiteral/respondentLiteral fields; opponent name is not advocate. Portal listing is not proof of attendance.",
+      "sourceCapture": "FCOP1246_2026_candidate.txt",
+      "evidenceIdUnchanged": "full28:8665faf2c084366e8894"
+    },
+    {
+      "cnr": "TSFC100021302025",
+      "field": "advocate",
+      "priorParsedDisplay": "ILI SURENDER versus 1) XXX",
+      "correctedDisplay": "Petitioner-side portal listing: ILI SURENDER | Respondent-side portal listing: Not stated",
+      "basis": "Exact separately captured petitionerLiteral/respondentLiteral fields; opponent name is not advocate. Portal listing is not proof of attendance.",
+      "sourceCapture": "FCOP1246_2025_candidate.txt",
+      "evidenceIdUnchanged": "full28:6af03931d23f5ab6f071"
+    },
+    {
+      "cnr": "TSFC100023892023",
+      "field": "advocate",
+      "priorParsedDisplay": "B Annapurna versus 1) XXX",
+      "correctedDisplay": "Petitioner-side portal listing: B Annapurna | Respondent-side portal listing: Not stated",
+      "basis": "Exact separately captured petitionerLiteral/respondentLiteral fields; opponent name is not advocate. Portal listing is not proof of attendance.",
+      "sourceCapture": "TSFC100023892023_verified.txt",
+      "evidenceIdUnchanged": "full28:9502a4f9aa656e287446"
+    },
+    {
+      "cnr": "TSFC100035312022",
+      "field": "advocate",
+      "priorParsedDisplay": "B Annapurna versus 1) XXX",
+      "correctedDisplay": "Petitioner-side portal listing: B Annapurna | Respondent-side portal listing: Not stated",
+      "basis": "Exact separately captured petitionerLiteral/respondentLiteral fields; opponent name is not advocate. Portal listing is not proof of attendance.",
+      "sourceCapture": "TSFC100035312022.txt",
+      "evidenceIdUnchanged": "full28:2b5351859eadc1dab0f6"
+    },
+    {
+      "cnr": "TSFC100005372021",
+      "field": "advocate",
+      "priorParsedDisplay": "S.M.Hussain versus 1) XXX",
+      "correctedDisplay": "Petitioner-side portal listing: S.M.Hussain | Respondent-side portal listing: Not stated",
+      "basis": "Exact separately captured petitionerLiteral/respondentLiteral fields; opponent name is not advocate. Portal listing is not proof of attendance.",
+      "sourceCapture": "OP368_2021_candidate.txt",
+      "evidenceIdUnchanged": "full28:964be6887918bfcb1695"
+    },
+    {
+      "cnr": "TSFC100015472022",
+      "field": "advocate",
+      "priorParsedDisplay": "MOHD RAFATHULLAH versus 1) XXX",
+      "correctedDisplay": "Petitioner-side portal listing: MOHD RAFATHULLAH | Respondent-side portal listing: Not stated",
+      "basis": "Exact separately captured petitionerLiteral/respondentLiteral fields; opponent name is not advocate. Portal listing is not proof of attendance.",
+      "sourceCapture": "MC517_2022_candidate.txt",
+      "evidenceIdUnchanged": "full28:031e78f975b022a95726"
+    },
+    {
+      "cnr": "TSFC090000682018",
+      "field": "advocate",
+      "priorParsedDisplay": "Mohammed Qureshi versus 1) djQPQerhB1DJ8+w/5FKz4w==",
+      "correctedDisplay": "Petitioner-side portal listing: Mohammed Qureshi | Respondent-side portal listing: Not stated",
+      "basis": "Exact separately captured petitionerLiteral/respondentLiteral fields; opponent name is not advocate. Portal listing is not proof of attendance.",
+      "sourceCapture": "DVC35_2018_candidate.txt",
+      "evidenceIdUnchanged": "full28:2c18a3e659483d166b50"
+    },
+    {
+      "cnr": "TSFC070007752022",
+      "field": "advocate",
+      "priorParsedDisplay": "B. Annapurna versus 1) XXX",
+      "correctedDisplay": "Petitioner-side portal listing: B. Annapurna | Respondent-side portal listing: Not stated",
+      "basis": "Exact separately captured petitionerLiteral/respondentLiteral fields; opponent name is not advocate. Portal listing is not proof of attendance.",
+      "sourceCapture": "TSFC070007752022.txt",
+      "evidenceIdUnchanged": "full28:9ecf0ee07a773b4ddf7e"
+    },
+    {
+      "cnr": "TSFC070004732023",
+      "field": "advocate",
+      "priorParsedDisplay": "T. Satyanarayana versus 1) XXX",
+      "correctedDisplay": "Petitioner-side portal listing: T. Satyanarayana | Respondent-side portal listing: Not stated",
+      "basis": "Exact separately captured petitionerLiteral/respondentLiteral fields; opponent name is not advocate. Portal listing is not proof of attendance.",
+      "sourceCapture": "FCOP363_2023_RR_candidate.txt",
+      "evidenceIdUnchanged": "full28:02f5503fb8f2a96092d1"
+    },
+    {
+      "cnr": "TSFC070000752024",
+      "field": "advocate",
+      "priorParsedDisplay": "K.Srinivas Reddy versus 1) XXX",
+      "correctedDisplay": "Petitioner-side portal listing: K.Srinivas Reddy | Respondent-side portal listing: Not stated",
+      "basis": "Exact separately captured petitionerLiteral/respondentLiteral fields; opponent name is not advocate. Portal listing is not proof of attendance.",
+      "sourceCapture": "GWOP6_2024_RR_candidate.txt",
+      "evidenceIdUnchanged": "full28:ac796eff06695b8b0433"
+    },
+    {
+      "cnr": "TSFC070019032023",
+      "field": "advocate",
+      "priorParsedDisplay": "SL.Srinivasulu versus 1) XXX",
+      "correctedDisplay": "Petitioner-side portal listing: SL.Srinivasulu | Respondent-side portal listing: Not stated",
+      "basis": "Exact separately captured petitionerLiteral/respondentLiteral fields; opponent name is not advocate. Portal listing is not proof of attendance.",
+      "sourceCapture": "FCOP1586_2023_RR_candidate.txt",
+      "evidenceIdUnchanged": "full28:b628111e760787f4034b"
+    },
+    {
+      "cnr": "TSFC070020252024",
+      "field": "advocate",
+      "priorParsedDisplay": "B.ANNAPURNA versus 1) XXX",
+      "correctedDisplay": "Petitioner-side portal listing: B.ANNAPURNA | Respondent-side portal listing: Not stated",
+      "basis": "Exact separately captured petitionerLiteral/respondentLiteral fields; opponent name is not advocate. Portal listing is not proof of attendance.",
+      "sourceCapture": "FCOP1651_2024_RR_candidate.txt",
+      "evidenceIdUnchanged": "full28:67902b2bec0963c06f39"
+    },
+    {
+      "cnr": "TSFC070000122024",
+      "field": "advocate",
+      "priorParsedDisplay": "S.Narender Kumar versus 1) XXX",
+      "correctedDisplay": "Petitioner-side portal listing: S.Narender Kumar | Respondent-side portal listing: Not stated",
+      "basis": "Exact separately captured petitionerLiteral/respondentLiteral fields; opponent name is not advocate. Portal listing is not proof of attendance.",
+      "sourceCapture": "FCOP12_2024_RR_candidate.txt",
+      "evidenceIdUnchanged": "full28:adf3df128b21058eac49"
+    },
+    {
+      "cnr": "TSFC070006882024",
+      "field": "advocate",
+      "priorParsedDisplay": "B.Sudhakar Reddy versus 1) XXX",
+      "correctedDisplay": "Petitioner-side portal listing: B.Sudhakar Reddy | Respondent-side portal listing: Not stated",
+      "basis": "Exact separately captured petitionerLiteral/respondentLiteral fields; opponent name is not advocate. Portal listing is not proof of attendance.",
+      "sourceCapture": "FCOP564_2024_RR_donor_candidate.txt",
+      "evidenceIdUnchanged": "full28:d03550ab5f48067b4619"
+    },
+    {
+      "cnr": "TSFC070001632020",
+      "field": "advocate",
+      "priorParsedDisplay": "K.SREEDHAR versus 1) XXX",
+      "correctedDisplay": "Petitioner-side portal listing: K.SREEDHAR | Respondent-side portal listing: Not stated",
+      "basis": "Exact separately captured petitionerLiteral/respondentLiteral fields; opponent name is not advocate. Portal listing is not proof of attendance.",
+      "sourceCapture": "FCOP138_2020_RR_candidate.txt",
+      "evidenceIdUnchanged": "full28:083122de0e1fc4869e5e"
+    },
+    {
+      "cnr": "TSHC080002582022",
+      "field": "advocate",
+      "priorParsedDisplay": "Nitesh Kylasa versus 1) XXX",
+      "correctedDisplay": "Petitioner-side portal listing: Nitesh Kylasa | Respondent-side portal listing: Not stated",
+      "basis": "Exact separately captured petitionerLiteral/respondentLiteral fields; opponent name is not advocate. Portal listing is not proof of attendance.",
+      "sourceCapture": "TSHC080002582022.txt",
+      "evidenceIdUnchanged": "full28:2d28e2d48861fcb20238"
+    },
+    {
+      "cnr": "TSFC070009972021",
+      "field": "advocate",
+      "priorParsedDisplay": "C. V. Narayan Rao versus 1) XXX",
+      "correctedDisplay": "Petitioner-side portal listing: C. V. Narayan Rao | Respondent-side portal listing: Not stated",
+      "basis": "Exact separately captured petitionerLiteral/respondentLiteral fields; opponent name is not advocate. Portal listing is not proof of attendance.",
+      "sourceCapture": "FCOP836_2021_RR_candidate.txt",
+      "evidenceIdUnchanged": "full28:9b7391b53a53a88628bf"
+    },
+    {
+      "cnr": "TSFC070025902021",
+      "field": "advocate",
+      "priorParsedDisplay": "John Dinakar Bugudda versus 1) XXX",
+      "correctedDisplay": "Petitioner-side portal listing: John Dinakar Bugudda | Respondent-side portal listing: Not stated",
+      "basis": "Exact separately captured petitionerLiteral/respondentLiteral fields; opponent name is not advocate. Portal listing is not proof of attendance.",
+      "sourceCapture": "FCOP1511_2021_RR_candidate.txt",
+      "evidenceIdUnchanged": "full28:8b6bc01141d7f1630962"
+    },
+    {
+      "cnr": "TSFC070034212021",
+      "field": "advocate",
+      "priorParsedDisplay": "SV NARASIMHA versus 1) XXX",
+      "correctedDisplay": "Petitioner-side portal listing: SV NARASIMHA | Respondent-side portal listing: Not stated",
+      "basis": "Exact separately captured petitionerLiteral/respondentLiteral fields; opponent name is not advocate. Portal listing is not proof of attendance.",
+      "sourceCapture": "FCOP12_2022_RR_candidate.txt",
+      "evidenceIdUnchanged": "full28:dcaecd7bbd6829dc73b8"
+    },
+    {
+      "cnr": "TSFC070010272021",
+      "field": "advocate",
+      "priorParsedDisplay": "Bankatlal Mandhani versus 1) XXX",
+      "correctedDisplay": "Petitioner-side portal listing: Bankatlal Mandhani | Respondent-side portal listing: Not stated",
+      "basis": "Exact separately captured petitionerLiteral/respondentLiteral fields; opponent name is not advocate. Portal listing is not proof of attendance.",
+      "sourceCapture": "FCOP856_2021_RR_candidate.txt",
+      "evidenceIdUnchanged": "full28:58d722740fd90ffc071b"
+    },
+    {
+      "cnr": "TSFC070007312019",
+      "field": "advocate",
+      "priorParsedDisplay": "PODILI BOSU BABU versus 1) XXX",
+      "correctedDisplay": "Petitioner-side portal listing: PODILI BOSU BABU | Respondent-side portal listing: Not stated",
+      "basis": "Exact separately captured petitionerLiteral/respondentLiteral fields; opponent name is not advocate. Portal listing is not proof of attendance.",
+      "sourceCapture": "FCOP603_2019_RR_candidate.txt",
+      "evidenceIdUnchanged": "full28:497df45a6b1c6feb764f"
+    },
+    {
+      "cnr": "TSFC070014202020",
+      "field": "advocate",
+      "priorParsedDisplay": "B.Annapurna versus 1) XXX",
+      "correctedDisplay": "Petitioner-side portal listing: B.Annapurna | Respondent-side portal listing: Not stated",
+      "basis": "Exact separately captured petitionerLiteral/respondentLiteral fields; opponent name is not advocate. Portal listing is not proof of attendance.",
+      "sourceCapture": "FCOP1211_2020_RR_candidate.txt",
+      "evidenceIdUnchanged": "full28:b4c6fe6358a797f03270"
+    },
+    {
+      "cnr": "TSFC070004762021",
+      "field": "advocate",
+      "priorParsedDisplay": "K.AMARNATH YADAV versus 1) XXX",
+      "correctedDisplay": "Petitioner-side portal listing: K.AMARNATH YADAV | Respondent-side portal listing: Not stated",
+      "basis": "Exact separately captured petitionerLiteral/respondentLiteral fields; opponent name is not advocate. Portal listing is not proof of attendance.",
+      "sourceCapture": "FCOP400_2021_RR_candidate.txt",
+      "evidenceIdUnchanged": "full28:9a1f51e02421108f3d8c"
+    },
+    {
+      "cnr": "TSFC100025692022",
+      "field": "advocate",
+      "priorParsedDisplay": "B.ANNAPURNA; B.ANNAPURNA versus 1) XXX",
+      "correctedDisplay": "Petitioner-side portal listing: B.ANNAPURNA | Respondent-side portal listing: Not stated",
+      "basis": "Exact separately captured petitionerLiteral/respondentLiteral fields; opponent name is not advocate. Portal listing is not proof of attendance.",
+      "sourceCapture": "MC1244_2022_Hyd_candidate.txt",
+      "evidenceIdUnchanged": "full28:11bee9726e63ff5fa7cf"
+    },
+    {
+      "cnr": "TSHC080000472019",
+      "field": "advocate",
+      "priorParsedDisplay": "SRINIVASULU S.L. versus 1) XXX",
+      "correctedDisplay": "Petitioner-side portal listing: SRINIVASULU S.L. | Respondent-side portal listing: Not stated",
+      "basis": "Exact separately captured petitionerLiteral/respondentLiteral fields; opponent name is not advocate. Portal listing is not proof of attendance.",
+      "sourceCapture": "FCOP23_2019_Sec_candidate.txt",
+      "evidenceIdUnchanged": "full28:7697add0bf5050830175"
+    },
+    {
+      "cnr": "TSHC080005802019",
+      "field": "advocate",
+      "priorParsedDisplay": "TRILOK RAJ T.S.K. versus 1) XXX",
+      "correctedDisplay": "Petitioner-side portal listing: TRILOK RAJ T.S.K. | Respondent-side portal listing: Not stated",
+      "basis": "Exact separately captured petitionerLiteral/respondentLiteral fields; opponent name is not advocate. Portal listing is not proof of attendance.",
+      "sourceCapture": "FCOP415_2019_Sec_candidate.txt",
+      "evidenceIdUnchanged": "full28:5606b773777885ca48a1"
+    },
+    {
+      "cnr": "TSFC070020252024",
+      "field": "advocate",
+      "priorParsedDisplay": "B.ANNAPURNA versus 1) XXX",
+      "correctedDisplay": "Petitioner-side portal listing: B.ANNAPURNA | Respondent-side portal listing: Not stated",
+      "basis": "Exact separately captured petitionerLiteral/respondentLiteral fields; opponent name is not advocate. Portal listing is not proof of attendance.",
+      "sourceCapture": "FCOP1651_2024_RR_candidate.txt",
+      "evidenceIdUnchanged": "full28:ec904e9e2053914e272c"
+    },
+    {
+      "cnr": "TSFC070014202020",
+      "field": "advocate",
+      "priorParsedDisplay": "B.Annapurna versus 1) XXX",
+      "correctedDisplay": "Petitioner-side portal listing: B.Annapurna | Respondent-side portal listing: Not stated",
+      "basis": "Exact separately captured petitionerLiteral/respondentLiteral fields; opponent name is not advocate. Portal listing is not proof of attendance.",
+      "sourceCapture": "FCOP1211_2020_RR_candidate.txt",
+      "evidenceIdUnchanged": "full28:b8e007511cb64010f45b"
+    }
+  ],
+  "count": 45,
+  "rawEvidenceChanged": false
+}

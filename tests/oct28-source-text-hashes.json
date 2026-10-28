@@ -1,0 +1,37 @@
+{
+  "stage": {
+    "sourceId": "stage-2026-10-28-daily",
+    "sourceDocumentSha256": "dde32520953fae8ac995dfeb58ab1f87a230badcdb0a91fa2375d3b8e2b5ccd6",
+    "count": 65518,
+    "sha256": "0777e70909d353c8a846c11a1d9f8031a5d546b81c8e02e3e027647ce8051449",
+    "extraction": "Exact ordered paragraph occurrences including empty paragraphs."
+  },
+  "active": {
+    "sourceId": "active-2026-10-28-daily",
+    "sourceDocumentSha256": "6151c1993fa1e2dbb7bda31db27500961269b6dc9ba5cf47cd761cdcf9b85d5c",
+    "count": 55053,
+    "sha256": "657c33f5f0d2daaeaafe731a9d44966c5e1d5be6a6f5694408c1c42edeac6fb7",
+    "extraction": "Exact ordered paragraph occurrences including empty paragraphs."
+  },
+  "disposed": {
+    "sourceId": "disposed-2026-10-28-daily",
+    "sourceDocumentSha256": "1e8986b8978d998c85c003746378696269e6e2faea71e999f84c5cb14f4a19de",
+    "count": 45891,
+    "sha256": "daac5ee3d83d3e36d2bba8ed586a74213bf11e5ffe7ec0d36572356a45246929",
+    "extraction": "Exact ordered paragraph occurrences including empty paragraphs."
+  },
+  "unclear": {
+    "sourceId": "unclear-2026-10-28-daily",
+    "sourceDocumentSha256": "eb8225a8deedc78a30095b9a184fcefa57711fe599c33d8175d48a7a0ff9843f",
+    "count": 53018,
+    "sha256": "446100dc05e4f675af4cf4d8a6462ca228911731605541efac6cf5bf15dd2153",
+    "extraction": "Exact ordered paragraph occurrences including empty paragraphs."
+  },
+  "running": {
+    "sourceId": "running-2026-10-28-daily",
+    "sourceDocumentSha256": "1d9f4b0e7050fd72138ac64eeb8ce7f0feebab34d4a3c99868835ceafb1c1049",
+    "count": 1089,
+    "sha256": "d79220d716ee7f7b3fab9f2dbde6d0d68dbd21a7b6774a04f11542d7b2379599",
+    "extraction": "Exact ordered PDF page text."
+  }
+}

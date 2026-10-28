@@ -1,0 +1,31 @@
+# Official district access: verified 25 October 2026
+
+Checked approximately 09:55–10:04 IST (04:25–04:34 UTC). This is evidence for the next authorized report revision, not a publication or replacement of any master.
+
+## Result and scope
+Ranga Reddy district-hosted eCourts case search works end-to-end in dot cloud Chromium. Two establishments and two exact case/CNR associations were checked. This does not establish that every district or central eCourts is restored.
+
+Central https://services.ecourts.gov.in/ecourtindia_v6/ and https://ecourts.gov.in/ still displayed `upstream connect error or disconnect/reset before headers. reset reason: connection timeout`. Native cloud Chromium navigation and one hard reload of the central casestatus route did not fix this. Telangana HC https://csis.tshc.gov.in/ loaded in the same browser. The observed failure is a pre-search connection timeout, not an observed login demand, CAPTCHA failure or explicit access denial. The underlying server/network cause cannot be established from this evidence. No VPN, proxy, security settings, cookies or authentication state were changed. User computer not used.
+
+## Supported reusable route
+1. Open https://rangareddy.dcourts.gov.in/ and select Case Status, Case Number, or open its observed official link https://rangareddy.dcourts.gov.in/case-status-search-by-case-number/.
+2. Choose Court Complex or Court Establishment, then the known court. Wait for Case Type options to load.
+3. Select case type, enter number and year, read and solve the displayed CAPTCHA under existing user authorization, and press Search. If the image is broken, use its ordinary Refresh Image link and wait for loading. No hidden endpoint requests are necessary.
+4. Open View Case Details. An additional CAPTCHA may be displayed; complete it if asked. It appeared for FCOP735/2019 but not MC121/2023 in this session.
+5. Match case type/number/year, filing details, CNR, court and parties before attributing identity. Preserve masked names and office-derived associations rather than claiming an independent name match.
+6. Where Business On Date is a real link, open the latest date to read daily business. Some records expose only non-clickable date cells. Do not guess private endpoints or conclude there are no orders, costs or arrears.
+7. Record actual checked time, query, source, result and unverified fields. Resume the rotating per-entry queue using this route for supported Ranga Reddy establishments instead of marking all district checks blocked.
+
+## Office file 48: independently matched
+Query: Court Complex Kukatpally, ADJ-cum-Family Court; F.C.O.P 735 / 2019.
+Result: D.Vijaya Babu versus T.Aruna Kranthi, CNR TSRA440037902022. Filing1272/2019, filing and registration date08-06-2022. Court2-VI Additional District and Sessions Judge, RangaReddy District at Kukatpally. Pending. Next17-November-2026, FOR ARGUMENTS. Indian Divorce Act10(1)(x). Petitioner advocate displayed as Adv; respondent advocate not stated in summary.
+Latest daily business23-10-2026: Both parties absent. Learned respondent counsel is present and was also present on22.09.2026. Hence, the docket order regarding the absence of respondent counsel stands corrected. Heard learned respondent counsel Written arguments of her filed. Section directed to trace out the evidence of Pw1, Pw2, Rw1 and Rw2 along with the exhibits relied upon by both parties, call on17.11.2026.
+This is arguments next, not orders. Preserve the dated correction of22September counsel attendance. Full exact extracted business is in aruna_business_raw.json.
+
+## Office file 108: exact CNR confirmed, names masked
+Query: Court Establishment Family Courts, Rangareddy; MC121 / 2023.
+Result: MC - MAINTENANCE CASE; filing122/2023, filing and registration26-06-2023; registration121/2023; CNR TSFC070010032023. FAMILY COURT, RANGA REDDY DISTRICT, court1-Family Court Judge. Pending. Next02-November-2026, CALL WITH MPs. CrPC125. Advocate P. Vijaya Laxmi. Three petitioners displayed XXXXXXX, respondent XXX. Santosha/Gnanabhaskar is the existing office association, not independently confirmed names on this public result.
+Latest visible history22-10-2026 ->02-11-2026 CALL WITH MPs. All dates are plain cells, no business links; no orders section exposed. No explicit fine/cost/arrears figure found in the available summary/history, but that is NOT evidence no amount is due. Need actual relevant MP order/docket/payment record to answer any outstanding amount. Preserve office-reported FOR ARGUMENTS conflict separately, do not overwrite official CALL WITH MPs. Exact complete extracted status/history is in mc121_raw.json.
+
+No Drive files changed; no dashboard or diary updated. Tabs remain open for authorized continuation.
+
