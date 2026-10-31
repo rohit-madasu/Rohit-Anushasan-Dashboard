@@ -1,0 +1,441 @@
+{
+  "date": "2026-10-31",
+  "sourceFrozenAtUTC": "2026-10-31T01:45:52Z",
+  "summary": "31 October 2026 private refresh, through 07:15:52 IST: eight exact CNR targets attempted, seven full dockets (five changed next dates, two still showing elapsed 30 October dates), one blocked. Six source profiles have fresh full docket associations; one checked proceeding remains file-unassigned. 212 of 220 retained CNR references were not freshly attempted; retained references include stopped/historical/gated scopes and are not unique eligible active cases. Separately dated 30 October research adds three candidate dockets for files 33/40 and two filing/party searches without an established target DVC for file 287; no firm identity or category change. 31 October 06:58:40 IST: WhatsApp QR sign-in; zero fresh messages/media reviewed in either group for 22\u201331 October. Last actual partial run-day review 28 October 12:35 IST; raw message UI timezone unverified. Diary unchanged. Profiles remain 93 active / 31 disposed-main-matter / 174 unclear (298 profiles, 299 locators), plus 157 closed-register rows. Dates do not establish attendance, outcomes or compliance. This is not all-case completion.",
+  "privateOnly": true,
+  "publicPublicationAuthorized": false,
+  "sourceBindings": {
+    "stage": {
+      "id": "1DB6UsoDv5ycTDVPLtBO8WlWKW467sJoP",
+      "url": "https://docs.google.com/document/d/1DB6UsoDv5ycTDVPLtBO8WlWKW467sJoP/edit?usp=drivesdk&ouid=114145581713538354167&rtpof=true&sd=true",
+      "parent": "1kaMiQfnuYiDkujvPp5Uw4I2niTHn2ncH",
+      "sha256": "6aa48e622bcd102c7cf1eb2fd36343f59955c7e6755af9e20ed798e56dd599fd",
+      "filename": "Current_Case_Hearings_and_Stages_2026-10-31.docx",
+      "size": 1601199,
+      "modified_time": "2026-10-31T01:53:47.993Z",
+      "readbackVerified": true,
+      "parentVerified": true,
+      "privateAccessVerified": true
+    },
+    "running": {
+      "id": "1M4THYX5DGX7F0CfJFN9Mc5cp40r4Q4vC",
+      "url": "https://drive.google.com/file/d/1M4THYX5DGX7F0CfJFN9Mc5cp40r4Q4vC/view?usp=drivesdk",
+      "parent": "1RYStR-BRf6rqTrG0_IU90CVCDqlftvah",
+      "sha256": "9e139a9cf91bd3734fcda75b9233a54ae3730fbf7d35e4517868f4a3764e60e8",
+      "filename": "Running_Cases_Register_2026-10-31.pdf",
+      "size": 8174286,
+      "modified_time": "2026-10-31T01:55:27.789Z",
+      "readbackVerified": true,
+      "parentVerified": true,
+      "privateAccessVerified": true
+    },
+    "active": {
+      "id": "1pBBQl5RJcLZqfVnL9_baOc22gJYMPVqu",
+      "url": "https://docs.google.com/document/d/1pBBQl5RJcLZqfVnL9_baOc22gJYMPVqu/edit?usp=drivesdk&ouid=114145581713538354167&rtpof=true&sd=true",
+      "parent": "1qBseFDluKovuw91HPSKD4tIDmV9XbgbA",
+      "sha256": "49832180e7dbb06b451d2348f8e1b474a080af56fb2ac172a072601653e44d7e",
+      "filename": "Active_cases.docx",
+      "size": 1249528,
+      "modified_time": "2026-10-31T01:55:59.750Z",
+      "readbackVerified": true,
+      "parentVerified": true,
+      "privateAccessVerified": true
+    },
+    "disposed": {
+      "id": "1UiCyI06VtK-hYQim2q5dyuUiPJzoeGBf",
+      "url": "https://docs.google.com/document/d/1UiCyI06VtK-hYQim2q5dyuUiPJzoeGBf/edit?usp=drivesdk&ouid=114145581713538354167&rtpof=true&sd=true",
+      "parent": "1qBseFDluKovuw91HPSKD4tIDmV9XbgbA",
+      "sha256": "7364d30c7ec6becf557ec189d73399812dac93dfb88289c5faf379227855f1ac",
+      "filename": "disposed_cases.docx",
+      "size": 988135,
+      "modified_time": "2026-10-31T01:56:16.227Z",
+      "readbackVerified": true,
+      "parentVerified": true,
+      "privateAccessVerified": true
+    },
+    "unclear": {
+      "id": "1SF0HF6jc0kvZV3wvQRK7ZZNMiQCao4UB",
+      "url": "https://docs.google.com/document/d/1SF0HF6jc0kvZV3wvQRK7ZZNMiQCao4UB/edit?usp=drivesdk&ouid=114145581713538354167&rtpof=true&sd=true",
+      "parent": "1qBseFDluKovuw91HPSKD4tIDmV9XbgbA",
+      "sha256": "128d908fb9d940dd4b1cb0d4905f0bc95156bf2bba4ba692d8cbaee47b7f4b85",
+      "filename": "unclear_partly_resolved_cases.docx",
+      "size": 1221899,
+      "modified_time": "2026-10-31T01:56:25.445Z",
+      "readbackVerified": true,
+      "parentVerified": true,
+      "privateAccessVerified": true
+    },
+    "diary": {
+      "id": "1D7lDO33jWv_pR8x2A3Eg_8NFdSDT0nnd",
+      "url": "https://docs.google.com/document/d/1D7lDO33jWv_pR8x2A3Eg_8NFdSDT0nnd/edit?usp=drivesdk&ouid=114145581713538354167&rtpof=true&sd=true",
+      "parent": "1ZthcWlOSEZctKUOVjZ6KXTfdagtvjAZM",
+      "sha256": "cfe6f280e81247019d93ba2eb16dc3740d0aee050ebc75e4e0baed7f23390651",
+      "filename": "Anushasan_Associates_MASTER_Court_Diary_and_Case_Register-28-Oct-2026.docx",
+      "size": 1661660,
+      "modified_time": "2026-10-28T09:41:24.294Z",
+      "readbackVerified": false,
+      "parentVerified": true,
+      "privateAccessVerified": true,
+      "unchanged": true,
+      "baselineHashVerified": true,
+      "liveMetadataUnchanged": true
+    },
+    "protected": {
+      "id": "1Hha6k1n91jPRNASI6yg8-ysLNDRySayT",
+      "url": "https://docs.google.com/document/d/1Hha6k1n91jPRNASI6yg8-ysLNDRySayT/edit?usp=drivesdk&ouid=114145581713538354167&rtpof=true&sd=true",
+      "parent": "1iphdrPCtk7PnePGw4Bc_KhkQfQmAXuOl",
+      "sha256": "62a52523301c260595af05fc450a823b76726f79f43c9c4977467d9bf523fc33",
+      "filename": "Anushasan_Associates_MASTER_Court_Diary_and_Case_Register-2-Oct-2026.docx",
+      "size": 376387,
+      "modified_time": "2026-10-02T01:48:58.217Z",
+      "readbackVerified": false,
+      "parentVerified": true,
+      "privateAccessVerified": true,
+      "unchanged": true,
+      "baselineHashVerified": true,
+      "liveMetadataUnchanged": true
+    },
+    "closed": {
+      "id": "1TPK2nVaMxl4EBECwdOlpZYkhEYvKpeQy",
+      "url": "https://drive.google.com/file/d/1TPK2nVaMxl4EBECwdOlpZYkhEYvKpeQy/view?usp=drivesdk",
+      "parent": "1tIWVborOtjqogfOnY5zs5Ehm9Zw3--zR",
+      "sha256": "adbba5435be1ef88dbec7f186066f98c52ad1d4fb6fe388734acbbcd41b1eac2",
+      "filename": "Closed_Cases_Register_2026-10-28_comprehensive.pdf",
+      "size": 115782,
+      "modified_time": "2026-10-28T09:43:35.850Z",
+      "readbackVerified": false,
+      "parentVerified": true,
+      "privateAccessVerified": true,
+      "unchanged": true,
+      "baselineHashVerified": true,
+      "liveMetadataUnchanged": true
+    },
+    "stage_pdf": {
+      "id": "1och91-ApBA0aKUPQS3mWAjTzCmvH5IbY",
+      "url": "https://drive.google.com/file/d/1och91-ApBA0aKUPQS3mWAjTzCmvH5IbY/view?usp=drivesdk",
+      "parent": "1kaMiQfnuYiDkujvPp5Uw4I2niTHn2ncH",
+      "sha256": "c421831e365acbf755f6d6de9e6c8151cd2f4470a0b1c9908957b5994513d016",
+      "filename": "Current_Case_Hearings_and_Stages_2026-10-31.pdf",
+      "size": 32100417,
+      "modified_time": "2026-10-31T01:54:37.703Z",
+      "readbackVerified": true,
+      "parentVerified": true,
+      "privateAccessVerified": true
+    }
+  },
+  "coverage": {
+    "targetedProceedings": 8,
+    "fullDockets": 7,
+    "matchedOfficial": 7,
+    "officeAssociationQualified": 1,
+    "changedNextDates": 5,
+    "unchangedElapsedDates": 2,
+    "blocked": 1,
+    "newFirmIdentityResolutions": 0,
+    "categoryChanges": 0,
+    "importedResearchDate": "2026-10-30",
+    "importedProfiles": 3,
+    "importedQueries": 4,
+    "importedFullCandidateDockets": 3,
+    "importedNewCandidateCNRs": 3,
+    "retainedReferenceQueue": 220,
+    "retainedReferencesFreshAttempted": 8,
+    "retainedReferencesNotFreshAttempted": 212,
+    "scope": "Priority elapsed hearings and imminent deadline; not comprehensive all-case check. 220 includes historical/gated/stopped references, not eligible unique active cases.",
+    "whatsapp": {
+      "displaySummary": "31 October 06:58:40 IST: WhatsApp QR sign-in; zero fresh messages/media reviewed in either group for 22\u201331 October. Last actual partial run-day review 28 October 12:35 IST; raw message UI timezone unverified. Diary unchanged.",
+      "status": "inaccessible QR sign-in",
+      "freshReviewCompleted": false,
+      "groupsReviewed": 0,
+      "expectedGroups": 2,
+      "authorized_window_ist": [
+        "2026-10-22",
+        "2026-10-31"
+      ],
+      "checkedAtIST": "2026-10-31T06:58:40+05:30",
+      "lastCompleteReviewIST": "2026-10-28T12:35:00+05:30",
+      "lastReviewQualification": "Partial through stated review time, not whole-day completeness; raw source UI timezone unverified.",
+      "sourceUITimezone": "unverified",
+      "freshMessagesReviewed": 0,
+      "freshAttachmentsReviewed": 0,
+      "runDayPartial": true,
+      "limitation": "No fresh overlap, silence, no-change or whole-day completeness claim; no backfill outside ten-date scope.",
+      "dayByDayLedger": {
+        "Anushasan Associates": [
+          {
+            "dateIST": "2026-10-22",
+            "status": "unavailable_this_run",
+            "qualification": "No new message or silence finding; prior history retained. Run-day coverage is partial, unavailable."
+          },
+          {
+            "dateIST": "2026-10-23",
+            "status": "unavailable_this_run",
+            "qualification": "No new message or silence finding; prior history retained. Run-day coverage is partial, unavailable."
+          },
+          {
+            "dateIST": "2026-10-24",
+            "status": "unavailable_this_run",
+            "qualification": "No new message or silence finding; prior history retained. Run-day coverage is partial, unavailable."
+          },
+          {
+            "dateIST": "2026-10-25",
+            "status": "unavailable_this_run",
+            "qualification": "No new message or silence finding; prior history retained. Run-day coverage is partial, unavailable."
+          },
+          {
+            "dateIST": "2026-10-26",
+            "status": "unavailable_this_run",
+            "qualification": "No new message or silence finding; prior history retained. Run-day coverage is partial, unavailable."
+          },
+          {
+            "dateIST": "2026-10-27",
+            "status": "unavailable_this_run",
+            "qualification": "No new message or silence finding; prior history retained. Run-day coverage is partial, unavailable."
+          },
+          {
+            "dateIST": "2026-10-28",
+            "status": "unavailable_this_run",
+            "qualification": "No new message or silence finding; prior history retained. Run-day coverage is partial, unavailable."
+          },
+          {
+            "dateIST": "2026-10-29",
+            "status": "unavailable_this_run",
+            "qualification": "No new message or silence finding; prior history retained. Run-day coverage is partial, unavailable."
+          },
+          {
+            "dateIST": "2026-10-30",
+            "status": "unavailable_this_run",
+            "qualification": "No new message or silence finding; prior history retained. Run-day coverage is partial, unavailable."
+          },
+          {
+            "dateIST": "2026-10-31",
+            "status": "unavailable_this_run",
+            "qualification": "No new message or silence finding; prior history retained. Run-day coverage is partial, unavailable."
+          }
+        ],
+        "( CA Info )Anushasan Associates": [
+          {
+            "dateIST": "2026-10-22",
+            "status": "unavailable_this_run",
+            "qualification": "No new message or silence finding; prior history retained. Run-day coverage is partial, unavailable."
+          },
+          {
+            "dateIST": "2026-10-23",
+            "status": "unavailable_this_run",
+            "qualification": "No new message or silence finding; prior history retained. Run-day coverage is partial, unavailable."
+          },
+          {
+            "dateIST": "2026-10-24",
+            "status": "unavailable_this_run",
+            "qualification": "No new message or silence finding; prior history retained. Run-day coverage is partial, unavailable."
+          },
+          {
+            "dateIST": "2026-10-25",
+            "status": "unavailable_this_run",
+            "qualification": "No new message or silence finding; prior history retained. Run-day coverage is partial, unavailable."
+          },
+          {
+            "dateIST": "2026-10-26",
+            "status": "unavailable_this_run",
+            "qualification": "No new message or silence finding; prior history retained. Run-day coverage is partial, unavailable."
+          },
+          {
+            "dateIST": "2026-10-27",
+            "status": "unavailable_this_run",
+            "qualification": "No new message or silence finding; prior history retained. Run-day coverage is partial, unavailable."
+          },
+          {
+            "dateIST": "2026-10-28",
+            "status": "unavailable_this_run",
+            "qualification": "No new message or silence finding; prior history retained. Run-day coverage is partial, unavailable."
+          },
+          {
+            "dateIST": "2026-10-29",
+            "status": "unavailable_this_run",
+            "qualification": "No new message or silence finding; prior history retained. Run-day coverage is partial, unavailable."
+          },
+          {
+            "dateIST": "2026-10-30",
+            "status": "unavailable_this_run",
+            "qualification": "No new message or silence finding; prior history retained. Run-day coverage is partial, unavailable."
+          },
+          {
+            "dateIST": "2026-10-31",
+            "status": "unavailable_this_run",
+            "qualification": "No new message or silence finding; prior history retained. Run-day coverage is partial, unavailable."
+          }
+        ]
+      }
+    },
+    "runDate": "2026-10-31",
+    "dateIST": "2026-10-31",
+    "frozenAtUTC": "2026-10-31T01:45:52Z",
+    "allCasesChecked": false,
+    "allFirmCasesFreshlyChecked": false,
+    "notComplete": true,
+    "runLabel": "priority official review with explicit gaps",
+    "attemptedTargetCNRs": [
+      "TSHM0A0369522026",
+      "TSMM000003612021",
+      "TSMM020017092026",
+      "TSMM020017592025",
+      "TSMM020028962025",
+      "TSRA000022282026",
+      "TSRA030015142024",
+      "TSYB070000352023"
+    ],
+    "attemptedTargetCount": 8,
+    "fullDocketCNRs": [
+      "TSHM0A0369522026",
+      "TSMM000003612021",
+      "TSMM020017092026",
+      "TSMM020017592025",
+      "TSMM020028962025",
+      "TSRA030015142024",
+      "TSYB070000352023"
+    ],
+    "fullDocketCount": 7,
+    "blockedCNRs": [
+      "TSRA000022282026"
+    ],
+    "blockedCount": 1,
+    "distinctRecordsChecked": 7,
+    "uniqueProfilesChecked": 6,
+    "sourceProfileClassificationChanges": 0,
+    "remainingQueueDescription": "8 of 220 retained CNR references attempted; seven full dockets and one blocked; 212 not freshly attempted. The 220 includes historical, gated and stopped references, not 220 eligible active cases."
+  },
+  "whatsapp": {
+    "displaySummary": "31 October 06:58:40 IST: WhatsApp QR sign-in; zero fresh messages/media reviewed in either group for 22\u201331 October. Last actual partial run-day review 28 October 12:35 IST; raw message UI timezone unverified. Diary unchanged.",
+    "status": "inaccessible QR sign-in",
+    "freshReviewCompleted": false,
+    "groupsReviewed": 0,
+    "expectedGroups": 2,
+    "authorized_window_ist": [
+      "2026-10-22",
+      "2026-10-31"
+    ],
+    "checkedAtIST": "2026-10-31T06:58:40+05:30",
+    "lastCompleteReviewIST": "2026-10-28T12:35:00+05:30",
+    "lastReviewQualification": "Partial through stated review time, not whole-day completeness; raw source UI timezone unverified.",
+    "sourceUITimezone": "unverified",
+    "freshMessagesReviewed": 0,
+    "freshAttachmentsReviewed": 0,
+    "runDayPartial": true,
+    "limitation": "No fresh overlap, silence, no-change or whole-day completeness claim; no backfill outside ten-date scope.",
+    "dayByDayLedger": {
+      "Anushasan Associates": [
+        {
+          "dateIST": "2026-10-22",
+          "status": "unavailable_this_run",
+          "qualification": "No new message or silence finding; prior history retained. Run-day coverage is partial, unavailable."
+        },
+        {
+          "dateIST": "2026-10-23",
+          "status": "unavailable_this_run",
+          "qualification": "No new message or silence finding; prior history retained. Run-day coverage is partial, unavailable."
+        },
+        {
+          "dateIST": "2026-10-24",
+          "status": "unavailable_this_run",
+          "qualification": "No new message or silence finding; prior history retained. Run-day coverage is partial, unavailable."
+        },
+        {
+          "dateIST": "2026-10-25",
+          "status": "unavailable_this_run",
+          "qualification": "No new message or silence finding; prior history retained. Run-day coverage is partial, unavailable."
+        },
+        {
+          "dateIST": "2026-10-26",
+          "status": "unavailable_this_run",
+          "qualification": "No new message or silence finding; prior history retained. Run-day coverage is partial, unavailable."
+        },
+        {
+          "dateIST": "2026-10-27",
+          "status": "unavailable_this_run",
+          "qualification": "No new message or silence finding; prior history retained. Run-day coverage is partial, unavailable."
+        },
+        {
+          "dateIST": "2026-10-28",
+          "status": "unavailable_this_run",
+          "qualification": "No new message or silence finding; prior history retained. Run-day coverage is partial, unavailable."
+        },
+        {
+          "dateIST": "2026-10-29",
+          "status": "unavailable_this_run",
+          "qualification": "No new message or silence finding; prior history retained. Run-day coverage is partial, unavailable."
+        },
+        {
+          "dateIST": "2026-10-30",
+          "status": "unavailable_this_run",
+          "qualification": "No new message or silence finding; prior history retained. Run-day coverage is partial, unavailable."
+        },
+        {
+          "dateIST": "2026-10-31",
+          "status": "unavailable_this_run",
+          "qualification": "No new message or silence finding; prior history retained. Run-day coverage is partial, unavailable."
+        }
+      ],
+      "( CA Info )Anushasan Associates": [
+        {
+          "dateIST": "2026-10-22",
+          "status": "unavailable_this_run",
+          "qualification": "No new message or silence finding; prior history retained. Run-day coverage is partial, unavailable."
+        },
+        {
+          "dateIST": "2026-10-23",
+          "status": "unavailable_this_run",
+          "qualification": "No new message or silence finding; prior history retained. Run-day coverage is partial, unavailable."
+        },
+        {
+          "dateIST": "2026-10-24",
+          "status": "unavailable_this_run",
+          "qualification": "No new message or silence finding; prior history retained. Run-day coverage is partial, unavailable."
+        },
+        {
+          "dateIST": "2026-10-25",
+          "status": "unavailable_this_run",
+          "qualification": "No new message or silence finding; prior history retained. Run-day coverage is partial, unavailable."
+        },
+        {
+          "dateIST": "2026-10-26",
+          "status": "unavailable_this_run",
+          "qualification": "No new message or silence finding; prior history retained. Run-day coverage is partial, unavailable."
+        },
+        {
+          "dateIST": "2026-10-27",
+          "status": "unavailable_this_run",
+          "qualification": "No new message or silence finding; prior history retained. Run-day coverage is partial, unavailable."
+        },
+        {
+          "dateIST": "2026-10-28",
+          "status": "unavailable_this_run",
+          "qualification": "No new message or silence finding; prior history retained. Run-day coverage is partial, unavailable."
+        },
+        {
+          "dateIST": "2026-10-29",
+          "status": "unavailable_this_run",
+          "qualification": "No new message or silence finding; prior history retained. Run-day coverage is partial, unavailable."
+        },
+        {
+          "dateIST": "2026-10-30",
+          "status": "unavailable_this_run",
+          "qualification": "No new message or silence finding; prior history retained. Run-day coverage is partial, unavailable."
+        },
+        {
+          "dateIST": "2026-10-31",
+          "status": "unavailable_this_run",
+          "qualification": "No new message or silence finding; prior history retained. Run-day coverage is partial, unavailable."
+        }
+      ]
+    }
+  },
+  "tests": {
+    "passed": true,
+    "suiteCount": 12,
+    "report": "tests/results/node-test-report.json",
+    "graphicalBrowserQA": "Unavailable: supported-browser file URL rejected by HTTP/HTTPS-only protocol policy; no alternate hosting or bypass"
+  },
+  "authUnchanged": true,
+  "baselinePathsRetained": true,
+  "reconstruction": "Extract all independent ZIP parts into the same empty folder; no external assets required."
+}

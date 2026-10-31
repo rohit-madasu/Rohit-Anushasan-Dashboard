@@ -1,0 +1,19 @@
+{
+  "before": {
+    "currentRows": 352,
+    "historyRows": 873,
+    "undatedProceduralUpdates": 73,
+    "archivedProjectionRowsOct29": 0
+  },
+  "after": {
+    "currentRows": 325,
+    "historyRows": 891,
+    "undatedProceduralUpdates": 76,
+    "archivedProjectionRowsOct29": 249
+  },
+  "newEvidenceEvents": 21,
+  "currentRelocations": 44,
+  "duplicateRowIdRelocationPreservedSeparately": 27,
+  "priorRunFlagRewrites": 222,
+  "reason": "Early projected history count918 included27 duplicated row IDs already present in history with different metadata. Those27 original current occurrences are retained intact in archivedProjectionRowsOct29 instead of introducing duplicate runtime IDs. Separately222 metadata flag rewrites retain their original full objects there. Every ordered old corpus and original event multiset survives; actual current/history/undated event arrays have no lost source fact."
+}

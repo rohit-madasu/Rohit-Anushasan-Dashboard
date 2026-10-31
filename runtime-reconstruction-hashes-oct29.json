@@ -1,0 +1,622 @@
+{
+  "HEARING_DATA": {
+    "sourceVersion": {
+      "sha256": "c6155f4b7a23c669c42a7cb9cb0bebcf18c8755f6a87a55792c80f817f6e56f8",
+      "array": false,
+      "length": null
+    },
+    "sourceDocumentSha256": {
+      "sha256": "7ed2ae299553411955034fff6fd474157103fc4fe194948d2b99c7ec2ba3604d",
+      "array": false,
+      "length": null
+    },
+    "sourcePreparedAtIST": {
+      "sha256": "012abf0f92321e7f2d26b40937ee03d1e00b629d3e192e633924aebac4333bd9",
+      "array": false,
+      "length": null
+    },
+    "latestFreshOfficialCheckIST": {
+      "sha256": "012abf0f92321e7f2d26b40937ee03d1e00b629d3e192e633924aebac4333bd9",
+      "array": false,
+      "length": null
+    },
+    "freshOfficialBatchDate": {
+      "sha256": "e1367037a0810c421521d8e632205e4999e0f2efb694b3212b4c00bd8260ed6d",
+      "array": false,
+      "length": null
+    },
+    "schemaVersion": {
+      "sha256": "a8ce3e9677c4de6b0b7eea185f27a543aedb91f80d67e9fe4a20a8ebd767742f",
+      "array": false,
+      "length": null
+    },
+    "referenceDate": {
+      "sha256": "e1367037a0810c421521d8e632205e4999e0f2efb694b3212b4c00bd8260ed6d",
+      "array": false,
+      "length": null
+    },
+    "timezone": {
+      "sha256": "787e5586a59c2df16184dcbc9cac2ab848d24097f034f14eb530752ad9d805f8",
+      "array": false,
+      "length": null
+    },
+    "sourceProjectionSha256": {
+      "sha256": "875fb5778cf46df5f79dc6b700cd0c88d31cd888d1b8a6792c16737f5992266c",
+      "array": false,
+      "length": null
+    },
+    "releaseReady": {
+      "sha256": "b5bea41b6c623f7c09f1bf24dcae58ebab3c0cdd90ad966bc43a45b44867e12b",
+      "array": false,
+      "length": null
+    },
+    "hostingAccessVerified": {
+      "sha256": "fcbcf165908dd18a9e49f7ff27810176db8e9f63b4352213741664245224f8aa",
+      "array": false,
+      "length": null
+    },
+    "sourceCompleteness": {
+      "sha256": "a81194aa6f155f2489d3066670367ed395acc972e844a808e5ad58c1cda0f790",
+      "array": false,
+      "length": null
+    },
+    "coverage": {
+      "sha256": "fdc74f91299d1ef2766820b2a47fe7b2012c64c92435b16e106e91708bbd3aae",
+      "array": false,
+      "length": null
+    },
+    "currentRows": {
+      "sha256": "27a68019dbd65d1ff4f7b958edfb115798a511685b01cf8b07d3fb5126001aa7",
+      "array": true,
+      "length": 325
+    },
+    "historyRows": {
+      "sha256": "3009d4236db1978315cbd8687532b24dec466e0d776b5dd3b4b6b237d001f674",
+      "array": true,
+      "length": 891
+    },
+    "limitationProfiles": {
+      "sha256": "e2103b724fbaeba274ad074aee5b51e572eb2499bc83085a939bb4bd168fad8a",
+      "array": true,
+      "length": 223
+    },
+    "unidentifiedLeads": {
+      "sha256": "ec75e904837ffb9e8f88d9134804d5ac1c38e3812ba35f771fa2e4ab9c2b5c72",
+      "array": true,
+      "length": 20
+    },
+    "privacyNote": {
+      "sha256": "c6e3aa2d6a1259d69bc07812fdc1663cd7b66f7e5712c6eab4b07c71aa977507",
+      "array": false,
+      "length": null
+    },
+    "auditNote": {
+      "sha256": "38be9de46fc3e2072507c3875d1d4331321738f12d458687ccc387a81ec4417e",
+      "array": false,
+      "length": null
+    },
+    "sourceDocumentUrl": {
+      "sha256": "cf2f05c84cdcff394c26faaa993e619d3dd79b8e2efe763cbd7a410bf347b1b7",
+      "array": false,
+      "length": null
+    },
+    "sourceBindingStatus": {
+      "sha256": "ac61a4a15e70d811686604c5131718d585356726ec2245157939d6e742427d81",
+      "array": false,
+      "length": null
+    },
+    "sourceProjectionKind": {
+      "sha256": "169ddc86816229aaf254d2df7709e4fe1a62969ca6d22038c28f58a4bfb603c2",
+      "array": false,
+      "length": null
+    },
+    "lineage": {
+      "sha256": "46de73cd99cef153a6ac3fc8f30a6bf83ad22570aebb72dc9da1943dd7258ef1",
+      "array": false,
+      "length": null
+    },
+    "sourcePdfUrl": {
+      "sha256": "afe764f193f7e8902f911ea0075fdb578ca1eb3a4c9dbca0663a00df036f6316",
+      "array": false,
+      "length": null
+    },
+    "sourcePdfSha256": {
+      "sha256": "7a47ddabc47fa34157bf4955863504dffec657e68f0dcce021593f22906fba3f",
+      "array": false,
+      "length": null
+    },
+    "sourcePdfBindingStatus": {
+      "sha256": "ac61a4a15e70d811686604c5131718d585356726ec2245157939d6e742427d81",
+      "array": false,
+      "length": null
+    },
+    "trackingOverlay": {
+      "sha256": "fb73231074a6ee470946fb5b9a4360329b88cc3542d7e8171842caade2d4ba14",
+      "array": false,
+      "length": null
+    },
+    "runningRegisterSha256": {
+      "sha256": "fc7c28992433642c1f8cb801345a33b53565a855822776aadc56627992e97064",
+      "array": false,
+      "length": null
+    },
+    "runningRegisterUrl": {
+      "sha256": "a09eb5b479a2dd16f18d76d6818067e4ae3575e9f59cf873030dd3ef69494ff9",
+      "array": false,
+      "length": null
+    },
+    "freshHighCourtSweepOct24": {
+      "sha256": "58fe28a467fe3625d81feb599819fd2d88dd47a9645ee1f59b835e64eaf17db7",
+      "array": false,
+      "length": null
+    },
+    "file240SignedOrderQualification": {
+      "sha256": "76cc73db91c95b4366335c42aef709df1133a2f0aa9504fcfc8f14f7e57851bd",
+      "array": false,
+      "length": null
+    },
+    "authenticatedWhatsAppReviewOct24": {
+      "sha256": "b680ad7dae6aea16841f18656c1d72571fd59a882b562e583e7e67e7fa7ee6d2",
+      "array": false,
+      "length": null
+    },
+    "sourceUnitMappingsAuthenticatedOct24": {
+      "sha256": "50be6f8a02c38f0af3daa63262cc7ec59160e9a8c7c2f0dc4ba3be4da1248e36",
+      "array": false,
+      "length": null
+    },
+    "priorCoverageOct24": {
+      "sha256": "de3f23ad7bce53dc1ed52febfdc6986a03d539b0395000b4d76e005788e8e710",
+      "array": false,
+      "length": null
+    },
+    "officialRefreshOct25": {
+      "sha256": "3b12511e88f3c8a7ab479132a22cd588e22612078c53571088072d64123673a2",
+      "array": false,
+      "length": null
+    },
+    "officialRefreshOct26": {
+      "sha256": "1c40b4d5e64068989f0d9f2daad8467bcf4a0cc1946c4487e34dbd02c5dc5064",
+      "array": false,
+      "length": null
+    },
+    "currentSourceExtractionOct26": {
+      "sha256": "dff192cc6bd3c90078306cb8082d86699239b6590c4053d15445dad2b861bf7a",
+      "array": false,
+      "length": null
+    },
+    "runningRegisterBindingStatus": {
+      "sha256": "ac61a4a15e70d811686604c5131718d585356726ec2245157939d6e742427d81",
+      "array": false,
+      "length": null
+    },
+    "sourceReadbackOct26": {
+      "sha256": "2fffb13ae051e07d396e93860ba634ba0f6cb8e9c53687edd22cc9528dbf327d",
+      "array": false,
+      "length": null
+    },
+    "priorCoverageOct26": {
+      "sha256": "644a768ff12bdf08889bae18aa0b7dbccab995cc72467113e7354118b9b24f7a",
+      "array": false,
+      "length": null
+    },
+    "officialRefreshOct27": {
+      "sha256": "6051542b7bcc30f16bc4446154e3f9d517ec9c3bfcdb74963574f6dcc9246149",
+      "array": false,
+      "length": null
+    },
+    "priorCoverageOct27": {
+      "sha256": "a1016843d7a5f4fc8fb5c3f1b680a092df76afb2dde1f1a233c146cb693707a9",
+      "array": false,
+      "length": null
+    },
+    "officialRefreshOct28": {
+      "sha256": "a9a1317657c9ea428527f42c7d16ea2d217da8b14c7094abba72c9016bfb53ae",
+      "array": false,
+      "length": null
+    },
+    "currentSourceExtractionOct28": {
+      "sha256": "3db5b6ad2d644220a9a4f32ef2bdda238b00edaca6afe9e592ac53ba1c228ee3",
+      "array": false,
+      "length": null
+    },
+    "priorComprehensiveSnapshotOct28": {
+      "sha256": "1e4a1d94b653c54041b53422816703b2cfffe9a836b603ef44cbf1b6d162a074",
+      "array": false,
+      "length": null
+    },
+    "undatedProceduralUpdates": {
+      "sha256": "ef9448421036216885817bc23818cf1241f1dfb8bb9510183b33fc3a02ee4fb4",
+      "array": true,
+      "length": 76
+    },
+    "comprehensiveReviewOct28": {
+      "sha256": "dac1ee27273574156deb512db2c893a5327d2dabb9066bd37e382c7ede34ecf8",
+      "array": false,
+      "length": null
+    },
+    "priorCoverageBeforeComprehensiveOct28": {
+      "sha256": "074333702ba8b298c2eb1c9dba193a2c28bc9c18832176327a42c3f58e666d8a",
+      "array": false,
+      "length": null
+    },
+    "priorComprehensiveVerifiedSourceBindings": {
+      "sha256": "a3b2ce7961b0572e2c48ea0b678a4d4d63b48deb5ab7781c5fb9e34cb66d492c",
+      "array": false,
+      "length": null
+    },
+    "privateSourceBindingsVerified": {
+      "sha256": "11135f85c2b9800db012e078c20b550987b9560bdb016f4205f621bdeb40f0a7",
+      "array": false,
+      "length": null
+    },
+    "publicPublicationAuthorized": {
+      "sha256": "fcbcf165908dd18a9e49f7ff27810176db8e9f63b4352213741664245224f8aa",
+      "array": false,
+      "length": null
+    },
+    "lastRefreshedIST": {
+      "sha256": "edfeff899ed9092075b202c8bb9225c6c486f0a2810d177816fbb951de429a7a",
+      "array": false,
+      "length": null
+    },
+    "priorSnapshotOct29": {
+      "sha256": "f2963019dc235a11314c32399b8e0615a6b2c209a5e3ef5f4418c63dadd44866",
+      "array": false,
+      "length": null
+    },
+    "archivedProjectionRowsOct29": {
+      "sha256": "5eed35e5af384a7fbf1e702e541a9539eb1ed900c5ff6f18669a46df520a0472",
+      "array": true,
+      "length": 249
+    },
+    "officialRefreshOct29": {
+      "sha256": "ed0b0978940d31d9f65d6a3bc1de9331cbb170ac8a36f64f42a3047512153e15",
+      "array": false,
+      "length": null
+    }
+  },
+  "CASE_SEARCH_DATA": {
+    "schemaVersion": {
+      "sha256": "5890238d8b3a9af1cf328be267a6257bc463bf399e8de3d393dac8fbbc8acb09",
+      "array": false,
+      "length": null
+    },
+    "builtAtUTC": {
+      "sha256": "22a2aca0554cdb8ebab516370bd27c5fcfdeffe019174566ebed11ed25caf20c",
+      "array": false,
+      "length": null
+    },
+    "timezone": {
+      "sha256": "787e5586a59c2df16184dcbc9cac2ab848d24097f034f14eb530752ad9d805f8",
+      "array": false,
+      "length": null
+    },
+    "referenceDate": {
+      "sha256": "e1367037a0810c421521d8e632205e4999e0f2efb694b3212b4c00bd8260ed6d",
+      "array": false,
+      "length": null
+    },
+    "sources": {
+      "sha256": "b5b1bab0f8b3f3c962ccff410652a5a05516f1632f661a6fbbd0dc0474a5e89f",
+      "array": true,
+      "length": 124
+    },
+    "profiles": {
+      "sha256": "578ec51d2da9f9fb4e1adf0f2af55e77d4bbac5dce961242aae81ddf84678583",
+      "array": true,
+      "length": 455
+    },
+    "rowPartyBindings": {
+      "sha256": "1eb7cbcf8fbceca46d4471c52c77a40b4ffc83c73264963e2b6a6855f86d670a",
+      "array": false,
+      "length": null
+    },
+    "rowCaseBindings": {
+      "sha256": "ab4891e7a1bc1e8d4e63eac05ae759d5f7fcfb5a5de7dfbb87e97595bf4c1120",
+      "array": false,
+      "length": null
+    },
+    "courts": {
+      "sha256": "b57b77077939a14b14675a32ac67e95117de3a4a540105af93d85901c8d3e7a6",
+      "array": true,
+      "length": 392
+    },
+    "courtAliases": {
+      "sha256": "3eda6f76d33a5b529c5d9d9f137b75a380c946811ff00c0cce2a7646418e19fa",
+      "array": false,
+      "length": null
+    },
+    "corpusUnits": {
+      "sha256": "a025d5f7045dd552f31cad1a4092053b12e3db859d28e4ce70859d118dd8eb20",
+      "array": true,
+      "length": 137841
+    },
+    "supplementaryCalendarRows": {
+      "sha256": "a2718cbba131e463e95e63aec96a7e1140b5486ca252ffdb49f470a08cb680f0",
+      "array": true,
+      "length": 5260
+    },
+    "validation": {
+      "sha256": "effb1fcf576c3f84de50a4af99ba38dfc419abe2beb09eb45fedd44fdf29721c",
+      "array": false,
+      "length": null
+    },
+    "limitations": {
+      "sha256": "b6c9af1b99c37f572b1c3ed15e152c84d60cf18e757574f9d6ea19ec16f102b3",
+      "array": true,
+      "length": 6
+    },
+    "trackingExclusionPolicy": {
+      "sha256": "cce01ea71eba21d7c4ab315d463fe4f96e20836f3c78fb86c7c735912839d9db",
+      "array": false,
+      "length": null
+    },
+    "trackingExclusionCounts": {
+      "sha256": "795b6bf8e73718024a6e9a024723ac7f7564fca260608cfa976fe30f38c48c1b",
+      "array": false,
+      "length": null
+    },
+    "exactDuplicateRule": {
+      "sha256": "2388231ee4c90e226cac76fb8579df1ebc910ea942bf8a59fce828efdb3f495f",
+      "array": false,
+      "length": null
+    },
+    "currentSourceCatalog": {
+      "sha256": "451ae1f8af5187c75eb727578079f006b9ff2143ef9bc4cc0b0c0368f0aae95d",
+      "array": false,
+      "length": null
+    },
+    "coverageSummary": {
+      "sha256": "fdc74f91299d1ef2766820b2a47fe7b2012c64c92435b16e106e91708bbd3aae",
+      "array": false,
+      "length": null
+    },
+    "manualDiaryReconciliation": {
+      "sha256": "f2703cdb5b4f435322b0c88d84f3a0f1221eb905c4cd43d296701daa1beeae49",
+      "array": false,
+      "length": null
+    },
+    "manualWhatsAppEvidence": {
+      "sha256": "f3e12ff305a978e3f61108567ea0f57b5ecc5a790ff056b67a8e0af18d25f0f2",
+      "array": false,
+      "length": null
+    },
+    "currentSourceLinkBindings": {
+      "sha256": "e6aaca5d22af8696650931f75f44ce38aa1fbe2e81ea364aea3dec885b8ca670",
+      "array": true,
+      "length": 96
+    },
+    "comprehensiveProfileCoverage": {
+      "sha256": "17923e9881aa324b9465040b6b633661254bf92153bd7dadb7ab3c64334d784c",
+      "array": false,
+      "length": null
+    },
+    "comprehensiveResearchCoverage": {
+      "sha256": "9da2bcbbc8fad00e038081cbe7c7c422c65e53762d6064364685e61d1e0af345",
+      "array": false,
+      "length": null
+    },
+    "addendumResearchCoverage": {
+      "sha256": "c08a6308e9d8be83db809f8e113ae661070c04eed70c2268e9350f8ebf934a97",
+      "array": false,
+      "length": null
+    },
+    "registerCorrectionCoverage": {
+      "sha256": "7406b0a8dd5a87530ff9bd147a97778d4f715d7f83b1dae8d4faf37d510df9fe",
+      "array": false,
+      "length": null
+    },
+    "dailyCurrentCalendarQueueCoverage": {
+      "sha256": "df905f89818aee31e46339003a813d2c47e5a2463fd02b03c92eb74bd048898f",
+      "array": false,
+      "length": null
+    },
+    "dailyResearchCoverage": {
+      "sha256": "ed0b0978940d31d9f65d6a3bc1de9331cbb170ac8a36f64f42a3047512153e15",
+      "array": false,
+      "length": null
+    },
+    "dailyWhatsAppCoverage": {
+      "sha256": "c6e52e901b196c275c866930202e2f14382ed371b936435cfb19439d297c5f71",
+      "array": false,
+      "length": null
+    },
+    "currentClassificationChanges": {
+      "sha256": "91e9346f91a1a867e45d8fbb9b07a8782e011578390c6415d88c1b48d10ca1f1",
+      "array": true,
+      "length": 2
+    },
+    "eligibleTrackingProfileCoverage": {
+      "sha256": "53fa617e7f33865050ba6ff1c80b11891f65b4ba9fb64aba4e84dfdf890bf4e3",
+      "array": false,
+      "length": null
+    },
+    "unassignedProceedings": {
+      "sha256": "befa430fb0f63e5ba5c77b120f35aec64889d295b3be44042fe18ebd06a77936",
+      "array": true,
+      "length": 1
+    },
+    "priorCurrentSourceLinkBindingsOct24": {
+      "sha256": "a8f07e436ac16c630644ad633ef59357672dea812f7bfdefdf3d6c5759a08b51",
+      "array": true,
+      "length": 12
+    },
+    "priorCurrentSourceCatalogOct24": {
+      "sha256": "0153356259dfdd7be2acdc40e1dc2e31d6c8db6f410a30ec7aff8356f02bc2b5",
+      "array": false,
+      "length": null
+    },
+    "priorCoverageSummaryOct24": {
+      "sha256": "79ee2c3ca599edfd35a0d76bfe4706bd7bcfeb19ce81b233e72b1bed39ffc808",
+      "array": false,
+      "length": null
+    },
+    "dailyResearchCoverageOct25": {
+      "sha256": "3b12511e88f3c8a7ab479132a22cd588e22612078c53571088072d64123673a2",
+      "array": false,
+      "length": null
+    },
+    "dailyWhatsAppCoverageOct25": {
+      "sha256": "ec7fcb2a39d02e037a893a045a05ff50d70152714995503c753c0e89fea96cae",
+      "array": false,
+      "length": null
+    },
+    "sourceRevisionCoverage": {
+      "sha256": "9535e929882acb90da116e42b5cba5132ce9863878bfbfdb6b96e1a7a1ed9726",
+      "array": false,
+      "length": null
+    },
+    "priorCoverageSummaryOct25": {
+      "sha256": "31f2f6996d3a247513db5d890fea4c5489245b6ba54a42c895afbca87e2e478e",
+      "array": false,
+      "length": null
+    },
+    "priorCurrentSourceCatalogOct25": {
+      "sha256": "e984bac52ce438602071a7a0fea9dcbc06bae3027816db1621ea435c1816aa30",
+      "array": false,
+      "length": null
+    },
+    "priorCurrentSourceLinkBindingsOct25": {
+      "sha256": "793ff1c5e31e4f04160d6e58ea7ff8dce5dfb32ccaaaf585fbd22322473bf445",
+      "array": true,
+      "length": 17
+    },
+    "dailyResearchCoverageOct26": {
+      "sha256": "1c40b4d5e64068989f0d9f2daad8467bcf4a0cc1946c4487e34dbd02c5dc5064",
+      "array": false,
+      "length": null
+    },
+    "dailyWhatsAppCoverageOct26": {
+      "sha256": "2e865d02bc901d484f5b83646bf6d9849823d67623637f44c1eeaf0b01e8f5e8",
+      "array": false,
+      "length": null
+    },
+    "currentSourceExtractionOct26": {
+      "sha256": "dff192cc6bd3c90078306cb8082d86699239b6590c4053d15445dad2b861bf7a",
+      "array": false,
+      "length": null
+    },
+    "sourceReadbackOct26": {
+      "sha256": "2fffb13ae051e07d396e93860ba634ba0f6cb8e9c53687edd22cc9528dbf327d",
+      "array": false,
+      "length": null
+    },
+    "priorCoverageSummaryOct26": {
+      "sha256": "5995e10f31e5ad096d5e4c1003f2bc42a514618cb3895be5a981be5ce735654a",
+      "array": false,
+      "length": null
+    },
+    "priorCurrentSourceCatalogOct26": {
+      "sha256": "de79bec2c358d6e216a7c9c7af2d62daacb38db8e7b4583893b7e120e757dd19",
+      "array": false,
+      "length": null
+    },
+    "priorCurrentSourceLinkBindingsOct26": {
+      "sha256": "d14ab67aeb43d65d8321eedd1c662714ce0ad3b6604d3d402de166626809e111",
+      "array": true,
+      "length": 17
+    },
+    "dailyResearchCoverageOct27": {
+      "sha256": "6051542b7bcc30f16bc4446154e3f9d517ec9c3bfcdb74963574f6dcc9246149",
+      "array": false,
+      "length": null
+    },
+    "dailyWhatsAppCoverageOct27": {
+      "sha256": "22494f14208702d274b8bde7dc254b4edc3789366f7ed540a490c5919638e52c",
+      "array": false,
+      "length": null
+    },
+    "priorValidationOct26": {
+      "sha256": "588f69c81ef146f4c7ea395a68321162f5afc913609a820e55fc175f98a9317c",
+      "array": false,
+      "length": null
+    },
+    "priorCoverageSummaryOct27": {
+      "sha256": "dd493bf2a69c4ecb566713d431e49559713cb5497920f1938795e4c089d49afe",
+      "array": false,
+      "length": null
+    },
+    "dailyResearchCoverageOct28": {
+      "sha256": "4aa706a229803183d115fefc64500dd739329161f6d8a4e4584ab081108aab97",
+      "array": false,
+      "length": null
+    },
+    "dailyWhatsAppCoverageOct28": {
+      "sha256": "6f7f7e1a3d798d88a339c2b6805dc5cb6ca42688ad03a8518e1fa920be6eb487",
+      "array": false,
+      "length": null
+    },
+    "priorCurrentSourceCatalogOct27": {
+      "sha256": "59bc30df36eac12b0808b761187f83afcef7978ef9bef1f6931a9b48945d5936",
+      "array": false,
+      "length": null
+    },
+    "priorCurrentSourceLinkBindingsOct27": {
+      "sha256": "27457176b2cacf2c7db3bb0efdefe471b944b544a2bf6ee646c4578d7e322488",
+      "array": true,
+      "length": 22
+    },
+    "comprehensiveReviewOct28": {
+      "sha256": "dac1ee27273574156deb512db2c893a5327d2dabb9066bd37e382c7ede34ecf8",
+      "array": false,
+      "length": null
+    },
+    "pendingComprehensiveSourceCatalog": {
+      "sha256": "a68638156e550ed49707aaa58a5c00d0088fb8874a5a3f1fc3685e3fe65672b3",
+      "array": false,
+      "length": null
+    },
+    "comprehensiveDisplayBindings": {
+      "sha256": "844288ec972857feb11dfd8d42c1768283f77abd6b2bf033501d1a7745d53a81",
+      "array": false,
+      "length": null
+    },
+    "priorComprehensiveSourceCatalog": {
+      "sha256": "0dd33f8223374bba4ac2089c5d6d1e444bb3c92ea3d6fd235d1cd26ec57c2743",
+      "array": false,
+      "length": null
+    },
+    "priorComprehensiveSourceBindings": {
+      "sha256": "6c155671f9da06456765226c2a1cae6779619e70f47cf995cf28431ba1ab73d0",
+      "array": true,
+      "length": 27
+    },
+    "priorSnapshotOct29": {
+      "sha256": "6b45342d6f9cb85c59f759dd2e6fdc01d4fdc1faade4b2bf4cb0d139d9b24f3d",
+      "array": false,
+      "length": null
+    },
+    "dailyResearchCoverageOct29": {
+      "sha256": "ed0b0978940d31d9f65d6a3bc1de9331cbb170ac8a36f64f42a3047512153e15",
+      "array": false,
+      "length": null
+    },
+    "dailyWhatsAppCoverageOct29": {
+      "sha256": "c6e52e901b196c275c866930202e2f14382ed371b936435cfb19439d297c5f71",
+      "array": false,
+      "length": null
+    },
+    "sourceReadbackOct29": {
+      "sha256": "558cf49ba94e1546328f47885811c1a5df58efd3b43a8b2ed1070c95a2fd9358",
+      "array": false,
+      "length": null
+    },
+    "currentSourceIndexPolicyOct29": {
+      "sha256": "65c42d112aef2a1213fd47341210f9618b11774f7ff738367f91a290b9aca987",
+      "array": false,
+      "length": null
+    },
+    "releaseReady": {
+      "sha256": "b5bea41b6c623f7c09f1bf24dcae58ebab3c0cdd90ad966bc43a45b44867e12b",
+      "array": false,
+      "length": null
+    },
+    "publicPublicationAuthorized": {
+      "sha256": "fcbcf165908dd18a9e49f7ff27810176db8e9f63b4352213741664245224f8aa",
+      "array": false,
+      "length": null
+    }
+  },
+  "canonicalCaseSearchJSHash": "15592a537286495ef9556cc8bded2e38a01d8c8fb476eece940cf9c670acfe8f"
+}

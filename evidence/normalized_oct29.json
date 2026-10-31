@@ -1,0 +1,2421 @@
+{
+  "freeze": {
+    "frozen": true,
+    "evidenceFrozen": true,
+    "frozenAtUTC": "2026-10-29T02:00:48Z",
+    "referenceDate": "2026-10-29",
+    "ledgers": [
+      "district.json",
+      "medchal.json",
+      "rr.json",
+      "hc.json",
+      "extra_priority.json",
+      "ap_hc.json",
+      "stale_other.json",
+      "access_observations.json"
+    ],
+    "manifest": {
+      "district.json": {
+        "sha256": "ec8d672ab85373ee7eea09b1a4268cb4611d15f2250cdde5e2e493f1cbe49730",
+        "bytes": 5972
+      },
+      "medchal.json": {
+        "sha256": "ecfc4b41ef3bcfb336ccaddbc48ef8ac2e43062a2373fc9111aab7190342fd1d",
+        "bytes": 8177
+      },
+      "rr.json": {
+        "sha256": "0938be51f2ca212e57492c8bb0cef26f51b1a2cad8d68a71387ee0b6d4f34007",
+        "bytes": 7101
+      },
+      "hc.json": {
+        "sha256": "b5cb2db72f4a5aa8e9a922eb7578a039f31b7c33ec1cfb541432f5af7373664d",
+        "bytes": 19495
+      },
+      "extra_priority.json": {
+        "sha256": "bab2040a1029bb5b768e5882e1f1ff6153d765d3613d9242d59b533e3851e4fd",
+        "bytes": 4187
+      },
+      "ap_hc.json": {
+        "sha256": "2e123d6ca46c502bc57408587b2395427638c0cf264a3b2ea4f040d0101b5062",
+        "bytes": 4345
+      },
+      "stale_other.json": {
+        "sha256": "8e7c0ffaa1704cbc563ceb7540626c94ce341cd310ab8fd5c2fff39e7db8499c",
+        "bytes": 6077
+      },
+      "access_observations.json": {
+        "sha256": "af6862129d104037ddac6d18ca0bcad482dbdbeec23ea2a3b86a9a5fdfa77eae",
+        "bytes": 958
+      }
+    },
+    "sourceBaseline": "Oct28 comprehensive verified source",
+    "whatsappFresh": false,
+    "whatsappLastVerifiedIST": "2026-10-28T12:35:00+05:30",
+    "profileCounts": {
+      "active": 93,
+      "disposed": 31,
+      "unclear": 174,
+      "profiles": 298,
+      "fileLocators": 299
+    },
+    "baselineAttemptedCNRs": 216,
+    "baselineRetrievedCNRs": 200,
+    "baselineObservations": 306,
+    "note": "Counts are not unique legal matters; exact new-run coverage will be independently audited. No user authentication or password changes."
+  },
+  "records": [
+    {
+      "id": "oct29:DVC165_2025",
+      "sourceFile": "district.json",
+      "sourceIndex": 0,
+      "observedAtUTC": "2026-10-29T01:44:14Z",
+      "cnr": "TSFC090001682025",
+      "case": "DVC165/2025",
+      "files": [],
+      "profileIds": [
+        "running:175"
+      ],
+      "fullDocketRetrieved": true,
+      "source": "https://hydifc.dcourts.gov.in/case-status-search-by-case-number/",
+      "query": {
+        "courtComplex": "Hyd,Integrated Family Court Complex",
+        "caseType": "DVC",
+        "caseNumber": "165",
+        "year": "2025"
+      },
+      "parties": "Gundavarapu Bhavya Sri versus Ponugupati Dhruva; Ponugupati Sai Babu; Ponugupati Chandini vanamala",
+      "court": "3-III Metropolitan Magistrate, MM Courts of Integrated Family Courts Hyderabad",
+      "judge": "Not stated separately",
+      "status": "Pending",
+      "stage": "PET/PLAINTIFF EVIDENCE",
+      "nextDate": "2026-10-29",
+      "businessDate": "2026-10-07",
+      "business": "Petitioner present. Petitioner counsel present. P.O is on E.L. Call on 29.10.2026",
+      "advocate": "Not stated",
+      "attendingAdvocate": "Not stated by name",
+      "filingRequirements": "Not stated in latest business",
+      "rawObservation": {
+        "id": "oct29:DVC165_2025",
+        "observedAtUTC": "2026-10-29T01:44:14Z",
+        "source": "https://hydifc.dcourts.gov.in/case-status-search-by-case-number/",
+        "query": {
+          "courtComplex": "Hyd,Integrated Family Court Complex",
+          "caseType": "DVC",
+          "caseNumber": "165",
+          "year": "2025"
+        },
+        "cnr": "TSFC090001682025",
+        "case": "DVC165/2025",
+        "parties": "Gundavarapu Bhavya Sri versus Ponugupati Dhruva; Ponugupati Sai Babu; Ponugupati Chandini vanamala",
+        "court": "3-III Metropolitan Magistrate, MM Courts of Integrated Family Courts Hyderabad",
+        "status": "Pending",
+        "stage": "PET/PLAINTIFF EVIDENCE",
+        "nextDate": "2026-10-29",
+        "filingNumber": "168/2025",
+        "filingDate": "2025-04-21",
+        "registrationDate": "2025-04-21",
+        "lastBusinessDate": "2026-10-07",
+        "businessExact": "Petitioner present. Petitioner counsel present. P.O is on E.L. Call on 29.10.2026",
+        "advocate": "Not stated",
+        "attendingAdvocate": "Not stated by name",
+        "filingRequirements": "Not stated in latest business",
+        "result": "Full docket and latest business retrieved; unchanged next date/stage",
+        "identityConfidence": "exact CNR, named parties, case/year/court matched",
+        "captchaIncorrectAttempts": 3,
+        "matched": true,
+        "changed": false,
+        "profileIds": [
+          "running:175"
+        ]
+      }
+    },
+    {
+      "id": "oct29:FCOP367_2026",
+      "sourceFile": "district.json",
+      "sourceIndex": 1,
+      "observedAtUTC": "2026-10-29T01:46:15Z",
+      "cnr": "TSFC100003232026",
+      "case": "FCOP367/2026",
+      "files": [],
+      "profileIds": [],
+      "fullDocketRetrieved": true,
+      "source": "https://hydifc.dcourts.gov.in/case-status-search-by-case-number/",
+      "query": {
+        "courtComplex": "Hyd,Integrated Family Court Complex",
+        "caseType": "F.C.O.P",
+        "caseNumber": "367",
+        "year": "2026"
+      },
+      "parties": "Petitioner XXXXXXX; respondent XXX (masked)",
+      "court": "2-I ADDITIONAL FAMILY COURT, FAMILY COURT HYDERABAD",
+      "judge": "Not stated separately",
+      "status": "Pending",
+      "stage": "CALL ON",
+      "nextDate": "2026-10-29",
+      "businessDate": "2026-09-10",
+      "business": "No clickable business link; history row 10-09-2026 -> 29-10-2026 CALL ON",
+      "advocate": "PARTYINPERSON (portal field)",
+      "attendingAdvocate": "Not established",
+      "filingRequirements": "Not stated",
+      "rawObservation": {
+        "id": "oct29:FCOP367_2026",
+        "observedAtUTC": "2026-10-29T01:46:15Z",
+        "source": "https://hydifc.dcourts.gov.in/case-status-search-by-case-number/",
+        "query": {
+          "courtComplex": "Hyd,Integrated Family Court Complex",
+          "caseType": "F.C.O.P",
+          "caseNumber": "367",
+          "year": "2026"
+        },
+        "cnr": "TSFC100003232026",
+        "case": "FCOP367/2026",
+        "parties": "Petitioner XXXXXXX; respondent XXX (masked)",
+        "officeAssociation": "Karan Raj/Kamaraj versus Supraja; remains candidate, not newly identity-verified",
+        "court": "2-I ADDITIONAL FAMILY COURT, FAMILY COURT HYDERABAD",
+        "status": "Pending",
+        "stage": "CALL ON",
+        "nextDate": "2026-10-29",
+        "filingNumber": "281/2026",
+        "filingDate": "2026-03-26",
+        "registrationDate": "2026-03-26",
+        "advocate": "PARTYINPERSON (portal field)",
+        "attendingAdvocate": "Not established",
+        "lastBusinessDate": "2026-09-10",
+        "businessExact": "No clickable business link; history row 10-09-2026 -> 29-10-2026 CALL ON",
+        "filingRequirements": "Not stated",
+        "result": "Full masked docket retrieved; unchanged date/stage",
+        "identityConfidence": "Exact CNR/case/year/court; parties masked so firm association remains candidate",
+        "matched": false,
+        "candidate": true,
+        "changed": false
+      }
+    },
+    {
+      "id": "oct29:DVC54_2026",
+      "sourceFile": "district.json",
+      "sourceIndex": 2,
+      "observedAtUTC": "2026-10-29T01:48:46Z",
+      "cnr": "TSFC090000562026",
+      "case": "DVC54/2026",
+      "files": [],
+      "profileIds": [
+        "running:241"
+      ],
+      "fullDocketRetrieved": true,
+      "source": "https://hydifc.dcourts.gov.in/case-status-search-by-case-number/",
+      "query": {
+        "courtComplex": "Hyd,Integrated Family Court Complex",
+        "caseType": "DVC",
+        "caseNumber": "54",
+        "year": "2026"
+      },
+      "parties": "Vennela Patrayani versus Kadigari Vishnudeep Reddy; Kadigari Bhoji Reddy; Kadigari Seshu Reddy; Kadigari Pranav Reddy",
+      "court": "3-III Metropolitan Magistrate, MM Courts of Integrated Family Courts Hyderabad",
+      "judge": "Not stated separately",
+      "status": "Pending",
+      "stage": "MISCELLANEOUS",
+      "nextDate": "2026-11-12",
+      "businessDate": "2026-10-28",
+      "business": "Petitioner present. Both counsels present PO is on E.L call on 12.11.2026",
+      "advocate": "Not named",
+      "attendingAdvocate": "Both counsels present on28Oct, names not stated",
+      "filingRequirements": "No new requirement in latest business; office Sec31 petition with LOD filed in SR remains separate office evidence, not confirmed by this business",
+      "rawObservation": {
+        "id": "oct29:DVC54_2026",
+        "observedAtUTC": "2026-10-29T01:48:46Z",
+        "source": "https://hydifc.dcourts.gov.in/case-status-search-by-case-number/",
+        "query": {
+          "courtComplex": "Hyd,Integrated Family Court Complex",
+          "caseType": "DVC",
+          "caseNumber": "54",
+          "year": "2026"
+        },
+        "cnr": "TSFC090000562026",
+        "case": "DVC54/2026",
+        "parties": "Vennela Patrayani versus Kadigari Vishnudeep Reddy; Kadigari Bhoji Reddy; Kadigari Seshu Reddy; Kadigari Pranav Reddy",
+        "court": "3-III Metropolitan Magistrate, MM Courts of Integrated Family Courts Hyderabad",
+        "status": "Pending",
+        "stage": "MISCELLANEOUS",
+        "nextDate": "2026-11-12",
+        "previousOfficialNextDate": "2026-10-28",
+        "filingNumber": "56/2026",
+        "filingDate": "2026-03-12",
+        "registrationDate": "2026-03-12",
+        "lastBusinessDate": "2026-10-28",
+        "businessExact": "Petitioner present. Both counsels present PO is on E.L call on 12.11.2026",
+        "advocate": "Not named",
+        "attendingAdvocate": "Both counsels present on28Oct, names not stated",
+        "filingRequirements": "No new requirement in latest business; office Sec31 petition with LOD filed in SR remains separate office evidence, not confirmed by this business",
+        "result": "Fresh official next date now agrees with Oct28 office Nov12; dated conflict resolution without deleting prior discrepancy",
+        "identityConfidence": "Exact CNR, named parties, case/year/court",
+        "matched": true,
+        "changed": true,
+        "profileIds": [
+          "running:241"
+        ]
+      }
+    },
+    {
+      "id": "oct29:FCOP329_2026",
+      "sourceFile": "district.json",
+      "sourceIndex": 3,
+      "observedAtUTC": "2026-10-29T01:50:28Z",
+      "cnr": "TSFC100002812026",
+      "case": "FCOP329/2026",
+      "files": [],
+      "profileIds": [],
+      "fullDocketRetrieved": true,
+      "source": "https://hydifc.dcourts.gov.in/case-status-search-by-case-number/",
+      "query": {
+        "courtComplex": "Hyd,Integrated Family Court Complex",
+        "caseType": "F.C.O.P",
+        "caseNumber": "329",
+        "year": "2026"
+      },
+      "parties": "XXXXXXX versus XXX (masked)",
+      "court": "2-I ADDITIONAL FAMILY COURT, FAMILY COURT HYDERABAD",
+      "judge": "Not stated separately",
+      "status": "Pending",
+      "stage": "FILING COUNTER",
+      "nextDate": "2026-11-17",
+      "businessDate": "2026-10-28",
+      "business": "History row 28-10-2026 -> 17-11-2026 FILING COUNTER; business text link unavailable",
+      "advocate": "B. ANNAPURNA (petitioner counsel field)",
+      "attendingAdvocate": "Not established",
+      "filingRequirements": "FILING COUNTER is current purpose; no further text available",
+      "rawObservation": {
+        "id": "oct29:FCOP329_2026",
+        "observedAtUTC": "2026-10-29T01:50:28Z",
+        "source": "https://hydifc.dcourts.gov.in/case-status-search-by-case-number/",
+        "query": {
+          "courtComplex": "Hyd,Integrated Family Court Complex",
+          "caseType": "F.C.O.P",
+          "caseNumber": "329",
+          "year": "2026"
+        },
+        "cnr": "TSFC100002812026",
+        "case": "FCOP329/2026",
+        "parties": "XXXXXXX versus XXX (masked)",
+        "officeAssociation": "Vennela/Vishnudeep, remains qualified candidate association",
+        "court": "2-I ADDITIONAL FAMILY COURT, FAMILY COURT HYDERABAD",
+        "status": "Pending",
+        "stage": "FILING COUNTER",
+        "nextDate": "2026-11-17",
+        "previousOfficialNextDate": "2026-11-17",
+        "filingNumber": "243/2026",
+        "filingDate": "2026-03-23",
+        "registrationDate": "2026-03-23",
+        "lastBusinessDate": "2026-10-28",
+        "businessExact": "History row 28-10-2026 -> 17-11-2026 FILING COUNTER; business text link unavailable",
+        "advocate": "B. ANNAPURNA (petitioner counsel field)",
+        "attendingAdvocate": "Not established",
+        "filingRequirements": "FILING COUNTER is current purpose; no further text available",
+        "result": "Confirmed unchanged versus latest Oct28 07:37:43 UTC comprehensive observation; no new resolution claimed",
+        "identityConfidence": "Exact CNR/case/year/court; masked parties remain candidate firm link",
+        "matched": false,
+        "candidate": true,
+        "changed": false
+      }
+    },
+    {
+      "id": "oct29:TSMM000003612021",
+      "sourceFile": "medchal.json",
+      "sourceIndex": 0,
+      "observedAtUTC": "2026-10-29T01:48:39Z",
+      "cnr": "TSMM000003612021",
+      "case": "MC34/2021",
+      "files": [],
+      "profileIds": [
+        "running:109"
+      ],
+      "fullDocketRetrieved": true,
+      "source": "https://medchalmalkajgiri.dcourts.gov.in/case-status-search-by-case-number/",
+      "query": "Malkajgiri PDJ complex MC34/2021",
+      "parties": "JANYA DIDLA AND ARUNA KRANTHI DIDLA versus VIJAY BABU.D",
+      "court": "9-II ADJ-Cum- I Addl MSJ -cum- II Spl Sessions Judge for fast tracking the cases relating to Atrocities against women-Cum- Family Court",
+      "judge": "Not stated separately",
+      "status": "Pending",
+      "stage": "ENQUIRY",
+      "nextDate": "2026-10-29",
+      "businessDate": "2026-09-23",
+      "business": "Both absent. PO is on OH call on 29-10-2026.",
+      "advocate": "LAXMI NARAYANA (petitioner counsel; attendance not inferred)",
+      "attendingAdvocate": "Not established",
+      "filingRequirements": "See exact procedural business; completion not inferred",
+      "rawObservation": {
+        "id": "oct29:TSMM000003612021",
+        "observedAtUTC": "2026-10-29T01:48:39Z",
+        "query": "Malkajgiri PDJ complex MC34/2021",
+        "cnr": "TSMM000003612021",
+        "case": "MC34/2021",
+        "profileIds": [
+          "running:109"
+        ],
+        "parties": "JANYA DIDLA AND ARUNA KRANTHI DIDLA versus VIJAY BABU.D",
+        "court": "9-II ADJ-Cum- I Addl MSJ -cum- II Spl Sessions Judge for fast tracking the cases relating to Atrocities against women-Cum- Family Court",
+        "status": "Pending",
+        "stage": "ENQUIRY",
+        "nextDate": "2026-10-29",
+        "advocate": "LAXMI NARAYANA (petitioner counsel; attendance not inferred)",
+        "businessDate": "2026-09-23",
+        "businessExact": "Both absent. PO is on OH call on 29-10-2026.",
+        "matched": true,
+        "changed": false,
+        "captchaIncorrectAttempts": 2,
+        "docketCapture": "TSMM000003612021_docket.txt",
+        "businessCapture": "TSMM000003612021_business.txt",
+        "source": "https://medchalmalkajgiri.dcourts.gov.in/case-status-search-by-case-number/",
+        "observedAtIST": "2026-10-29T07:18:39+05:30",
+        "docketCaptureSha256": "d53ac1122ef929afd6e7e48d7a17d6810324e79d54e65b78a7802e4001edc46f",
+        "businessCaptureSha256": "d27b313cb63cc4a2f9d1b61d8a26c3ffd3a545a39241db5f1a5d52498fe6d6c3"
+      }
+    },
+    {
+      "id": "oct29:TSMM020017592025",
+      "sourceFile": "medchal.json",
+      "sourceIndex": 1,
+      "observedAtUTC": "2026-10-29T01:51:02Z",
+      "cnr": "TSMM020017592025",
+      "case": "DVC31/2025",
+      "files": [],
+      "profileIds": [
+        "running:196"
+      ],
+      "fullDocketRetrieved": true,
+      "source": "https://medchalmalkajgiri.dcourts.gov.in/case-status-search-by-case-number/",
+      "query": "Malkajgiri PDJ complex DVC31/2025",
+      "parties": "Gattem Lakshmi Sai Priyanka versus Gattem Babjee; G. Vishweshwar Rao; G. Satyavathi",
+      "court": "1-Principal Junior Civil Judge-cum-Judicial Magistrate of First Class at Malkajgiri",
+      "judge": "Not stated separately",
+      "status": "Pending",
+      "stage": "AWAIT REPORTS",
+      "nextDate": "2026-10-29",
+      "businessDate": "2026-09-21",
+      "business": "P.O is on Maternity Leave. Case posted to 29-10-2026.",
+      "advocate": "Not yet appointed. (portal wording)",
+      "attendingAdvocate": "Not established",
+      "filingRequirements": "See exact procedural business; completion not inferred",
+      "rawObservation": {
+        "id": "oct29:TSMM020017592025",
+        "observedAtUTC": "2026-10-29T01:51:02Z",
+        "query": "Malkajgiri PDJ complex DVC31/2025",
+        "cnr": "TSMM020017592025",
+        "case": "DVC31/2025",
+        "profileIds": [
+          "running:196"
+        ],
+        "parties": "Gattem Lakshmi Sai Priyanka versus Gattem Babjee; G. Vishweshwar Rao; G. Satyavathi",
+        "court": "1-Principal Junior Civil Judge-cum-Judicial Magistrate of First Class at Malkajgiri",
+        "status": "Pending",
+        "stage": "AWAIT REPORTS",
+        "nextDate": "2026-10-29",
+        "advocate": "Not yet appointed. (portal wording)",
+        "businessDate": "2026-09-21",
+        "businessExact": "P.O is on Maternity Leave. Case posted to 29-10-2026.",
+        "matched": true,
+        "changed": false,
+        "captchaIncorrectAttempts": 1,
+        "docketCapture": "TSMM020017592025_docket.txt",
+        "businessCapture": "TSMM020017592025_business.txt",
+        "source": "https://medchalmalkajgiri.dcourts.gov.in/case-status-search-by-case-number/",
+        "observedAtIST": "2026-10-29T07:21:02+05:30",
+        "docketCaptureSha256": "cb5cd35bc86e4648ee64742cd8d0e6540485c8b72f0c8df395627c851af377ad",
+        "businessCaptureSha256": "568b51e610124afea0763e8a989baf2ef0b3147efab9d520c049d61b1d12cfea"
+      }
+    },
+    {
+      "id": "oct29:TSMM020017092026",
+      "sourceFile": "medchal.json",
+      "sourceIndex": 2,
+      "observedAtUTC": "2026-10-29T01:52:29Z",
+      "cnr": "TSMM020017092026",
+      "case": "DVC19/2026",
+      "files": [],
+      "profileIds": [
+        "running:266"
+      ],
+      "fullDocketRetrieved": true,
+      "source": "https://medchalmalkajgiri.dcourts.gov.in/case-status-search-by-case-number/",
+      "query": "Malkajgiri PDJ complex DVC19/2026",
+      "parties": "Ayyagali Shalini versus Thumuluri Sai Vamsi Krishna",
+      "court": "1-Principal Junior Civil Judge-cum-Judicial Magistrate of First Class at Malkajgiri",
+      "judge": "Not stated separately",
+      "status": "Pending",
+      "stage": "SUMMONS",
+      "nextDate": "2026-10-30",
+      "businessDate": "2026-09-29",
+      "business": "P.O. is on Maternity Leave, case posted to 30-10-2026.",
+      "advocate": "APP (portal wording; attendance not inferred)",
+      "attendingAdvocate": "Not established",
+      "filingRequirements": "See exact procedural business; completion not inferred",
+      "rawObservation": {
+        "id": "oct29:TSMM020017092026",
+        "observedAtUTC": "2026-10-29T01:52:29Z",
+        "query": "Malkajgiri PDJ complex DVC19/2026",
+        "cnr": "TSMM020017092026",
+        "case": "DVC19/2026",
+        "profileIds": [
+          "running:266"
+        ],
+        "parties": "Ayyagali Shalini versus Thumuluri Sai Vamsi Krishna",
+        "court": "1-Principal Junior Civil Judge-cum-Judicial Magistrate of First Class at Malkajgiri",
+        "status": "Pending",
+        "stage": "SUMMONS",
+        "nextDate": "2026-10-30",
+        "advocate": "APP (portal wording; attendance not inferred)",
+        "businessDate": "2026-09-29",
+        "businessExact": "P.O. is on Maternity Leave, case posted to 30-10-2026.",
+        "matched": true,
+        "changed": false,
+        "captchaIncorrectAttempts": 0,
+        "qualification": "Original source MC19/2026 type and DVC19/2025 year conflict retained. This named DVC19/2026 match does not establish a distinct MC.",
+        "docketCapture": "TSMM020017092026_docket.txt",
+        "businessCapture": "TSMM020017092026_business.txt",
+        "source": "https://medchalmalkajgiri.dcourts.gov.in/case-status-search-by-case-number/",
+        "observedAtIST": "2026-10-29T07:22:29+05:30",
+        "docketCaptureSha256": "c06691747365ad87e521b0022fb5123527729734163213c4d020785a8abb7d1a",
+        "businessCaptureSha256": "eee7302ea10b8b3154d7f9b0b4cf146a015b9b7427b91bd6fcccff5d035b1f84"
+      }
+    },
+    {
+      "id": "oct29:TSMM020028962025",
+      "sourceFile": "medchal.json",
+      "sourceIndex": 3,
+      "observedAtUTC": "2026-10-29T01:54:21Z",
+      "cnr": "TSMM020028962025",
+      "case": "CC1627/2025",
+      "files": [],
+      "profileIds": [
+        "running:263"
+      ],
+      "fullDocketRetrieved": true,
+      "source": "https://medchalmalkajgiri.dcourts.gov.in/case-status-search-by-case-number/",
+      "query": "Malkajgiri PDJ complex CC1627/2025",
+      "parties": "State of Telangana through PS Neredmet versus Bhargava Ramulu Karne",
+      "court": "2-I Addl.Junior Civil Judge-cum-I Addl Judicial Magistrate of First Class at Malkajgiri",
+      "judge": "Not stated separately",
+      "status": "Pending",
+      "stage": "EXAMINATION",
+      "nextDate": "2026-10-30",
+      "businessDate": "2026-07-31",
+      "business": "Accused present. Sureties filed. For examination. Call on 30.10.2026.",
+      "advocate": "Not stated",
+      "attendingAdvocate": "Not established",
+      "filingRequirements": "See exact procedural business; completion not inferred",
+      "rawObservation": {
+        "id": "oct29:TSMM020028962025",
+        "observedAtUTC": "2026-10-29T01:54:21Z",
+        "query": "Malkajgiri PDJ complex CC1627/2025",
+        "cnr": "TSMM020028962025",
+        "case": "CC1627/2025",
+        "profileIds": [
+          "running:263"
+        ],
+        "parties": "State of Telangana through PS Neredmet versus Bhargava Ramulu Karne",
+        "court": "2-I Addl.Junior Civil Judge-cum-I Addl Judicial Magistrate of First Class at Malkajgiri",
+        "status": "Pending",
+        "stage": "EXAMINATION",
+        "nextDate": "2026-10-30",
+        "advocate": "Not stated",
+        "businessDate": "2026-07-31",
+        "businessExact": "Accused present. Sureties filed. For examination. Call on 30.10.2026.",
+        "fir": "PS Neredmet 563/2025",
+        "matched": true,
+        "changed": false,
+        "captchaIncorrectAttempts": 1,
+        "docketCapture": "TSMM020028962025_docket.txt",
+        "businessCapture": "TSMM020028962025_business.txt",
+        "source": "https://medchalmalkajgiri.dcourts.gov.in/case-status-search-by-case-number/",
+        "observedAtIST": "2026-10-29T07:24:21+05:30",
+        "docketCaptureSha256": "a94f43470bf86039900ddfca5696c80c425b45fb64df122f04403121305f903a",
+        "businessCaptureSha256": "167cbacde7bc7be9fcc086d66879a55af5f6915f5c551cb3c8d816c90104d038"
+      }
+    },
+    {
+      "id": "oct29:TSMM020040442025",
+      "sourceFile": "medchal.json",
+      "sourceIndex": 4,
+      "observedAtUTC": "2026-10-29T01:56:01Z",
+      "cnr": "TSMM020040442025",
+      "case": "DVC78/2025",
+      "files": [],
+      "profileIds": [
+        "running:209"
+      ],
+      "fullDocketRetrieved": true,
+      "source": "https://medchalmalkajgiri.dcourts.gov.in/case-status-search-by-case-number/",
+      "query": "Malkajgiri PDJ complex DVC78/2025",
+      "parties": "K. Durga Sowjanya versus Navaneetha Kishore; Katta Dhan Raj; Katta Padmavathi",
+      "court": "3-II Addl.Junior Civil Judge-cum-II Addl Judicial Magistrate of First Class at Malkajgiri",
+      "judge": "Not stated separately",
+      "status": "Pending",
+      "stage": "CALL WITH MPs",
+      "nextDate": "2026-11-11",
+      "businessDate": "2026-10-28",
+      "business": "P.O is transferred. Hence the case is posted to 11.11.2026.",
+      "advocate": "B. Annapurna (petitioner counsel; attendance not inferred)",
+      "attendingAdvocate": "Not established",
+      "filingRequirements": "See exact procedural business; completion not inferred",
+      "rawObservation": {
+        "id": "oct29:TSMM020040442025",
+        "observedAtUTC": "2026-10-29T01:56:01Z",
+        "query": "Malkajgiri PDJ complex DVC78/2025",
+        "cnr": "TSMM020040442025",
+        "case": "DVC78/2025",
+        "profileIds": [
+          "running:209"
+        ],
+        "parties": "K. Durga Sowjanya versus Navaneetha Kishore; Katta Dhan Raj; Katta Padmavathi",
+        "court": "3-II Addl.Junior Civil Judge-cum-II Addl Judicial Magistrate of First Class at Malkajgiri",
+        "status": "Pending",
+        "stage": "CALL WITH MPs",
+        "nextDate": "2026-11-11",
+        "previousPortalNextDate": "2026-10-28",
+        "advocate": "B. Annapurna (petitioner counsel; attendance not inferred)",
+        "businessDate": "2026-10-28",
+        "businessExact": "P.O is transferred. Hence the case is posted to 11.11.2026.",
+        "matched": true,
+        "changed": true,
+        "captchaIncorrectAttempts": 0,
+        "qualification": "The presiding officer transfer is not a case transfer. Preserve invalid office future-date conflict as historical, not silently repaired.",
+        "docketCapture": "TSMM020040442025_docket.txt",
+        "businessCapture": "TSMM020040442025_business.txt",
+        "source": "https://medchalmalkajgiri.dcourts.gov.in/case-status-search-by-case-number/",
+        "observedAtIST": "2026-10-29T07:26:01+05:30",
+        "docketCaptureSha256": "f294d9aa5ee05a2579693f63b14e168a21bc4c20c3a6b5ca4726d31a3fc421f9",
+        "businessCaptureSha256": "80d6c91d9ab774143a3a4fc0a5da3c0718a4181fffd0d008f3d774d4b01edcf8"
+      }
+    },
+    {
+      "id": "oct29:TSMM090005852026:attempt",
+      "sourceFile": "medchal.json",
+      "sourceIndex": 5,
+      "observedAtUTC": "2026-10-29T01:59:24Z",
+      "cnr": "TSMM090005852026",
+      "case": "SC233/2026",
+      "files": [],
+      "profileIds": [],
+      "fullDocketRetrieved": false,
+      "source": "https://medchalmalkajgiri.dcourts.gov.in/case-status-search-by-case-number/",
+      "query": "Kukatpally ADJ complex SC233/2026",
+      "parties": null,
+      "court": null,
+      "judge": "Not stated separately",
+      "status": null,
+      "stage": null,
+      "nextDate": null,
+      "businessDate": null,
+      "business": null,
+      "advocate": "Not stated",
+      "attendingAdvocate": "Not established",
+      "filingRequirements": "See exact procedural business; completion not inferred",
+      "rawObservation": {
+        "id": "oct29:TSMM090005852026:attempt",
+        "observedAtUTC": "2026-10-29T01:59:24Z",
+        "query": "Kukatpally ADJ complex SC233/2026",
+        "cnr": "TSMM090005852026",
+        "case": "SC233/2026",
+        "profileIds": [],
+        "result": "Four submitted visual CAPTCHA attempts rejected with The captcha code entered was incorrect; no case-result or fresh docket retrieved. Stopped this route.",
+        "matched": false,
+        "changed": false,
+        "blocked": true,
+        "captchaIncorrectAttempts": 4,
+        "qualification": "Retain Oct28 exact named docket and qualified firm association, no fresh status/date verification. Accepted additional firm-proceeding identity, file serial unassigned.",
+        "source": "https://medchalmalkajgiri.dcourts.gov.in/case-status-search-by-case-number/",
+        "observedAtIST": "2026-10-29T07:29:24+05:30"
+      }
+    },
+    {
+      "id": "oct29:TSRA010004412026",
+      "sourceFile": "rr.json",
+      "sourceIndex": 0,
+      "observedAtUTC": "2026-10-29T01:48:54Z",
+      "cnr": "TSRA010004412026",
+      "case": "CC5481/2022",
+      "files": [],
+      "profileIds": [],
+      "fullDocketRetrieved": true,
+      "source": "https://rangareddy.dcourts.gov.in/case-status-search-by-case-number/",
+      "query": {
+        "complex": "Rangareddy, PDJ Court Complex",
+        "type": "CC",
+        "number": "5481",
+        "year": "2022",
+        "selectedResult": "Prl. Sr. Civil Courts, Rangareddy"
+      },
+      "parties": [
+        "THE STATE THROUGH PS CHAITANYAPURI",
+        "A1.GOSUKONDA GANANA BHASKAR S/O SOMA SHEKAR",
+        "A2.GOSUKONDA APARMADEVI W/O SOMA SHEKAR"
+      ],
+      "court": "3-II Addl. Senior Civil Judge-cum-II Addl.Chief Judicial Magistrate, Ranga Reddy District at LB Nagar",
+      "judge": "Not stated separately",
+      "status": "Pending",
+      "stage": "SUMMONS",
+      "nextDate": "2026-10-29",
+      "businessDate": "2026-10-01",
+      "business": "A1 absent. Issue fresh summons to A2, call on 29.10.2026",
+      "advocate": "APP",
+      "attendingAdvocate": "Not stated by name; APP listing does not prove attendance",
+      "filingRequirements": "Not stated in latest business; fresh summons to A2 ordered",
+      "rawObservation": {
+        "id": "oct29:TSRA010004412026",
+        "observedAtUTC": "2026-10-29T01:48:54Z",
+        "query": {
+          "complex": "Rangareddy, PDJ Court Complex",
+          "type": "CC",
+          "number": "5481",
+          "year": "2022",
+          "selectedResult": "Prl. Sr. Civil Courts, Rangareddy"
+        },
+        "cnr": "TSRA010004412026",
+        "case": "CC5481/2022",
+        "filingNumber": "206/2026",
+        "filingDate": "01-12-2022",
+        "registrationDate": "01-12-2022",
+        "parties": [
+          "THE STATE THROUGH PS CHAITANYAPURI",
+          "A1.GOSUKONDA GANANA BHASKAR S/O SOMA SHEKAR",
+          "A2.GOSUKONDA APARMADEVI W/O SOMA SHEKAR"
+        ],
+        "court": "3-II Addl. Senior Civil Judge-cum-II Addl.Chief Judicial Magistrate, Ranga Reddy District at LB Nagar",
+        "status": "Pending",
+        "nextDate": "2026-10-29",
+        "stage": "SUMMONS",
+        "advocate": "APP",
+        "attendingAdvocate": "Not stated by name; APP listing does not prove attendance",
+        "businessDate": "2026-10-01",
+        "businessExact": "A1 absent. Issue fresh summons to A2, call on 29.10.2026",
+        "filingRequirements": "Not stated in latest business; fresh summons to A2 ordered",
+        "fir": "784/2022 Chaitanyapuri P.S",
+        "transferLink": "Subordinate court JCJ-cum-MM Courts, Rangareddy CC5481/2022 decision13-03-2026. Receiving CNR matched; historical donor not another active proceeding.",
+        "result": "Full docket and latest business retrieved; unchanged",
+        "changed": false,
+        "matched": true,
+        "captchaIncorrectAttempts": 2,
+        "profileIds": [],
+        "qualification": "Accepted additional firm proceeding, source profile unassigned; no new register profile created."
+      }
+    },
+    {
+      "id": "oct29:TSRA030034012023",
+      "sourceFile": "rr.json",
+      "sourceIndex": 1,
+      "observedAtUTC": "2026-10-29T01:50:51Z",
+      "cnr": "TSRA030034012023",
+      "case": "CC1867/2023",
+      "files": [],
+      "profileIds": [
+        "running:255"
+      ],
+      "fullDocketRetrieved": true,
+      "source": "https://rangareddy.dcourts.gov.in/case-status-search-by-case-number/",
+      "query": {
+        "complex": "Rangareddy, PDJ Court Complex",
+        "type": "CC",
+        "number": "1867",
+        "year": "2023"
+      },
+      "parties": [
+        "WPS SAROORNAGAR",
+        "GUNTHAKANTI TEJESHWAR REDDY"
+      ],
+      "court": "6-III Additional Junior Civil Judge-cum-III Addl.Judicial Magistrate of First Class, RangaReddy District at L.B.Nagar",
+      "judge": "Not stated separately",
+      "status": "Pending",
+      "stage": "SUMMONS",
+      "nextDate": "2026-10-29",
+      "businessDate": "2026-08-17",
+      "business": "Accused absent. No representation. For appearance, call on 29.10.2026.",
+      "advocate": "APP",
+      "attendingAdvocate": "Not established",
+      "filingRequirements": "Not stated; appearance directed",
+      "rawObservation": {
+        "id": "oct29:TSRA030034012023",
+        "observedAtUTC": "2026-10-29T01:50:51Z",
+        "source": "https://rangareddy.dcourts.gov.in/case-status-search-by-case-number/",
+        "query": {
+          "complex": "Rangareddy, PDJ Court Complex",
+          "type": "CC",
+          "number": "1867",
+          "year": "2023"
+        },
+        "cnr": "TSRA030034012023",
+        "case": "CC1867/2023",
+        "filingNumber": "2598/2023",
+        "filingDate": "28-06-2023",
+        "registrationDate": "28-06-2023",
+        "parties": [
+          "WPS SAROORNAGAR",
+          "GUNTHAKANTI TEJESHWAR REDDY"
+        ],
+        "court": "6-III Additional Junior Civil Judge-cum-III Addl.Judicial Magistrate of First Class, RangaReddy District at L.B.Nagar",
+        "status": "Pending",
+        "nextDate": "2026-10-29",
+        "stage": "SUMMONS",
+        "advocate": "APP",
+        "attendingAdvocate": "Not established",
+        "businessDate": "2026-08-17",
+        "businessExact": "Accused absent. No representation. For appearance, call on 29.10.2026.",
+        "filingRequirements": "Not stated; appearance directed",
+        "fir": "145/2023 W.P.S.Saroornagar PS",
+        "result": "Full docket and latest business retrieved; unchanged",
+        "changed": false,
+        "matched": true,
+        "captchaIncorrectAttempts": 0,
+        "profileIds": [
+          "running:255"
+        ],
+        "qualification": "Distinct from CC9957/2021 FIR453/2021 although related accused alias; retain both."
+      }
+    },
+    {
+      "id": "oct29:TSRA030142472021",
+      "sourceFile": "rr.json",
+      "sourceIndex": 2,
+      "observedAtUTC": "2026-10-29T01:52:22Z",
+      "cnr": "TSRA030142472021",
+      "case": "CC9957/2021",
+      "files": [],
+      "profileIds": [
+        "running:255"
+      ],
+      "fullDocketRetrieved": true,
+      "source": "https://rangareddy.dcourts.gov.in/case-status-search-by-case-number/",
+      "query": {
+        "complex": "Rangareddy, PDJ Court Complex",
+        "type": "CC",
+        "number": "9957",
+        "year": "2021"
+      },
+      "parties": [
+        "State of Telangana through WPS Saroor Nagar",
+        "A1.Gunthakanti Thejeswara Reddy",
+        "A2.Gunthakanti Baleshwari Alias Vasantha",
+        "A3.G Ramaneshwar Reddy"
+      ],
+      "court": "6-III Additional Junior Civil Judge-cum-III Addl.Judicial Magistrate of First Class, RangaReddy District at L.B.Nagar",
+      "judge": "Not stated separately",
+      "status": "Pending",
+      "stage": "DEATH CERTIFICATE",
+      "nextDate": "2026-10-29",
+      "businessDate": "2026-08-17",
+      "business": "A1 and A2 absent. No representation. For filing death certificate of A3. For appearance of A1 and A2. Crl.M.P., pending, call on 29.10.2026.",
+      "advocate": "Not stated",
+      "attendingAdvocate": "Not stated",
+      "filingRequirements": "Death certificate of A3; appearance A1/A2; Crl.M.P. pending. Compliance not established.",
+      "rawObservation": {
+        "id": "oct29:TSRA030142472021",
+        "observedAtUTC": "2026-10-29T01:52:22Z",
+        "source": "https://rangareddy.dcourts.gov.in/case-status-search-by-case-number/",
+        "query": {
+          "complex": "Rangareddy, PDJ Court Complex",
+          "type": "CC",
+          "number": "9957",
+          "year": "2021"
+        },
+        "cnr": "TSRA030142472021",
+        "case": "CC9957/2021",
+        "filingNumber": "11121/2021",
+        "filingDate": "21-12-2021",
+        "registrationDate": "28-12-2021",
+        "parties": [
+          "State of Telangana through WPS Saroor Nagar",
+          "A1.Gunthakanti Thejeswara Reddy",
+          "A2.Gunthakanti Baleshwari Alias Vasantha",
+          "A3.G Ramaneshwar Reddy"
+        ],
+        "court": "6-III Additional Junior Civil Judge-cum-III Addl.Judicial Magistrate of First Class, RangaReddy District at L.B.Nagar",
+        "status": "Pending",
+        "nextDate": "2026-10-29",
+        "stage": "DEATH CERTIFICATE",
+        "advocate": "Not stated",
+        "attendingAdvocate": "Not stated",
+        "businessDate": "2026-08-17",
+        "businessExact": "A1 and A2 absent. No representation. For filing death certificate of A3. For appearance of A1 and A2. Crl.M.P., pending, call on 29.10.2026.",
+        "filingRequirements": "Death certificate of A3; appearance A1/A2; Crl.M.P. pending. Compliance not established.",
+        "fir": "453/2021 W.P.S.Saroornagar PS",
+        "result": "Full docket and latest business retrieved; unchanged",
+        "changed": false,
+        "matched": true,
+        "captchaIncorrectAttempts": 0,
+        "profileIds": [
+          "running:255"
+        ],
+        "qualification": "Distinct from CC1867/2023 FIR145/2023 despite common party aliases. Death certificate stage does not close main matter."
+      }
+    },
+    {
+      "id": "oct29:TSRA030015142024",
+      "sourceFile": "rr.json",
+      "sourceIndex": 3,
+      "observedAtUTC": "2026-10-29T01:56:04Z",
+      "cnr": "TSRA030015142024",
+      "case": "DVC31/2024",
+      "files": [],
+      "profileIds": [
+        "running:123"
+      ],
+      "fullDocketRetrieved": true,
+      "source": "https://rangareddy.dcourts.gov.in/case-status-search-by-case-number/",
+      "query": {
+        "complex": "Rangareddy, PDJ Court Complex",
+        "type": "DVC",
+        "number": "31",
+        "year": "2024"
+      },
+      "parties": [
+        "M.Vasavi Alias Durga",
+        "V.Vikas",
+        "V.Kurma Das",
+        "V.Symela",
+        "V.Vinay",
+        "N. Soujanaya"
+      ],
+      "court": "1-II Additional Junior Civil Judge-cum-II Addl.Judicial Magistrate of First Class, RangaReddy District at L.B.Nagar",
+      "judge": "Not stated separately",
+      "status": "Pending",
+      "stage": "SUMMONS",
+      "nextDate": "2026-10-30",
+      "businessDate": "2026-10-26",
+      "business": "PO is on ML. Case posted to 30.10.2026",
+      "advocate": "ADV (literal; personal name not stated)",
+      "attendingAdvocate": "Not established",
+      "filingRequirements": "Not stated in latest business",
+      "rawObservation": {
+        "id": "oct29:TSRA030015142024",
+        "observedAtUTC": "2026-10-29T01:56:04Z",
+        "source": "https://rangareddy.dcourts.gov.in/case-status-search-by-case-number/",
+        "query": {
+          "complex": "Rangareddy, PDJ Court Complex",
+          "type": "DVC",
+          "number": "31",
+          "year": "2024"
+        },
+        "cnr": "TSRA030015142024",
+        "case": "DVC31/2024",
+        "filingNumber": "1214/2024",
+        "filingDate": "11-03-2024",
+        "registrationDate": "11-03-2024",
+        "parties": [
+          "M.Vasavi Alias Durga",
+          "V.Vikas",
+          "V.Kurma Das",
+          "V.Symela",
+          "V.Vinay",
+          "N. Soujanaya"
+        ],
+        "court": "1-II Additional Junior Civil Judge-cum-II Addl.Judicial Magistrate of First Class, RangaReddy District at L.B.Nagar",
+        "status": "Pending",
+        "nextDate": "2026-10-30",
+        "stage": "SUMMONS",
+        "advocate": "ADV (literal; personal name not stated)",
+        "attendingAdvocate": "Not established",
+        "businessDate": "2026-10-26",
+        "businessExact": "PO is on ML. Case posted to 30.10.2026",
+        "filingRequirements": "Not stated in latest business",
+        "result": "Full docket and latest business retrieved; unchanged",
+        "changed": false,
+        "matched": true,
+        "captchaIncorrectAttempts": 3,
+        "profileIds": [
+          "running:123"
+        ],
+        "qualification": "Exact CNR/case/court matches retained official evidence. Source register name Dharunya / Vatten Vikas differs official M.Vasavi Alias Durga / V.Vikas; do not silently resolve or rename source profile."
+      }
+    },
+    {
+      "id": "oct29:hc:1",
+      "sourceFile": "hc.json",
+      "sourceIndex": 0,
+      "observedAtUTC": "2026-10-29T01:46:08Z",
+      "cnr": "HBHC010036772023",
+      "case": "WP 1970/2023",
+      "files": [
+        "270"
+      ],
+      "profileIds": [
+        "running:270"
+      ],
+      "fullDocketRetrieved": false,
+      "source": [
+        "https://causelist.tshc.gov.in/causelist/courtWiseView",
+        "https://causelist.tshc.gov.in/causelist/advance-list/courtWiseView"
+      ],
+      "query": "WP 1970/2023",
+      "parties": null,
+      "court": null,
+      "judge": "Not stated separately",
+      "status": null,
+      "stage": null,
+      "nextDate": null,
+      "businessDate": null,
+      "business": null,
+      "advocate": "Not stated",
+      "attendingAdvocate": "Not established",
+      "filingRequirements": "See exact procedural business; completion not inferred",
+      "rawObservation": {
+        "cnr": "HBHC010036772023",
+        "case": "WP 1970/2023",
+        "files": [
+          "270"
+        ],
+        "priorEvidenceId": "full28:4cc810ca569af6248552",
+        "checkedAtUTC": "2026-10-29T01:46:08Z",
+        "query": "WP 1970/2023",
+        "sources": [
+          "https://causelist.tshc.gov.in/causelist/courtWiseView",
+          "https://causelist.tshc.gov.in/causelist/advance-list/courtWiseView"
+        ],
+        "method": "Exact type/number/year reconciliation across 27 available Oct29 daily court lists and Nov5/6 advance Court19 lists; source rows loaded through footer. CNR is prior-source association, not independently reverified by cause list.",
+        "result": "No exact target found in retrieved lists. This is not proof of no hearing, disposal, or current docket status.",
+        "docketStatusFreshlyRetrieved": false
+      }
+    },
+    {
+      "id": "oct29:hc:2",
+      "sourceFile": "hc.json",
+      "sourceIndex": 1,
+      "observedAtUTC": "2026-10-29T01:46:08Z",
+      "cnr": "HBHC010488942025",
+      "case": "FCA 131/2025",
+      "files": [
+        "10",
+        "211"
+      ],
+      "profileIds": [
+        "running:10",
+        "running:211"
+      ],
+      "fullDocketRetrieved": false,
+      "source": [
+        "https://causelist.tshc.gov.in/causelist/courtWiseView",
+        "https://causelist.tshc.gov.in/causelist/advance-list/courtWiseView"
+      ],
+      "query": "FCA 131/2025",
+      "parties": null,
+      "court": null,
+      "judge": "Not stated separately",
+      "status": null,
+      "stage": null,
+      "nextDate": null,
+      "businessDate": null,
+      "business": null,
+      "advocate": "Not stated",
+      "attendingAdvocate": "Not established",
+      "filingRequirements": "See exact procedural business; completion not inferred",
+      "rawObservation": {
+        "cnr": "HBHC010488942025",
+        "case": "FCA 131/2025",
+        "files": [
+          "10",
+          "211"
+        ],
+        "priorEvidenceId": "full28:80f7cc04a998bf9af7ee",
+        "checkedAtUTC": "2026-10-29T01:46:08Z",
+        "query": "FCA 131/2025",
+        "sources": [
+          "https://causelist.tshc.gov.in/causelist/courtWiseView",
+          "https://causelist.tshc.gov.in/causelist/advance-list/courtWiseView"
+        ],
+        "method": "Exact type/number/year reconciliation across 27 available Oct29 daily court lists and Nov5/6 advance Court19 lists; source rows loaded through footer. CNR is prior-source association, not independently reverified by cause list.",
+        "result": "No exact target found in retrieved lists. This is not proof of no hearing, disposal, or current docket status.",
+        "docketStatusFreshlyRetrieved": false
+      }
+    },
+    {
+      "id": "oct29:hc:3",
+      "sourceFile": "hc.json",
+      "sourceIndex": 2,
+      "observedAtUTC": "2026-10-29T01:46:08Z",
+      "cnr": "HBHC010477662025",
+      "case": "CRLP 10403/2025",
+      "files": [
+        "188",
+        "274"
+      ],
+      "profileIds": [
+        "running:188",
+        "running:274"
+      ],
+      "fullDocketRetrieved": false,
+      "source": [
+        "https://causelist.tshc.gov.in/causelist/courtWiseView",
+        "https://causelist.tshc.gov.in/causelist/advance-list/courtWiseView"
+      ],
+      "query": "CRLP 10403/2025",
+      "parties": null,
+      "court": null,
+      "judge": "Not stated separately",
+      "status": null,
+      "stage": null,
+      "nextDate": null,
+      "businessDate": null,
+      "business": null,
+      "advocate": "Not stated",
+      "attendingAdvocate": "Not established",
+      "filingRequirements": "See exact procedural business; completion not inferred",
+      "rawObservation": {
+        "cnr": "HBHC010477662025",
+        "case": "CRLP 10403/2025",
+        "files": [
+          "188",
+          "274"
+        ],
+        "priorEvidenceId": "full28:f5ea339a0cfe43d6feff",
+        "checkedAtUTC": "2026-10-29T01:46:08Z",
+        "query": "CRLP 10403/2025",
+        "sources": [
+          "https://causelist.tshc.gov.in/causelist/courtWiseView",
+          "https://causelist.tshc.gov.in/causelist/advance-list/courtWiseView"
+        ],
+        "method": "Exact type/number/year reconciliation across 27 available Oct29 daily court lists and Nov5/6 advance Court19 lists; source rows loaded through footer. CNR is prior-source association, not independently reverified by cause list.",
+        "result": "No exact target found in retrieved lists. This is not proof of no hearing, disposal, or current docket status.",
+        "docketStatusFreshlyRetrieved": false
+      }
+    },
+    {
+      "id": "oct29:hc:4",
+      "sourceFile": "hc.json",
+      "sourceIndex": 3,
+      "observedAtUTC": "2026-10-29T01:46:08Z",
+      "cnr": "HBHC010277382026",
+      "case": "WP 13252/2026",
+      "files": [
+        "247",
+        "253"
+      ],
+      "profileIds": [
+        "running:247",
+        "running:253"
+      ],
+      "fullDocketRetrieved": false,
+      "source": [
+        "https://causelist.tshc.gov.in/causelist/courtWiseView",
+        "https://causelist.tshc.gov.in/causelist/advance-list/courtWiseView"
+      ],
+      "query": "WP 13252/2026",
+      "parties": null,
+      "court": null,
+      "judge": "Not stated separately",
+      "status": null,
+      "stage": null,
+      "nextDate": null,
+      "businessDate": null,
+      "business": null,
+      "advocate": "Not stated",
+      "attendingAdvocate": "Not established",
+      "filingRequirements": "See exact procedural business; completion not inferred",
+      "rawObservation": {
+        "cnr": "HBHC010277382026",
+        "case": "WP 13252/2026",
+        "files": [
+          "247",
+          "253"
+        ],
+        "priorEvidenceId": "full28:61764e63f84a5683212b",
+        "checkedAtUTC": "2026-10-29T01:46:08Z",
+        "query": "WP 13252/2026",
+        "sources": [
+          "https://causelist.tshc.gov.in/causelist/courtWiseView",
+          "https://causelist.tshc.gov.in/causelist/advance-list/courtWiseView"
+        ],
+        "method": "Exact type/number/year reconciliation across 27 available Oct29 daily court lists and Nov5/6 advance Court19 lists; source rows loaded through footer. CNR is prior-source association, not independently reverified by cause list.",
+        "result": "No exact target found in retrieved lists. This is not proof of no hearing, disposal, or current docket status.",
+        "docketStatusFreshlyRetrieved": false
+      }
+    },
+    {
+      "id": "oct29:hc:5",
+      "sourceFile": "hc.json",
+      "sourceIndex": 4,
+      "observedAtUTC": "2026-10-29T01:46:08Z",
+      "cnr": "HBHC010123342024",
+      "case": "FCA 71/2024",
+      "files": [
+        "125",
+        "4"
+      ],
+      "profileIds": [
+        "running:125",
+        "running:4"
+      ],
+      "fullDocketRetrieved": false,
+      "source": [
+        "https://causelist.tshc.gov.in/causelist/courtWiseView",
+        "https://causelist.tshc.gov.in/causelist/advance-list/courtWiseView"
+      ],
+      "query": "FCA 71/2024",
+      "parties": null,
+      "court": null,
+      "judge": "Not stated separately",
+      "status": null,
+      "stage": null,
+      "nextDate": null,
+      "businessDate": null,
+      "business": null,
+      "advocate": "Not stated",
+      "attendingAdvocate": "Not established",
+      "filingRequirements": "See exact procedural business; completion not inferred",
+      "rawObservation": {
+        "cnr": "HBHC010123342024",
+        "case": "FCA 71/2024",
+        "files": [
+          "125",
+          "4"
+        ],
+        "priorEvidenceId": "full28:37786d355e62e1bcddeb",
+        "checkedAtUTC": "2026-10-29T01:46:08Z",
+        "query": "FCA 71/2024",
+        "sources": [
+          "https://causelist.tshc.gov.in/causelist/courtWiseView",
+          "https://causelist.tshc.gov.in/causelist/advance-list/courtWiseView"
+        ],
+        "method": "Exact type/number/year reconciliation across 27 available Oct29 daily court lists and Nov5/6 advance Court19 lists; source rows loaded through footer. CNR is prior-source association, not independently reverified by cause list.",
+        "result": "No exact target found in retrieved lists. This is not proof of no hearing, disposal, or current docket status.",
+        "docketStatusFreshlyRetrieved": false
+      }
+    },
+    {
+      "id": "oct29:hc:6",
+      "sourceFile": "hc.json",
+      "sourceIndex": 5,
+      "observedAtUTC": "2026-10-29T01:46:08Z",
+      "cnr": "HBHC010138042026",
+      "case": "CRLP 3154/2026",
+      "files": [
+        "256"
+      ],
+      "profileIds": [
+        "running:256"
+      ],
+      "fullDocketRetrieved": false,
+      "source": [
+        "https://causelist.tshc.gov.in/causelist/courtWiseView",
+        "https://causelist.tshc.gov.in/causelist/advance-list/courtWiseView"
+      ],
+      "query": "CRLP 3154/2026",
+      "parties": null,
+      "court": null,
+      "judge": "Not stated separately",
+      "status": null,
+      "stage": null,
+      "nextDate": null,
+      "businessDate": null,
+      "business": null,
+      "advocate": "Not stated",
+      "attendingAdvocate": "Not established",
+      "filingRequirements": "See exact procedural business; completion not inferred",
+      "rawObservation": {
+        "cnr": "HBHC010138042026",
+        "case": "CRLP 3154/2026",
+        "files": [
+          "256"
+        ],
+        "priorEvidenceId": "full28:8b5191554f383987486c",
+        "checkedAtUTC": "2026-10-29T01:46:08Z",
+        "query": "CRLP 3154/2026",
+        "sources": [
+          "https://causelist.tshc.gov.in/causelist/courtWiseView",
+          "https://causelist.tshc.gov.in/causelist/advance-list/courtWiseView"
+        ],
+        "method": "Exact type/number/year reconciliation across 27 available Oct29 daily court lists and Nov5/6 advance Court19 lists; source rows loaded through footer. CNR is prior-source association, not independently reverified by cause list.",
+        "result": "No exact target found in retrieved lists. This is not proof of no hearing, disposal, or current docket status.",
+        "docketStatusFreshlyRetrieved": false
+      }
+    },
+    {
+      "id": "oct29:hc:7",
+      "sourceFile": "hc.json",
+      "sourceIndex": 6,
+      "observedAtUTC": "2026-10-29T01:46:08Z",
+      "cnr": "HBHC010498922025",
+      "case": "CRLP 10881/2025",
+      "files": [
+        "214"
+      ],
+      "profileIds": [
+        "running:214"
+      ],
+      "fullDocketRetrieved": false,
+      "source": [
+        "https://causelist.tshc.gov.in/causelist/courtWiseView",
+        "https://causelist.tshc.gov.in/causelist/advance-list/courtWiseView"
+      ],
+      "query": "CRLP 10881/2025",
+      "parties": null,
+      "court": null,
+      "judge": "Not stated separately",
+      "status": null,
+      "stage": null,
+      "nextDate": null,
+      "businessDate": null,
+      "business": null,
+      "advocate": "Not stated",
+      "attendingAdvocate": "Not established",
+      "filingRequirements": "See exact procedural business; completion not inferred",
+      "rawObservation": {
+        "cnr": "HBHC010498922025",
+        "case": "CRLP 10881/2025",
+        "files": [
+          "214"
+        ],
+        "priorEvidenceId": "full28:6c9c0dcba0803f5206e6",
+        "checkedAtUTC": "2026-10-29T01:46:08Z",
+        "query": "CRLP 10881/2025",
+        "sources": [
+          "https://causelist.tshc.gov.in/causelist/courtWiseView",
+          "https://causelist.tshc.gov.in/causelist/advance-list/courtWiseView"
+        ],
+        "method": "Exact type/number/year reconciliation across 27 available Oct29 daily court lists and Nov5/6 advance Court19 lists; source rows loaded through footer. CNR is prior-source association, not independently reverified by cause list.",
+        "result": "No exact target found in retrieved lists. This is not proof of no hearing, disposal, or current docket status.",
+        "docketStatusFreshlyRetrieved": false
+      }
+    },
+    {
+      "id": "oct29:hc:8",
+      "sourceFile": "hc.json",
+      "sourceIndex": 7,
+      "observedAtUTC": "2026-10-29T01:46:08Z",
+      "cnr": "HBHC010753072025",
+      "case": "CRLP 16336/2025",
+      "files": [
+        "275"
+      ],
+      "profileIds": [
+        "running:275"
+      ],
+      "fullDocketRetrieved": false,
+      "source": [
+        "https://causelist.tshc.gov.in/causelist/courtWiseView",
+        "https://causelist.tshc.gov.in/causelist/advance-list/courtWiseView"
+      ],
+      "query": "CRLP 16336/2025",
+      "parties": null,
+      "court": null,
+      "judge": "Not stated separately",
+      "status": null,
+      "stage": null,
+      "nextDate": null,
+      "businessDate": null,
+      "business": null,
+      "advocate": "Not stated",
+      "attendingAdvocate": "Not established",
+      "filingRequirements": "See exact procedural business; completion not inferred",
+      "rawObservation": {
+        "cnr": "HBHC010753072025",
+        "case": "CRLP 16336/2025",
+        "files": [
+          "275"
+        ],
+        "priorEvidenceId": "full28:5f27a6cd81bedd60191d",
+        "checkedAtUTC": "2026-10-29T01:46:08Z",
+        "query": "CRLP 16336/2025",
+        "sources": [
+          "https://causelist.tshc.gov.in/causelist/courtWiseView",
+          "https://causelist.tshc.gov.in/causelist/advance-list/courtWiseView"
+        ],
+        "method": "Exact type/number/year reconciliation across 27 available Oct29 daily court lists and Nov5/6 advance Court19 lists; source rows loaded through footer. CNR is prior-source association, not independently reverified by cause list.",
+        "result": "No exact target found in retrieved lists. This is not proof of no hearing, disposal, or current docket status.",
+        "docketStatusFreshlyRetrieved": false
+      }
+    },
+    {
+      "id": "oct29:hc:9",
+      "sourceFile": "hc.json",
+      "sourceIndex": 8,
+      "observedAtUTC": "2026-10-29T01:46:08Z",
+      "cnr": "HBHC010077362026",
+      "case": "CRLP 1667/2026",
+      "files": [
+        "245"
+      ],
+      "profileIds": [
+        "running:245"
+      ],
+      "fullDocketRetrieved": false,
+      "source": [
+        "https://causelist.tshc.gov.in/causelist/courtWiseView",
+        "https://causelist.tshc.gov.in/causelist/advance-list/courtWiseView"
+      ],
+      "query": "CRLP 1667/2026",
+      "parties": null,
+      "court": null,
+      "judge": "Not stated separately",
+      "status": null,
+      "stage": null,
+      "nextDate": null,
+      "businessDate": null,
+      "business": null,
+      "advocate": "Not stated",
+      "attendingAdvocate": "Not established",
+      "filingRequirements": "See exact procedural business; completion not inferred",
+      "rawObservation": {
+        "cnr": "HBHC010077362026",
+        "case": "CRLP 1667/2026",
+        "files": [
+          "245"
+        ],
+        "priorEvidenceId": "full28:81bf12301e8a440a0d51",
+        "checkedAtUTC": "2026-10-29T01:46:08Z",
+        "query": "CRLP 1667/2026",
+        "sources": [
+          "https://causelist.tshc.gov.in/causelist/courtWiseView",
+          "https://causelist.tshc.gov.in/causelist/advance-list/courtWiseView"
+        ],
+        "method": "Exact type/number/year reconciliation across 27 available Oct29 daily court lists and Nov5/6 advance Court19 lists; source rows loaded through footer. CNR is prior-source association, not independently reverified by cause list.",
+        "result": "No exact target found in retrieved lists. This is not proof of no hearing, disposal, or current docket status.",
+        "docketStatusFreshlyRetrieved": false
+      }
+    },
+    {
+      "id": "oct29:hc:10",
+      "sourceFile": "hc.json",
+      "sourceIndex": 9,
+      "observedAtUTC": "2026-10-29T01:46:08Z",
+      "cnr": "HBHC010122612025",
+      "case": "CMA 89/2025",
+      "files": [
+        "164"
+      ],
+      "profileIds": [
+        "running:164"
+      ],
+      "fullDocketRetrieved": false,
+      "source": [
+        "https://causelist.tshc.gov.in/causelist/courtWiseView",
+        "https://causelist.tshc.gov.in/causelist/advance-list/courtWiseView"
+      ],
+      "query": "CMA 89/2025",
+      "parties": null,
+      "court": null,
+      "judge": "Not stated separately",
+      "status": null,
+      "stage": null,
+      "nextDate": null,
+      "businessDate": null,
+      "business": null,
+      "advocate": "Not stated",
+      "attendingAdvocate": "Not established",
+      "filingRequirements": "See exact procedural business; completion not inferred",
+      "rawObservation": {
+        "cnr": "HBHC010122612025",
+        "case": "CMA 89/2025",
+        "files": [
+          "164"
+        ],
+        "priorEvidenceId": "full28:595c87dfc2f2a8c08484",
+        "checkedAtUTC": "2026-10-29T01:46:08Z",
+        "query": "CMA 89/2025",
+        "sources": [
+          "https://causelist.tshc.gov.in/causelist/courtWiseView",
+          "https://causelist.tshc.gov.in/causelist/advance-list/courtWiseView"
+        ],
+        "method": "Exact type/number/year reconciliation across 27 available Oct29 daily court lists and Nov5/6 advance Court19 lists; source rows loaded through footer. CNR is prior-source association, not independently reverified by cause list.",
+        "result": "No exact target found in retrieved lists. This is not proof of no hearing, disposal, or current docket status.",
+        "docketStatusFreshlyRetrieved": false
+      }
+    },
+    {
+      "id": "oct29:hc:11",
+      "sourceFile": "hc.json",
+      "sourceIndex": 10,
+      "observedAtUTC": "2026-10-29T01:46:08Z",
+      "cnr": "HBHC010041752025",
+      "case": "CC757/2025 | CC 757/2025",
+      "files": [
+        "185"
+      ],
+      "profileIds": [
+        "running:185"
+      ],
+      "fullDocketRetrieved": false,
+      "source": [
+        "https://causelist.tshc.gov.in/causelist/courtWiseView",
+        "https://causelist.tshc.gov.in/causelist/advance-list/courtWiseView"
+      ],
+      "query": "CC757/2025 | CC 757/2025",
+      "parties": null,
+      "court": null,
+      "judge": "Not stated separately",
+      "status": null,
+      "stage": null,
+      "nextDate": null,
+      "businessDate": null,
+      "business": null,
+      "advocate": "Not stated",
+      "attendingAdvocate": "Not established",
+      "filingRequirements": "See exact procedural business; completion not inferred",
+      "rawObservation": {
+        "cnr": "HBHC010041752025",
+        "case": "CC757/2025 | CC 757/2025",
+        "files": [
+          "185"
+        ],
+        "priorEvidenceId": "full28:f11337b64cf7c09c33a5",
+        "checkedAtUTC": "2026-10-29T01:46:08Z",
+        "query": "CC757/2025 | CC 757/2025",
+        "sources": [
+          "https://causelist.tshc.gov.in/causelist/courtWiseView",
+          "https://causelist.tshc.gov.in/causelist/advance-list/courtWiseView"
+        ],
+        "method": "Exact type/number/year reconciliation across 27 available Oct29 daily court lists and Nov5/6 advance Court19 lists; source rows loaded through footer. CNR is prior-source association, not independently reverified by cause list.",
+        "result": "No exact target found in retrieved lists. This is not proof of no hearing, disposal, or current docket status.",
+        "docketStatusFreshlyRetrieved": false
+      }
+    },
+    {
+      "id": "oct29:hc:12",
+      "sourceFile": "hc.json",
+      "sourceIndex": 11,
+      "observedAtUTC": "2026-10-29T01:46:08Z",
+      "cnr": "HBHC010647022018",
+      "case": "WP31477/2018 | WP 31477/2018",
+      "files": [
+        "231"
+      ],
+      "profileIds": [
+        "running:231"
+      ],
+      "fullDocketRetrieved": false,
+      "source": [
+        "https://causelist.tshc.gov.in/causelist/courtWiseView",
+        "https://causelist.tshc.gov.in/causelist/advance-list/courtWiseView"
+      ],
+      "query": "WP31477/2018 | WP 31477/2018",
+      "parties": null,
+      "court": null,
+      "judge": "Not stated separately",
+      "status": null,
+      "stage": null,
+      "nextDate": null,
+      "businessDate": null,
+      "business": null,
+      "advocate": "Not stated",
+      "attendingAdvocate": "Not established",
+      "filingRequirements": "See exact procedural business; completion not inferred",
+      "rawObservation": {
+        "cnr": "HBHC010647022018",
+        "case": "WP31477/2018 | WP 31477/2018",
+        "files": [
+          "231"
+        ],
+        "priorEvidenceId": "full28:11bd058413b933055e69",
+        "checkedAtUTC": "2026-10-29T01:46:08Z",
+        "query": "WP31477/2018 | WP 31477/2018",
+        "sources": [
+          "https://causelist.tshc.gov.in/causelist/courtWiseView",
+          "https://causelist.tshc.gov.in/causelist/advance-list/courtWiseView"
+        ],
+        "method": "Exact type/number/year reconciliation across 27 available Oct29 daily court lists and Nov5/6 advance Court19 lists; source rows loaded through footer. CNR is prior-source association, not independently reverified by cause list.",
+        "result": "No exact target found in retrieved lists. This is not proof of no hearing, disposal, or current docket status.",
+        "docketStatusFreshlyRetrieved": false
+      }
+    },
+    {
+      "id": "oct29:hc:13",
+      "sourceFile": "hc.json",
+      "sourceIndex": 12,
+      "observedAtUTC": "2026-10-29T01:46:08Z",
+      "cnr": "HBHC010463632022",
+      "case": "CRLP 7120/2022",
+      "files": [
+        "138"
+      ],
+      "profileIds": [
+        "running:138"
+      ],
+      "fullDocketRetrieved": false,
+      "source": [
+        "https://causelist.tshc.gov.in/causelist/courtWiseView",
+        "https://causelist.tshc.gov.in/causelist/advance-list/courtWiseView"
+      ],
+      "query": "CRLP 7120/2022",
+      "parties": null,
+      "court": null,
+      "judge": "Not stated separately",
+      "status": null,
+      "stage": null,
+      "nextDate": null,
+      "businessDate": null,
+      "business": null,
+      "advocate": "Not stated",
+      "attendingAdvocate": "Not established",
+      "filingRequirements": "See exact procedural business; completion not inferred",
+      "rawObservation": {
+        "cnr": "HBHC010463632022",
+        "case": "CRLP 7120/2022",
+        "files": [
+          "138"
+        ],
+        "priorEvidenceId": "full28:c0a49cab3cf5927f45e1",
+        "checkedAtUTC": "2026-10-29T01:46:08Z",
+        "query": "CRLP 7120/2022",
+        "sources": [
+          "https://causelist.tshc.gov.in/causelist/courtWiseView",
+          "https://causelist.tshc.gov.in/causelist/advance-list/courtWiseView"
+        ],
+        "method": "Exact type/number/year reconciliation across 27 available Oct29 daily court lists and Nov5/6 advance Court19 lists; source rows loaded through footer. CNR is prior-source association, not independently reverified by cause list.",
+        "result": "No exact target found in retrieved lists. This is not proof of no hearing, disposal, or current docket status.",
+        "docketStatusFreshlyRetrieved": false
+      }
+    },
+    {
+      "id": "oct29:hc:14",
+      "sourceFile": "hc.json",
+      "sourceIndex": 13,
+      "observedAtUTC": "2026-10-29T01:46:08Z",
+      "cnr": "HBHC010334342025",
+      "case": "CRLA 632/2025",
+      "files": [
+        "276"
+      ],
+      "profileIds": [
+        "running:276"
+      ],
+      "fullDocketRetrieved": false,
+      "source": [
+        "https://causelist.tshc.gov.in/causelist/courtWiseView",
+        "https://causelist.tshc.gov.in/causelist/advance-list/courtWiseView"
+      ],
+      "query": "CRLA 632/2025",
+      "parties": null,
+      "court": null,
+      "judge": "Not stated separately",
+      "status": null,
+      "stage": null,
+      "nextDate": null,
+      "businessDate": null,
+      "business": null,
+      "advocate": "Not stated",
+      "attendingAdvocate": "Not established",
+      "filingRequirements": "See exact procedural business; completion not inferred",
+      "rawObservation": {
+        "cnr": "HBHC010334342025",
+        "case": "CRLA 632/2025",
+        "files": [
+          "276"
+        ],
+        "priorEvidenceId": "full28:1669e2dab4582bc77afe",
+        "checkedAtUTC": "2026-10-29T01:46:08Z",
+        "query": "CRLA 632/2025",
+        "sources": [
+          "https://causelist.tshc.gov.in/causelist/courtWiseView",
+          "https://causelist.tshc.gov.in/causelist/advance-list/courtWiseView"
+        ],
+        "method": "Exact type/number/year reconciliation across 27 available Oct29 daily court lists and Nov5/6 advance Court19 lists; source rows loaded through footer. CNR is prior-source association, not independently reverified by cause list.",
+        "result": "No exact target found in retrieved lists. This is not proof of no hearing, disposal, or current docket status.",
+        "docketStatusFreshlyRetrieved": false
+      }
+    },
+    {
+      "id": "oct29:hc:15",
+      "sourceFile": "hc.json",
+      "sourceIndex": 14,
+      "observedAtUTC": "2026-10-29T01:46:08Z",
+      "cnr": "HBHC010334202025",
+      "case": "CRLA 629/2025",
+      "files": [
+        "277"
+      ],
+      "profileIds": [
+        "running:277"
+      ],
+      "fullDocketRetrieved": false,
+      "source": [
+        "https://causelist.tshc.gov.in/causelist/courtWiseView",
+        "https://causelist.tshc.gov.in/causelist/advance-list/courtWiseView"
+      ],
+      "query": "CRLA 629/2025",
+      "parties": null,
+      "court": null,
+      "judge": "Not stated separately",
+      "status": null,
+      "stage": null,
+      "nextDate": null,
+      "businessDate": null,
+      "business": null,
+      "advocate": "Not stated",
+      "attendingAdvocate": "Not established",
+      "filingRequirements": "See exact procedural business; completion not inferred",
+      "rawObservation": {
+        "cnr": "HBHC010334202025",
+        "case": "CRLA 629/2025",
+        "files": [
+          "277"
+        ],
+        "priorEvidenceId": "full28:c97c4e61c3f3aebb1a6d",
+        "checkedAtUTC": "2026-10-29T01:46:08Z",
+        "query": "CRLA 629/2025",
+        "sources": [
+          "https://causelist.tshc.gov.in/causelist/courtWiseView",
+          "https://causelist.tshc.gov.in/causelist/advance-list/courtWiseView"
+        ],
+        "method": "Exact type/number/year reconciliation across 27 available Oct29 daily court lists and Nov5/6 advance Court19 lists; source rows loaded through footer. CNR is prior-source association, not independently reverified by cause list.",
+        "result": "No exact target found in retrieved lists. This is not proof of no hearing, disposal, or current docket status.",
+        "docketStatusFreshlyRetrieved": false
+      }
+    },
+    {
+      "id": "oct29:hc:16",
+      "sourceFile": "hc.json",
+      "sourceIndex": 15,
+      "observedAtUTC": "2026-10-29T01:46:08Z",
+      "cnr": "HBHC010283132025",
+      "case": "WP14632/2025",
+      "files": [
+        "290"
+      ],
+      "profileIds": [
+        "running:290"
+      ],
+      "fullDocketRetrieved": false,
+      "source": [
+        "https://causelist.tshc.gov.in/causelist/courtWiseView",
+        "https://causelist.tshc.gov.in/causelist/advance-list/courtWiseView"
+      ],
+      "query": "WP14632/2025",
+      "parties": null,
+      "court": null,
+      "judge": "Not stated separately",
+      "status": null,
+      "stage": null,
+      "nextDate": null,
+      "businessDate": null,
+      "business": null,
+      "advocate": "Not stated",
+      "attendingAdvocate": "Not established",
+      "filingRequirements": "See exact procedural business; completion not inferred",
+      "rawObservation": {
+        "cnr": "HBHC010283132025",
+        "case": "WP14632/2025",
+        "files": [
+          "290"
+        ],
+        "priorEvidenceId": "full28:42bf345bccdfc6a5f1ea",
+        "checkedAtUTC": "2026-10-29T01:46:08Z",
+        "query": "WP14632/2025",
+        "sources": [
+          "https://causelist.tshc.gov.in/causelist/courtWiseView",
+          "https://causelist.tshc.gov.in/causelist/advance-list/courtWiseView"
+        ],
+        "method": "Exact type/number/year reconciliation across 27 available Oct29 daily court lists and Nov5/6 advance Court19 lists; source rows loaded through footer. CNR is prior-source association, not independently reverified by cause list.",
+        "result": "No exact target found in retrieved lists. This is not proof of no hearing, disposal, or current docket status.",
+        "docketStatusFreshlyRetrieved": false
+      }
+    },
+    {
+      "id": "oct29:hc:17",
+      "sourceFile": "hc.json",
+      "sourceIndex": 16,
+      "observedAtUTC": "2026-10-29T01:46:08Z",
+      "cnr": "HBHC010648582026",
+      "case": "TRCMP339/2026",
+      "files": [],
+      "profileIds": [],
+      "fullDocketRetrieved": false,
+      "source": [
+        "https://causelist.tshc.gov.in/causelist/courtWiseView",
+        "https://causelist.tshc.gov.in/causelist/advance-list/courtWiseView"
+      ],
+      "query": "TRCMP339/2026",
+      "parties": null,
+      "court": null,
+      "judge": "Not stated separately",
+      "status": null,
+      "stage": null,
+      "nextDate": null,
+      "businessDate": null,
+      "business": null,
+      "advocate": "Not stated",
+      "attendingAdvocate": "Not established",
+      "filingRequirements": "See exact procedural business; completion not inferred",
+      "rawObservation": {
+        "cnr": "HBHC010648582026",
+        "case": "TRCMP339/2026",
+        "files": [],
+        "priorEvidenceId": "full28:9ae69a79f33cf8e6d476",
+        "checkedAtUTC": "2026-10-29T01:46:08Z",
+        "query": "TRCMP339/2026",
+        "sources": [
+          "https://causelist.tshc.gov.in/causelist/courtWiseView",
+          "https://causelist.tshc.gov.in/causelist/advance-list/courtWiseView"
+        ],
+        "method": "Exact type/number/year reconciliation across 27 available Oct29 daily court lists and Nov5/6 advance Court19 lists; source rows loaded through footer. CNR is prior-source association, not independently reverified by cause list.",
+        "result": "No exact target found in retrieved lists. This is not proof of no hearing, disposal, or current docket status.",
+        "docketStatusFreshlyRetrieved": false
+      }
+    },
+    {
+      "id": "oct29:hc:18",
+      "sourceFile": "hc.json",
+      "sourceIndex": 17,
+      "observedAtUTC": "2026-10-29T01:46:08Z",
+      "cnr": "HBHC010605012026",
+      "case": "WP 29704/2026",
+      "files": [],
+      "profileIds": [],
+      "fullDocketRetrieved": false,
+      "source": "https://causelist.tshc.gov.in/causelist/advance-list/courtWiseView",
+      "query": "WP29704/2026",
+      "parties": "Suguru Veera Reddy, vs The State of Telangana",
+      "court": "High Court for the State of Telangana, Court No. 19",
+      "judge": "THE HONOURABLE SRI JUSTICE N.V.SHRAVAN KUMAR",
+      "status": null,
+      "stage": "ADMISSION (REVENUE)",
+      "nextDate": "2026-11-06",
+      "businessDate": null,
+      "business": null,
+      "advocate": "Petitioner: E ROJA RAMANI; Respondent: GP FOR REVENUE",
+      "attendingAdvocate": "Not established",
+      "filingRequirements": "See exact procedural business; completion not inferred",
+      "rawObservation": {
+        "cnr": "HBHC010605012026",
+        "case": "WP29704/2026",
+        "files": [],
+        "priorEvidenceId": "full28:7dec2efd7cbbc556cc88",
+        "checkedAtUTC": "2026-10-29T01:46:08Z",
+        "query": "WP29704/2026",
+        "sources": [
+          "https://causelist.tshc.gov.in/causelist/courtWiseView",
+          "https://causelist.tshc.gov.in/causelist/advance-list/courtWiseView"
+        ],
+        "method": "Exact type/number/year reconciliation across 27 available Oct29 daily court lists and Nov5/6 advance Court19 lists; source rows loaded through footer. CNR is prior-source association, not independently reverified by cause list.",
+        "result": {
+          "observedAtUTC": "2026-10-29T01:46:08Z",
+          "cnr": "HBHC010605012026",
+          "cnrQualification": "CNR carried from prior verified graph; cause list itself identifies case number, year and parties, not CNR",
+          "case": "WP 29704/2026",
+          "parties": "Suguru Veera Reddy, vs The State of Telangana",
+          "nextDate": "2026-11-06",
+          "court": "High Court for the State of Telangana, Court No. 19",
+          "judge": "THE HONOURABLE SRI JUSTICE N.V.SHRAVAN KUMAR",
+          "stage": "ADMISSION (REVENUE)",
+          "application": "IA 1/2026 (Suspension Petition)",
+          "petitionerAdvocate": "E ROJA RAMANI",
+          "respondentAdvocate": "GP FOR REVENUE",
+          "district": "MAHABUBNAGAR",
+          "serial": "657",
+          "source": "https://causelist.tshc.gov.in/causelist/advance-list/courtWiseView",
+          "sourceNavigation": "Advance List > 06-11-2026 > Court Wise > Court No. 19",
+          "exactRow": "657 WP/29704/2026 IA 1/2026(Suspension Petition) Suguru Veera Reddy, vs The State of Telangana E ROJA RAMANI GP FOR REVENUE MAHABUBNAGAR",
+          "qualification": "Future advance listing only, not order or suspension granted. Reporting/attending advocate not established by displayed counsel."
+        },
+        "docketStatusFreshlyRetrieved": false
+      },
+      "verificationScope": "Advance cause list only; prior CNR association, not a fresh full docket"
+    },
+    {
+      "id": "oct29:extra_priority:1",
+      "sourceFile": "extra_priority.json",
+      "sourceIndex": 0,
+      "observedAtUTC": "2026-10-29T01:50:05Z",
+      "cnr": "TSYB070000352023",
+      "case": "H.M.O.P 66/2024",
+      "files": [
+        "140"
+      ],
+      "profileIds": [
+        "running:140"
+      ],
+      "fullDocketRetrieved": true,
+      "source": "https://yadadri.dcourts.gov.in/case-status-search-by-case-number/",
+      "query": "Ramannapet, JCJ Court Complex; H.M.O.P 66/2024",
+      "parties": "CH.Venkata Narsimha Reddy versus CH.Krsihnaveni",
+      "court": "1-Senior Civil Judge, Ramannapet",
+      "judge": "Personal name not stated",
+      "status": "Pending",
+      "stage": "CALL WITH IAS",
+      "nextDate": "2026-10-30",
+      "businessDate": "2026-09-22",
+      "business": "Petitioner present and Respondent called absent. P.O is on E.L call on 30.10.2026.",
+      "advocate": "Petitioner: P. Bosu Babu; Respondent: ANNAPURNA R.",
+      "attendingAdvocate": "Not established",
+      "filingRequirements": "See exact procedural business; completion not inferred",
+      "rawObservation": {
+        "cnr": "TSYB070000352023",
+        "case": "H.M.O.P 66/2024",
+        "file": "140",
+        "source": "https://yadadri.dcourts.gov.in/case-status-search-by-case-number/",
+        "observedAtUTC": "2026-10-29T01:50:05Z",
+        "query": "Ramannapet, JCJ Court Complex; H.M.O.P 66/2024",
+        "attempts": [
+          "01:48:29 UTC CAPTCHA incorrect",
+          "01:49:12 UTC CAPTCHA incorrect",
+          "01:49:39 UTC accepted; exact named result opened"
+        ],
+        "freshFullRecord": true,
+        "parties": "CH.Venkata Narsimha Reddy versus CH.Krsihnaveni",
+        "filingNumber": "128/2023",
+        "filingDate": "27-12-2024",
+        "registrationNumber": "66/2024",
+        "registrationDate": "27-12-2024",
+        "court": "1-Senior Civil Judge, Ramannapet",
+        "judge": "Personal name not stated",
+        "status": "Pending",
+        "nextDate": "2026-10-30",
+        "stage": "CALL WITH IAS",
+        "petitionerAdvocate": "P. Bosu Babu",
+        "respondentAdvocate": "ANNAPURNA R.",
+        "businessDate": "2026-09-22",
+        "business": "Petitioner present and Respondent called absent. P.O is on E.L call on 30.10.2026.",
+        "qualification": "Exact CNR, case, court and parties confirmed. Filing number/CNR year 2023 coexists with portal filing/registration dates 27-12-2024, preserved. Displayed counsel not proof of future attendance."
+      }
+    },
+    {
+      "id": "oct29:extra_priority:2",
+      "sourceFile": "extra_priority.json",
+      "sourceIndex": 1,
+      "observedAtUTC": "2026-10-29T01:51:23Z",
+      "cnr": "TSHM0A0369522026",
+      "case": "STC.NI 6424/2026",
+      "files": [],
+      "profileIds": [],
+      "fullDocketRetrieved": true,
+      "source": "https://hccc.dcourts.gov.in/case-status-search-by-case-number/",
+      "query": "HYD, MM Court Complex; STC.NI 6424/2026",
+      "parties": "MYLARAM MADHUR LATHA versus MANANESTHAM CHIT FUND",
+      "court": "10-X Metropolitan Magistrate",
+      "judge": "Personal name not stated",
+      "status": "Pending",
+      "stage": "SUMMONS",
+      "nextDate": "2026-10-30",
+      "businessDate": null,
+      "business": null,
+      "advocate": "Petitioner: E.Roja Ramini; Respondent: Not stated",
+      "attendingAdvocate": "Not established",
+      "filingRequirements": "See exact procedural business; completion not inferred",
+      "rawObservation": {
+        "cnr": "TSHM0A0369522026",
+        "case": "STC.NI 6424/2026",
+        "file": "Unassigned; candidate file243 association not established",
+        "source": "https://hccc.dcourts.gov.in/case-status-search-by-case-number/",
+        "observedAtUTC": "2026-10-29T01:51:23Z",
+        "query": "HYD, MM Court Complex; STC.NI 6424/2026",
+        "freshFullRecord": true,
+        "parties": "MYLARAM MADHUR LATHA versus MANANESTHAM CHIT FUND",
+        "filingNumber": "36927/2026",
+        "filingDate": "07-08-2026",
+        "registrationNumber": "6424/2026",
+        "registrationDate": "07-08-2026",
+        "establishment": "SPECIAL JFCM FOR EXCISE CASES, HYDERABAD.",
+        "court": "10-X Metropolitan Magistrate",
+        "judge": "Personal name not stated",
+        "status": "Pending",
+        "firstHearingDate": "2026-10-30",
+        "nextDate": "2026-10-30",
+        "stage": "SUMMONS",
+        "petitionerAdvocate": "E.Roja Ramini",
+        "respondentAdvocate": "Not stated",
+        "history": "No history rows displayed",
+        "qualification": "Exact CNR, case, court and parties confirmed. Portal establishment caption and Court Number/Judge label both retained. Potential file243 linkage not established; source file indicates MVOP without number. Do not merge by same party name or assume court attendance from counsel display."
+      },
+      "rawSourceFileField": [
+        "Unassigned; candidate file243 association not established"
+      ]
+    },
+    {
+      "id": "oct29:extra_priority:3",
+      "sourceFile": "extra_priority.json",
+      "sourceIndex": 2,
+      "observedAtUTC": "2026-10-29T01:53:05Z",
+      "cnr": "DLNW020285552024",
+      "case": "CC NI ACT 2754/2024",
+      "files": [],
+      "profileIds": [],
+      "fullDocketRetrieved": true,
+      "source": "https://rohini.dcourts.gov.in/case-status-search-by-petitioner-respondent/",
+      "query": "Rohini Court Complex; Master; 2024; Both; named result8 in CMM North-West",
+      "parties": "M/s Clix Capital Services Pvt Ltd versus Master Roofing; CHITTURU MURALIDHAR",
+      "court": "520-Judicial Magistrate First Class, Chief Metropolitan Magistrate North-West, RHC",
+      "judge": "Personal name not stated",
+      "status": "Pending",
+      "stage": "Misc./ Appearance",
+      "nextDate": null,
+      "businessDate": null,
+      "business": null,
+      "advocate": "Petitioner: Ravi Shankar Garg; Respondent: Not stated",
+      "attendingAdvocate": "Not established",
+      "filingRequirements": "See exact procedural business; completion not inferred",
+      "rawObservation": {
+        "cnr": "DLNW020285552024",
+        "case": "CC NI ACT 2754/2024",
+        "diaryIds": [
+          "CR015",
+          "MR013"
+        ],
+        "source": "https://rohini.dcourts.gov.in/case-status-search-by-petitioner-respondent/",
+        "observedAtUTC": "2026-10-29T01:53:05Z",
+        "query": "Rohini Court Complex; Master; 2024; Both; named result8 in CMM North-West",
+        "freshFullRecord": true,
+        "parties": "M/s Clix Capital Services Pvt Ltd versus Master Roofing; CHITTURU MURALIDHAR",
+        "filingNumber": "28553/2024",
+        "filingDate": "30-07-2024",
+        "registrationNumber": "2754/2024",
+        "registrationDate": "01-08-2024",
+        "court": "520-Judicial Magistrate First Class, Chief Metropolitan Magistrate North-West, RHC",
+        "judge": "Personal name not stated",
+        "status": "Pending",
+        "rawNextDate": "2026-10-25",
+        "nextDate": null,
+        "stage": "Misc./ Appearance",
+        "petitionerAdvocate": "Ravi Shankar Garg",
+        "respondentAdvocate": "Not stated",
+        "latestHistoryDate": "2026-09-30",
+        "latestOrderDate": "2026-09-30",
+        "orderCount": 6,
+        "transfer": "29-11-2025 from765 to520 Judicial Magistrate First Class, same CNR",
+        "qualification": "Stale Oct25 date persists on fresh Oct29 check. No Oct25 business/outcome/order or future date shown. Do not infer withdrawal, Lok Adalat settlement or disposal. Existing Sep30 office-supplied order remains separate and unchanged. Search and detail CAPTCHAs accepted."
+      }
+    },
+    {
+      "id": "oct29:ap_hc:1",
+      "sourceFile": "ap_hc.json",
+      "sourceIndex": 0,
+      "observedAtUTC": "2026-10-29T01:56:14Z",
+      "cnr": "APHC010407892023",
+      "case": "CRLP 6041/2023",
+      "files": [
+        "92"
+      ],
+      "profileIds": [
+        "running:92"
+      ],
+      "fullDocketRetrieved": true,
+      "source": "https://digi-courts.aphc.ap.gov.in/csis_ap/",
+      "query": "CRLP 6041/2023",
+      "parties": "GAJULA SRIDHAR MANI SOMARAJU v THE STATE OF ANDHRA PRADESH; R2 Gajula Umadevi",
+      "court": "High Court of Andhra Pradesh",
+      "judge": "The Honourable Sri Justice K SREENIVASA REDDY",
+      "status": "PENDING",
+      "stage": "FOR ADMISSION",
+      "nextDate": null,
+      "businessDate": null,
+      "business": null,
+      "advocate": "Petitioner: SRIDEVI JAMPANI; Respondent: PUBLIC PROSECUTOR AP",
+      "attendingAdvocate": "Not established",
+      "filingRequirements": "See exact procedural business; completion not inferred",
+      "rawObservation": {
+        "query": "CRLP 6041/2023",
+        "observedAtUTC": "2026-10-29T01:56:14Z",
+        "cnr": "APHC010407892023",
+        "previousEvidenceId": "full28:c99717bc2238d618985f",
+        "profileIds": [
+          "running:92"
+        ],
+        "files": [
+          "92"
+        ],
+        "parties": "GAJULA SRIDHAR MANI SOMARAJU v THE STATE OF ANDHRA PRADESH; R2 Gajula Umadevi",
+        "case": "CRLP 6041/2023",
+        "filingNumber": "CRLPSR 7858/2023",
+        "filingDate": "2023-08-14",
+        "registrationDate": "2023-08-16",
+        "status": "PENDING",
+        "rawListingDate": "29/09/2023",
+        "nextDate": null,
+        "stage": "FOR ADMISSION",
+        "court": "High Court of Andhra Pradesh",
+        "judge": "The Honourable Sri Justice K SREENIVASA REDDY",
+        "petitionerAdvocate": "SRIDEVI JAMPANI",
+        "respondentAdvocate": "PUBLIC PROSECUTOR AP",
+        "district": "GUNTUR",
+        "applications": [
+          {
+            "number": "IA 1/2023",
+            "type": "Dispense with Petition",
+            "status": "Pending",
+            "filingDate": "2023-08-16"
+          },
+          {
+            "number": "IA 2/2023",
+            "type": "Stay Petition",
+            "status": "Pending",
+            "filingDate": "2023-08-16"
+          },
+          {
+            "number": "IASR 75306/2023",
+            "type": "Dispense with Petition",
+            "status": "PENDING FOR SCRUTINY",
+            "filingDate": "2023-08-14"
+          },
+          {
+            "number": "IASR 75307/2023",
+            "type": "Stay Petition",
+            "status": "PENDING FOR SCRUTINY",
+            "filingDate": "2023-08-14"
+          }
+        ],
+        "lowerProceeding": "Prayer refers to CC No 2449 of 2022, V Addl JFC Magistrate Kakinada",
+        "orderIndex": [
+          {
+            "date": "2023-08-17",
+            "type": "Spl Cell Orders",
+            "judge": "K SREENIVASA REDDY"
+          }
+        ],
+        "verification": "Case, year, parties, court and CNR freshly matched. Same status/stale listing as 28-Oct. No future date or fresh order. Preserve 28-Oct independently read 17-Aug-2023 order; not reread today. Pending stay prayer is not grant of stay. No main-matter disposal inferred."
+      }
+    },
+    {
+      "id": "oct29:ap_hc:2",
+      "sourceFile": "ap_hc.json",
+      "sourceIndex": 1,
+      "observedAtUTC": "2026-10-29T01:56:47Z",
+      "cnr": "APHC010338882026",
+      "case": "CMA 371/2026",
+      "files": [
+        "289"
+      ],
+      "profileIds": [
+        "running:289"
+      ],
+      "fullDocketRetrieved": true,
+      "source": "https://digi-courts.aphc.ap.gov.in/csis_ap/",
+      "query": "CMA 371/2026",
+      "parties": "Gunji Srinivasa Rao v Gunji Sreelatha alias Srinamma",
+      "court": "High Court of Andhra Pradesh",
+      "judge": "The Honourable Sri Justice D RAMESH, The Honourable Sri Justice A. HARI HARANADHA SARMA",
+      "status": "PENDING",
+      "stage": "INTERLOCUTORY",
+      "nextDate": null,
+      "businessDate": null,
+      "business": null,
+      "advocate": "Petitioner: CKR ASSOCIATES; Respondent: Not stated",
+      "attendingAdvocate": "Not established",
+      "filingRequirements": "See exact procedural business; completion not inferred",
+      "rawObservation": {
+        "query": "CMA 371/2026",
+        "observedAtUTC": "2026-10-29T01:56:47Z",
+        "cnr": "APHC010338882026",
+        "previousEvidenceId": "full28:247f9a8da17ca2571d80",
+        "profileIds": [
+          "running:289"
+        ],
+        "files": [
+          "289"
+        ],
+        "parties": "Gunji Srinivasa Rao v Gunji Sreelatha alias Srinamma",
+        "case": "CMA 371/2026",
+        "filingNumber": "CMASR 27089/2026",
+        "filingDate": "2026-07-03",
+        "registrationDate": "2026-07-03",
+        "status": "PENDING",
+        "rawListingDate": "-",
+        "nextDate": null,
+        "stage": "INTERLOCUTORY",
+        "court": "High Court of Andhra Pradesh",
+        "judge": "The Honourable Sri Justice D RAMESH, The Honourable Sri Justice A. HARI HARANADHA SARMA",
+        "petitionerAdvocate": "CKR ASSOCIATES",
+        "respondentAdvocate": "Not stated",
+        "district": "GUNTUR",
+        "applications": [
+          {
+            "number": "IA 1/2026",
+            "type": "Suspension Petition",
+            "status": "Pending",
+            "filingDate": "2026-07-03"
+          },
+          {
+            "number": "IASR 52367/2026",
+            "type": "Suspension Petition",
+            "status": "PENDING FOR SCRUTINY",
+            "filingDate": "2026-07-03"
+          }
+        ],
+        "usr": [
+          {
+            "number": "642/2026",
+            "date": "2026-07-02",
+            "remarks": "Main Case"
+          },
+          {
+            "number": "643/2026",
+            "date": "2026-07-02",
+            "remarks": "Suspension Petition"
+          },
+          {
+            "number": "CMAUSR 106942/2026",
+            "date": "2026-09-15",
+            "type": "Memo Proof of Service",
+            "status": "PENDING FOR SCRUTINY"
+          },
+          {
+            "number": "CMAUSR 96687/2026",
+            "date": "2026-08-20",
+            "type": "Memo Proof of Service",
+            "status": "PENDING FOR SCRUTINY"
+          },
+          {
+            "number": "CMAUSR 83478/2026",
+            "date": "2026-07-29",
+            "type": "Memo Proof of Service",
+            "status": "PENDING FOR SCRUTINY"
+          },
+          {
+            "number": "CMAUSR 86635/2026",
+            "date": "2026-08-04",
+            "type": "MEMO",
+            "status": "PENDING FOR SCRUTINY"
+          }
+        ],
+        "lowerProceeding": {
+          "case": "H.M.O.P 54/2014",
+          "court": "PRINCIPAL SENIOR CIVIL JUDGE, BAPATLA",
+          "district": "GUNTUR",
+          "judge": "Kum G VANI",
+          "judgmentDate": "2026-02-10"
+        },
+        "orderIndex": [
+          {
+            "date": "2026-07-08",
+            "type": "Court Proceedings"
+          },
+          {
+            "date": "2026-07-08",
+            "type": "Spl Cell Orders"
+          },
+          {
+            "date": "2026-08-05",
+            "type": "Court Proceedings"
+          }
+        ],
+        "orderIndexJudges": "D RAMESH; displayed empty THE Honourable Sri Justice token; ALAPATI GIRIDHAR",
+        "verification": "Case, year, parties, court and CNR freshly matched. Same pending/interlocutory and no listing date as 28-Oct. Explicit lower-court link preserved. Displayed current judges differ from order-index bench; retain both with dates, not conflict silently resolved. Orders indexed only, not reread. Proof-of-service memos are pending scrutiny, not proof accepted/completed. Pending appeal remains live regardless of lower trial disposition."
+      }
+    },
+    {
+      "id": "oct29:stale_other:1",
+      "sourceFile": "stale_other.json",
+      "sourceIndex": 0,
+      "observedAtUTC": "2026-10-29T01:49:58Z",
+      "cnr": "TSHC010027332026",
+      "case": "MVOP 2063/2026",
+      "files": [
+        "258"
+      ],
+      "profileIds": [
+        "running:258"
+      ],
+      "fullDocketRetrieved": true,
+      "source": "https://hccc.dcourts.gov.in/case-status-search-by-case-number/",
+      "query": "HYD, City Civil Court Complex; MVOP 2063/2026",
+      "parties": "Manemma Kadamanchi; Kadamanchi Pramila; Kadamanchi Naveen; Kadamanchi Krishna Kumar; Kadamanchi Sai Kumar; Kadamanchi Laxmamma v G.Ramu; Junjunuri Nuthan",
+      "court": "4-III ADDITIONAL CHIEF JUDGE, Hyderabad",
+      "judge": "Not stated separately",
+      "status": "Pending",
+      "stage": "NOTICE",
+      "nextDate": "2027-01-21",
+      "businessDate": "2026-10-28",
+      "business": "Vakalath of Sri K.Sai Prasad Reddy, advocate filed for R1. Issue fresh notice to R2 to the correct address through court on payment of process. Meantime furnish copies to R1 enable to file counter. Call on 21.01.2027.",
+      "advocate": "BHARATULA ANNAPURNA for all six petitioners; Sri K.Sai Prasad Reddy vakalath filed for R1 per October 28 business",
+      "attendingAdvocate": "Not established",
+      "filingRequirements": "Fresh notice to R2 at correct address through court on payment of process; furnish copies to R1 to enable counter.",
+      "rawObservation": {
+        "observedAtUTC": "2026-10-29T01:49:58Z",
+        "source": "https://hccc.dcourts.gov.in/case-status-search-by-case-number/",
+        "query": "HYD, City Civil Court Complex; MVOP 2063/2026",
+        "cnr": "TSHC010027332026",
+        "files": [
+          "258"
+        ],
+        "profileIds": [
+          "running:258"
+        ],
+        "case": "MVOP 2063/2026",
+        "filingNumber": "3338/2026",
+        "filingDate": "2026-07-29",
+        "registrationDate": "2026-07-29",
+        "parties": "Manemma Kadamanchi; Kadamanchi Pramila; Kadamanchi Naveen; Kadamanchi Krishna Kumar; Kadamanchi Sai Kumar; Kadamanchi Laxmamma v G.Ramu; Junjunuri Nuthan",
+        "court": "4-III ADDITIONAL CHIEF JUDGE, Hyderabad",
+        "status": "Pending",
+        "stage": "NOTICE",
+        "nextDate": "2027-01-21",
+        "businessDate": "2026-10-28",
+        "business": "Vakalath of Sri K.Sai Prasad Reddy, advocate filed for R1. Issue fresh notice to R2 to the correct address through court on payment of process. Meantime furnish copies to R1 enable to file counter. Call on 21.01.2027.",
+        "advocate": "BHARATULA ANNAPURNA for all six petitioners; Sri K.Sai Prasad Reddy vakalath filed for R1 per October 28 business",
+        "attendingAdvocate": "Not established",
+        "filingRequirements": "Fresh notice to R2 at correct address through court on payment of process; furnish copies to R1 to enable counter.",
+        "change": "Next date advanced from 2026-10-28 to 2027-01-21; new October 28 business and R1 counsel",
+        "recordIdentityVerified": true,
+        "profileIdentityVerified": false,
+        "captcha": {
+          "submitted": 1,
+          "accepted": 1,
+          "rejected": 0,
+          "illegibleRefreshes": 1
+        },
+        "qualifications": [
+          "No completed service or compliance inferred.",
+          "Process table still shows July 30 summons issued process 0/1 for both respondents; latest business controls requirements, not proof of service.",
+          "Latest comprehensive graph keeps this named exact docket as candidate source-profile association for file258; October29 confirms docket identity, not an additional office-file identity promotion."
+        ]
+      }
+    },
+    {
+      "id": "oct29:stale_other:2",
+      "sourceFile": "stale_other.json",
+      "sourceIndex": 1,
+      "observedAtUTC": "2026-10-29T01:51:30Z",
+      "cnr": "TSHC040010352026",
+      "case": "EP 210/2026",
+      "files": [],
+      "profileIds": [],
+      "fullDocketRetrieved": true,
+      "source": "https://hccc.dcourts.gov.in/case-status-search-by-case-number/",
+      "query": "HYD, City Civil Court Complex; EP 210/2026; correct Jr. Civil Courts result selected",
+      "parties": "Kapil Chits Hyderabad Pvt Ltd KHAIRATHABAD BRANCH Rep by its Legal Officer, Mr P Harsha Vardhan v Durga Malleswara Rao Vangara; Ramesh Sirimalla; Sukumar Bura; Raja Deepak Kumr; Seetha Ramaiah Dasari",
+      "court": "3-IV JUNIOR CIVIL JUDGE, Hyderabad",
+      "judge": "Not stated separately",
+      "status": "Case Disposed",
+      "stage": null,
+      "nextDate": null,
+      "businessDate": "2026-10-28",
+      "business": "Memo filed on 09-10-2026 intending to not press E.P against JDR Nos. 1, 3, 4 and 5. Considering the same E.P is dismissed as not pressed against JDR Nos. 1, 3, 4 and 5. Warrant served to JDR 2. As warrant served against JDR 2. E.P is closed as warrant served.",
+      "advocate": "SRIHARI B for petitioner",
+      "attendingAdvocate": "Not established",
+      "filingRequirements": "None newly stated in closure business",
+      "rawObservation": {
+        "observedAtUTC": "2026-10-29T01:51:30Z",
+        "source": "https://hccc.dcourts.gov.in/case-status-search-by-case-number/",
+        "query": "HYD, City Civil Court Complex; EP 210/2026; correct Jr. Civil Courts result selected",
+        "cnr": "TSHC040010352026",
+        "files": [],
+        "profileIds": [],
+        "case": "EP 210/2026",
+        "filingNumber": "1269/2026",
+        "filingDate": "2026-04-18",
+        "registrationDate": "2026-04-18",
+        "parties": "Kapil Chits Hyderabad Pvt Ltd KHAIRATHABAD BRANCH Rep by its Legal Officer, Mr P Harsha Vardhan v Durga Malleswara Rao Vangara; Ramesh Sirimalla; Sukumar Bura; Raja Deepak Kumr; Seetha Ramaiah Dasari",
+        "court": "3-IV JUNIOR CIVIL JUDGE, Hyderabad",
+        "status": "Case Disposed",
+        "natureOfDisposal": "Uncontested - CLOSED",
+        "decisionDate": "2026-10-28",
+        "nextDate": null,
+        "businessDate": "2026-10-28",
+        "business": "Memo filed on 09-10-2026 intending to not press E.P against JDR Nos. 1, 3, 4 and 5. Considering the same E.P is dismissed as not pressed against JDR Nos. 1, 3, 4 and 5. Warrant served to JDR 2. As warrant served against JDR 2. E.P is closed as warrant served.",
+        "advocate": "SRIHARI B for petitioner",
+        "attendingAdvocate": "Not established",
+        "filingRequirements": "None newly stated in closure business",
+        "change": "Exact execution proceeding disposed October 28; previously pending FOR STEPS October 28",
+        "recordIdentityVerified": true,
+        "profileIdentityVerified": false,
+        "captcha": {
+          "submitted": 1,
+          "accepted": 1,
+          "rejected": 0
+        },
+        "qualifications": [
+          "Unassigned calendar evidence, no new physical register profile inferred.",
+          "Exact execution petition closure does not establish satisfaction, underlying decree closure or all linked proceedings disposed.",
+          "Other Chief Judge same-number result Ch Ram Mohan Reddy excluded."
+        ],
+        "sourceProceedingIdentityVerified": true
+      }
+    },
+    {
+      "id": "oct29:stale_other:attempt:1",
+      "sourceFile": "stale_other.json",
+      "sourceIndex": 0,
+      "observedAtUTC": "2026-10-29T01:53:32Z",
+      "cnr": "TSMN030015372026",
+      "case": "CC.NI 13/2026",
+      "files": [
+        "179"
+      ],
+      "profileIds": [
+        "running:179"
+      ],
+      "fullDocketRetrieved": false,
+      "source": "https://mancherial.dcourts.gov.in/case-status-search-by-petitioner-respondent/",
+      "query": "KVR; 2026; Both statuses; Mancherial, Spl.JFCM Court Complex",
+      "parties": null,
+      "court": null,
+      "judge": "Not stated separately",
+      "status": null,
+      "stage": null,
+      "nextDate": null,
+      "businessDate": null,
+      "business": null,
+      "advocate": "Not stated",
+      "attendingAdvocate": "Not established",
+      "filingRequirements": "See exact procedural business; completion not inferred",
+      "rawObservation": {
+        "observedAtUTC": "2026-10-29T01:53:32Z",
+        "source": "https://mancherial.dcourts.gov.in/case-status-search-by-petitioner-respondent/",
+        "query": "KVR; 2026; Both statuses; Mancherial, Spl.JFCM Court Complex",
+        "files": [
+          "179"
+        ],
+        "profileIds": [
+          "running:179"
+        ],
+        "targetCnr": "TSMN030015372026",
+        "case": "CC.NI 13/2026",
+        "result": "Search returned exact receiving-case row; full docket challenge not completed after two rejected submissions. No fresh status/next date/business established.",
+        "searchResultParties": "KVR Enterprises, Rep by its Proprietor (OLD CC.NI.No.06/2016 Versus M/s Master Roofing Rep by its Managing Partner",
+        "resultCourt": "Spl. JFCM Excise Court, Mancherial",
+        "captcha": {
+          "searchSubmitted": 1,
+          "searchAccepted": 1,
+          "detailSubmitted": 2,
+          "detailAccepted": 0,
+          "detailRejected": 2
+        },
+        "identityQualification": "Search row matches previously verified receiving docket, but CNR not freshly visible in result table. Preserve receiving lineage qualification and old 06/2016 versus source CCNI6/2026 conflict. Do not copy Nov4 from companion CCNI12/2026.",
+        "blocker": "Detail CAPTCHA continued to request verification after two visible challenge attempts; stopped without bypass.",
+        "retainedPreviousCheck": "2026-10-28T06:55:45Z",
+        "retainedPreviousStatus": "Pending CALL WITH MPs; stale October26 next date; no confirmed future date"
+      }
+    }
+  ],
+  "rawSources": [
+    {
+      "path": "district.json",
+      "sha256": "ec8d672ab85373ee7eea09b1a4268cb4611d15f2250cdde5e2e493f1cbe49730",
+      "text": "{\n  \"observations\": [\n    {\n      \"id\": \"oct29:DVC165_2025\",\n      \"observedAtUTC\": \"2026-10-29T01:44:14Z\",\n      \"source\": \"https://hydifc.dcourts.gov.in/case-status-search-by-case-number/\",\n      \"query\": {\n        \"courtComplex\": \"Hyd,Integrated Family Court Complex\",\n        \"caseType\": \"DVC\",\n        \"caseNumber\": \"165\",\n        \"year\": \"2025\"\n      },\n      \"cnr\": \"TSFC090001682025\",\n      \"case\": \"DVC165/2025\",\n      \"parties\": \"Gundavarapu Bhavya Sri versus Ponugupati Dhruva; Ponugupati Sai Babu; Ponugupati Chandini vanamala\",\n      \"court\": \"3-III Metropolitan Magistrate, MM Courts of Integrated Family Courts Hyderabad\",\n      \"status\": \"Pending\",\n      \"stage\": \"PET/PLAINTIFF EVIDENCE\",\n      \"nextDate\": \"2026-10-29\",\n      \"filingNumber\": \"168/2025\",\n      \"filingDate\": \"2025-04-21\",\n      \"registrationDate\": \"2025-04-21\",\n      \"lastBusinessDate\": \"2026-10-07\",\n      \"businessExact\": \"Petitioner present. Petitioner counsel present. P.O is on E.L. Call on 29.10.2026\",\n      \"advocate\": \"Not stated\",\n      \"attendingAdvocate\": \"Not stated by name\",\n      \"filingRequirements\": \"Not stated in latest business\",\n      \"result\": \"Full docket and latest business retrieved; unchanged next date/stage\",\n      \"identityConfidence\": \"exact CNR, named parties, case/year/court matched\",\n      \"captchaIncorrectAttempts\": 3,\n      \"matched\": true,\n      \"changed\": false,\n      \"profileIds\": [\n        \"running:175\"\n      ]\n    },\n    {\n      \"id\": \"oct29:FCOP367_2026\",\n      \"observedAtUTC\": \"2026-10-29T01:46:15Z\",\n      \"source\": \"https://hydifc.dcourts.gov.in/case-status-search-by-case-number/\",\n      \"query\": {\n        \"courtComplex\": \"Hyd,Integrated Family Court Complex\",\n        \"caseType\": \"F.C.O.P\",\n        \"caseNumber\": \"367\",\n        \"year\": \"2026\"\n      },\n      \"cnr\": \"TSFC100003232026\",\n      \"case\": \"FCOP367/2026\",\n      \"parties\": \"Petitioner XXXXXXX; respondent XXX (masked)\",\n      \"officeAssociation\": \"Karan Raj/Kamaraj versus Supraja; remains candidate, not newly identity-verified\",\n      \"court\": \"2-I ADDITIONAL FAMILY COURT, FAMILY COURT HYDERABAD\",\n      \"status\": \"Pending\",\n      \"stage\": \"CALL ON\",\n      \"nextDate\": \"2026-10-29\",\n      \"filingNumber\": \"281/2026\",\n      \"filingDate\": \"2026-03-26\",\n      \"registrationDate\": \"2026-03-26\",\n      \"advocate\": \"PARTYINPERSON (portal field)\",\n      \"attendingAdvocate\": \"Not established\",\n      \"lastBusinessDate\": \"2026-09-10\",\n      \"businessExact\": \"No clickable business link; history row 10-09-2026 -> 29-10-2026 CALL ON\",\n      \"filingRequirements\": \"Not stated\",\n      \"result\": \"Full masked docket retrieved; unchanged date/stage\",\n      \"identityConfidence\": \"Exact CNR/case/year/court; parties masked so firm association remains candidate\",\n      \"matched\": false,\n      \"candidate\": true,\n      \"changed\": false\n    },\n    {\n      \"id\": \"oct29:DVC54_2026\",\n      \"observedAtUTC\": \"2026-10-29T01:48:46Z\",\n      \"source\": \"https://hydifc.dcourts.gov.in/case-status-search-by-case-number/\",\n      \"query\": {\n        \"courtComplex\": \"Hyd,Integrated Family Court Complex\",\n        \"caseType\": \"DVC\",\n        \"caseNumber\": \"54\",\n        \"year\": \"2026\"\n      },\n      \"cnr\": \"TSFC090000562026\",\n      \"case\": \"DVC54/2026\",\n      \"parties\": \"Vennela Patrayani versus Kadigari Vishnudeep Reddy; Kadigari Bhoji Reddy; Kadigari Seshu Reddy; Kadigari Pranav Reddy\",\n      \"court\": \"3-III Metropolitan Magistrate, MM Courts of Integrated Family Courts Hyderabad\",\n      \"status\": \"Pending\",\n      \"stage\": \"MISCELLANEOUS\",\n      \"nextDate\": \"2026-11-12\",\n      \"previousOfficialNextDate\": \"2026-10-28\",\n      \"filingNumber\": \"56/2026\",\n      \"filingDate\": \"2026-03-12\",\n      \"registrationDate\": \"2026-03-12\",\n      \"lastBusinessDate\": \"2026-10-28\",\n      \"businessExact\": \"Petitioner present. Both counsels present PO is on E.L call on 12.11.2026\",\n      \"advocate\": \"Not named\",\n      \"attendingAdvocate\": \"Both counsels present on28Oct, names not stated\",\n      \"filingRequirements\": \"No new requirement in latest business; office Sec31 petition with LOD filed in SR remains separate office evidence, not confirmed by this business\",\n      \"result\": \"Fresh official next date now agrees with Oct28 office Nov12; dated conflict resolution without deleting prior discrepancy\",\n      \"identityConfidence\": \"Exact CNR, named parties, case/year/court\",\n      \"matched\": true,\n      \"changed\": true,\n      \"profileIds\": [\n        \"running:241\"\n      ]\n    },\n    {\n      \"id\": \"oct29:FCOP329_2026\",\n      \"observedAtUTC\": \"2026-10-29T01:50:28Z\",\n      \"source\": \"https://hydifc.dcourts.gov.in/case-status-search-by-case-number/\",\n      \"query\": {\n        \"courtComplex\": \"Hyd,Integrated Family Court Complex\",\n        \"caseType\": \"F.C.O.P\",\n        \"caseNumber\": \"329\",\n        \"year\": \"2026\"\n      },\n      \"cnr\": \"TSFC100002812026\",\n      \"case\": \"FCOP329/2026\",\n      \"parties\": \"XXXXXXX versus XXX (masked)\",\n      \"officeAssociation\": \"Vennela/Vishnudeep, remains qualified candidate association\",\n      \"court\": \"2-I ADDITIONAL FAMILY COURT, FAMILY COURT HYDERABAD\",\n      \"status\": \"Pending\",\n      \"stage\": \"FILING COUNTER\",\n      \"nextDate\": \"2026-11-17\",\n      \"previousOfficialNextDate\": \"2026-11-17\",\n      \"filingNumber\": \"243/2026\",\n      \"filingDate\": \"2026-03-23\",\n      \"registrationDate\": \"2026-03-23\",\n      \"lastBusinessDate\": \"2026-10-28\",\n      \"businessExact\": \"History row 28-10-2026 -> 17-11-2026 FILING COUNTER; business text link unavailable\",\n      \"advocate\": \"B. ANNAPURNA (petitioner counsel field)\",\n      \"attendingAdvocate\": \"Not established\",\n      \"filingRequirements\": \"FILING COUNTER is current purpose; no further text available\",\n      \"result\": \"Confirmed unchanged versus latest Oct28 07:37:43 UTC comprehensive observation; no new resolution claimed\",\n      \"identityConfidence\": \"Exact CNR/case/year/court; masked parties remain candidate firm link\",\n      \"matched\": false,\n      \"candidate\": true,\n      \"changed\": false\n    }\n  ]\n}"
+    },
+    {
+      "path": "medchal.json",
+      "sha256": "ecfc4b41ef3bcfb336ccaddbc48ef8ac2e43062a2373fc9111aab7190342fd1d",
+      "text": "{\n  \"source\": \"https://medchalmalkajgiri.dcourts.gov.in/case-status-search-by-case-number/\",\n  \"runDate\": \"2026-10-29\",\n  \"observations\": [\n    {\n      \"id\": \"oct29:TSMM000003612021\",\n      \"observedAtUTC\": \"2026-10-29T01:48:39Z\",\n      \"query\": \"Malkajgiri PDJ complex MC34/2021\",\n      \"cnr\": \"TSMM000003612021\",\n      \"case\": \"MC34/2021\",\n      \"profileIds\": [\n        \"running:109\"\n      ],\n      \"parties\": \"JANYA DIDLA AND ARUNA KRANTHI DIDLA versus VIJAY BABU.D\",\n      \"court\": \"9-II ADJ-Cum- I Addl MSJ -cum- II Spl Sessions Judge for fast tracking the cases relating to Atrocities against women-Cum- Family Court\",\n      \"status\": \"Pending\",\n      \"stage\": \"ENQUIRY\",\n      \"nextDate\": \"2026-10-29\",\n      \"advocate\": \"LAXMI NARAYANA (petitioner counsel; attendance not inferred)\",\n      \"businessDate\": \"2026-09-23\",\n      \"businessExact\": \"Both absent. PO is on OH call on 29-10-2026.\",\n      \"matched\": true,\n      \"changed\": false,\n      \"captchaIncorrectAttempts\": 2,\n      \"docketCapture\": \"TSMM000003612021_docket.txt\",\n      \"businessCapture\": \"TSMM000003612021_business.txt\",\n      \"source\": \"https://medchalmalkajgiri.dcourts.gov.in/case-status-search-by-case-number/\",\n      \"observedAtIST\": \"2026-10-29T07:18:39+05:30\",\n      \"docketCaptureSha256\": \"d53ac1122ef929afd6e7e48d7a17d6810324e79d54e65b78a7802e4001edc46f\",\n      \"businessCaptureSha256\": \"d27b313cb63cc4a2f9d1b61d8a26c3ffd3a545a39241db5f1a5d52498fe6d6c3\"\n    },\n    {\n      \"id\": \"oct29:TSMM020017592025\",\n      \"observedAtUTC\": \"2026-10-29T01:51:02Z\",\n      \"query\": \"Malkajgiri PDJ complex DVC31/2025\",\n      \"cnr\": \"TSMM020017592025\",\n      \"case\": \"DVC31/2025\",\n      \"profileIds\": [\n        \"running:196\"\n      ],\n      \"parties\": \"Gattem Lakshmi Sai Priyanka versus Gattem Babjee; G. Vishweshwar Rao; G. Satyavathi\",\n      \"court\": \"1-Principal Junior Civil Judge-cum-Judicial Magistrate of First Class at Malkajgiri\",\n      \"status\": \"Pending\",\n      \"stage\": \"AWAIT REPORTS\",\n      \"nextDate\": \"2026-10-29\",\n      \"advocate\": \"Not yet appointed. (portal wording)\",\n      \"businessDate\": \"2026-09-21\",\n      \"businessExact\": \"P.O is on Maternity Leave. Case posted to 29-10-2026.\",\n      \"matched\": true,\n      \"changed\": false,\n      \"captchaIncorrectAttempts\": 1,\n      \"docketCapture\": \"TSMM020017592025_docket.txt\",\n      \"businessCapture\": \"TSMM020017592025_business.txt\",\n      \"source\": \"https://medchalmalkajgiri.dcourts.gov.in/case-status-search-by-case-number/\",\n      \"observedAtIST\": \"2026-10-29T07:21:02+05:30\",\n      \"docketCaptureSha256\": \"cb5cd35bc86e4648ee64742cd8d0e6540485c8b72f0c8df395627c851af377ad\",\n      \"businessCaptureSha256\": \"568b51e610124afea0763e8a989baf2ef0b3147efab9d520c049d61b1d12cfea\"\n    },\n    {\n      \"id\": \"oct29:TSMM020017092026\",\n      \"observedAtUTC\": \"2026-10-29T01:52:29Z\",\n      \"query\": \"Malkajgiri PDJ complex DVC19/2026\",\n      \"cnr\": \"TSMM020017092026\",\n      \"case\": \"DVC19/2026\",\n      \"profileIds\": [\n        \"running:266\"\n      ],\n      \"parties\": \"Ayyagali Shalini versus Thumuluri Sai Vamsi Krishna\",\n      \"court\": \"1-Principal Junior Civil Judge-cum-Judicial Magistrate of First Class at Malkajgiri\",\n      \"status\": \"Pending\",\n      \"stage\": \"SUMMONS\",\n      \"nextDate\": \"2026-10-30\",\n      \"advocate\": \"APP (portal wording; attendance not inferred)\",\n      \"businessDate\": \"2026-09-29\",\n      \"businessExact\": \"P.O. is on Maternity Leave, case posted to 30-10-2026.\",\n      \"matched\": true,\n      \"changed\": false,\n      \"captchaIncorrectAttempts\": 0,\n      \"qualification\": \"Original source MC19/2026 type and DVC19/2025 year conflict retained. This named DVC19/2026 match does not establish a distinct MC.\",\n      \"docketCapture\": \"TSMM020017092026_docket.txt\",\n      \"businessCapture\": \"TSMM020017092026_business.txt\",\n      \"source\": \"https://medchalmalkajgiri.dcourts.gov.in/case-status-search-by-case-number/\",\n      \"observedAtIST\": \"2026-10-29T07:22:29+05:30\",\n      \"docketCaptureSha256\": \"c06691747365ad87e521b0022fb5123527729734163213c4d020785a8abb7d1a\",\n      \"businessCaptureSha256\": \"eee7302ea10b8b3154d7f9b0b4cf146a015b9b7427b91bd6fcccff5d035b1f84\"\n    },\n    {\n      \"id\": \"oct29:TSMM020028962025\",\n      \"observedAtUTC\": \"2026-10-29T01:54:21Z\",\n      \"query\": \"Malkajgiri PDJ complex CC1627/2025\",\n      \"cnr\": \"TSMM020028962025\",\n      \"case\": \"CC1627/2025\",\n      \"profileIds\": [\n        \"running:263\"\n      ],\n      \"parties\": \"State of Telangana through PS Neredmet versus Bhargava Ramulu Karne\",\n      \"court\": \"2-I Addl.Junior Civil Judge-cum-I Addl Judicial Magistrate of First Class at Malkajgiri\",\n      \"status\": \"Pending\",\n      \"stage\": \"EXAMINATION\",\n      \"nextDate\": \"2026-10-30\",\n      \"advocate\": \"Not stated\",\n      \"businessDate\": \"2026-07-31\",\n      \"businessExact\": \"Accused present. Sureties filed. For examination. Call on 30.10.2026.\",\n      \"fir\": \"PS Neredmet 563/2025\",\n      \"matched\": true,\n      \"changed\": false,\n      \"captchaIncorrectAttempts\": 1,\n      \"docketCapture\": \"TSMM020028962025_docket.txt\",\n      \"businessCapture\": \"TSMM020028962025_business.txt\",\n      \"source\": \"https://medchalmalkajgiri.dcourts.gov.in/case-status-search-by-case-number/\",\n      \"observedAtIST\": \"2026-10-29T07:24:21+05:30\",\n      \"docketCaptureSha256\": \"a94f43470bf86039900ddfca5696c80c425b45fb64df122f04403121305f903a\",\n      \"businessCaptureSha256\": \"167cbacde7bc7be9fcc086d66879a55af5f6915f5c551cb3c8d816c90104d038\"\n    },\n    {\n      \"id\": \"oct29:TSMM020040442025\",\n      \"observedAtUTC\": \"2026-10-29T01:56:01Z\",\n      \"query\": \"Malkajgiri PDJ complex DVC78/2025\",\n      \"cnr\": \"TSMM020040442025\",\n      \"case\": \"DVC78/2025\",\n      \"profileIds\": [\n        \"running:209\"\n      ],\n      \"parties\": \"K. Durga Sowjanya versus Navaneetha Kishore; Katta Dhan Raj; Katta Padmavathi\",\n      \"court\": \"3-II Addl.Junior Civil Judge-cum-II Addl Judicial Magistrate of First Class at Malkajgiri\",\n      \"status\": \"Pending\",\n      \"stage\": \"CALL WITH MPs\",\n      \"nextDate\": \"2026-11-11\",\n      \"previousPortalNextDate\": \"2026-10-28\",\n      \"advocate\": \"B. Annapurna (petitioner counsel; attendance not inferred)\",\n      \"businessDate\": \"2026-10-28\",\n      \"businessExact\": \"P.O is transferred. Hence the case is posted to 11.11.2026.\",\n      \"matched\": true,\n      \"changed\": true,\n      \"captchaIncorrectAttempts\": 0,\n      \"qualification\": \"The presiding officer transfer is not a case transfer. Preserve invalid office future-date conflict as historical, not silently repaired.\",\n      \"docketCapture\": \"TSMM020040442025_docket.txt\",\n      \"businessCapture\": \"TSMM020040442025_business.txt\",\n      \"source\": \"https://medchalmalkajgiri.dcourts.gov.in/case-status-search-by-case-number/\",\n      \"observedAtIST\": \"2026-10-29T07:26:01+05:30\",\n      \"docketCaptureSha256\": \"f294d9aa5ee05a2579693f63b14e168a21bc4c20c3a6b5ca4726d31a3fc421f9\",\n      \"businessCaptureSha256\": \"80d6c91d9ab774143a3a4fc0a5da3c0718a4181fffd0d008f3d774d4b01edcf8\"\n    },\n    {\n      \"id\": \"oct29:TSMM090005852026:attempt\",\n      \"observedAtUTC\": \"2026-10-29T01:59:24Z\",\n      \"query\": \"Kukatpally ADJ complex SC233/2026\",\n      \"cnr\": \"TSMM090005852026\",\n      \"case\": \"SC233/2026\",\n      \"profileIds\": [],\n      \"result\": \"Four submitted visual CAPTCHA attempts rejected with The captcha code entered was incorrect; no case-result or fresh docket retrieved. Stopped this route.\",\n      \"matched\": false,\n      \"changed\": false,\n      \"blocked\": true,\n      \"captchaIncorrectAttempts\": 4,\n      \"qualification\": \"Retain Oct28 exact named docket and qualified firm association, no fresh status/date verification. Accepted additional firm-proceeding identity, file serial unassigned.\",\n      \"source\": \"https://medchalmalkajgiri.dcourts.gov.in/case-status-search-by-case-number/\",\n      \"observedAtIST\": \"2026-10-29T07:29:24+05:30\"\n    }\n  ],\n  \"summary\": {\n    \"uniqueTargetQueries\": 6,\n    \"fullDocketsAndLatestBusinessRetrieved\": 5,\n    \"confirmedUnchanged\": 4,\n    \"changed\": 1,\n    \"captchaBlocked\": 1,\n    \"newMatches\": 0,\n    \"dateChanged\": [\n      \"TSMM020040442025\"\n    ],\n    \"todayVerified\": 2,\n    \"tomorrowVerified\": 2,\n    \"staleDateUpdated\": 1,\n    \"todayBlocked\": 1,\n    \"completedAtUTC\": \"2026-10-29T01:59:40Z\"\n  }\n}"
+    },
+    {
+      "path": "rr.json",
+      "sha256": "0938be51f2ca212e57492c8bb0cef26f51b1a2cad8d68a71387ee0b6d4f34007",
+      "text": "{\n  \"source\": \"https://rangareddy.dcourts.gov.in/case-status-search-by-case-number/\",\n  \"observations\": [\n    {\n      \"id\": \"oct29:TSRA010004412026\",\n      \"observedAtUTC\": \"2026-10-29T01:48:54Z\",\n      \"query\": {\n        \"complex\": \"Rangareddy, PDJ Court Complex\",\n        \"type\": \"CC\",\n        \"number\": \"5481\",\n        \"year\": \"2022\",\n        \"selectedResult\": \"Prl. Sr. Civil Courts, Rangareddy\"\n      },\n      \"cnr\": \"TSRA010004412026\",\n      \"case\": \"CC5481/2022\",\n      \"filingNumber\": \"206/2026\",\n      \"filingDate\": \"01-12-2022\",\n      \"registrationDate\": \"01-12-2022\",\n      \"parties\": [\n        \"THE STATE THROUGH PS CHAITANYAPURI\",\n        \"A1.GOSUKONDA GANANA BHASKAR S/O SOMA SHEKAR\",\n        \"A2.GOSUKONDA APARMADEVI W/O SOMA SHEKAR\"\n      ],\n      \"court\": \"3-II Addl. Senior Civil Judge-cum-II Addl.Chief Judicial Magistrate, Ranga Reddy District at LB Nagar\",\n      \"status\": \"Pending\",\n      \"nextDate\": \"2026-10-29\",\n      \"stage\": \"SUMMONS\",\n      \"advocate\": \"APP\",\n      \"attendingAdvocate\": \"Not stated by name; APP listing does not prove attendance\",\n      \"businessDate\": \"2026-10-01\",\n      \"businessExact\": \"A1 absent. Issue fresh summons to A2, call on 29.10.2026\",\n      \"filingRequirements\": \"Not stated in latest business; fresh summons to A2 ordered\",\n      \"fir\": \"784/2022 Chaitanyapuri P.S\",\n      \"transferLink\": \"Subordinate court JCJ-cum-MM Courts, Rangareddy CC5481/2022 decision13-03-2026. Receiving CNR matched; historical donor not another active proceeding.\",\n      \"result\": \"Full docket and latest business retrieved; unchanged\",\n      \"changed\": false,\n      \"matched\": true,\n      \"captchaIncorrectAttempts\": 2,\n      \"profileIds\": [],\n      \"qualification\": \"Accepted additional firm proceeding, source profile unassigned; no new register profile created.\"\n    },\n    {\n      \"id\": \"oct29:TSRA030034012023\",\n      \"observedAtUTC\": \"2026-10-29T01:50:51Z\",\n      \"source\": \"https://rangareddy.dcourts.gov.in/case-status-search-by-case-number/\",\n      \"query\": {\n        \"complex\": \"Rangareddy, PDJ Court Complex\",\n        \"type\": \"CC\",\n        \"number\": \"1867\",\n        \"year\": \"2023\"\n      },\n      \"cnr\": \"TSRA030034012023\",\n      \"case\": \"CC1867/2023\",\n      \"filingNumber\": \"2598/2023\",\n      \"filingDate\": \"28-06-2023\",\n      \"registrationDate\": \"28-06-2023\",\n      \"parties\": [\n        \"WPS SAROORNAGAR\",\n        \"GUNTHAKANTI TEJESHWAR REDDY\"\n      ],\n      \"court\": \"6-III Additional Junior Civil Judge-cum-III Addl.Judicial Magistrate of First Class, RangaReddy District at L.B.Nagar\",\n      \"status\": \"Pending\",\n      \"nextDate\": \"2026-10-29\",\n      \"stage\": \"SUMMONS\",\n      \"advocate\": \"APP\",\n      \"attendingAdvocate\": \"Not established\",\n      \"businessDate\": \"2026-08-17\",\n      \"businessExact\": \"Accused absent. No representation. For appearance, call on 29.10.2026.\",\n      \"filingRequirements\": \"Not stated; appearance directed\",\n      \"fir\": \"145/2023 W.P.S.Saroornagar PS\",\n      \"result\": \"Full docket and latest business retrieved; unchanged\",\n      \"changed\": false,\n      \"matched\": true,\n      \"captchaIncorrectAttempts\": 0,\n      \"profileIds\": [\n        \"running:255\"\n      ],\n      \"qualification\": \"Distinct from CC9957/2021 FIR453/2021 although related accused alias; retain both.\"\n    },\n    {\n      \"id\": \"oct29:TSRA030142472021\",\n      \"observedAtUTC\": \"2026-10-29T01:52:22Z\",\n      \"source\": \"https://rangareddy.dcourts.gov.in/case-status-search-by-case-number/\",\n      \"query\": {\n        \"complex\": \"Rangareddy, PDJ Court Complex\",\n        \"type\": \"CC\",\n        \"number\": \"9957\",\n        \"year\": \"2021\"\n      },\n      \"cnr\": \"TSRA030142472021\",\n      \"case\": \"CC9957/2021\",\n      \"filingNumber\": \"11121/2021\",\n      \"filingDate\": \"21-12-2021\",\n      \"registrationDate\": \"28-12-2021\",\n      \"parties\": [\n        \"State of Telangana through WPS Saroor Nagar\",\n        \"A1.Gunthakanti Thejeswara Reddy\",\n        \"A2.Gunthakanti Baleshwari Alias Vasantha\",\n        \"A3.G Ramaneshwar Reddy\"\n      ],\n      \"court\": \"6-III Additional Junior Civil Judge-cum-III Addl.Judicial Magistrate of First Class, RangaReddy District at L.B.Nagar\",\n      \"status\": \"Pending\",\n      \"nextDate\": \"2026-10-29\",\n      \"stage\": \"DEATH CERTIFICATE\",\n      \"advocate\": \"Not stated\",\n      \"attendingAdvocate\": \"Not stated\",\n      \"businessDate\": \"2026-08-17\",\n      \"businessExact\": \"A1 and A2 absent. No representation. For filing death certificate of A3. For appearance of A1 and A2. Crl.M.P., pending, call on 29.10.2026.\",\n      \"filingRequirements\": \"Death certificate of A3; appearance A1/A2; Crl.M.P. pending. Compliance not established.\",\n      \"fir\": \"453/2021 W.P.S.Saroornagar PS\",\n      \"result\": \"Full docket and latest business retrieved; unchanged\",\n      \"changed\": false,\n      \"matched\": true,\n      \"captchaIncorrectAttempts\": 0,\n      \"profileIds\": [\n        \"running:255\"\n      ],\n      \"qualification\": \"Distinct from CC1867/2023 FIR145/2023 despite common party aliases. Death certificate stage does not close main matter.\"\n    },\n    {\n      \"id\": \"oct29:TSRA030015142024\",\n      \"observedAtUTC\": \"2026-10-29T01:56:04Z\",\n      \"source\": \"https://rangareddy.dcourts.gov.in/case-status-search-by-case-number/\",\n      \"query\": {\n        \"complex\": \"Rangareddy, PDJ Court Complex\",\n        \"type\": \"DVC\",\n        \"number\": \"31\",\n        \"year\": \"2024\"\n      },\n      \"cnr\": \"TSRA030015142024\",\n      \"case\": \"DVC31/2024\",\n      \"filingNumber\": \"1214/2024\",\n      \"filingDate\": \"11-03-2024\",\n      \"registrationDate\": \"11-03-2024\",\n      \"parties\": [\n        \"M.Vasavi Alias Durga\",\n        \"V.Vikas\",\n        \"V.Kurma Das\",\n        \"V.Symela\",\n        \"V.Vinay\",\n        \"N. Soujanaya\"\n      ],\n      \"court\": \"1-II Additional Junior Civil Judge-cum-II Addl.Judicial Magistrate of First Class, RangaReddy District at L.B.Nagar\",\n      \"status\": \"Pending\",\n      \"nextDate\": \"2026-10-30\",\n      \"stage\": \"SUMMONS\",\n      \"advocate\": \"ADV (literal; personal name not stated)\",\n      \"attendingAdvocate\": \"Not established\",\n      \"businessDate\": \"2026-10-26\",\n      \"businessExact\": \"PO is on ML. Case posted to 30.10.2026\",\n      \"filingRequirements\": \"Not stated in latest business\",\n      \"result\": \"Full docket and latest business retrieved; unchanged\",\n      \"changed\": false,\n      \"matched\": true,\n      \"captchaIncorrectAttempts\": 3,\n      \"profileIds\": [\n        \"running:123\"\n      ],\n      \"qualification\": \"Exact CNR/case/court matches retained official evidence. Source register name Dharunya / Vatten Vikas differs official M.Vasavi Alias Durga / V.Vikas; do not silently resolve or rename source profile.\"\n    }\n  ],\n  \"summary\": {\n    \"attemptedDistinctCNRs\": 4,\n    \"fullDocketsRetrieved\": 4,\n    \"latestBusinessRetrieved\": 4,\n    \"changed\": 0,\n    \"unqueriedPriority\": 0,\n    \"basis\": \"Fresh Oct29 morning court observations; not whole-day outcome coverage\",\n    \"remainingQueue\": \"No additional stale Ranga Reddy targets in priority_queue_oct29 staleDateCandidates. File79 FCOP800/2022 primary-profile association needs source cover/docket linkage; no new identifier/route to justify repeating yesterday.\"\n  }\n}"
+    },
+    {
+      "path": "hc.json",
+      "sha256": "b5cb2db72f4a5aa8e9a922eb7578a039f31b7c33ec1cfb541432f5af7373664d",
+      "text": "{\n  \"run\": \"2026-10-29\",\n  \"attemptWindowUTC\": [\n    \"2026-10-29T01:40:42Z\",\n    \"2026-10-29T01:46:26Z\"\n  ],\n  \"accessAttempts\": [\n    {\n      \"atUTC\": \"2026-10-29T01:40:58Z\",\n      \"url\": \"https://csis.tshc.gov.in/\",\n      \"query\": \"Case-status root availability\",\n      \"result\": \"upstream connect error or disconnect/reset before headers. reset reason: remote connection failure\",\n      \"classification\": \"ordinary connection failure, no bot detection, no CAPTCHA encountered\"\n    },\n    {\n      \"atUTC\": \"2026-10-29T01:41:39Z\",\n      \"url\": \"https://causelist.tshc.gov.in/causelist/caseCauseList\",\n      \"query\": \"WP/1970/2023 on 29-10-2026\",\n      \"result\": \"No Data Available for This Search !!!!\",\n      \"qualification\": \"Non-dispositive; full court-wise sweep undertaken rather than accepting this as status result.\"\n    }\n  ],\n  \"coverage\": {\n    \"currentTelanganaGraphIdentifiers\": 18,\n    \"identifiersReconciledAgainstLists\": 18,\n    \"canonical15DocketAccessGatesRemain\": 15,\n    \"dailyDate\": \"2026-10-29\",\n    \"dailyCourtNumbers\": [\n      1,\n      3,\n      4,\n      6,\n      7,\n      9,\n      10,\n      11,\n      12,\n      13,\n      14,\n      15,\n      18,\n      19,\n      20,\n      21,\n      22,\n      23,\n      24,\n      25,\n      26,\n      27,\n      28,\n      30,\n      31,\n      32,\n      35\n    ],\n    \"advanceDates\": [\n      \"2026-11-05\",\n      \"2026-11-06\"\n    ],\n    \"advanceCourts\": [\n      19\n    ],\n    \"supplementaryAvailability\": \"Latest selectable date 28-10-2026; no Oct29 list. Oct28 previously reviewed, not repeated.\",\n    \"tomorrowDailyAvailability\": \"No Oct30 daily date offered at check. Advance offered only Nov5 and Nov6.\",\n    \"freshDocketsRetrieved\": 0,\n    \"freshListingObservations\": 1\n  },\n  \"records\": [\n    {\n      \"cnr\": \"HBHC010036772023\",\n      \"case\": \"WP 1970/2023\",\n      \"files\": [\n        \"270\"\n      ],\n      \"priorEvidenceId\": \"full28:4cc810ca569af6248552\",\n      \"checkedAtUTC\": \"2026-10-29T01:46:08Z\",\n      \"query\": \"WP 1970/2023\",\n      \"sources\": [\n        \"https://causelist.tshc.gov.in/causelist/courtWiseView\",\n        \"https://causelist.tshc.gov.in/causelist/advance-list/courtWiseView\"\n      ],\n      \"method\": \"Exact type/number/year reconciliation across 27 available Oct29 daily court lists and Nov5/6 advance Court19 lists; source rows loaded through footer. CNR is prior-source association, not independently reverified by cause list.\",\n      \"result\": \"No exact target found in retrieved lists. This is not proof of no hearing, disposal, or current docket status.\",\n      \"docketStatusFreshlyRetrieved\": false\n    },\n    {\n      \"cnr\": \"HBHC010488942025\",\n      \"case\": \"FCA 131/2025\",\n      \"files\": [\n        \"10\",\n        \"211\"\n      ],\n      \"priorEvidenceId\": \"full28:80f7cc04a998bf9af7ee\",\n      \"checkedAtUTC\": \"2026-10-29T01:46:08Z\",\n      \"query\": \"FCA 131/2025\",\n      \"sources\": [\n        \"https://causelist.tshc.gov.in/causelist/courtWiseView\",\n        \"https://causelist.tshc.gov.in/causelist/advance-list/courtWiseView\"\n      ],\n      \"method\": \"Exact type/number/year reconciliation across 27 available Oct29 daily court lists and Nov5/6 advance Court19 lists; source rows loaded through footer. CNR is prior-source association, not independently reverified by cause list.\",\n      \"result\": \"No exact target found in retrieved lists. This is not proof of no hearing, disposal, or current docket status.\",\n      \"docketStatusFreshlyRetrieved\": false\n    },\n    {\n      \"cnr\": \"HBHC010477662025\",\n      \"case\": \"CRLP 10403/2025\",\n      \"files\": [\n        \"188\",\n        \"274\"\n      ],\n      \"priorEvidenceId\": \"full28:f5ea339a0cfe43d6feff\",\n      \"checkedAtUTC\": \"2026-10-29T01:46:08Z\",\n      \"query\": \"CRLP 10403/2025\",\n      \"sources\": [\n        \"https://causelist.tshc.gov.in/causelist/courtWiseView\",\n        \"https://causelist.tshc.gov.in/causelist/advance-list/courtWiseView\"\n      ],\n      \"method\": \"Exact type/number/year reconciliation across 27 available Oct29 daily court lists and Nov5/6 advance Court19 lists; source rows loaded through footer. CNR is prior-source association, not independently reverified by cause list.\",\n      \"result\": \"No exact target found in retrieved lists. This is not proof of no hearing, disposal, or current docket status.\",\n      \"docketStatusFreshlyRetrieved\": false\n    },\n    {\n      \"cnr\": \"HBHC010277382026\",\n      \"case\": \"WP 13252/2026\",\n      \"files\": [\n        \"247\",\n        \"253\"\n      ],\n      \"priorEvidenceId\": \"full28:61764e63f84a5683212b\",\n      \"checkedAtUTC\": \"2026-10-29T01:46:08Z\",\n      \"query\": \"WP 13252/2026\",\n      \"sources\": [\n        \"https://causelist.tshc.gov.in/causelist/courtWiseView\",\n        \"https://causelist.tshc.gov.in/causelist/advance-list/courtWiseView\"\n      ],\n      \"method\": \"Exact type/number/year reconciliation across 27 available Oct29 daily court lists and Nov5/6 advance Court19 lists; source rows loaded through footer. CNR is prior-source association, not independently reverified by cause list.\",\n      \"result\": \"No exact target found in retrieved lists. This is not proof of no hearing, disposal, or current docket status.\",\n      \"docketStatusFreshlyRetrieved\": false\n    },\n    {\n      \"cnr\": \"HBHC010123342024\",\n      \"case\": \"FCA 71/2024\",\n      \"files\": [\n        \"125\",\n        \"4\"\n      ],\n      \"priorEvidenceId\": \"full28:37786d355e62e1bcddeb\",\n      \"checkedAtUTC\": \"2026-10-29T01:46:08Z\",\n      \"query\": \"FCA 71/2024\",\n      \"sources\": [\n        \"https://causelist.tshc.gov.in/causelist/courtWiseView\",\n        \"https://causelist.tshc.gov.in/causelist/advance-list/courtWiseView\"\n      ],\n      \"method\": \"Exact type/number/year reconciliation across 27 available Oct29 daily court lists and Nov5/6 advance Court19 lists; source rows loaded through footer. CNR is prior-source association, not independently reverified by cause list.\",\n      \"result\": \"No exact target found in retrieved lists. This is not proof of no hearing, disposal, or current docket status.\",\n      \"docketStatusFreshlyRetrieved\": false\n    },\n    {\n      \"cnr\": \"HBHC010138042026\",\n      \"case\": \"CRLP 3154/2026\",\n      \"files\": [\n        \"256\"\n      ],\n      \"priorEvidenceId\": \"full28:8b5191554f383987486c\",\n      \"checkedAtUTC\": \"2026-10-29T01:46:08Z\",\n      \"query\": \"CRLP 3154/2026\",\n      \"sources\": [\n        \"https://causelist.tshc.gov.in/causelist/courtWiseView\",\n        \"https://causelist.tshc.gov.in/causelist/advance-list/courtWiseView\"\n      ],\n      \"method\": \"Exact type/number/year reconciliation across 27 available Oct29 daily court lists and Nov5/6 advance Court19 lists; source rows loaded through footer. CNR is prior-source association, not independently reverified by cause list.\",\n      \"result\": \"No exact target found in retrieved lists. This is not proof of no hearing, disposal, or current docket status.\",\n      \"docketStatusFreshlyRetrieved\": false\n    },\n    {\n      \"cnr\": \"HBHC010498922025\",\n      \"case\": \"CRLP 10881/2025\",\n      \"files\": [\n        \"214\"\n      ],\n      \"priorEvidenceId\": \"full28:6c9c0dcba0803f5206e6\",\n      \"checkedAtUTC\": \"2026-10-29T01:46:08Z\",\n      \"query\": \"CRLP 10881/2025\",\n      \"sources\": [\n        \"https://causelist.tshc.gov.in/causelist/courtWiseView\",\n        \"https://causelist.tshc.gov.in/causelist/advance-list/courtWiseView\"\n      ],\n      \"method\": \"Exact type/number/year reconciliation across 27 available Oct29 daily court lists and Nov5/6 advance Court19 lists; source rows loaded through footer. CNR is prior-source association, not independently reverified by cause list.\",\n      \"result\": \"No exact target found in retrieved lists. This is not proof of no hearing, disposal, or current docket status.\",\n      \"docketStatusFreshlyRetrieved\": false\n    },\n    {\n      \"cnr\": \"HBHC010753072025\",\n      \"case\": \"CRLP 16336/2025\",\n      \"files\": [\n        \"275\"\n      ],\n      \"priorEvidenceId\": \"full28:5f27a6cd81bedd60191d\",\n      \"checkedAtUTC\": \"2026-10-29T01:46:08Z\",\n      \"query\": \"CRLP 16336/2025\",\n      \"sources\": [\n        \"https://causelist.tshc.gov.in/causelist/courtWiseView\",\n        \"https://causelist.tshc.gov.in/causelist/advance-list/courtWiseView\"\n      ],\n      \"method\": \"Exact type/number/year reconciliation across 27 available Oct29 daily court lists and Nov5/6 advance Court19 lists; source rows loaded through footer. CNR is prior-source association, not independently reverified by cause list.\",\n      \"result\": \"No exact target found in retrieved lists. This is not proof of no hearing, disposal, or current docket status.\",\n      \"docketStatusFreshlyRetrieved\": false\n    },\n    {\n      \"cnr\": \"HBHC010077362026\",\n      \"case\": \"CRLP 1667/2026\",\n      \"files\": [\n        \"245\"\n      ],\n      \"priorEvidenceId\": \"full28:81bf12301e8a440a0d51\",\n      \"checkedAtUTC\": \"2026-10-29T01:46:08Z\",\n      \"query\": \"CRLP 1667/2026\",\n      \"sources\": [\n        \"https://causelist.tshc.gov.in/causelist/courtWiseView\",\n        \"https://causelist.tshc.gov.in/causelist/advance-list/courtWiseView\"\n      ],\n      \"method\": \"Exact type/number/year reconciliation across 27 available Oct29 daily court lists and Nov5/6 advance Court19 lists; source rows loaded through footer. CNR is prior-source association, not independently reverified by cause list.\",\n      \"result\": \"No exact target found in retrieved lists. This is not proof of no hearing, disposal, or current docket status.\",\n      \"docketStatusFreshlyRetrieved\": false\n    },\n    {\n      \"cnr\": \"HBHC010122612025\",\n      \"case\": \"CMA 89/2025\",\n      \"files\": [\n        \"164\"\n      ],\n      \"priorEvidenceId\": \"full28:595c87dfc2f2a8c08484\",\n      \"checkedAtUTC\": \"2026-10-29T01:46:08Z\",\n      \"query\": \"CMA 89/2025\",\n      \"sources\": [\n        \"https://causelist.tshc.gov.in/causelist/courtWiseView\",\n        \"https://causelist.tshc.gov.in/causelist/advance-list/courtWiseView\"\n      ],\n      \"method\": \"Exact type/number/year reconciliation across 27 available Oct29 daily court lists and Nov5/6 advance Court19 lists; source rows loaded through footer. CNR is prior-source association, not independently reverified by cause list.\",\n      \"result\": \"No exact target found in retrieved lists. This is not proof of no hearing, disposal, or current docket status.\",\n      \"docketStatusFreshlyRetrieved\": false\n    },\n    {\n      \"cnr\": \"HBHC010041752025\",\n      \"case\": \"CC757/2025 | CC 757/2025\",\n      \"files\": [\n        \"185\"\n      ],\n      \"priorEvidenceId\": \"full28:f11337b64cf7c09c33a5\",\n      \"checkedAtUTC\": \"2026-10-29T01:46:08Z\",\n      \"query\": \"CC757/2025 | CC 757/2025\",\n      \"sources\": [\n        \"https://causelist.tshc.gov.in/causelist/courtWiseView\",\n        \"https://causelist.tshc.gov.in/causelist/advance-list/courtWiseView\"\n      ],\n      \"method\": \"Exact type/number/year reconciliation across 27 available Oct29 daily court lists and Nov5/6 advance Court19 lists; source rows loaded through footer. CNR is prior-source association, not independently reverified by cause list.\",\n      \"result\": \"No exact target found in retrieved lists. This is not proof of no hearing, disposal, or current docket status.\",\n      \"docketStatusFreshlyRetrieved\": false\n    },\n    {\n      \"cnr\": \"HBHC010647022018\",\n      \"case\": \"WP31477/2018 | WP 31477/2018\",\n      \"files\": [\n        \"231\"\n      ],\n      \"priorEvidenceId\": \"full28:11bd058413b933055e69\",\n      \"checkedAtUTC\": \"2026-10-29T01:46:08Z\",\n      \"query\": \"WP31477/2018 | WP 31477/2018\",\n      \"sources\": [\n        \"https://causelist.tshc.gov.in/causelist/courtWiseView\",\n        \"https://causelist.tshc.gov.in/causelist/advance-list/courtWiseView\"\n      ],\n      \"method\": \"Exact type/number/year reconciliation across 27 available Oct29 daily court lists and Nov5/6 advance Court19 lists; source rows loaded through footer. CNR is prior-source association, not independently reverified by cause list.\",\n      \"result\": \"No exact target found in retrieved lists. This is not proof of no hearing, disposal, or current docket status.\",\n      \"docketStatusFreshlyRetrieved\": false\n    },\n    {\n      \"cnr\": \"HBHC010463632022\",\n      \"case\": \"CRLP 7120/2022\",\n      \"files\": [\n        \"138\"\n      ],\n      \"priorEvidenceId\": \"full28:c0a49cab3cf5927f45e1\",\n      \"checkedAtUTC\": \"2026-10-29T01:46:08Z\",\n      \"query\": \"CRLP 7120/2022\",\n      \"sources\": [\n        \"https://causelist.tshc.gov.in/causelist/courtWiseView\",\n        \"https://causelist.tshc.gov.in/causelist/advance-list/courtWiseView\"\n      ],\n      \"method\": \"Exact type/number/year reconciliation across 27 available Oct29 daily court lists and Nov5/6 advance Court19 lists; source rows loaded through footer. CNR is prior-source association, not independently reverified by cause list.\",\n      \"result\": \"No exact target found in retrieved lists. This is not proof of no hearing, disposal, or current docket status.\",\n      \"docketStatusFreshlyRetrieved\": false\n    },\n    {\n      \"cnr\": \"HBHC010334342025\",\n      \"case\": \"CRLA 632/2025\",\n      \"files\": [\n        \"276\"\n      ],\n      \"priorEvidenceId\": \"full28:1669e2dab4582bc77afe\",\n      \"checkedAtUTC\": \"2026-10-29T01:46:08Z\",\n      \"query\": \"CRLA 632/2025\",\n      \"sources\": [\n        \"https://causelist.tshc.gov.in/causelist/courtWiseView\",\n        \"https://causelist.tshc.gov.in/causelist/advance-list/courtWiseView\"\n      ],\n      \"method\": \"Exact type/number/year reconciliation across 27 available Oct29 daily court lists and Nov5/6 advance Court19 lists; source rows loaded through footer. CNR is prior-source association, not independently reverified by cause list.\",\n      \"result\": \"No exact target found in retrieved lists. This is not proof of no hearing, disposal, or current docket status.\",\n      \"docketStatusFreshlyRetrieved\": false\n    },\n    {\n      \"cnr\": \"HBHC010334202025\",\n      \"case\": \"CRLA 629/2025\",\n      \"files\": [\n        \"277\"\n      ],\n      \"priorEvidenceId\": \"full28:c97c4e61c3f3aebb1a6d\",\n      \"checkedAtUTC\": \"2026-10-29T01:46:08Z\",\n      \"query\": \"CRLA 629/2025\",\n      \"sources\": [\n        \"https://causelist.tshc.gov.in/causelist/courtWiseView\",\n        \"https://causelist.tshc.gov.in/causelist/advance-list/courtWiseView\"\n      ],\n      \"method\": \"Exact type/number/year reconciliation across 27 available Oct29 daily court lists and Nov5/6 advance Court19 lists; source rows loaded through footer. CNR is prior-source association, not independently reverified by cause list.\",\n      \"result\": \"No exact target found in retrieved lists. This is not proof of no hearing, disposal, or current docket status.\",\n      \"docketStatusFreshlyRetrieved\": false\n    },\n    {\n      \"cnr\": \"HBHC010283132025\",\n      \"case\": \"WP14632/2025\",\n      \"files\": [\n        \"290\"\n      ],\n      \"priorEvidenceId\": \"full28:42bf345bccdfc6a5f1ea\",\n      \"checkedAtUTC\": \"2026-10-29T01:46:08Z\",\n      \"query\": \"WP14632/2025\",\n      \"sources\": [\n        \"https://causelist.tshc.gov.in/causelist/courtWiseView\",\n        \"https://causelist.tshc.gov.in/causelist/advance-list/courtWiseView\"\n      ],\n      \"method\": \"Exact type/number/year reconciliation across 27 available Oct29 daily court lists and Nov5/6 advance Court19 lists; source rows loaded through footer. CNR is prior-source association, not independently reverified by cause list.\",\n      \"result\": \"No exact target found in retrieved lists. This is not proof of no hearing, disposal, or current docket status.\",\n      \"docketStatusFreshlyRetrieved\": false\n    },\n    {\n      \"cnr\": \"HBHC010648582026\",\n      \"case\": \"TRCMP339/2026\",\n      \"files\": [],\n      \"priorEvidenceId\": \"full28:9ae69a79f33cf8e6d476\",\n      \"checkedAtUTC\": \"2026-10-29T01:46:08Z\",\n      \"query\": \"TRCMP339/2026\",\n      \"sources\": [\n        \"https://causelist.tshc.gov.in/causelist/courtWiseView\",\n        \"https://causelist.tshc.gov.in/causelist/advance-list/courtWiseView\"\n      ],\n      \"method\": \"Exact type/number/year reconciliation across 27 available Oct29 daily court lists and Nov5/6 advance Court19 lists; source rows loaded through footer. CNR is prior-source association, not independently reverified by cause list.\",\n      \"result\": \"No exact target found in retrieved lists. This is not proof of no hearing, disposal, or current docket status.\",\n      \"docketStatusFreshlyRetrieved\": false\n    },\n    {\n      \"cnr\": \"HBHC010605012026\",\n      \"case\": \"WP29704/2026\",\n      \"files\": [],\n      \"priorEvidenceId\": \"full28:7dec2efd7cbbc556cc88\",\n      \"checkedAtUTC\": \"2026-10-29T01:46:08Z\",\n      \"query\": \"WP29704/2026\",\n      \"sources\": [\n        \"https://causelist.tshc.gov.in/causelist/courtWiseView\",\n        \"https://causelist.tshc.gov.in/causelist/advance-list/courtWiseView\"\n      ],\n      \"method\": \"Exact type/number/year reconciliation across 27 available Oct29 daily court lists and Nov5/6 advance Court19 lists; source rows loaded through footer. CNR is prior-source association, not independently reverified by cause list.\",\n      \"result\": {\n        \"observedAtUTC\": \"2026-10-29T01:46:08Z\",\n        \"cnr\": \"HBHC010605012026\",\n        \"cnrQualification\": \"CNR carried from prior verified graph; cause list itself identifies case number, year and parties, not CNR\",\n        \"case\": \"WP 29704/2026\",\n        \"parties\": \"Suguru Veera Reddy, vs The State of Telangana\",\n        \"nextDate\": \"2026-11-06\",\n        \"court\": \"High Court for the State of Telangana, Court No. 19\",\n        \"judge\": \"THE HONOURABLE SRI JUSTICE N.V.SHRAVAN KUMAR\",\n        \"stage\": \"ADMISSION (REVENUE)\",\n        \"application\": \"IA 1/2026 (Suspension Petition)\",\n        \"petitionerAdvocate\": \"E ROJA RAMANI\",\n        \"respondentAdvocate\": \"GP FOR REVENUE\",\n        \"district\": \"MAHABUBNAGAR\",\n        \"serial\": \"657\",\n        \"source\": \"https://causelist.tshc.gov.in/causelist/advance-list/courtWiseView\",\n        \"sourceNavigation\": \"Advance List > 06-11-2026 > Court Wise > Court No. 19\",\n        \"exactRow\": \"657 WP/29704/2026 IA 1/2026(Suspension Petition) Suguru Veera Reddy, vs The State of Telangana E ROJA RAMANI GP FOR REVENUE MAHABUBNAGAR\",\n        \"qualification\": \"Future advance listing only, not order or suspension granted. Reporting/attending advocate not established by displayed counsel.\"\n      },\n      \"docketStatusFreshlyRetrieved\": false\n    }\n  ],\n  \"findings\": [\n    {\n      \"observedAtUTC\": \"2026-10-29T01:46:08Z\",\n      \"cnr\": \"HBHC010605012026\",\n      \"cnrQualification\": \"CNR carried from prior verified graph; cause list itself identifies case number, year and parties, not CNR\",\n      \"case\": \"WP 29704/2026\",\n      \"parties\": \"Suguru Veera Reddy, vs The State of Telangana\",\n      \"nextDate\": \"2026-11-06\",\n      \"court\": \"High Court for the State of Telangana, Court No. 19\",\n      \"judge\": \"THE HONOURABLE SRI JUSTICE N.V.SHRAVAN KUMAR\",\n      \"stage\": \"ADMISSION (REVENUE)\",\n      \"application\": \"IA 1/2026 (Suspension Petition)\",\n      \"petitionerAdvocate\": \"E ROJA RAMANI\",\n      \"respondentAdvocate\": \"GP FOR REVENUE\",\n      \"district\": \"MAHABUBNAGAR\",\n      \"serial\": \"657\",\n      \"source\": \"https://causelist.tshc.gov.in/causelist/advance-list/courtWiseView\",\n      \"sourceNavigation\": \"Advance List > 06-11-2026 > Court Wise > Court No. 19\",\n      \"exactRow\": \"657 WP/29704/2026 IA 1/2026(Suspension Petition) Suguru Veera Reddy, vs The State of Telangana E ROJA RAMANI GP FOR REVENUE MAHABUBNAGAR\",\n      \"qualification\": \"Future advance listing only, not order or suspension granted. Reporting/attending advocate not established by displayed counsel.\"\n    }\n  ],\n  \"notInferred\": [\n    \"No disposal from absence\",\n    \"No suspension order from IA listing\",\n    \"No source-file merger merely shared party names\"\n  ]\n}"
+    },
+    {
+      "path": "extra_priority.json",
+      "sha256": "bab2040a1029bb5b768e5882e1f1ff6153d765d3613d9242d59b533e3851e4fd",
+      "text": "{\n  \"records\": [\n    {\n      \"cnr\": \"TSYB070000352023\",\n      \"case\": \"H.M.O.P 66/2024\",\n      \"file\": \"140\",\n      \"source\": \"https://yadadri.dcourts.gov.in/case-status-search-by-case-number/\",\n      \"observedAtUTC\": \"2026-10-29T01:50:05Z\",\n      \"query\": \"Ramannapet, JCJ Court Complex; H.M.O.P 66/2024\",\n      \"attempts\": [\n        \"01:48:29 UTC CAPTCHA incorrect\",\n        \"01:49:12 UTC CAPTCHA incorrect\",\n        \"01:49:39 UTC accepted; exact named result opened\"\n      ],\n      \"freshFullRecord\": true,\n      \"parties\": \"CH.Venkata Narsimha Reddy versus CH.Krsihnaveni\",\n      \"filingNumber\": \"128/2023\",\n      \"filingDate\": \"27-12-2024\",\n      \"registrationNumber\": \"66/2024\",\n      \"registrationDate\": \"27-12-2024\",\n      \"court\": \"1-Senior Civil Judge, Ramannapet\",\n      \"judge\": \"Personal name not stated\",\n      \"status\": \"Pending\",\n      \"nextDate\": \"2026-10-30\",\n      \"stage\": \"CALL WITH IAS\",\n      \"petitionerAdvocate\": \"P. Bosu Babu\",\n      \"respondentAdvocate\": \"ANNAPURNA R.\",\n      \"businessDate\": \"2026-09-22\",\n      \"business\": \"Petitioner present and Respondent called absent. P.O is on E.L call on 30.10.2026.\",\n      \"qualification\": \"Exact CNR, case, court and parties confirmed. Filing number/CNR year 2023 coexists with portal filing/registration dates 27-12-2024, preserved. Displayed counsel not proof of future attendance.\"\n    },\n    {\n      \"cnr\": \"TSHM0A0369522026\",\n      \"case\": \"STC.NI 6424/2026\",\n      \"file\": \"Unassigned; candidate file243 association not established\",\n      \"source\": \"https://hccc.dcourts.gov.in/case-status-search-by-case-number/\",\n      \"observedAtUTC\": \"2026-10-29T01:51:23Z\",\n      \"query\": \"HYD, MM Court Complex; STC.NI 6424/2026\",\n      \"freshFullRecord\": true,\n      \"parties\": \"MYLARAM MADHUR LATHA versus MANANESTHAM CHIT FUND\",\n      \"filingNumber\": \"36927/2026\",\n      \"filingDate\": \"07-08-2026\",\n      \"registrationNumber\": \"6424/2026\",\n      \"registrationDate\": \"07-08-2026\",\n      \"establishment\": \"SPECIAL JFCM FOR EXCISE CASES, HYDERABAD.\",\n      \"court\": \"10-X Metropolitan Magistrate\",\n      \"judge\": \"Personal name not stated\",\n      \"status\": \"Pending\",\n      \"firstHearingDate\": \"2026-10-30\",\n      \"nextDate\": \"2026-10-30\",\n      \"stage\": \"SUMMONS\",\n      \"petitionerAdvocate\": \"E.Roja Ramini\",\n      \"respondentAdvocate\": \"Not stated\",\n      \"history\": \"No history rows displayed\",\n      \"qualification\": \"Exact CNR, case, court and parties confirmed. Portal establishment caption and Court Number/Judge label both retained. Potential file243 linkage not established; source file indicates MVOP without number. Do not merge by same party name or assume court attendance from counsel display.\"\n    },\n    {\n      \"cnr\": \"DLNW020285552024\",\n      \"case\": \"CC NI ACT 2754/2024\",\n      \"diaryIds\": [\n        \"CR015\",\n        \"MR013\"\n      ],\n      \"source\": \"https://rohini.dcourts.gov.in/case-status-search-by-petitioner-respondent/\",\n      \"observedAtUTC\": \"2026-10-29T01:53:05Z\",\n      \"query\": \"Rohini Court Complex; Master; 2024; Both; named result8 in CMM North-West\",\n      \"freshFullRecord\": true,\n      \"parties\": \"M/s Clix Capital Services Pvt Ltd versus Master Roofing; CHITTURU MURALIDHAR\",\n      \"filingNumber\": \"28553/2024\",\n      \"filingDate\": \"30-07-2024\",\n      \"registrationNumber\": \"2754/2024\",\n      \"registrationDate\": \"01-08-2024\",\n      \"court\": \"520-Judicial Magistrate First Class, Chief Metropolitan Magistrate North-West, RHC\",\n      \"judge\": \"Personal name not stated\",\n      \"status\": \"Pending\",\n      \"rawNextDate\": \"2026-10-25\",\n      \"nextDate\": null,\n      \"stage\": \"Misc./ Appearance\",\n      \"petitionerAdvocate\": \"Ravi Shankar Garg\",\n      \"respondentAdvocate\": \"Not stated\",\n      \"latestHistoryDate\": \"2026-09-30\",\n      \"latestOrderDate\": \"2026-09-30\",\n      \"orderCount\": 6,\n      \"transfer\": \"29-11-2025 from765 to520 Judicial Magistrate First Class, same CNR\",\n      \"qualification\": \"Stale Oct25 date persists on fresh Oct29 check. No Oct25 business/outcome/order or future date shown. Do not infer withdrawal, Lok Adalat settlement or disposal. Existing Sep30 office-supplied order remains separate and unchanged. Search and detail CAPTCHAs accepted.\"\n    }\n  ]\n}"
+    },
+    {
+      "path": "ap_hc.json",
+      "sha256": "2e123d6ca46c502bc57408587b2395427638c0cf264a3b2ea4f040d0101b5062",
+      "text": "{\n  \"checkedAtUTC\": \"2026-10-29T01:56:47Z\",\n  \"source\": \"https://digi-courts.aphc.ap.gov.in/csis_ap/\",\n  \"scope\": \"Two AP High Court stale/missing-next-date priority records; official registration-number UI; both CAPTCHA submissions accepted first attempt. Read-only research; no publication.\",\n  \"coverage\": {\"queried\":2,\"matchedFullDockets\":2,\"blocked\":0,\"newNextDates\":0},\n  \"records\": [\n    {\"query\":\"CRLP 6041/2023\",\"observedAtUTC\":\"2026-10-29T01:56:14Z\",\"cnr\":\"APHC010407892023\",\"previousEvidenceId\":\"full28:c99717bc2238d618985f\",\"profileIds\":[\"running:92\"],\"files\":[\"92\"],\"parties\":\"GAJULA SRIDHAR MANI SOMARAJU v THE STATE OF ANDHRA PRADESH; R2 Gajula Umadevi\",\"case\":\"CRLP 6041/2023\",\"filingNumber\":\"CRLPSR 7858/2023\",\"filingDate\":\"2023-08-14\",\"registrationDate\":\"2023-08-16\",\"status\":\"PENDING\",\"rawListingDate\":\"29/09/2023\",\"nextDate\":null,\"stage\":\"FOR ADMISSION\",\"court\":\"High Court of Andhra Pradesh\",\"judge\":\"The Honourable Sri Justice K SREENIVASA REDDY\",\"petitionerAdvocate\":\"SRIDEVI JAMPANI\",\"respondentAdvocate\":\"PUBLIC PROSECUTOR AP\",\"district\":\"GUNTUR\",\"applications\":[{\"number\":\"IA 1/2023\",\"type\":\"Dispense with Petition\",\"status\":\"Pending\",\"filingDate\":\"2023-08-16\"},{\"number\":\"IA 2/2023\",\"type\":\"Stay Petition\",\"status\":\"Pending\",\"filingDate\":\"2023-08-16\"},{\"number\":\"IASR 75306/2023\",\"type\":\"Dispense with Petition\",\"status\":\"PENDING FOR SCRUTINY\",\"filingDate\":\"2023-08-14\"},{\"number\":\"IASR 75307/2023\",\"type\":\"Stay Petition\",\"status\":\"PENDING FOR SCRUTINY\",\"filingDate\":\"2023-08-14\"}],\"lowerProceeding\":\"Prayer refers to CC No 2449 of 2022, V Addl JFC Magistrate Kakinada\",\"orderIndex\":[{\"date\":\"2023-08-17\",\"type\":\"Spl Cell Orders\",\"judge\":\"K SREENIVASA REDDY\"}],\"verification\":\"Case, year, parties, court and CNR freshly matched. Same status/stale listing as 28-Oct. No future date or fresh order. Preserve 28-Oct independently read 17-Aug-2023 order; not reread today. Pending stay prayer is not grant of stay. No main-matter disposal inferred.\"},\n    {\"query\":\"CMA 371/2026\",\"observedAtUTC\":\"2026-10-29T01:56:47Z\",\"cnr\":\"APHC010338882026\",\"previousEvidenceId\":\"full28:247f9a8da17ca2571d80\",\"profileIds\":[\"running:289\"],\"files\":[\"289\"],\"parties\":\"Gunji Srinivasa Rao v Gunji Sreelatha alias Srinamma\",\"case\":\"CMA 371/2026\",\"filingNumber\":\"CMASR 27089/2026\",\"filingDate\":\"2026-07-03\",\"registrationDate\":\"2026-07-03\",\"status\":\"PENDING\",\"rawListingDate\":\"-\",\"nextDate\":null,\"stage\":\"INTERLOCUTORY\",\"court\":\"High Court of Andhra Pradesh\",\"judge\":\"The Honourable Sri Justice D RAMESH, The Honourable Sri Justice A. HARI HARANADHA SARMA\",\"petitionerAdvocate\":\"CKR ASSOCIATES\",\"respondentAdvocate\":\"Not stated\",\"district\":\"GUNTUR\",\"applications\":[{\"number\":\"IA 1/2026\",\"type\":\"Suspension Petition\",\"status\":\"Pending\",\"filingDate\":\"2026-07-03\"},{\"number\":\"IASR 52367/2026\",\"type\":\"Suspension Petition\",\"status\":\"PENDING FOR SCRUTINY\",\"filingDate\":\"2026-07-03\"}],\"usr\":[{\"number\":\"642/2026\",\"date\":\"2026-07-02\",\"remarks\":\"Main Case\"},{\"number\":\"643/2026\",\"date\":\"2026-07-02\",\"remarks\":\"Suspension Petition\"},{\"number\":\"CMAUSR 106942/2026\",\"date\":\"2026-09-15\",\"type\":\"Memo Proof of Service\",\"status\":\"PENDING FOR SCRUTINY\"},{\"number\":\"CMAUSR 96687/2026\",\"date\":\"2026-08-20\",\"type\":\"Memo Proof of Service\",\"status\":\"PENDING FOR SCRUTINY\"},{\"number\":\"CMAUSR 83478/2026\",\"date\":\"2026-07-29\",\"type\":\"Memo Proof of Service\",\"status\":\"PENDING FOR SCRUTINY\"},{\"number\":\"CMAUSR 86635/2026\",\"date\":\"2026-08-04\",\"type\":\"MEMO\",\"status\":\"PENDING FOR SCRUTINY\"}],\"lowerProceeding\":{\"case\":\"H.M.O.P 54/2014\",\"court\":\"PRINCIPAL SENIOR CIVIL JUDGE, BAPATLA\",\"district\":\"GUNTUR\",\"judge\":\"Kum G VANI\",\"judgmentDate\":\"2026-02-10\"},\"orderIndex\":[{\"date\":\"2026-07-08\",\"type\":\"Court Proceedings\"},{\"date\":\"2026-07-08\",\"type\":\"Spl Cell Orders\"},{\"date\":\"2026-08-05\",\"type\":\"Court Proceedings\"}],\"orderIndexJudges\":\"D RAMESH; displayed empty THE Honourable Sri Justice token; ALAPATI GIRIDHAR\",\"verification\":\"Case, year, parties, court and CNR freshly matched. Same pending/interlocutory and no listing date as 28-Oct. Explicit lower-court link preserved. Displayed current judges differ from order-index bench; retain both with dates, not conflict silently resolved. Orders indexed only, not reread. Proof-of-service memos are pending scrutiny, not proof accepted/completed. Pending appeal remains live regardless of lower trial disposition.\"}\n  ]\n}\n"
+    },
+    {
+      "path": "stale_other.json",
+      "sha256": "8e7c0ffaa1704cbc563ceb7540626c94ce341cd310ab8fd5c2fff39e7db8499c",
+      "text": "{\n  \"observations\": [\n    {\n      \"observedAtUTC\": \"2026-10-29T01:49:58Z\",\n      \"source\": \"https://hccc.dcourts.gov.in/case-status-search-by-case-number/\",\n      \"query\": \"HYD, City Civil Court Complex; MVOP 2063/2026\",\n      \"cnr\": \"TSHC010027332026\",\n      \"files\": [\n        \"258\"\n      ],\n      \"profileIds\": [\n        \"running:258\"\n      ],\n      \"case\": \"MVOP 2063/2026\",\n      \"filingNumber\": \"3338/2026\",\n      \"filingDate\": \"2026-07-29\",\n      \"registrationDate\": \"2026-07-29\",\n      \"parties\": \"Manemma Kadamanchi; Kadamanchi Pramila; Kadamanchi Naveen; Kadamanchi Krishna Kumar; Kadamanchi Sai Kumar; Kadamanchi Laxmamma v G.Ramu; Junjunuri Nuthan\",\n      \"court\": \"4-III ADDITIONAL CHIEF JUDGE, Hyderabad\",\n      \"status\": \"Pending\",\n      \"stage\": \"NOTICE\",\n      \"nextDate\": \"2027-01-21\",\n      \"businessDate\": \"2026-10-28\",\n      \"business\": \"Vakalath of Sri K.Sai Prasad Reddy, advocate filed for R1. Issue fresh notice to R2 to the correct address through court on payment of process. Meantime furnish copies to R1 enable to file counter. Call on 21.01.2027.\",\n      \"advocate\": \"BHARATULA ANNAPURNA for all six petitioners; Sri K.Sai Prasad Reddy vakalath filed for R1 per October 28 business\",\n      \"attendingAdvocate\": \"Not established\",\n      \"filingRequirements\": \"Fresh notice to R2 at correct address through court on payment of process; furnish copies to R1 to enable counter.\",\n      \"change\": \"Next date advanced from 2026-10-28 to 2027-01-21; new October 28 business and R1 counsel\",\n      \"recordIdentityVerified\": true,\n      \"profileIdentityVerified\": false,\n      \"captcha\": {\n        \"submitted\": 1,\n        \"accepted\": 1,\n        \"rejected\": 0,\n        \"illegibleRefreshes\": 1\n      },\n      \"qualifications\": [\n        \"No completed service or compliance inferred.\",\n        \"Process table still shows July 30 summons issued process 0/1 for both respondents; latest business controls requirements, not proof of service.\",\n        \"Latest comprehensive graph keeps this named exact docket as candidate source-profile association for file258; October29 confirms docket identity, not an additional office-file identity promotion.\"\n      ]\n    },\n    {\n      \"observedAtUTC\": \"2026-10-29T01:51:30Z\",\n      \"source\": \"https://hccc.dcourts.gov.in/case-status-search-by-case-number/\",\n      \"query\": \"HYD, City Civil Court Complex; EP 210/2026; correct Jr. Civil Courts result selected\",\n      \"cnr\": \"TSHC040010352026\",\n      \"files\": [],\n      \"profileIds\": [],\n      \"case\": \"EP 210/2026\",\n      \"filingNumber\": \"1269/2026\",\n      \"filingDate\": \"2026-04-18\",\n      \"registrationDate\": \"2026-04-18\",\n      \"parties\": \"Kapil Chits Hyderabad Pvt Ltd KHAIRATHABAD BRANCH Rep by its Legal Officer, Mr P Harsha Vardhan v Durga Malleswara Rao Vangara; Ramesh Sirimalla; Sukumar Bura; Raja Deepak Kumr; Seetha Ramaiah Dasari\",\n      \"court\": \"3-IV JUNIOR CIVIL JUDGE, Hyderabad\",\n      \"status\": \"Case Disposed\",\n      \"natureOfDisposal\": \"Uncontested - CLOSED\",\n      \"decisionDate\": \"2026-10-28\",\n      \"nextDate\": null,\n      \"businessDate\": \"2026-10-28\",\n      \"business\": \"Memo filed on 09-10-2026 intending to not press E.P against JDR Nos. 1, 3, 4 and 5. Considering the same E.P is dismissed as not pressed against JDR Nos. 1, 3, 4 and 5. Warrant served to JDR 2. As warrant served against JDR 2. E.P is closed as warrant served.\",\n      \"advocate\": \"SRIHARI B for petitioner\",\n      \"attendingAdvocate\": \"Not established\",\n      \"filingRequirements\": \"None newly stated in closure business\",\n      \"change\": \"Exact execution proceeding disposed October 28; previously pending FOR STEPS October 28\",\n      \"recordIdentityVerified\": true,\n      \"profileIdentityVerified\": false,\n      \"captcha\": {\n        \"submitted\": 1,\n        \"accepted\": 1,\n        \"rejected\": 0\n      },\n      \"qualifications\": [\n        \"Unassigned calendar evidence, no new physical register profile inferred.\",\n        \"Exact execution petition closure does not establish satisfaction, underlying decree closure or all linked proceedings disposed.\",\n        \"Other Chief Judge same-number result Ch Ram Mohan Reddy excluded.\"\n      ],\n      \"sourceProceedingIdentityVerified\": true\n    }\n  ],\n  \"attempts\": [\n    {\n      \"observedAtUTC\": \"2026-10-29T01:53:32Z\",\n      \"source\": \"https://mancherial.dcourts.gov.in/case-status-search-by-petitioner-respondent/\",\n      \"query\": \"KVR; 2026; Both statuses; Mancherial, Spl.JFCM Court Complex\",\n      \"files\": [\n        \"179\"\n      ],\n      \"profileIds\": [\n        \"running:179\"\n      ],\n      \"targetCnr\": \"TSMN030015372026\",\n      \"case\": \"CC.NI 13/2026\",\n      \"result\": \"Search returned exact receiving-case row; full docket challenge not completed after two rejected submissions. No fresh status/next date/business established.\",\n      \"searchResultParties\": \"KVR Enterprises, Rep by its Proprietor (OLD CC.NI.No.06/2016 Versus M/s Master Roofing Rep by its Managing Partner\",\n      \"resultCourt\": \"Spl. JFCM Excise Court, Mancherial\",\n      \"captcha\": {\n        \"searchSubmitted\": 1,\n        \"searchAccepted\": 1,\n        \"detailSubmitted\": 2,\n        \"detailAccepted\": 0,\n        \"detailRejected\": 2\n      },\n      \"identityQualification\": \"Search row matches previously verified receiving docket, but CNR not freshly visible in result table. Preserve receiving lineage qualification and old 06/2016 versus source CCNI6/2026 conflict. Do not copy Nov4 from companion CCNI12/2026.\",\n      \"blocker\": \"Detail CAPTCHA continued to request verification after two visible challenge attempts; stopped without bypass.\",\n      \"retainedPreviousCheck\": \"2026-10-28T06:55:45Z\",\n      \"retainedPreviousStatus\": \"Pending CALL WITH MPs; stale October26 next date; no confirmed future date\"\n    }\n  ],\n  \"pending\": [],\n  \"coverage\": {\n    \"targets\": 3,\n    \"fullDocketsRetrieved\": 2,\n    \"changedFullDockets\": 2,\n    \"searchOnlyDetailBlocked\": 1,\n    \"freshCnrIdentitiesVerified\": 2,\n    \"caseQuerySubmissions\": 3,\n    \"detailCaptchaSubmissions\": 2,\n    \"captchaRejected\": 2,\n    \"newProfiles\": 0,\n    \"classificationChanges\": 0\n  }\n}"
+    },
+    {
+      "path": "access_observations.json",
+      "sha256": "af6862129d104037ddac6d18ca0bcad482dbdbeec23ea2a3b86a9a5fdfa77eae",
+      "text": "{\"runDate\":\"2026-10-29\",\"whatsapp\":{\"observedAtUTC\":\"2026-10-29T01:37:33Z\",\"state\":\"Scan to log in QR page after load\",\"lastVerifiedCoverage\":\"2026-10-28T12:35:00+05:30\",\"authorizedWindow\":\"2026-10-20 through 2026-10-29\",\"reviewedThisRun\":false,\"diaryPublication\":\"preserve unchanged\"},\"centralPortals\":[{\"url\":\"https://services.ecourts.gov.in/ecourtindia_v6/\",\"attempts\":[\"2026-10-29T01:38:22Z\",\"2026-10-29T01:38:38Z\"],\"result\":\"upstream connect error or disconnect/reset before headers. reset reason: connection timeout\"},{\"url\":\"https://hcservices.ecourts.gov.in/ecourtindiaHC/cases/case_no.php?court_code=1&dist_cd=1&stateNm=Telangana&state_cd=29\",\"observedAtUTC\":\"2026-10-29T01:38:58Z\",\"result\":\"upstream connection timeout\"}],\"alternatives\":{\"https://tshc.gov.in/\":\"loaded after delayed navigation at 01:39:42 UTC\",\"https://hydifc.dcourts.gov.in/case-status-search-by-case-number/\":\"form and full matched DVC165/2025 docket retrieved at01:43:46 UTC\"}}\n"
+    }
+  ],
+  "counts": {
+    "observations": 40,
+    "fullDocketObservations": 20,
+    "distinctFullDocketCnrs": 20,
+    "targetCnrReferences": 40
+  }
+}

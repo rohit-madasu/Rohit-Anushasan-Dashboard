@@ -1,0 +1,64 @@
+{
+  "frozen": true,
+  "evidenceFrozen": true,
+  "frozenAtUTC": "2026-10-29T02:00:48Z",
+  "referenceDate": "2026-10-29",
+  "ledgers": [
+    "district.json",
+    "medchal.json",
+    "rr.json",
+    "hc.json",
+    "extra_priority.json",
+    "ap_hc.json",
+    "stale_other.json",
+    "access_observations.json"
+  ],
+  "manifest": {
+    "district.json": {
+      "sha256": "ec8d672ab85373ee7eea09b1a4268cb4611d15f2250cdde5e2e493f1cbe49730",
+      "bytes": 5972
+    },
+    "medchal.json": {
+      "sha256": "ecfc4b41ef3bcfb336ccaddbc48ef8ac2e43062a2373fc9111aab7190342fd1d",
+      "bytes": 8177
+    },
+    "rr.json": {
+      "sha256": "0938be51f2ca212e57492c8bb0cef26f51b1a2cad8d68a71387ee0b6d4f34007",
+      "bytes": 7101
+    },
+    "hc.json": {
+      "sha256": "b5cb2db72f4a5aa8e9a922eb7578a039f31b7c33ec1cfb541432f5af7373664d",
+      "bytes": 19495
+    },
+    "extra_priority.json": {
+      "sha256": "bab2040a1029bb5b768e5882e1f1ff6153d765d3613d9242d59b533e3851e4fd",
+      "bytes": 4187
+    },
+    "ap_hc.json": {
+      "sha256": "2e123d6ca46c502bc57408587b2395427638c0cf264a3b2ea4f040d0101b5062",
+      "bytes": 4345
+    },
+    "stale_other.json": {
+      "sha256": "8e7c0ffaa1704cbc563ceb7540626c94ce341cd310ab8fd5c2fff39e7db8499c",
+      "bytes": 6077
+    },
+    "access_observations.json": {
+      "sha256": "af6862129d104037ddac6d18ca0bcad482dbdbeec23ea2a3b86a9a5fdfa77eae",
+      "bytes": 958
+    }
+  },
+  "sourceBaseline": "Oct28 comprehensive verified source",
+  "whatsappFresh": false,
+  "whatsappLastVerifiedIST": "2026-10-28T12:35:00+05:30",
+  "profileCounts": {
+    "active": 93,
+    "disposed": 31,
+    "unclear": 174,
+    "profiles": 298,
+    "fileLocators": 299
+  },
+  "baselineAttemptedCNRs": 216,
+  "baselineRetrievedCNRs": 200,
+  "baselineObservations": 306,
+  "note": "Counts are not unique legal matters; exact new-run coverage will be independently audited. No user authentication or password changes."
+}

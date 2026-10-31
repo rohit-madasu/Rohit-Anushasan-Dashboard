@@ -1,0 +1,123 @@
+{
+  "observations": [
+    {
+      "observedAtUTC": "2026-10-29T01:49:58Z",
+      "source": "https://hccc.dcourts.gov.in/case-status-search-by-case-number/",
+      "query": "HYD, City Civil Court Complex; MVOP 2063/2026",
+      "cnr": "TSHC010027332026",
+      "files": [
+        "258"
+      ],
+      "profileIds": [
+        "running:258"
+      ],
+      "case": "MVOP 2063/2026",
+      "filingNumber": "3338/2026",
+      "filingDate": "2026-07-29",
+      "registrationDate": "2026-07-29",
+      "parties": "Manemma Kadamanchi; Kadamanchi Pramila; Kadamanchi Naveen; Kadamanchi Krishna Kumar; Kadamanchi Sai Kumar; Kadamanchi Laxmamma v G.Ramu; Junjunuri Nuthan",
+      "court": "4-III ADDITIONAL CHIEF JUDGE, Hyderabad",
+      "status": "Pending",
+      "stage": "NOTICE",
+      "nextDate": "2027-01-21",
+      "businessDate": "2026-10-28",
+      "business": "Vakalath of Sri K.Sai Prasad Reddy, advocate filed for R1. Issue fresh notice to R2 to the correct address through court on payment of process. Meantime furnish copies to R1 enable to file counter. Call on 21.01.2027.",
+      "advocate": "BHARATULA ANNAPURNA for all six petitioners; Sri K.Sai Prasad Reddy vakalath filed for R1 per October 28 business",
+      "attendingAdvocate": "Not established",
+      "filingRequirements": "Fresh notice to R2 at correct address through court on payment of process; furnish copies to R1 to enable counter.",
+      "change": "Next date advanced from 2026-10-28 to 2027-01-21; new October 28 business and R1 counsel",
+      "recordIdentityVerified": true,
+      "profileIdentityVerified": false,
+      "captcha": {
+        "submitted": 1,
+        "accepted": 1,
+        "rejected": 0,
+        "illegibleRefreshes": 1
+      },
+      "qualifications": [
+        "No completed service or compliance inferred.",
+        "Process table still shows July 30 summons issued process 0/1 for both respondents; latest business controls requirements, not proof of service.",
+        "Latest comprehensive graph keeps this named exact docket as candidate source-profile association for file258; October29 confirms docket identity, not an additional office-file identity promotion."
+      ]
+    },
+    {
+      "observedAtUTC": "2026-10-29T01:51:30Z",
+      "source": "https://hccc.dcourts.gov.in/case-status-search-by-case-number/",
+      "query": "HYD, City Civil Court Complex; EP 210/2026; correct Jr. Civil Courts result selected",
+      "cnr": "TSHC040010352026",
+      "files": [],
+      "profileIds": [],
+      "case": "EP 210/2026",
+      "filingNumber": "1269/2026",
+      "filingDate": "2026-04-18",
+      "registrationDate": "2026-04-18",
+      "parties": "Kapil Chits Hyderabad Pvt Ltd KHAIRATHABAD BRANCH Rep by its Legal Officer, Mr P Harsha Vardhan v Durga Malleswara Rao Vangara; Ramesh Sirimalla; Sukumar Bura; Raja Deepak Kumr; Seetha Ramaiah Dasari",
+      "court": "3-IV JUNIOR CIVIL JUDGE, Hyderabad",
+      "status": "Case Disposed",
+      "natureOfDisposal": "Uncontested - CLOSED",
+      "decisionDate": "2026-10-28",
+      "nextDate": null,
+      "businessDate": "2026-10-28",
+      "business": "Memo filed on 09-10-2026 intending to not press E.P against JDR Nos. 1, 3, 4 and 5. Considering the same E.P is dismissed as not pressed against JDR Nos. 1, 3, 4 and 5. Warrant served to JDR 2. As warrant served against JDR 2. E.P is closed as warrant served.",
+      "advocate": "SRIHARI B for petitioner",
+      "attendingAdvocate": "Not established",
+      "filingRequirements": "None newly stated in closure business",
+      "change": "Exact execution proceeding disposed October 28; previously pending FOR STEPS October 28",
+      "recordIdentityVerified": true,
+      "profileIdentityVerified": false,
+      "captcha": {
+        "submitted": 1,
+        "accepted": 1,
+        "rejected": 0
+      },
+      "qualifications": [
+        "Unassigned calendar evidence, no new physical register profile inferred.",
+        "Exact execution petition closure does not establish satisfaction, underlying decree closure or all linked proceedings disposed.",
+        "Other Chief Judge same-number result Ch Ram Mohan Reddy excluded."
+      ],
+      "sourceProceedingIdentityVerified": true
+    }
+  ],
+  "attempts": [
+    {
+      "observedAtUTC": "2026-10-29T01:53:32Z",
+      "source": "https://mancherial.dcourts.gov.in/case-status-search-by-petitioner-respondent/",
+      "query": "KVR; 2026; Both statuses; Mancherial, Spl.JFCM Court Complex",
+      "files": [
+        "179"
+      ],
+      "profileIds": [
+        "running:179"
+      ],
+      "targetCnr": "TSMN030015372026",
+      "case": "CC.NI 13/2026",
+      "result": "Search returned exact receiving-case row; full docket challenge not completed after two rejected submissions. No fresh status/next date/business established.",
+      "searchResultParties": "KVR Enterprises, Rep by its Proprietor (OLD CC.NI.No.06/2016 Versus M/s Master Roofing Rep by its Managing Partner",
+      "resultCourt": "Spl. JFCM Excise Court, Mancherial",
+      "captcha": {
+        "searchSubmitted": 1,
+        "searchAccepted": 1,
+        "detailSubmitted": 2,
+        "detailAccepted": 0,
+        "detailRejected": 2
+      },
+      "identityQualification": "Search row matches previously verified receiving docket, but CNR not freshly visible in result table. Preserve receiving lineage qualification and old 06/2016 versus source CCNI6/2026 conflict. Do not copy Nov4 from companion CCNI12/2026.",
+      "blocker": "Detail CAPTCHA continued to request verification after two visible challenge attempts; stopped without bypass.",
+      "retainedPreviousCheck": "2026-10-28T06:55:45Z",
+      "retainedPreviousStatus": "Pending CALL WITH MPs; stale October26 next date; no confirmed future date"
+    }
+  ],
+  "pending": [],
+  "coverage": {
+    "targets": 3,
+    "fullDocketsRetrieved": 2,
+    "changedFullDockets": 2,
+    "searchOnlyDetailBlocked": 1,
+    "freshCnrIdentitiesVerified": 2,
+    "caseQuerySubmissions": 3,
+    "detailCaptchaSubmissions": 2,
+    "captchaRejected": 2,
+    "newProfiles": 0,
+    "classificationChanges": 0
+  }
+}

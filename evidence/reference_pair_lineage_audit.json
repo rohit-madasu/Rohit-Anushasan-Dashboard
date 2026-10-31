@@ -1,0 +1,92 @@
+[
+  {
+    "oldLead": "manual-diary:L003",
+    "reference": "baseline:250",
+    "cnr": "",
+    "newLead": null,
+    "newDate": null,
+    "referenceDate": "2026-10-21",
+    "sameCnr": false,
+    "reason": "Conflicting FCOP386/2024 and FCOP386/2026 references; court identity/year unresolved."
+  },
+  {
+    "oldLead": "baseline:124",
+    "reference": "baseline:126",
+    "cnr": "TSMM000014062024",
+    "newLead": null,
+    "newDate": null,
+    "referenceDate": "2026-10-27",
+    "sameCnr": false,
+    "reason": "Combined FCOP1076/2024 and MC36/2024 reference retained under the MC62/2024 office-file listing. The separate FCOP proceeding remains its own card."
+  },
+  {
+    "oldLead": "baseline:134",
+    "reference": "baseline:129",
+    "cnr": "TSRA030004822016",
+    "newLead": null,
+    "newDate": null,
+    "referenceDate": "2026-10-27",
+    "sameCnr": false,
+    "reason": "DVC2/2016 office shorthand and DVC300002/2016 official record: conflicting number/party variants retained."
+  },
+  {
+    "oldLead": "baseline:146",
+    "reference": "baseline:148",
+    "cnr": "TSRA030142472021",
+    "newLead": "oct29:TSRA030142472021",
+    "newDate": "2026-10-29",
+    "referenceDate": "2026-10-29",
+    "sameCnr": true,
+    "reason": "Combined CC9957/2021 and CC1867/2023 source reference retained here; the other distinct CNR remains a separate proceeding card."
+  },
+  {
+    "oldLead": "baseline:154",
+    "reference": "baseline:156",
+    "cnr": "TSMM020017092026",
+    "newLead": "oct29:TSMM020017092026",
+    "newDate": "2026-10-30",
+    "referenceDate": "2026-10-30",
+    "sameCnr": true,
+    "reason": "Same CNR with MC19/2026 versus DVC19/2026 source-type conflict retained."
+  },
+  {
+    "oldLead": "baseline:188",
+    "reference": "baseline:191",
+    "cnr": "TSFC070017602023",
+    "newLead": null,
+    "newDate": null,
+    "referenceDate": "2026-11-12",
+    "sameCnr": false,
+    "reason": "Combined files124/69 reference retained under file124 listing; file associations and unconfirmed identity remain qualified."
+  },
+  {
+    "oldLead": "comprehensive-official:TSFC070019092025:running:226:2026-11-17",
+    "reference": "baseline:253",
+    "cnr": "TSFC070019092025",
+    "newLead": null,
+    "newDate": null,
+    "referenceDate": "2026-11-17",
+    "sameCnr": false,
+    "reason": "FCOP1531/2021 versus1531/2025 year conflict retained; office-to-court identity remains unconfirmed."
+  },
+  {
+    "oldLead": "comprehensive-official:TSFC100009032024:running:129:2026-11-25",
+    "reference": "manual-wa:6:FCOP648/2024:2026-11-25",
+    "cnr": "TSFC100009032024",
+    "newLead": null,
+    "newDate": null,
+    "referenceDate": "2026-11-25",
+    "sameCnr": false,
+    "reason": "OP648/2024 versus FCOP648/2024 source-type conflict retained; office-to-court identity remains qualified."
+  },
+  {
+    "oldLead": "comprehensive-official:TSMM000003992022:running:42:2026-11-30",
+    "reference": "manual-wa:23:FCOP74/2026:2026-11-30",
+    "cnr": "TSMM000003992022",
+    "newLead": null,
+    "newDate": null,
+    "referenceDate": "2026-11-30",
+    "sameCnr": false,
+    "reason": "FCOP74/2026 versus74/2022 year conflict retained; office-to-court identity remains unconfirmed."
+  }
+]

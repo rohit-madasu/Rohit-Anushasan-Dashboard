@@ -1,0 +1,155 @@
+{
+  "edition": "2026-10-30",
+  "privateOnly": true,
+  "sourceBindings": {
+    "stage": {
+      "id": "11WUAS07ZIMmePhUKbcwm8eiHkareW3oc",
+      "url": "https://docs.google.com/document/d/11WUAS07ZIMmePhUKbcwm8eiHkareW3oc/edit?usp=drivesdk&ouid=114145581713538354167&rtpof=true&sd=true",
+      "sha256": "7037b1e68169bc71e76ac2ce0e2cf74b23151a5e22bd24117fbc7b9a9be27b33",
+      "size": 1590517,
+      "parent": "1kaMiQfnuYiDkujvPp5Uw4I2niTHn2ncH",
+      "modified_time": "2026-10-30T02:26:39.748Z",
+      "readbackVerified": true,
+      "parentVerified": true,
+      "privateAccessVerified": true
+    },
+    "stagePdf": {
+      "id": "1753IoUwArz5tqJliUF43Soh9TyaT7eDM",
+      "url": "https://drive.google.com/file/d/1753IoUwArz5tqJliUF43Soh9TyaT7eDM/view?usp=drivesdk",
+      "sha256": "66f1b7455d619d9a434bc997f6fb8c1fbdf6ae95bb5bba74562fd1f6650aab83",
+      "size": 31875943,
+      "parent": "1kaMiQfnuYiDkujvPp5Uw4I2niTHn2ncH",
+      "modified_time": "2026-10-30T02:27:38.791Z",
+      "readbackVerified": true,
+      "parentVerified": true,
+      "privateAccessVerified": true
+    },
+    "running": {
+      "id": "1LVg1FtuigVVucJoUM7AR6gsS9Vh5KbnW",
+      "url": "https://drive.google.com/file/d/1LVg1FtuigVVucJoUM7AR6gsS9Vh5KbnW/view?usp=drivesdk",
+      "sha256": "0f58af2c62c6f9897cfff15c5c9e3fc350f4c509c70c7255caa0a3ced3070890",
+      "size": 8019842,
+      "parent": "1RYStR-BRf6rqTrG0_IU90CVCDqlftvah",
+      "modified_time": "2026-10-30T02:27:54.573Z",
+      "readbackVerified": true,
+      "parentVerified": true,
+      "privateAccessVerified": true
+    },
+    "active": {
+      "id": "1pBBQl5RJcLZqfVnL9_baOc22gJYMPVqu",
+      "url": "https://docs.google.com/document/d/1pBBQl5RJcLZqfVnL9_baOc22gJYMPVqu/edit?usp=drivesdk&ouid=114145581713538354167&rtpof=true&sd=true",
+      "sha256": "0c7ab0d71b5d7a6d86603eef4d9a642bf285d2fe915837ca9c07db0aaf4354d4",
+      "size": 1238716,
+      "parent": "1qBseFDluKovuw91HPSKD4tIDmV9XbgbA",
+      "modified_time": "2026-10-30T02:29:17.659Z",
+      "readbackVerified": true,
+      "parentVerified": true,
+      "privateAccessVerified": true
+    },
+    "disposed": {
+      "id": "1UiCyI06VtK-hYQim2q5dyuUiPJzoeGBf",
+      "url": "https://docs.google.com/document/d/1UiCyI06VtK-hYQim2q5dyuUiPJzoeGBf/edit?usp=drivesdk&ouid=114145581713538354167&rtpof=true&sd=true",
+      "sha256": "75c78eb434fd932f4312042b4c6c3eefc181229b1225ff498db279f232fb42c3",
+      "size": 977503,
+      "parent": "1qBseFDluKovuw91HPSKD4tIDmV9XbgbA",
+      "modified_time": "2026-10-30T02:29:27.323Z",
+      "readbackVerified": true,
+      "parentVerified": true,
+      "privateAccessVerified": true
+    },
+    "unclear": {
+      "id": "1SF0HF6jc0kvZV3wvQRK7ZZNMiQCao4UB",
+      "url": "https://docs.google.com/document/d/1SF0HF6jc0kvZV3wvQRK7ZZNMiQCao4UB/edit?usp=drivesdk&ouid=114145581713538354167&rtpof=true&sd=true",
+      "sha256": "32e17a090dde2b6b75251c6da0ffa5029029c8dc355adf01cce0037de04b1b8f",
+      "size": 1211300,
+      "parent": "1qBseFDluKovuw91HPSKD4tIDmV9XbgbA",
+      "modified_time": "2026-10-30T02:29:37.526Z",
+      "readbackVerified": true,
+      "parentVerified": true,
+      "privateAccessVerified": true
+    },
+    "diary": {
+      "id": "1D7lDO33jWv_pR8x2A3Eg_8NFdSDT0nnd",
+      "url": "https://docs.google.com/document/d/1D7lDO33jWv_pR8x2A3Eg_8NFdSDT0nnd/edit?usp=drivesdk&ouid=114145581713538354167&rtpof=true&sd=true",
+      "size": 1661660,
+      "parent": "1ZthcWlOSEZctKUOVjZ6KXTfdagtvjAZM",
+      "modified_time": "2026-10-28T09:41:24.294Z",
+      "unchanged": true,
+      "sha256": "cfe6f280e81247019d93ba2eb16dc3740d0aee050ebc75e4e0baed7f23390651",
+      "readbackVerified": true,
+      "parentVerified": true,
+      "privateAccessVerified": true,
+      "readback_hash_verified": true
+    },
+    "protected": {
+      "id": "1Hha6k1n91jPRNASI6yg8-ysLNDRySayT",
+      "url": "https://docs.google.com/document/d/1Hha6k1n91jPRNASI6yg8-ysLNDRySayT/edit?usp=drivesdk&ouid=114145581713538354167&rtpof=true&sd=true",
+      "size": 376387,
+      "parent": "1iphdrPCtk7PnePGw4Bc_KhkQfQmAXuOl",
+      "modified_time": "2026-10-02T01:48:58.217Z",
+      "unchanged": true,
+      "sha256": "62a52523301c260595af05fc450a823b76726f79f43c9c4977467d9bf523fc33",
+      "readbackVerified": true,
+      "parentVerified": true,
+      "privateAccessVerified": true,
+      "readback_hash_verified": true
+    },
+    "closed": {
+      "id": "1TPK2nVaMxl4EBECwdOlpZYkhEYvKpeQy",
+      "url": "https://drive.google.com/file/d/1TPK2nVaMxl4EBECwdOlpZYkhEYvKpeQy/view?usp=drivesdk",
+      "size": 115782,
+      "parent": "1tIWVborOtjqogfOnY5zs5Ehm9Zw3--zR",
+      "modified_time": "2026-10-28T09:43:35.850Z",
+      "unchanged": true,
+      "sha256": "adbba5435be1ef88dbec7f186066f98c52ad1d4fb6fe388734acbbcd41b1eac2",
+      "readbackVerified": true,
+      "parentVerified": true,
+      "privateAccessVerified": true,
+      "readback_hash_verified": true
+    }
+  },
+  "qa": {
+    "checkedAtUTC": "2026-10-30T02:41:56.656Z",
+    "pass": true,
+    "rows": 1306,
+    "sourceUnits": 140535,
+    "profiles": 455,
+    "currentRows": 309,
+    "historyRows": 921,
+    "undatedRows": 76,
+    "graphObservations": 365,
+    "queryCNRScopes": 217,
+    "stats": {
+      "all": {
+        "rows": 885,
+        "cards": 376
+      },
+      "matched": {
+        "rows": 261,
+        "cards": 152
+      },
+      "official": {
+        "rows": 272,
+        "cards": 159
+      },
+      "office": {
+        "rows": 284,
+        "cards": 184
+      },
+      "candidate": {
+        "rows": 234,
+        "cards": 139
+      },
+      "history": {
+        "rows": 921,
+        "cards": 356
+      }
+    },
+    "authUnchanged": true,
+    "allOldRowsAndUnitsPreserved": true,
+    "fullCurrentSourceOccurrencesVerified": true,
+    "standaloneSynchronized": true
+  },
+  "authenticationConfigurationUnchanged": true,
+  "publicationAuthorized": "Private Drive destinations only; public hosting requires new approval"
+}

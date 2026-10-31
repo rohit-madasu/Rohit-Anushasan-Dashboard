@@ -1,0 +1,423 @@
+{
+  "run": "2026-10-29",
+  "attemptWindowUTC": [
+    "2026-10-29T01:40:42Z",
+    "2026-10-29T01:46:26Z"
+  ],
+  "accessAttempts": [
+    {
+      "atUTC": "2026-10-29T01:40:58Z",
+      "url": "https://csis.tshc.gov.in/",
+      "query": "Case-status root availability",
+      "result": "upstream connect error or disconnect/reset before headers. reset reason: remote connection failure",
+      "classification": "ordinary connection failure, no bot detection, no CAPTCHA encountered"
+    },
+    {
+      "atUTC": "2026-10-29T01:41:39Z",
+      "url": "https://causelist.tshc.gov.in/causelist/caseCauseList",
+      "query": "WP/1970/2023 on 29-10-2026",
+      "result": "No Data Available for This Search !!!!",
+      "qualification": "Non-dispositive; full court-wise sweep undertaken rather than accepting this as status result."
+    }
+  ],
+  "coverage": {
+    "currentTelanganaGraphIdentifiers": 18,
+    "identifiersReconciledAgainstLists": 18,
+    "canonical15DocketAccessGatesRemain": 15,
+    "dailyDate": "2026-10-29",
+    "dailyCourtNumbers": [
+      1,
+      3,
+      4,
+      6,
+      7,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      30,
+      31,
+      32,
+      35
+    ],
+    "advanceDates": [
+      "2026-11-05",
+      "2026-11-06"
+    ],
+    "advanceCourts": [
+      19
+    ],
+    "supplementaryAvailability": "Latest selectable date 28-10-2026; no Oct29 list. Oct28 previously reviewed, not repeated.",
+    "tomorrowDailyAvailability": "No Oct30 daily date offered at check. Advance offered only Nov5 and Nov6.",
+    "freshDocketsRetrieved": 0,
+    "freshListingObservations": 1
+  },
+  "records": [
+    {
+      "cnr": "HBHC010036772023",
+      "case": "WP 1970/2023",
+      "files": [
+        "270"
+      ],
+      "priorEvidenceId": "full28:4cc810ca569af6248552",
+      "checkedAtUTC": "2026-10-29T01:46:08Z",
+      "query": "WP 1970/2023",
+      "sources": [
+        "https://causelist.tshc.gov.in/causelist/courtWiseView",
+        "https://causelist.tshc.gov.in/causelist/advance-list/courtWiseView"
+      ],
+      "method": "Exact type/number/year reconciliation across 27 available Oct29 daily court lists and Nov5/6 advance Court19 lists; source rows loaded through footer. CNR is prior-source association, not independently reverified by cause list.",
+      "result": "No exact target found in retrieved lists. This is not proof of no hearing, disposal, or current docket status.",
+      "docketStatusFreshlyRetrieved": false
+    },
+    {
+      "cnr": "HBHC010488942025",
+      "case": "FCA 131/2025",
+      "files": [
+        "10",
+        "211"
+      ],
+      "priorEvidenceId": "full28:80f7cc04a998bf9af7ee",
+      "checkedAtUTC": "2026-10-29T01:46:08Z",
+      "query": "FCA 131/2025",
+      "sources": [
+        "https://causelist.tshc.gov.in/causelist/courtWiseView",
+        "https://causelist.tshc.gov.in/causelist/advance-list/courtWiseView"
+      ],
+      "method": "Exact type/number/year reconciliation across 27 available Oct29 daily court lists and Nov5/6 advance Court19 lists; source rows loaded through footer. CNR is prior-source association, not independently reverified by cause list.",
+      "result": "No exact target found in retrieved lists. This is not proof of no hearing, disposal, or current docket status.",
+      "docketStatusFreshlyRetrieved": false
+    },
+    {
+      "cnr": "HBHC010477662025",
+      "case": "CRLP 10403/2025",
+      "files": [
+        "188",
+        "274"
+      ],
+      "priorEvidenceId": "full28:f5ea339a0cfe43d6feff",
+      "checkedAtUTC": "2026-10-29T01:46:08Z",
+      "query": "CRLP 10403/2025",
+      "sources": [
+        "https://causelist.tshc.gov.in/causelist/courtWiseView",
+        "https://causelist.tshc.gov.in/causelist/advance-list/courtWiseView"
+      ],
+      "method": "Exact type/number/year reconciliation across 27 available Oct29 daily court lists and Nov5/6 advance Court19 lists; source rows loaded through footer. CNR is prior-source association, not independently reverified by cause list.",
+      "result": "No exact target found in retrieved lists. This is not proof of no hearing, disposal, or current docket status.",
+      "docketStatusFreshlyRetrieved": false
+    },
+    {
+      "cnr": "HBHC010277382026",
+      "case": "WP 13252/2026",
+      "files": [
+        "247",
+        "253"
+      ],
+      "priorEvidenceId": "full28:61764e63f84a5683212b",
+      "checkedAtUTC": "2026-10-29T01:46:08Z",
+      "query": "WP 13252/2026",
+      "sources": [
+        "https://causelist.tshc.gov.in/causelist/courtWiseView",
+        "https://causelist.tshc.gov.in/causelist/advance-list/courtWiseView"
+      ],
+      "method": "Exact type/number/year reconciliation across 27 available Oct29 daily court lists and Nov5/6 advance Court19 lists; source rows loaded through footer. CNR is prior-source association, not independently reverified by cause list.",
+      "result": "No exact target found in retrieved lists. This is not proof of no hearing, disposal, or current docket status.",
+      "docketStatusFreshlyRetrieved": false
+    },
+    {
+      "cnr": "HBHC010123342024",
+      "case": "FCA 71/2024",
+      "files": [
+        "125",
+        "4"
+      ],
+      "priorEvidenceId": "full28:37786d355e62e1bcddeb",
+      "checkedAtUTC": "2026-10-29T01:46:08Z",
+      "query": "FCA 71/2024",
+      "sources": [
+        "https://causelist.tshc.gov.in/causelist/courtWiseView",
+        "https://causelist.tshc.gov.in/causelist/advance-list/courtWiseView"
+      ],
+      "method": "Exact type/number/year reconciliation across 27 available Oct29 daily court lists and Nov5/6 advance Court19 lists; source rows loaded through footer. CNR is prior-source association, not independently reverified by cause list.",
+      "result": "No exact target found in retrieved lists. This is not proof of no hearing, disposal, or current docket status.",
+      "docketStatusFreshlyRetrieved": false
+    },
+    {
+      "cnr": "HBHC010138042026",
+      "case": "CRLP 3154/2026",
+      "files": [
+        "256"
+      ],
+      "priorEvidenceId": "full28:8b5191554f383987486c",
+      "checkedAtUTC": "2026-10-29T01:46:08Z",
+      "query": "CRLP 3154/2026",
+      "sources": [
+        "https://causelist.tshc.gov.in/causelist/courtWiseView",
+        "https://causelist.tshc.gov.in/causelist/advance-list/courtWiseView"
+      ],
+      "method": "Exact type/number/year reconciliation across 27 available Oct29 daily court lists and Nov5/6 advance Court19 lists; source rows loaded through footer. CNR is prior-source association, not independently reverified by cause list.",
+      "result": "No exact target found in retrieved lists. This is not proof of no hearing, disposal, or current docket status.",
+      "docketStatusFreshlyRetrieved": false
+    },
+    {
+      "cnr": "HBHC010498922025",
+      "case": "CRLP 10881/2025",
+      "files": [
+        "214"
+      ],
+      "priorEvidenceId": "full28:6c9c0dcba0803f5206e6",
+      "checkedAtUTC": "2026-10-29T01:46:08Z",
+      "query": "CRLP 10881/2025",
+      "sources": [
+        "https://causelist.tshc.gov.in/causelist/courtWiseView",
+        "https://causelist.tshc.gov.in/causelist/advance-list/courtWiseView"
+      ],
+      "method": "Exact type/number/year reconciliation across 27 available Oct29 daily court lists and Nov5/6 advance Court19 lists; source rows loaded through footer. CNR is prior-source association, not independently reverified by cause list.",
+      "result": "No exact target found in retrieved lists. This is not proof of no hearing, disposal, or current docket status.",
+      "docketStatusFreshlyRetrieved": false
+    },
+    {
+      "cnr": "HBHC010753072025",
+      "case": "CRLP 16336/2025",
+      "files": [
+        "275"
+      ],
+      "priorEvidenceId": "full28:5f27a6cd81bedd60191d",
+      "checkedAtUTC": "2026-10-29T01:46:08Z",
+      "query": "CRLP 16336/2025",
+      "sources": [
+        "https://causelist.tshc.gov.in/causelist/courtWiseView",
+        "https://causelist.tshc.gov.in/causelist/advance-list/courtWiseView"
+      ],
+      "method": "Exact type/number/year reconciliation across 27 available Oct29 daily court lists and Nov5/6 advance Court19 lists; source rows loaded through footer. CNR is prior-source association, not independently reverified by cause list.",
+      "result": "No exact target found in retrieved lists. This is not proof of no hearing, disposal, or current docket status.",
+      "docketStatusFreshlyRetrieved": false
+    },
+    {
+      "cnr": "HBHC010077362026",
+      "case": "CRLP 1667/2026",
+      "files": [
+        "245"
+      ],
+      "priorEvidenceId": "full28:81bf12301e8a440a0d51",
+      "checkedAtUTC": "2026-10-29T01:46:08Z",
+      "query": "CRLP 1667/2026",
+      "sources": [
+        "https://causelist.tshc.gov.in/causelist/courtWiseView",
+        "https://causelist.tshc.gov.in/causelist/advance-list/courtWiseView"
+      ],
+      "method": "Exact type/number/year reconciliation across 27 available Oct29 daily court lists and Nov5/6 advance Court19 lists; source rows loaded through footer. CNR is prior-source association, not independently reverified by cause list.",
+      "result": "No exact target found in retrieved lists. This is not proof of no hearing, disposal, or current docket status.",
+      "docketStatusFreshlyRetrieved": false
+    },
+    {
+      "cnr": "HBHC010122612025",
+      "case": "CMA 89/2025",
+      "files": [
+        "164"
+      ],
+      "priorEvidenceId": "full28:595c87dfc2f2a8c08484",
+      "checkedAtUTC": "2026-10-29T01:46:08Z",
+      "query": "CMA 89/2025",
+      "sources": [
+        "https://causelist.tshc.gov.in/causelist/courtWiseView",
+        "https://causelist.tshc.gov.in/causelist/advance-list/courtWiseView"
+      ],
+      "method": "Exact type/number/year reconciliation across 27 available Oct29 daily court lists and Nov5/6 advance Court19 lists; source rows loaded through footer. CNR is prior-source association, not independently reverified by cause list.",
+      "result": "No exact target found in retrieved lists. This is not proof of no hearing, disposal, or current docket status.",
+      "docketStatusFreshlyRetrieved": false
+    },
+    {
+      "cnr": "HBHC010041752025",
+      "case": "CC757/2025 | CC 757/2025",
+      "files": [
+        "185"
+      ],
+      "priorEvidenceId": "full28:f11337b64cf7c09c33a5",
+      "checkedAtUTC": "2026-10-29T01:46:08Z",
+      "query": "CC757/2025 | CC 757/2025",
+      "sources": [
+        "https://causelist.tshc.gov.in/causelist/courtWiseView",
+        "https://causelist.tshc.gov.in/causelist/advance-list/courtWiseView"
+      ],
+      "method": "Exact type/number/year reconciliation across 27 available Oct29 daily court lists and Nov5/6 advance Court19 lists; source rows loaded through footer. CNR is prior-source association, not independently reverified by cause list.",
+      "result": "No exact target found in retrieved lists. This is not proof of no hearing, disposal, or current docket status.",
+      "docketStatusFreshlyRetrieved": false
+    },
+    {
+      "cnr": "HBHC010647022018",
+      "case": "WP31477/2018 | WP 31477/2018",
+      "files": [
+        "231"
+      ],
+      "priorEvidenceId": "full28:11bd058413b933055e69",
+      "checkedAtUTC": "2026-10-29T01:46:08Z",
+      "query": "WP31477/2018 | WP 31477/2018",
+      "sources": [
+        "https://causelist.tshc.gov.in/causelist/courtWiseView",
+        "https://causelist.tshc.gov.in/causelist/advance-list/courtWiseView"
+      ],
+      "method": "Exact type/number/year reconciliation across 27 available Oct29 daily court lists and Nov5/6 advance Court19 lists; source rows loaded through footer. CNR is prior-source association, not independently reverified by cause list.",
+      "result": "No exact target found in retrieved lists. This is not proof of no hearing, disposal, or current docket status.",
+      "docketStatusFreshlyRetrieved": false
+    },
+    {
+      "cnr": "HBHC010463632022",
+      "case": "CRLP 7120/2022",
+      "files": [
+        "138"
+      ],
+      "priorEvidenceId": "full28:c0a49cab3cf5927f45e1",
+      "checkedAtUTC": "2026-10-29T01:46:08Z",
+      "query": "CRLP 7120/2022",
+      "sources": [
+        "https://causelist.tshc.gov.in/causelist/courtWiseView",
+        "https://causelist.tshc.gov.in/causelist/advance-list/courtWiseView"
+      ],
+      "method": "Exact type/number/year reconciliation across 27 available Oct29 daily court lists and Nov5/6 advance Court19 lists; source rows loaded through footer. CNR is prior-source association, not independently reverified by cause list.",
+      "result": "No exact target found in retrieved lists. This is not proof of no hearing, disposal, or current docket status.",
+      "docketStatusFreshlyRetrieved": false
+    },
+    {
+      "cnr": "HBHC010334342025",
+      "case": "CRLA 632/2025",
+      "files": [
+        "276"
+      ],
+      "priorEvidenceId": "full28:1669e2dab4582bc77afe",
+      "checkedAtUTC": "2026-10-29T01:46:08Z",
+      "query": "CRLA 632/2025",
+      "sources": [
+        "https://causelist.tshc.gov.in/causelist/courtWiseView",
+        "https://causelist.tshc.gov.in/causelist/advance-list/courtWiseView"
+      ],
+      "method": "Exact type/number/year reconciliation across 27 available Oct29 daily court lists and Nov5/6 advance Court19 lists; source rows loaded through footer. CNR is prior-source association, not independently reverified by cause list.",
+      "result": "No exact target found in retrieved lists. This is not proof of no hearing, disposal, or current docket status.",
+      "docketStatusFreshlyRetrieved": false
+    },
+    {
+      "cnr": "HBHC010334202025",
+      "case": "CRLA 629/2025",
+      "files": [
+        "277"
+      ],
+      "priorEvidenceId": "full28:c97c4e61c3f3aebb1a6d",
+      "checkedAtUTC": "2026-10-29T01:46:08Z",
+      "query": "CRLA 629/2025",
+      "sources": [
+        "https://causelist.tshc.gov.in/causelist/courtWiseView",
+        "https://causelist.tshc.gov.in/causelist/advance-list/courtWiseView"
+      ],
+      "method": "Exact type/number/year reconciliation across 27 available Oct29 daily court lists and Nov5/6 advance Court19 lists; source rows loaded through footer. CNR is prior-source association, not independently reverified by cause list.",
+      "result": "No exact target found in retrieved lists. This is not proof of no hearing, disposal, or current docket status.",
+      "docketStatusFreshlyRetrieved": false
+    },
+    {
+      "cnr": "HBHC010283132025",
+      "case": "WP14632/2025",
+      "files": [
+        "290"
+      ],
+      "priorEvidenceId": "full28:42bf345bccdfc6a5f1ea",
+      "checkedAtUTC": "2026-10-29T01:46:08Z",
+      "query": "WP14632/2025",
+      "sources": [
+        "https://causelist.tshc.gov.in/causelist/courtWiseView",
+        "https://causelist.tshc.gov.in/causelist/advance-list/courtWiseView"
+      ],
+      "method": "Exact type/number/year reconciliation across 27 available Oct29 daily court lists and Nov5/6 advance Court19 lists; source rows loaded through footer. CNR is prior-source association, not independently reverified by cause list.",
+      "result": "No exact target found in retrieved lists. This is not proof of no hearing, disposal, or current docket status.",
+      "docketStatusFreshlyRetrieved": false
+    },
+    {
+      "cnr": "HBHC010648582026",
+      "case": "TRCMP339/2026",
+      "files": [],
+      "priorEvidenceId": "full28:9ae69a79f33cf8e6d476",
+      "checkedAtUTC": "2026-10-29T01:46:08Z",
+      "query": "TRCMP339/2026",
+      "sources": [
+        "https://causelist.tshc.gov.in/causelist/courtWiseView",
+        "https://causelist.tshc.gov.in/causelist/advance-list/courtWiseView"
+      ],
+      "method": "Exact type/number/year reconciliation across 27 available Oct29 daily court lists and Nov5/6 advance Court19 lists; source rows loaded through footer. CNR is prior-source association, not independently reverified by cause list.",
+      "result": "No exact target found in retrieved lists. This is not proof of no hearing, disposal, or current docket status.",
+      "docketStatusFreshlyRetrieved": false
+    },
+    {
+      "cnr": "HBHC010605012026",
+      "case": "WP29704/2026",
+      "files": [],
+      "priorEvidenceId": "full28:7dec2efd7cbbc556cc88",
+      "checkedAtUTC": "2026-10-29T01:46:08Z",
+      "query": "WP29704/2026",
+      "sources": [
+        "https://causelist.tshc.gov.in/causelist/courtWiseView",
+        "https://causelist.tshc.gov.in/causelist/advance-list/courtWiseView"
+      ],
+      "method": "Exact type/number/year reconciliation across 27 available Oct29 daily court lists and Nov5/6 advance Court19 lists; source rows loaded through footer. CNR is prior-source association, not independently reverified by cause list.",
+      "result": {
+        "observedAtUTC": "2026-10-29T01:46:08Z",
+        "cnr": "HBHC010605012026",
+        "cnrQualification": "CNR carried from prior verified graph; cause list itself identifies case number, year and parties, not CNR",
+        "case": "WP 29704/2026",
+        "parties": "Suguru Veera Reddy, vs The State of Telangana",
+        "nextDate": "2026-11-06",
+        "court": "High Court for the State of Telangana, Court No. 19",
+        "judge": "THE HONOURABLE SRI JUSTICE N.V.SHRAVAN KUMAR",
+        "stage": "ADMISSION (REVENUE)",
+        "application": "IA 1/2026 (Suspension Petition)",
+        "petitionerAdvocate": "E ROJA RAMANI",
+        "respondentAdvocate": "GP FOR REVENUE",
+        "district": "MAHABUBNAGAR",
+        "serial": "657",
+        "source": "https://causelist.tshc.gov.in/causelist/advance-list/courtWiseView",
+        "sourceNavigation": "Advance List > 06-11-2026 > Court Wise > Court No. 19",
+        "exactRow": "657 WP/29704/2026 IA 1/2026(Suspension Petition) Suguru Veera Reddy, vs The State of Telangana E ROJA RAMANI GP FOR REVENUE MAHABUBNAGAR",
+        "qualification": "Future advance listing only, not order or suspension granted. Reporting/attending advocate not established by displayed counsel."
+      },
+      "docketStatusFreshlyRetrieved": false
+    }
+  ],
+  "findings": [
+    {
+      "observedAtUTC": "2026-10-29T01:46:08Z",
+      "cnr": "HBHC010605012026",
+      "cnrQualification": "CNR carried from prior verified graph; cause list itself identifies case number, year and parties, not CNR",
+      "case": "WP 29704/2026",
+      "parties": "Suguru Veera Reddy, vs The State of Telangana",
+      "nextDate": "2026-11-06",
+      "court": "High Court for the State of Telangana, Court No. 19",
+      "judge": "THE HONOURABLE SRI JUSTICE N.V.SHRAVAN KUMAR",
+      "stage": "ADMISSION (REVENUE)",
+      "application": "IA 1/2026 (Suspension Petition)",
+      "petitionerAdvocate": "E ROJA RAMANI",
+      "respondentAdvocate": "GP FOR REVENUE",
+      "district": "MAHABUBNAGAR",
+      "serial": "657",
+      "source": "https://causelist.tshc.gov.in/causelist/advance-list/courtWiseView",
+      "sourceNavigation": "Advance List > 06-11-2026 > Court Wise > Court No. 19",
+      "exactRow": "657 WP/29704/2026 IA 1/2026(Suspension Petition) Suguru Veera Reddy, vs The State of Telangana E ROJA RAMANI GP FOR REVENUE MAHABUBNAGAR",
+      "qualification": "Future advance listing only, not order or suspension granted. Reporting/attending advocate not established by displayed counsel."
+    }
+  ],
+  "notInferred": [
+    "No disposal from absence",
+    "No suspension order from IA listing",
+    "No source-file merger merely shared party names"
+  ]
+}

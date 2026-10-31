@@ -1,0 +1,98 @@
+{
+  "edition": "2026-10-28-comprehensive",
+  "publication": "Private authorized offline files only; no public deployment.",
+  "sourceBinding": {
+    "status": "Verified document readback; dashboard and ZIP publication tracked separately",
+    "verifiedDocuments": {
+      "stage": {
+        "id": "1e3OO5MJeCEjaevU8mtLk69Rrg0Q9t6Cf",
+        "url": "https://docs.google.com/document/d/1e3OO5MJeCEjaevU8mtLk69Rrg0Q9t6Cf/edit?usp=drivesdk&ouid=114145581713538354167&rtpof=true&sd=true",
+        "sha256": "e68144a2591444ed779d3a83f2feeccb9f1b944177159072186a91c94419e7de",
+        "filename": "Current_Case_Hearings_and_Stages_2026-10-28_comprehensive.docx",
+        "modified_time": "2026-10-28T09:42:30.101Z",
+        "readbackVerified": true,
+        "parentVerified": true
+      },
+      "stagePdf": {
+        "id": "1Gffvdxo1hFFx-Vi1qfSsIDNALWi7_3Dw",
+        "url": "https://drive.google.com/file/d/1Gffvdxo1hFFx-Vi1qfSsIDNALWi7_3Dw/view?usp=drivesdk",
+        "sha256": "61f9e4139f984bed0574c213c9c409d708dc12ddec71d47f993a1e0c5d06be53",
+        "filename": "Current_Case_Hearings_and_Stages_2026-10-28_comprehensive.pdf",
+        "modified_time": "2026-10-28T09:42:18.194Z",
+        "readbackVerified": true,
+        "parentVerified": true
+      },
+      "running": {
+        "id": "1bWwn1XPa_mrYhHsS9SQpigcNu0wicDO7",
+        "url": "https://drive.google.com/file/d/1bWwn1XPa_mrYhHsS9SQpigcNu0wicDO7/view?usp=drivesdk",
+        "sha256": "204a548c9d590c8cbb70c3a2921a22df55c9351c2b4a1c6319f811e649f62df6",
+        "filename": "Running_Cases_Register_2026-10-28_comprehensive.pdf",
+        "modified_time": "2026-10-28T09:43:51.733Z",
+        "readbackVerified": true,
+        "parentVerified": true
+      },
+      "closed": {
+        "id": "1TPK2nVaMxl4EBECwdOlpZYkhEYvKpeQy",
+        "url": "https://drive.google.com/file/d/1TPK2nVaMxl4EBECwdOlpZYkhEYvKpeQy/view?usp=drivesdk",
+        "sha256": "adbba5435be1ef88dbec7f186066f98c52ad1d4fb6fe388734acbbcd41b1eac2",
+        "filename": "Closed_Cases_Register_2026-10-28_comprehensive.pdf",
+        "modified_time": "2026-10-28T09:43:35.850Z",
+        "readbackVerified": true,
+        "parentVerified": true
+      },
+      "diary": {
+        "id": "1D7lDO33jWv_pR8x2A3Eg_8NFdSDT0nnd",
+        "url": "https://docs.google.com/document/d/1D7lDO33jWv_pR8x2A3Eg_8NFdSDT0nnd/edit?usp=drivesdk&ouid=114145581713538354167&rtpof=true&sd=true",
+        "sha256": "cfe6f280e81247019d93ba2eb16dc3740d0aee050ebc75e4e0baed7f23390651",
+        "filename": "Anushasan_Associates_MASTER_Court_Diary_and_Case_Register-28-Oct-2026.docx",
+        "modified_time": "2026-10-28T09:41:24.294Z",
+        "readbackVerified": true,
+        "parentVerified": true
+      },
+      "active": {
+        "id": "1pBBQl5RJcLZqfVnL9_baOc22gJYMPVqu",
+        "url": "https://docs.google.com/document/d/1pBBQl5RJcLZqfVnL9_baOc22gJYMPVqu/edit?usp=drivesdk&ouid=114145581713538354167&rtpof=true&sd=true",
+        "sha256": "655134e0424ff571e5a7821bcfff70a8e4e873146d9bb98a90df612ed8387a50",
+        "filename": "Active_cases.docx",
+        "modified_time": "2026-10-28T09:47:35.133Z",
+        "readbackVerified": true,
+        "parentVerified": true
+      },
+      "disposed": {
+        "id": "1UiCyI06VtK-hYQim2q5dyuUiPJzoeGBf",
+        "url": "https://docs.google.com/document/d/1UiCyI06VtK-hYQim2q5dyuUiPJzoeGBf/edit?usp=drivesdk&ouid=114145581713538354167&rtpof=true&sd=true",
+        "sha256": "b05418f96fb041ddc96d28733a0b535455c737e872da5f29c0a12a8c1d380405",
+        "filename": "disposed_cases.docx",
+        "modified_time": "2026-10-28T09:46:45.566Z",
+        "readbackVerified": true,
+        "parentVerified": true
+      },
+      "unclear": {
+        "id": "1SF0HF6jc0kvZV3wvQRK7ZZNMiQCao4UB",
+        "url": "https://docs.google.com/document/d/1SF0HF6jc0kvZV3wvQRK7ZZNMiQCao4UB/edit?usp=drivesdk&ouid=114145581713538354167&rtpof=true&sd=true",
+        "sha256": "53dbabe2e9b444fdb5635295e717342f81d0a1a26e1dc9a92d9ed7719114c50e",
+        "filename": "unclear_partly_resolved_cases.docx",
+        "modified_time": "2026-10-28T09:46:33.536Z",
+        "readbackVerified": true,
+        "parentVerified": true
+      }
+    }
+  },
+  "frozenResearchSha256": "506b1e489d6fb1684242b27d4a4debb10f76a524b55fd0186c947c541933dc9a",
+  "normalizedSourceSha256": "33f6338c5fa9e4a295db478409a50ff37f4cee2e7b13ac2584c80fd89b25ecf6",
+  "metadataAsOfUTC": "2026-10-28T09:55:24.841311+00:00",
+  "coverage": {
+    "canonicalEligibleCNRs": 135,
+    "retrieved": 120,
+    "accessLimited": 15,
+    "unattemptedCanonical": 0,
+    "categoryProfiles": {
+      "active": 93,
+      "disposed": 31,
+      "unclear": 174
+    },
+    "notUniqueLegalCaseCounts": true
+  },
+  "visualMobileDashboardQA": "Unavailable through authorized supported private preview. Offline DOM/logic regression suites are separate; no visual/mobile pass claimed.",
+  "codeScope": "Complete dashboard code, data/assets, preserved source corpus and regression tests; no secrets or unrelated private material."
+}

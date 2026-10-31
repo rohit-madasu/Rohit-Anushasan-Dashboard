@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-29",
+  "referencePair": {
+    "priorLead": "baseline:154",
+    "freshLead": "oct29:TSMM020017092026",
+    "officeReference": "baseline:156",
+    "reason": "Superseded exact CNR official observation; preserve MC/DVC conflict as non-countable presentation bundle",
+    "identityResolved": false
+  },
+  "additionalReferencePair": {
+    "priorLead": "baseline:146",
+    "freshLead": "oct29:TSRA030142472021",
+    "officeReference": "baseline:148",
+    "reason": "Same CNR refreshed lead; combined office source still links two separate proceedings"
+  },
+  "sourceLocatorDisplay": {
+    "originalCorpusObjectsUnchanged": true,
+    "historicalIndicesLabelled": true,
+    "currentPositionsFromCompleteCoverageRanges": true
+  },
+  "authChanged": false
+}

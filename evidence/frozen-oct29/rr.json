@@ -1,0 +1,171 @@
+{
+  "source": "https://rangareddy.dcourts.gov.in/case-status-search-by-case-number/",
+  "observations": [
+    {
+      "id": "oct29:TSRA010004412026",
+      "observedAtUTC": "2026-10-29T01:48:54Z",
+      "query": {
+        "complex": "Rangareddy, PDJ Court Complex",
+        "type": "CC",
+        "number": "5481",
+        "year": "2022",
+        "selectedResult": "Prl. Sr. Civil Courts, Rangareddy"
+      },
+      "cnr": "TSRA010004412026",
+      "case": "CC5481/2022",
+      "filingNumber": "206/2026",
+      "filingDate": "01-12-2022",
+      "registrationDate": "01-12-2022",
+      "parties": [
+        "THE STATE THROUGH PS CHAITANYAPURI",
+        "A1.GOSUKONDA GANANA BHASKAR S/O SOMA SHEKAR",
+        "A2.GOSUKONDA APARMADEVI W/O SOMA SHEKAR"
+      ],
+      "court": "3-II Addl. Senior Civil Judge-cum-II Addl.Chief Judicial Magistrate, Ranga Reddy District at LB Nagar",
+      "status": "Pending",
+      "nextDate": "2026-10-29",
+      "stage": "SUMMONS",
+      "advocate": "APP",
+      "attendingAdvocate": "Not stated by name; APP listing does not prove attendance",
+      "businessDate": "2026-10-01",
+      "businessExact": "A1 absent. Issue fresh summons to A2, call on 29.10.2026",
+      "filingRequirements": "Not stated in latest business; fresh summons to A2 ordered",
+      "fir": "784/2022 Chaitanyapuri P.S",
+      "transferLink": "Subordinate court JCJ-cum-MM Courts, Rangareddy CC5481/2022 decision13-03-2026. Receiving CNR matched; historical donor not another active proceeding.",
+      "result": "Full docket and latest business retrieved; unchanged",
+      "changed": false,
+      "matched": true,
+      "captchaIncorrectAttempts": 2,
+      "profileIds": [],
+      "qualification": "Accepted additional firm proceeding, source profile unassigned; no new register profile created."
+    },
+    {
+      "id": "oct29:TSRA030034012023",
+      "observedAtUTC": "2026-10-29T01:50:51Z",
+      "source": "https://rangareddy.dcourts.gov.in/case-status-search-by-case-number/",
+      "query": {
+        "complex": "Rangareddy, PDJ Court Complex",
+        "type": "CC",
+        "number": "1867",
+        "year": "2023"
+      },
+      "cnr": "TSRA030034012023",
+      "case": "CC1867/2023",
+      "filingNumber": "2598/2023",
+      "filingDate": "28-06-2023",
+      "registrationDate": "28-06-2023",
+      "parties": [
+        "WPS SAROORNAGAR",
+        "GUNTHAKANTI TEJESHWAR REDDY"
+      ],
+      "court": "6-III Additional Junior Civil Judge-cum-III Addl.Judicial Magistrate of First Class, RangaReddy District at L.B.Nagar",
+      "status": "Pending",
+      "nextDate": "2026-10-29",
+      "stage": "SUMMONS",
+      "advocate": "APP",
+      "attendingAdvocate": "Not established",
+      "businessDate": "2026-08-17",
+      "businessExact": "Accused absent. No representation. For appearance, call on 29.10.2026.",
+      "filingRequirements": "Not stated; appearance directed",
+      "fir": "145/2023 W.P.S.Saroornagar PS",
+      "result": "Full docket and latest business retrieved; unchanged",
+      "changed": false,
+      "matched": true,
+      "captchaIncorrectAttempts": 0,
+      "profileIds": [
+        "running:255"
+      ],
+      "qualification": "Distinct from CC9957/2021 FIR453/2021 although related accused alias; retain both."
+    },
+    {
+      "id": "oct29:TSRA030142472021",
+      "observedAtUTC": "2026-10-29T01:52:22Z",
+      "source": "https://rangareddy.dcourts.gov.in/case-status-search-by-case-number/",
+      "query": {
+        "complex": "Rangareddy, PDJ Court Complex",
+        "type": "CC",
+        "number": "9957",
+        "year": "2021"
+      },
+      "cnr": "TSRA030142472021",
+      "case": "CC9957/2021",
+      "filingNumber": "11121/2021",
+      "filingDate": "21-12-2021",
+      "registrationDate": "28-12-2021",
+      "parties": [
+        "State of Telangana through WPS Saroor Nagar",
+        "A1.Gunthakanti Thejeswara Reddy",
+        "A2.Gunthakanti Baleshwari Alias Vasantha",
+        "A3.G Ramaneshwar Reddy"
+      ],
+      "court": "6-III Additional Junior Civil Judge-cum-III Addl.Judicial Magistrate of First Class, RangaReddy District at L.B.Nagar",
+      "status": "Pending",
+      "nextDate": "2026-10-29",
+      "stage": "DEATH CERTIFICATE",
+      "advocate": "Not stated",
+      "attendingAdvocate": "Not stated",
+      "businessDate": "2026-08-17",
+      "businessExact": "A1 and A2 absent. No representation. For filing death certificate of A3. For appearance of A1 and A2. Crl.M.P., pending, call on 29.10.2026.",
+      "filingRequirements": "Death certificate of A3; appearance A1/A2; Crl.M.P. pending. Compliance not established.",
+      "fir": "453/2021 W.P.S.Saroornagar PS",
+      "result": "Full docket and latest business retrieved; unchanged",
+      "changed": false,
+      "matched": true,
+      "captchaIncorrectAttempts": 0,
+      "profileIds": [
+        "running:255"
+      ],
+      "qualification": "Distinct from CC1867/2023 FIR145/2023 despite common party aliases. Death certificate stage does not close main matter."
+    },
+    {
+      "id": "oct29:TSRA030015142024",
+      "observedAtUTC": "2026-10-29T01:56:04Z",
+      "source": "https://rangareddy.dcourts.gov.in/case-status-search-by-case-number/",
+      "query": {
+        "complex": "Rangareddy, PDJ Court Complex",
+        "type": "DVC",
+        "number": "31",
+        "year": "2024"
+      },
+      "cnr": "TSRA030015142024",
+      "case": "DVC31/2024",
+      "filingNumber": "1214/2024",
+      "filingDate": "11-03-2024",
+      "registrationDate": "11-03-2024",
+      "parties": [
+        "M.Vasavi Alias Durga",
+        "V.Vikas",
+        "V.Kurma Das",
+        "V.Symela",
+        "V.Vinay",
+        "N. Soujanaya"
+      ],
+      "court": "1-II Additional Junior Civil Judge-cum-II Addl.Judicial Magistrate of First Class, RangaReddy District at L.B.Nagar",
+      "status": "Pending",
+      "nextDate": "2026-10-30",
+      "stage": "SUMMONS",
+      "advocate": "ADV (literal; personal name not stated)",
+      "attendingAdvocate": "Not established",
+      "businessDate": "2026-10-26",
+      "businessExact": "PO is on ML. Case posted to 30.10.2026",
+      "filingRequirements": "Not stated in latest business",
+      "result": "Full docket and latest business retrieved; unchanged",
+      "changed": false,
+      "matched": true,
+      "captchaIncorrectAttempts": 3,
+      "profileIds": [
+        "running:123"
+      ],
+      "qualification": "Exact CNR/case/court matches retained official evidence. Source register name Dharunya / Vatten Vikas differs official M.Vasavi Alias Durga / V.Vikas; do not silently resolve or rename source profile."
+    }
+  ],
+  "summary": {
+    "attemptedDistinctCNRs": 4,
+    "fullDocketsRetrieved": 4,
+    "latestBusinessRetrieved": 4,
+    "changed": 0,
+    "unqueriedPriority": 0,
+    "basis": "Fresh Oct29 morning court observations; not whole-day outcome coverage",
+    "remainingQueue": "No additional stale Ranga Reddy targets in priority_queue_oct29 staleDateCandidates. File79 FCOP800/2022 primary-profile association needs source cover/docket linkage; no new identifier/route to justify repeating yesterday."
+  }
+}

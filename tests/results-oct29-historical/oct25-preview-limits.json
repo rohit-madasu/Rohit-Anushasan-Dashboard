@@ -1,0 +1,5 @@
+{
+  "visualMobileBrowserInspection": "Unavailable: no authorized supported local preview route. Not claimed passed.",
+  "nodeDOMLogicTests": "Passed separately; click/tap-equivalent, keyboard, navigation and empty dates covered.",
+  "productionRuntime": "Preserved byte-for-byte."
+}

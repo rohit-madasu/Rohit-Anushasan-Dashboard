@@ -129,6 +129,8 @@ function groupRows(rows,{byDate=true}={}){
     ['baseline:134','baseline:129','DVC2/2016 office shorthand and DVC300002/2016 official record: conflicting number/party variants retained.'],
     ['baseline:146','baseline:148','Combined CC9957/2021 and CC1867/2023 source reference retained here; the other distinct CNR remains a separate proceeding card.'],
     ['baseline:154','baseline:156','Same CNR with MC19/2026 versus DVC19/2026 source-type conflict retained.'],
+    ['oct29:TSMM020017092026','baseline:156','29 October refresh replaces the dated official lead only. Same CNR with MC19/2026 versus DVC19/2026 source-type conflict retained; office identity remains candidate.'],
+    ['oct29:TSRA030142472021','baseline:148','Combined CC9957/2021 and CC1867/2023 source reference retained here under the refreshed exact-CNR lead; the other distinct CNR remains a separate proceeding card.'],
     ['baseline:188','baseline:191','Combined files124/69 reference retained under file124 listing; file associations and unconfirmed identity remain qualified.'],
     ['comprehensive-official:TSFC070019092025:running:226:2026-11-17','baseline:253','FCOP1531/2021 versus1531/2025 year conflict retained; office-to-court identity remains unconfirmed.'],
     ['comprehensive-official:TSFC100009032024:running:129:2026-11-25','manual-wa:6:FCOP648/2024:2026-11-25','OP648/2024 versus FCOP648/2024 source-type conflict retained; office-to-court identity remains qualified.'],

@@ -1,0 +1,101 @@
+{
+  "testedAt": "2026-10-29T02:56:15.303Z",
+  "scope": "Node source/model/render-event checks; browser visual and offline-file checks are separate.",
+  "files": {
+    "data.js": "0bc1349f188cb819cad705c3bfa48ff2ebf826e5b205908b9027160b57dfa773",
+    "calendar-core.js": "1fb89f86b8dd43d53de3ec444292c7fc54faf1388aab9e12a96b5e39b5bef768",
+    "app.js": "f3f01d91634a859e720231610ad716f763b8021d634e5bc39f8956781e8a18d6",
+    "auth.js": "b92451cc15dcccb93c701eaf12d7388d66533fb5b6aa784c5fd79fd301bb3d6f",
+    "index.html": "bc43d28d85d2951bc6e3fdc3e44106f70af4509cd30cbb3f237e053f4d5d6d81",
+    "styles.css": "308963d2bde9ea66d6ef70d519e43c610156bbb0abd63d637e9c043b87924ff4",
+    "case-search-data.js": "4abc24f24565df8ab472f7de610eac298e8ed6bddf57b8671b2cfdcd0010c189",
+    "case-search-corpus-01.js": "4db1013a7e4165804289f6ff04ccbb82a9c841b76cf6085f6d63ea6a50668bba",
+    "case-search-corpus-02.js": "727991e76ff3de9d0e311ba980db0b4fde98c975a88a677d9ca5a352497f7736",
+    "case-search-corpus-03.js": "b572570caecfa8d6df6849ff27884fee76ad1c3dd3f2e6f83df2e1bff53acb9d",
+    "case-search-corpus-04.js": "8de75a25e4e136f8430c0541bb3d6d0c7d86c7376486232237a308cf4e96833a",
+    "case-search-corpus-05.js": "c80435511aff814e0455359cec49e208acf2c27e55fee15d6f0b5a6db8ea5729",
+    "case-search-corpus-06.js": "e31fcdcf8b2d5c0dd88a9885a6f39f95596c3f395b413a08f1b3a768e8eb882f",
+    "case-search-corpus-07.js": "974a72ae7666ddcd1aea0cccb7e8185398c6261d13b0bb54862def5bf3986386",
+    "case-search-corpus-08.js": "2dd95f1e5ebc2672d7ddb3fd04397465c4bed9458775fd9608f329af7b8db595",
+    "case-search-corpus-09.js": "10cc9873a2f3b5e0a51c63fde5a7d1e8cbefb63a1ea191b9636fa5f7a97e9054",
+    "case-search-corpus-10.js": "71e4adde11e95705b7dc81a093724948f8f3f6a27e5c712b6b9c8e642d30d002",
+    "case-search-corpus-11.js": "529112eb30e074a4468ac0b0ec818409bf75961fd1fbc0eefd02665e7eb212e6",
+    "case-search-corpus-12.js": "89cbc152ee9a1d23b98cf88126e4e990af6e68e87410ab0bbee1a275511b0318",
+    "display-bindings.js": "dcf805d6befcb4d419d13492c963c5447207e8310f528a8ec46bc54e13381e61",
+    "case-search-corpus-oct29.js": "d5a9b097aefe68915d305cf37c8ee90222a5d161909a04b96491402138f27a15",
+    "case-search-metadata-oct29-01.js": "0c6d46724d346078ca9635a239c1a6d1494353bb28f1ee3fc3734e74d224b44d",
+    "case-search-metadata-oct29-02.js": "8f9998a6c4d5beda39d64457f91152df2a59661cac10570f2030665d91cdd31e",
+    "case-search-metadata-oct29-03.js": "490f67962edc09da79a140a64c318aefd605d461d908f19b3bfa5e447df1dfd7",
+    "courts.js": "738c935c55c21d9869c6fa8abba783ebc84d02aa96da8c13a0de215fa138f1f8",
+    "court-colors.css": "7d58227e31ed9477cac42dccdba5737930698246f64e262ff61449acccccf1f5"
+  },
+  "tests": [
+    {
+      "name": "final-review-precision.test.cjs",
+      "status": "passed",
+      "exitCode": 0,
+      "output": "PASS: exact disposed scopes removed from current projection, historical evidence retained, dated identifier corrections active, commission separate from court hearing, all evidence mapped without duplicate row loss.\n"
+    },
+    {
+      "name": "display-consolidation.test.cjs",
+      "status": "passed",
+      "exitCode": 0,
+      "output": "PASS: all modes preserve every source row; explicit docket/day consolidation, aliases, candidates, original masks, court corrections, historical caveats, different proceedings and linked-profile name safety.\n"
+    },
+    {
+      "name": "calendar-core.test.cjs",
+      "status": "passed",
+      "exitCode": 0,
+      "output": "PASS: identity normalization only removes superficial text differences\nPASS: same exact identity/day can collapse without losing evidence or conflicts\nPASS: different file suffixes, cases, parties and locator sets remain separate\nPASS: dedup does not erase punctuation that can distinguish source identities\nPASS: same identity on different dates remains on both calendar dates\nPASS: unknown identifiers, masked party placeholders and missing locators do not invent identity matches\nPASS: eligible dated rows are not discarded just because the date has elapsed\nPASS: historical calendar can return dates before current month\nPASS: partial party labels retain known names without becoming complete dedup identities\nPASS: date helpers handle years, leap years and IST date boundary\nPASS: whole source-projection placeholders do not become party identities\nPASS: all 11 calendar-core regressions.\n"
+    },
+    {
+      "name": "case-search.test.cjs",
+      "status": "passed",
+      "exitCode": 0,
+      "output": "PASS: full-corpus live search includes running, closed and undated profiles and exact file suffixes.\n"
+    },
+    {
+      "name": "auth.test.cjs",
+      "status": "passed",
+      "exitCode": 0,
+      "output": "PASS: session duration is exactly six hours\nPASS: session valid immediately and one millisecond before expiry\nPASS: session invalid at expiry and afterwards\nPASS: malformed, future, altered-duration and foreign-verifier records fail closed\nPASS: invalid configuration cannot restore session\nPASS: expiry calculation never extends from read\nPASS: derived password verifier accepts exact input and rejects other input\nPASS: all 7 absolute-session regressions.\n"
+    },
+    {
+      "name": "auth-dom.test.cjs",
+      "status": "passed",
+      "exitCode": 0,
+      "output": "PASS: initial lock hides dashboard and clears password\nPASS: incorrect password fails and clears plaintext input\nPASS: correct login opens dashboard and stores exactly six-hour verifier-bound session\nPASS: restore and focus retain absolute expiry without extending session\nPASS: logout clears stored session, password visibility and dashboard\nPASS: expiry locks on focus\nPASS: expiry locks on pageshow\nPASS: expiry locks on visibilitychange\nPASS: timer locks at exact absolute expiry without activity\nPASS: expired and malformed stored sessions fail closed\nPASS: unavailable storage permits only temporary in-memory login with clear notice\nPASS: pending password validation cannot undo a later lock\nPASS: invalid auth configuration disables login with useful error\nPASS: all 13 auth DOM/state regressions; visual browser tests are separate.\n"
+    },
+    {
+      "name": "app-dom.test.cjs",
+      "status": "passed",
+      "exitCode": 0,
+      "output": "PASS: calendar renders complete month and month controls cross years\nPASS: historical dates render evidence and complete leap month\nPASS: calendar cards and previews put source party label before case identifier\nPASS: single live search finds closed and undated profiles independently of calendar filter/date\nPASS: raw passage search finds source text absent from every profile and escapes source markup\nPASS: search clear and no-result states are predictable\nPASS: locking clears search results and returns view to calendar\nPASS: location colours and readable location legend are shared across calendar, source details and search\nPASS: current-source resolver redirects only verified mapped predecessors and preserves raw provenance\nPASS: portal coverage distinguishes qualified retrieval coverage from submission totals\nPASS: dated current review precedes labelled historical assessment and escapes source text\nPASS: all 11 app render/event regressions; visual browser tests are separate.\n"
+    },
+    {
+      "name": "source-semantics.test.cjs",
+      "status": "passed",
+      "exitCode": 0,
+      "output": "PASS: non-history calendar counts exclude separately displayed unidentified leads\nPASS: future/current tracking-stopped rows do not re-enter non-history calendar views\nPASS: history retains every original lead and tracking-stopped evidence row\n"
+    },
+    {
+      "name": "location-colours.test.cjs",
+      "status": "passed",
+      "exitCode": 0,
+      "output": "PASS: location grouping, Kalpataru specificity, ambiguous-location neutral fallback, exact label preservation and AA contrast.\n"
+    },
+    {
+      "name": "oct29-compatibility.test.cjs",
+      "status": "passed",
+      "exitCode": 0,
+      "output": "PASS: CNR identity, explicit case aliases, independent applications, distinct CNRs, file suffixes, conflicting profiles, ambiguous bridges, fallback, source preservation, all filters, latest official summaries and example court colors.\nPASS: current edition, elapsed segregation, tracking exclusions and new qualified office dates.\nPASS: preserved CNR dedup and Oct28 occurrence suites with dated current-expectation compatibility; original test bytes untouched.\nPASS: exact ordered full source occurrence texts for stage,companions and runningPDF; no paragraph/page loss or identity inference.\nPASS: actual verified comprehensive DOCX hashes and every ordered paragraph occurrence, alongside preserved prior daily source catalog.\nPASS: preserved CNR dedup and Oct28 occurrence suites with dated current-expectation compatibility; original test bytes untouched.\nPASS: full source histories, thirteen explicit classification corrections, evidence identities, date controls, confidence distinctions and calendar group coverage\nPASS: preserved CNR dedup and Oct28 occurrence suites with dated current-expectation compatibility; original test bytes untouched.\nPASS: standalone hover, touch-safe click, keyboard focus/navigation, months, empty dates, confidence controls; mock DOM only, no visual browser claim.\nPASS: current standalone/core equivalence; authorized runtime byte changes checked by Oct29 suite and independent package audit.\nPASS: preserved CNR dedup and Oct28 occurrence suites with dated current-expectation compatibility; original test bytes untouched.\nPASS: all four historical compatibility suites in isolated processes.\n"
+    },
+    {
+      "name": "daily-oct29.test.cjs",
+      "status": "passed",
+      "exitCode": 0,
+      "output": "PASS: October29 scope counts, exact fresh facts, failed-query safeguards, candidate and execution-only distinctions, full source occurrences, graph conservation and standalone synchronization.\nPASS: source-version locator migration and continued MC/DVC non-countable office-conflict bundle.\nPASS: prior-run flags preserved as history only, fresh qualifications scoped, prose is not a file locator.\n"
+    }
+  ],
+  "passed": true
+}

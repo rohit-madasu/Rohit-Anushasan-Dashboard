@@ -1,0 +1,8 @@
+{
+  "pass": true,
+  "highConfidenceSecretMarkers": 0,
+  "forbiddenSecretInternalFilenames": 0,
+  "authAssetsByteIdentical": true,
+  "enhancementRuntimeByteIdentical": true,
+  "scope": "Private authorized legal app/source evidence only. Established verifier preserved; no plaintext credentials added or values exposed. Automated marker and filename scan, not a guarantee against every possible secret format."
+}

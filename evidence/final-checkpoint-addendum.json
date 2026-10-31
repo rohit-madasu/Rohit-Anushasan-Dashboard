@@ -1,0 +1,24 @@
+{
+  "recordedAtUTC": "2026-10-31T06:23:50Z",
+  "kind": "Dated checkpoint clarification; no source-message changes",
+  "earlierCheckpoint": "The CA rendered sweep was initially completed through 11:04 IST. That historical checkpoint remains in the frozen ledger.",
+  "finalRechecks": [
+    {
+      "group": "Anushasan Associates",
+      "observedAtUTC": "2026-10-31T05:40:00Z",
+      "observedAtIST": "2026-10-31 11:10:00 IST",
+      "evidence": "whatsapp/main/final_1110IST.json",
+      "latestMessageUI": "30 October 2026 17:56",
+      "runDatePosts": "None visible through this partial-day checkpoint"
+    },
+    {
+      "group": "( CA Info )Anushasan Associates",
+      "observedAtUTC": "2026-10-31T05:40:10Z",
+      "observedAtIST": "2026-10-31 11:10:10 IST",
+      "evidence": "whatsapp/ca/final_1110IST.json",
+      "latestMessageUI": "30 October 2026 12:50",
+      "runDatePosts": "None visible through this partial-day checkpoint"
+    }
+  ],
+  "qualification": "Observation times are Asia/Kolkata conversions from the review clock. Original WhatsApp UI timestamps remain literal and their independent UI timezone remains unverified. No whole-day completeness claim."
+}

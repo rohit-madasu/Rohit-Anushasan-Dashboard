@@ -1,0 +1,224 @@
+{
+  "summary": "Resumed review on 31 October 2026: both WhatsApp groups were reviewed for the authorized 22–31 October window. The main group has 62 message units and the CA group has 13; all seven images and five PDFs (nine pages) were audited. Main-group coverage ends at 11:10:00 IST and CA coverage at 11:10:10 IST. The earlier CA sweep checkpoint at 11:04 IST remains preserved in the dated clarification. No 31 October post was rendered through those cutoffs; this is partial run-day coverage, not whole-day completeness. Original message UI timestamps remain timezone-unverified. The resumed official pass attempted five exact CNR targets: four full dockets and one blocked retrieval. Morning checks remain separately dated. Across both same-day batches, 13 attempts cover 12 distinct retained CNR references, with 11 distinct official dockets retrieved and two blocked attempts. These are not 11 confirmed firm-profile matches. Separately coordinated research retrieved DVC 54/2026 at 11:31:30 IST; Section 31 SR 2229 remains office-reported and file 260 stays separate. A separate MC 121/2023 portal route failed before a case query and is not counted as a freshly queried CNR. Including that independently retrieved docket, 13 distinct retained CNRs were queried and 12 official dockets were retrieved across the same-day work. Of 220 retained references, 207 were not freshly queried; this denominator includes historical, gated and stopped scopes, not 220 eligible active cases. No case-profile reclassification or automatic resumption of stopped proceedings is inferred.",
+  "publisherOfficial": {
+    "run": "2026-10-31-resumed",
+    "startedUTC": "2026-10-31T05:41:29Z",
+    "completedUTC": "2026-10-31T05:53:29Z",
+    "observations": [
+      {
+        "id": "oct31-resumed:full:1",
+        "case": "OS469/2026",
+        "cnr": "TSMM130024022026",
+        "profileIds": [
+          "running:273"
+        ],
+        "source": "https://medchalmalkajgiri.dcourts.gov.in/case-status-search-by-case-number/",
+        "query": "PJCJ, Medipally; OS469/2026",
+        "checkedAtUTC": "2026-10-31T05:46:48Z",
+        "court": "5-I Addl. Junior Civil Judge-cum-V Addl. Judicial Magistrate of First Class",
+        "location": "PJCJ-cum-AMM courts, Medipally; docket header Prl.Junior Civil Judge-cum-Addl.MM Courts,Medchal-Malkajgiri District at LBNagar",
+        "judge": "Not separately stated",
+        "parties": "Vavilala Mruthyumjayasarma and six others v MRO and all concerned",
+        "status": "Pending",
+        "stage": "EX-PARTE EVIDENCE",
+        "nextDate": "2026-11-05",
+        "businessDate": "2026-09-29",
+        "businessExact": "P.O. is on Training, call on 05-11-2026.",
+        "advocate": "Petitioner ANNAPURNA G.; attending advocate not stated",
+        "qualification": "Confirms office date. File250 unnumbered same-party candidate not merged. Initial Malkajgiri PDJ search returned unrelated names, excluded; correct Medipally docket matched exact CNR.",
+        "fullDocketRetrieved": true,
+        "changed": false
+      },
+      {
+        "id": "oct31-resumed:full:2",
+        "case": "MVOP2063/2026",
+        "cnr": "TSHC010027332026",
+        "profileIds": [
+          "running:258"
+        ],
+        "source": "https://hccc.dcourts.gov.in/case-status-search-by-case-number/",
+        "query": "HYD, City Civil Court Complex; MVOP2063/2026",
+        "checkedAtUTC": "2026-10-31T05:50:04Z",
+        "court": "4-III ADDITIONAL CHIEF JUDGE",
+        "location": "Chief Judges Courts, Hyderabad - CCC",
+        "judge": "Not separately stated",
+        "parties": "Manemma Kadamanchi; Kadamanchi Pramila; Kadamanchi Naveen; Kadamanchi Krishna Kumar; Kadamanchi Sai Kumar; Kadamanchi Laxmamma v G.Ramu; Junjunuri Nuthan",
+        "status": "Pending",
+        "stage": "NOTICE",
+        "nextDate": "2027-01-21",
+        "businessDate": "2026-10-28",
+        "businessExact": "Vakalath of Sri K.Sai Prasad Reddy, advocate filed for R1. Issue fresh notice to R2 to the correct address through court on payment of process. Meantime furnish copies to R1 enable to file counter. Call on 21.01.2027.",
+        "advocate": "Petitioner BHARATULA ANNAPURNA; R1 K.Sai Prasad Reddy vakalath filed; attendance not inferred",
+        "filingRequirements": "Correct address and payment of process for fresh R2 notice; furnish copies to R1 for counter. No separate deadline/compliance shown.",
+        "qualification": "Fresh official January21 conflicts with Roja October30 office January27. Retain both; file258 named source association qualified. July30 process rows 0/1 not completed service.",
+        "fullDocketRetrieved": true,
+        "changed": false
+      },
+      {
+        "id": "oct31-resumed:full:3",
+        "case": "CRLA96/2025",
+        "cnr": "TSHM000012272025",
+        "profileIds": [
+          "running:204"
+        ],
+        "source": "https://hccc.dcourts.gov.in/case-status-search-by-case-number/",
+        "query": "HYD, Criminal Court Complex; CRLA96/2025",
+        "checkedAtUTC": "2026-10-31T05:51:31Z",
+        "court": "Case is not allocated to court",
+        "location": "METROPOLITAN SESSIONS COURT; MSJ Courts, Hyderabad - MSJ",
+        "judge": "Not separately stated",
+        "parties": "P. Naresh Kumar v P. Vasantha Lakshmi",
+        "status": "Pending",
+        "stage": "NOTICE",
+        "nextDate": "2025-04-09",
+        "businessDate": null,
+        "businessExact": "No case-history rows or business displayed.",
+        "advocate": "Petitioner M V Swamy; attendance not stated",
+        "qualification": "Elapsed April9,2025 remains stale, not upcoming. Office October30 December3,2026 remains office-only; II AFC Kalpataru/Rangareddy association conflicts with Hyderabad MSJ registration; no current receiver established. No disposal inferred.",
+        "fullDocketRetrieved": true,
+        "changed": false
+      },
+      {
+        "id": "oct31-resumed:full:4",
+        "case": "CC5481/2022",
+        "cnr": "TSRA010004412026",
+        "profileIds": [],
+        "source": "https://rangareddy.dcourts.gov.in/case-status-search-by-case-number/",
+        "query": "Rangareddy PDJ; CC5481/2022; receiving Prl. Sr. Civil Courts docket",
+        "checkedAtUTC": "2026-10-31T05:53:29Z",
+        "court": "3-II Addl. Senior Civil Judge-cum-II Addl.Chief Judicial Magistrate, Ranga Reddy District at LB Nagar",
+        "location": "Prl. Sr. Civil Courts, Rangareddy",
+        "judge": "Not separately stated",
+        "parties": "THE STATE THROUGH PS CHAITANYAPURI v A1.GOSUKONDA GANANA BHASKAR S/O SOMA SHEKAR; A2.GOSUKONDA APARMADEVI W/O SOMA SHEKAR",
+        "status": "Pending",
+        "stage": "SUMMONS",
+        "nextDate": "2026-11-27",
+        "businessDate": "2026-10-29",
+        "businessExact": "A1 absent. Issue fresh summons to A2. Call on 27.11.2026.",
+        "advocate": "Petitioner APP; attending advocate not stated",
+        "filingRequirements": "Fresh summons to A2; no separately stated process-payment condition/deadline.",
+        "qualification": "Receiver CNR retained; donor TSRA030115982022 historical transfer not separate live case or merits closure. Confirms Oct30 office report as late entry for Oct29 outcome. Filing206/2026 coexists with portal filing/registration01Dec2022. Subordinate decision13Mar2026 and prior receiving transfer24Apr2026 preserved, not silently reconciled.",
+        "fullDocketRetrieved": true,
+        "changed": true
+      }
+    ],
+    "attempts": [
+      {
+        "id": "oct31-resumed:attempt:1",
+        "case": "DVC31/2024",
+        "cnr": "TSRA030015142024",
+        "source": "https://rangareddy.dcourts.gov.in/case-status-search-by-case-number/",
+        "query": "Rangareddy PDJ; DVC31/2024",
+        "checkedAtUTC": "2026-10-31T05:43:08Z",
+        "result": "Three CAPTCHA submissions rejected; no fresh docket. Morning stale Oct30 official date and Oct30 office-reported December18 remain qualified conflict.",
+        "fullDocketRetrieved": false,
+        "captchaSubmitted": 3,
+        "captchaRejected": 3
+      }
+    ],
+    "coverage": {
+      "resumedTargetEntries": 5,
+      "fullDockets": 4,
+      "blocked": 1,
+      "changedOfficial": 1,
+      "unchangedOrStale": 3,
+      "notChecked": "All other entries not freshly checked in resumed pass; morning eight-target pass retained separately.",
+      "combinedMorningAndResumedAttempts": 13,
+      "distinctTargetEntries": 12,
+      "fullDocketObservations": 11,
+      "distinctFullDockets": 11,
+      "blockedAttempts": 2,
+      "remainingRetainedQueueNotChecked": 208,
+      "queueDenominator": 220,
+      "queueNotActiveCaseCount": true,
+      "excludedStopped": [
+        "CC1634/2024",
+        "CRLA687/2018",
+        "DVC49/2021",
+        "GWOP27/2022",
+        "DVC223/2025",
+        "MC36/2025",
+        "DVC226/2025"
+      ],
+      "note": "Morning eight targets plus resumed five targets overlap DVC31/2024. Full observations11 distinct because resumed DVC31 retrieval failed. Separate unclear research ongoing, not included yet."
+    }
+  },
+  "independentResearch": {
+    "reviewDate": "2026-10-31",
+    "reviewIntervalUTC": "05:54–06:01",
+    "sourceStageId": "1DB6UsoDv5ycTDVPLtBO8WlWKW467sJoP",
+    "scope": "Research-only. No Drive writes. Coordinated sole browser ownership after daily publisher release; released again at 06:01 UTC.",
+    "attempts": [
+      {
+        "file": "108",
+        "original188": true,
+        "case": "MC 121/2023",
+        "parties": "Santosha versus Gnana Bhaskar",
+        "candidateCNR": "TSFC070010032023",
+        "atUTC": "2026-10-31T05:55:25Z",
+        "source": "https://services.ecourts.gov.in/ecourtindia_v6/",
+        "query": "Attempted alternate central official portal before submitting CNR or case details.",
+        "result": "Upstream connect error or disconnect/reset before headers. Reset reason: connection timeout.",
+        "status": "Access blocked before case query; not a fresh merits/status check.",
+        "retained": "Prior district source masked parties; November 2 CALL WITH MPs, office arguments; no verified fine amount or MP order. No repeat of unchanged district query."
+      },
+      {
+        "file": "241",
+        "relatedOriginal188File": "260",
+        "case": "DVC 54/2026",
+        "CNR": "TSFC090000562026",
+        "source": "https://hccc.dcourts.gov.in/case-status-search-by-case-number/",
+        "atUTC": "2026-10-31T06:01:30Z",
+        "atIST": "2026-10-31 11:31:30 IST",
+        "query": "Court Establishment: Integrated MM Courts, Hyderabad - CCC; DVC; 54; 2026.",
+        "parties": {
+          "petitioner": "Vennela Patrayani",
+          "respondents": [
+            "Kadigari Vishnudeep Reddy",
+            "Kadigari Bhoji Reddy",
+            "Kadigari Seshu Reddy",
+            "Kadigari Pranav Reddy"
+          ]
+        },
+        "court": "MM Courts of Integrated Family Courts, Hyderabad; 3-III Metropolitan Magistrate",
+        "filing": "56/2026",
+        "filingDate": "2026-03-12",
+        "registrationDate": "2026-03-12",
+        "firstHearing": "2026-03-30",
+        "nextHearing": "2026-11-12",
+        "status": "Pending",
+        "stage": "MISCELLANEOUS",
+        "act": "Protection of Women from Domestic Violence Act",
+        "section": "12",
+        "businessDate": "2026-10-28",
+        "exactBusiness": "Petitioner present. Both counsels present PO is on E.L call on 12.11.2026",
+        "advocateNames": "Not stated",
+        "judgePersonalName": "Not stated",
+        "confidence": "Matched case number, year, parties, establishment and CNR.",
+        "limits": "Complete rendered case page had no application table or order download. Section 31 SR 2229/2026 remains office-reported, not independently verified. Does not establish file 260 CC / SR 1293/2026 identity.",
+        "attemptHistory": "Initial HYD, MM Court Complex scope returned no records at 05:57 UTC after one rejected challenge and a fresh accepted challenge. This was wrong scope and is not evidence of absence. Exact Integrated MM establishment search succeeded after one rejected and one fresh accepted challenge."
+      }
+    ],
+    "coverage": {
+      "plannedTargets": 2,
+      "fullyMatchedOfficial": 1,
+      "accessBlockedBeforeQuery": 1,
+      "original188IdentitiesResolved": 0,
+      "classificationChanges": 0
+    },
+    "queueRules": [
+      "Keep original file 260 SR 1293/2026 separate from DVC 54 Section 31 SR 2229/2026.",
+      "Do not repeat Apoorva SR 1548/1587 without new evidence.",
+      "Respect stopped CC 1634, DVC 223, MC 36 and DVC 49 exclusions.",
+      "Unassigned Mancherial November 4 and Supraja MC SR 8346 require exact identifiers."
+    ]
+  },
+  "normalizedScheduleCounts": {
+    "current": 122,
+    "elapsedNew": 8,
+    "priorHistorical": 7,
+    "newDiaryIdentities": 0,
+    "diaryIdentities": 154,
+    "numericIndex": 143
+  }
+}

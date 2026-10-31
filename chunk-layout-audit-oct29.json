@@ -1,0 +1,37 @@
+{
+  "scope": "Packaging-only data layout, no semantic/runtime/auth/standalone HTML changes",
+  "oldCorpusUnits": 130962,
+  "newCorpusUnits": 6879,
+  "totalCorpusUnits": 137841,
+  "chunks": [
+    {
+      "file": "case-search-corpus-oct29.js",
+      "bytes": 38620422,
+      "deflateBytes": 4113614,
+      "statements": 58,
+      "sha256": "d5a9b097aefe68915d305cf37c8ee90222a5d161909a04b96491402138f27a15"
+    },
+    {
+      "file": "case-search-metadata-oct29-01.js",
+      "bytes": 34582839,
+      "deflateBytes": 3994899,
+      "statements": 39,
+      "sha256": "0c6d46724d346078ca9635a239c1a6d1494353bb28f1ee3fc3734e74d224b44d"
+    },
+    {
+      "file": "case-search-metadata-oct29-02.js",
+      "bytes": 31808492,
+      "deflateBytes": 3675638,
+      "statements": 47,
+      "sha256": "8f9998a6c4d5beda39d64457f91152df2a59661cac10570f2030665d91cdd31e"
+    },
+    {
+      "file": "case-search-metadata-oct29-03.js",
+      "bytes": 5470785,
+      "deflateBytes": 630190,
+      "statements": 11,
+      "sha256": "490f67962edc09da79a140a64c318aefd605d461d908f19b3bfa5e447df1dfd7"
+    }
+  ],
+  "exactReconstructionProofRequired": true
+}

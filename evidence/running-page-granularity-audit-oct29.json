@@ -1,0 +1,19 @@
+{
+  "scope": "Running register source-text extraction only; no document-body duplication or new register rows inferred",
+  "priorRunningCorpusUnits": 1343,
+  "currentPdfPages": 1139,
+  "priorPdfPagesPhysicallyPreserved": 1095,
+  "newSupplementPages": 44,
+  "exactOldUnitTextMatches": 0,
+  "whitespaceNormalizedMatches": 31,
+  "reason": "The verified complete successor page export uses layout-preserving pdftotext. Prior corpus units use different reading order/spacing and mixed historical revisions. Even whitespace normalization yields only31 matches and is not exact text equivalence. No exact prior page unit can be reused under the complete ordered text hash guarantee. All1139 current page texts are therefore a distinct source-version snapshot; every prior source unit remains unchanged.",
+  "currentOrderedTextSha256": "767435252b34f6595e278dec964200c7bc55ec317cbc5c6adffdfa60ea8dbc81",
+  "sourcePdfSha256": "be4fc073973f6de09db8ef46548e85c74a0966ba2fa97f94b6eafaf913ad2141",
+  "docxNewUnitCounts": {
+    "stage": 1423,
+    "active": 1423,
+    "disposed": 1423,
+    "unclear": 1423
+  },
+  "sourceUnitsAreNotLegalCaseCounts": true
+}

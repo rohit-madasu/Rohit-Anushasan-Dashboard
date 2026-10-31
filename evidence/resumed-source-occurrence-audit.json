@@ -1,0 +1,81 @@
+{
+  "changes": [
+    {
+      "kind": "diary",
+      "oldCount": 0,
+      "newCount": 73072,
+      "oldStartsAt": null,
+      "newIndexedUnits": 73072,
+      "priorMappingExisted": false
+    },
+    {
+      "kind": "stage",
+      "oldCount": 77014,
+      "newCount": 80349,
+      "oldStartsAt": 3336,
+      "newIndexedUnits": 3335,
+      "priorMappingExisted": true
+    },
+    {
+      "kind": "active",
+      "oldCount": 61419,
+      "newCount": 64765,
+      "oldStartsAt": 3347,
+      "newIndexedUnits": 3346,
+      "priorMappingExisted": true
+    },
+    {
+      "kind": "disposed",
+      "oldCount": 49771,
+      "newCount": 53117,
+      "oldStartsAt": 3347,
+      "newIndexedUnits": 3346,
+      "priorMappingExisted": true
+    },
+    {
+      "kind": "unclear",
+      "oldCount": 61540,
+      "newCount": 64886,
+      "oldStartsAt": 3347,
+      "newIndexedUnits": 3346,
+      "priorMappingExisted": true
+    },
+    {
+      "kind": "running",
+      "oldCount": 1187,
+      "newCount": 1282,
+      "oldStartsAt": 1,
+      "newIndexedUnits": 95,
+      "priorMappingExisted": true
+    }
+  ],
+  "expected": {
+    "diary": {
+      "count": 73072,
+      "sha256": "47a7782fa28d9a075419886b20ded2e024e0aaff8383b972bbd6e96b78006468"
+    },
+    "stage": {
+      "count": 80349,
+      "sha256": "629aa0de6aee514461bb0f03e78ac3c5538c0a46f443c852a4adadb635e9f7dd"
+    },
+    "active": {
+      "count": 64765,
+      "sha256": "869ae234df3e4db0ad1a9cd1f28f5c980188ba6ec88c94a347f9bba6d0030a0f"
+    },
+    "disposed": {
+      "count": 53117,
+      "sha256": "59a8ba1360da23d21ebf6dbae6bdb3a3395bc7148f7612a2f594f0502d31dc67"
+    },
+    "unclear": {
+      "count": 64886,
+      "sha256": "e9a5cd874c278bbda25698f09410f6f505cc0ab6050bb9ecbdac522964bca11f"
+    },
+    "running": {
+      "count": 1282,
+      "sha256": "fa600569a2c67fb1dc116c8149915e95d927d3624c678d5210276d87a3dd85c2"
+    }
+  },
+  "allPriorCorpusUnitsPreserved": true,
+  "date": "2026-10-31",
+  "run": "2026-10-31-resumed-0524Z"
+}

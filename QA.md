@@ -1,3 +1,9 @@
+# 30 October 2026 current QA
+
+Current test results are in `tests/results/node-test-report.json` and `tests/results/oct30-validation.json`. Historical fixed-date fixtures and the prior results are preserved; they are not represented as newly passed source checks. Current visual/mobile limits are explicitly recorded in `REFRESH-2026-10-30.md`. Full source occurrences, graph history, CNR distinctions and auth-byte conservation are independently tested.
+
+---
+
 # 26 October 2026 private dashboard verification
 
 The eleven-suite current runner covers preservation; exact ordered paragraph reconstruction of all four successor DOCX sources; running-PDF occurrence continuity; CNR/date/application grouping; candidates and masks; full-source search; six-hour authentication/session logic; DOM events; calendar navigation; tracking exclusions; and court-location colours. Full output is in `tests/results/node-test-report.json`.

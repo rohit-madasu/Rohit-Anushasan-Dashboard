@@ -1,0 +1,15 @@
+{
+  "sourceValidated": true,
+  "oldCorpusUnits": 130962,
+  "addedCorpusUnits": 6879,
+  "authUnchanged": true,
+  "runtimeUnchanged": false,
+  "sourceReadback": "1d68fea49227b2ffb50d3095fc36b424f11f4be55b3e59fe2c505d4233b1affb",
+  "notes": "Packaging and full regression/visual tests remain required. No publication performed.",
+  "authorizedRuntimeChanges": [
+    "Historical/current source locator display labels and mapped successor indices",
+    "Two reviewed exact-CNR lead-reference continuations; non-countable conflicts retained"
+  ],
+  "sourceReadbackVerified": true,
+  "metadataRestoration": "Historical chunks preserved byte-for-byte; intended current catalog, source links, sources and profile source bindings restored in final chunk"
+}

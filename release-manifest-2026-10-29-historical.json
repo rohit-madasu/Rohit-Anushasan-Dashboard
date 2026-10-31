@@ -1,0 +1,132 @@
+{
+  "edition": "2026-10-29-priority-refresh",
+  "publication": "Private authorized offline files only. No public deployment.",
+  "sourceBinding": {
+    "status": "Verified private source readbacks",
+    "verifiedDocuments": {
+      "stage": {
+        "id": "1pDZQnCfz7Bpl7kF2jae-24wuYmz-M_9U",
+        "url": "https://docs.google.com/document/d/1pDZQnCfz7Bpl7kF2jae-24wuYmz-M_9U/edit?usp=drivesdk&ouid=114145581713538354167&rtpof=true&sd=true",
+        "sha256": "1d68fea49227b2ffb50d3095fc36b424f11f4be55b3e59fe2c505d4233b1affb",
+        "size": 1577869,
+        "parent": "1kaMiQfnuYiDkujvPp5Uw4I2niTHn2ncH",
+        "modified_time": "2026-10-29T02:27:19.671Z",
+        "readbackVerified": true,
+        "parentVerified": true,
+        "privateAccessVerified": true
+      },
+      "stagePdf": {
+        "id": "1EzH6e6Jo31pugEiNkcXwatBB7Q6XGRIl",
+        "url": "https://drive.google.com/file/d/1EzH6e6Jo31pugEiNkcXwatBB7Q6XGRIl/view?usp=drivesdk",
+        "sha256": "e961edeed24a041abbf65b8159557a893b43701c7795996ec98afd21dccdf1d7",
+        "size": 31608087,
+        "parent": "1kaMiQfnuYiDkujvPp5Uw4I2niTHn2ncH",
+        "modified_time": "2026-10-29T02:27:56.092Z",
+        "readbackVerified": true,
+        "parentVerified": true,
+        "privateAccessVerified": true
+      },
+      "running": {
+        "id": "1ok3cU2pWnmHkfqMrsqXqUNn_HdCS7yAc",
+        "url": "https://drive.google.com/file/d/1ok3cU2pWnmHkfqMrsqXqUNn_HdCS7yAc/view?usp=drivesdk",
+        "sha256": "be4fc073973f6de09db8ef46548e85c74a0966ba2fa97f94b6eafaf913ad2141",
+        "size": 7936584,
+        "parent": "1RYStR-BRf6rqTrG0_IU90CVCDqlftvah",
+        "modified_time": "2026-10-29T02:28:28.705Z",
+        "readbackVerified": true,
+        "parentVerified": true,
+        "privateAccessVerified": true
+      },
+      "active": {
+        "id": "1pBBQl5RJcLZqfVnL9_baOc22gJYMPVqu",
+        "url": "https://docs.google.com/document/d/1pBBQl5RJcLZqfVnL9_baOc22gJYMPVqu/edit?usp=drivesdk&ouid=114145581713538354167&rtpof=true&sd=true",
+        "sha256": "3d412b105a9bc8e7fa6a04cc47a57c4793e7e886480f2c075b0c9b68e3e4213a",
+        "size": 1225800,
+        "parent": "1qBseFDluKovuw91HPSKD4tIDmV9XbgbA",
+        "modified_time": "2026-10-29T02:31:08.105Z",
+        "readbackVerified": true,
+        "parentVerified": true,
+        "privateAccessVerified": true
+      },
+      "disposed": {
+        "id": "1UiCyI06VtK-hYQim2q5dyuUiPJzoeGBf",
+        "url": "https://docs.google.com/document/d/1UiCyI06VtK-hYQim2q5dyuUiPJzoeGBf/edit?usp=drivesdk&ouid=114145581713538354167&rtpof=true&sd=true",
+        "sha256": "13bda4b6c3f9f5a30e8096a241112e6ebd9184b9d11c66b5349adf4c371128ed",
+        "size": 964770,
+        "parent": "1qBseFDluKovuw91HPSKD4tIDmV9XbgbA",
+        "modified_time": "2026-10-29T02:31:17.849Z",
+        "readbackVerified": true,
+        "parentVerified": true,
+        "privateAccessVerified": true
+      },
+      "unclear": {
+        "id": "1SF0HF6jc0kvZV3wvQRK7ZZNMiQCao4UB",
+        "url": "https://docs.google.com/document/d/1SF0HF6jc0kvZV3wvQRK7ZZNMiQCao4UB/edit?usp=drivesdk&ouid=114145581713538354167&rtpof=true&sd=true",
+        "sha256": "5d30003bfe0c602c9c0efe332d136dd80bed9c2e56d6ccd8c2de5ff72d1795a8",
+        "size": 1198492,
+        "parent": "1qBseFDluKovuw91HPSKD4tIDmV9XbgbA",
+        "modified_time": "2026-10-29T02:31:27.819Z",
+        "readbackVerified": true,
+        "parentVerified": true,
+        "privateAccessVerified": true
+      },
+      "closed": {
+        "id": "1TPK2nVaMxl4EBECwdOlpZYkhEYvKpeQy",
+        "url": "https://drive.google.com/file/d/1TPK2nVaMxl4EBECwdOlpZYkhEYvKpeQy/view?usp=drivesdk",
+        "sha256": "adbba5435be1ef88dbec7f186066f98c52ad1d4fb6fe388734acbbcd41b1eac2",
+        "size": 115782,
+        "parent": "1tIWVborOtjqogfOnY5zs5Ehm9Zw3--zR",
+        "modified_time": "2026-10-28T09:43:35.850Z",
+        "readbackVerified": true,
+        "parentVerified": true,
+        "privateAccessVerified": true,
+        "unchanged": true
+      }
+    }
+  },
+  "coverage": {
+    "priorRawObservationsPreserved": 306,
+    "newObservations": 40,
+    "totalObservations": 346,
+    "freshFullDockets": 20,
+    "freshListOnlyTargets": 18,
+    "freshBlockedTargets": 2,
+    "priorAttemptedCNRs": 216,
+    "priorRetrievedCNRs": 200,
+    "priorCNRsNotRevisited": 176,
+    "priorCNRsWithoutFreshFullFacts": 196,
+    "newCNRIdentities": 0,
+    "categories": {
+      "active": 93,
+      "disposed": 31,
+      "unclear": 174
+    },
+    "meaning": "Observations, CNRs, source profiles, file locators and distinct legal proceedings are different counts."
+  },
+  "whatsapp": {
+    "freshMessages": 0,
+    "freshAttachments": 0,
+    "lastCompleteReviewIST": "2026-10-28T12:35:00+05:30",
+    "blockedAtIST": "2026-10-29T07:07:33+05:30",
+    "reason": "QR login"
+  },
+  "codeScope": "All original111 paths retained; source/data refresh, explicit historical/current locator display, two exact-CNR reference-pair continuations; auth unchanged.",
+  "visualMobileDashboardQA": {
+    "attemptedAtUTC": "2026-10-29T02:40:52Z",
+    "route": "loopback-only local preview",
+    "result": "Cloud browser net::ERR_CONNECTION_REFUSED",
+    "visualMobileVerified": false,
+    "restrictionHandling": "No file:// retry, external hosting, networking bypass or public publication. DOM interaction tests retained."
+  },
+  "dashboardPrivateReadback": {
+    "id": "1Xz-6kj2O4ed3BpNxa8b6hjGuqs0xUnPN",
+    "url": "https://drive.google.com/file/d/1Xz-6kj2O4ed3BpNxa8b6hjGuqs0xUnPN/view?usp=drivesdk",
+    "sha256": "e4bb099c9a2590c4ee5facbe6387e1dd3bfc553f41ec0f0ac3ec15105a8e4d7f",
+    "size": 24165470,
+    "parent": "1qBseFDluKovuw91HPSKD4tIDmV9XbgbA",
+    "modified_time": "2026-10-29T02:52:51.344Z",
+    "readbackVerified": true,
+    "parentVerified": true,
+    "privateAccessVerified": true
+  }
+}

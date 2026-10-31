@@ -1,0 +1,1091 @@
+{
+  "date": "2026-10-31",
+  "frozenAtUTC": "2026-10-31T01:45:52Z",
+  "builtAtUTC": "2026-10-31T01:58:36.177069+00:00",
+  "coverage": {
+    "targetedProceedings": 8,
+    "fullDockets": 7,
+    "matchedOfficial": 7,
+    "officeAssociationQualified": 1,
+    "changedNextDates": 5,
+    "unchangedElapsedDates": 2,
+    "blocked": 1,
+    "newFirmIdentityResolutions": 0,
+    "categoryChanges": 0,
+    "importedResearchDate": "2026-10-30",
+    "importedProfiles": 3,
+    "importedQueries": 4,
+    "importedFullCandidateDockets": 3,
+    "importedNewCandidateCNRs": 3,
+    "retainedReferenceQueue": 220,
+    "retainedReferencesFreshAttempted": 8,
+    "retainedReferencesNotFreshAttempted": 212,
+    "scope": "Priority elapsed hearings and imminent deadline; not comprehensive all-case check. 220 includes historical/gated/stopped references, not eligible unique active cases.",
+    "whatsapp": {
+      "displaySummary": "31 October 06:58:40 IST: WhatsApp QR sign-in; zero fresh messages/media reviewed in either group for 22–31 October. Last actual partial run-day review 28 October 12:35 IST; raw message UI timezone unverified. Diary unchanged.",
+      "status": "inaccessible QR sign-in",
+      "freshReviewCompleted": false,
+      "groupsReviewed": 0,
+      "expectedGroups": 2,
+      "authorized_window_ist": [
+        "2026-10-22",
+        "2026-10-31"
+      ],
+      "checkedAtIST": "2026-10-31T06:58:40+05:30",
+      "lastCompleteReviewIST": "2026-10-28T12:35:00+05:30",
+      "lastReviewQualification": "Partial through stated review time, not whole-day completeness; raw source UI timezone unverified.",
+      "sourceUITimezone": "unverified",
+      "freshMessagesReviewed": 0,
+      "freshAttachmentsReviewed": 0,
+      "runDayPartial": true,
+      "limitation": "No fresh overlap, silence, no-change or whole-day completeness claim; no backfill outside ten-date scope.",
+      "dayByDayLedger": {
+        "Anushasan Associates": [
+          {
+            "dateIST": "2026-10-22",
+            "status": "unavailable_this_run",
+            "qualification": "No new message or silence finding; prior history retained. Run-day coverage is partial, unavailable."
+          },
+          {
+            "dateIST": "2026-10-23",
+            "status": "unavailable_this_run",
+            "qualification": "No new message or silence finding; prior history retained. Run-day coverage is partial, unavailable."
+          },
+          {
+            "dateIST": "2026-10-24",
+            "status": "unavailable_this_run",
+            "qualification": "No new message or silence finding; prior history retained. Run-day coverage is partial, unavailable."
+          },
+          {
+            "dateIST": "2026-10-25",
+            "status": "unavailable_this_run",
+            "qualification": "No new message or silence finding; prior history retained. Run-day coverage is partial, unavailable."
+          },
+          {
+            "dateIST": "2026-10-26",
+            "status": "unavailable_this_run",
+            "qualification": "No new message or silence finding; prior history retained. Run-day coverage is partial, unavailable."
+          },
+          {
+            "dateIST": "2026-10-27",
+            "status": "unavailable_this_run",
+            "qualification": "No new message or silence finding; prior history retained. Run-day coverage is partial, unavailable."
+          },
+          {
+            "dateIST": "2026-10-28",
+            "status": "unavailable_this_run",
+            "qualification": "No new message or silence finding; prior history retained. Run-day coverage is partial, unavailable."
+          },
+          {
+            "dateIST": "2026-10-29",
+            "status": "unavailable_this_run",
+            "qualification": "No new message or silence finding; prior history retained. Run-day coverage is partial, unavailable."
+          },
+          {
+            "dateIST": "2026-10-30",
+            "status": "unavailable_this_run",
+            "qualification": "No new message or silence finding; prior history retained. Run-day coverage is partial, unavailable."
+          },
+          {
+            "dateIST": "2026-10-31",
+            "status": "unavailable_this_run",
+            "qualification": "No new message or silence finding; prior history retained. Run-day coverage is partial, unavailable."
+          }
+        ],
+        "( CA Info )Anushasan Associates": [
+          {
+            "dateIST": "2026-10-22",
+            "status": "unavailable_this_run",
+            "qualification": "No new message or silence finding; prior history retained. Run-day coverage is partial, unavailable."
+          },
+          {
+            "dateIST": "2026-10-23",
+            "status": "unavailable_this_run",
+            "qualification": "No new message or silence finding; prior history retained. Run-day coverage is partial, unavailable."
+          },
+          {
+            "dateIST": "2026-10-24",
+            "status": "unavailable_this_run",
+            "qualification": "No new message or silence finding; prior history retained. Run-day coverage is partial, unavailable."
+          },
+          {
+            "dateIST": "2026-10-25",
+            "status": "unavailable_this_run",
+            "qualification": "No new message or silence finding; prior history retained. Run-day coverage is partial, unavailable."
+          },
+          {
+            "dateIST": "2026-10-26",
+            "status": "unavailable_this_run",
+            "qualification": "No new message or silence finding; prior history retained. Run-day coverage is partial, unavailable."
+          },
+          {
+            "dateIST": "2026-10-27",
+            "status": "unavailable_this_run",
+            "qualification": "No new message or silence finding; prior history retained. Run-day coverage is partial, unavailable."
+          },
+          {
+            "dateIST": "2026-10-28",
+            "status": "unavailable_this_run",
+            "qualification": "No new message or silence finding; prior history retained. Run-day coverage is partial, unavailable."
+          },
+          {
+            "dateIST": "2026-10-29",
+            "status": "unavailable_this_run",
+            "qualification": "No new message or silence finding; prior history retained. Run-day coverage is partial, unavailable."
+          },
+          {
+            "dateIST": "2026-10-30",
+            "status": "unavailable_this_run",
+            "qualification": "No new message or silence finding; prior history retained. Run-day coverage is partial, unavailable."
+          },
+          {
+            "dateIST": "2026-10-31",
+            "status": "unavailable_this_run",
+            "qualification": "No new message or silence finding; prior history retained. Run-day coverage is partial, unavailable."
+          }
+        ]
+      }
+    },
+    "runDate": "2026-10-31",
+    "dateIST": "2026-10-31",
+    "frozenAtUTC": "2026-10-31T01:45:52Z",
+    "allCasesChecked": false,
+    "allFirmCasesFreshlyChecked": false,
+    "notComplete": true,
+    "runLabel": "priority official review with explicit gaps",
+    "attemptedTargetCNRs": [
+      "TSHM0A0369522026",
+      "TSMM000003612021",
+      "TSMM020017092026",
+      "TSMM020017592025",
+      "TSMM020028962025",
+      "TSRA000022282026",
+      "TSRA030015142024",
+      "TSYB070000352023"
+    ],
+    "attemptedTargetCount": 8,
+    "fullDocketCNRs": [
+      "TSHM0A0369522026",
+      "TSMM000003612021",
+      "TSMM020017092026",
+      "TSMM020017592025",
+      "TSMM020028962025",
+      "TSRA030015142024",
+      "TSYB070000352023"
+    ],
+    "fullDocketCount": 7,
+    "blockedCNRs": [
+      "TSRA000022282026"
+    ],
+    "blockedCount": 1,
+    "distinctRecordsChecked": 7,
+    "uniqueProfilesChecked": 6,
+    "sourceProfileClassificationChanges": 0,
+    "remainingQueueDescription": "8 of 220 retained CNR references attempted; seven full dockets and one blocked; 212 not freshly attempted. The 220 includes historical, gated and stopped references, not 220 eligible active cases."
+  },
+  "whatsapp": {
+    "displaySummary": "31 October 06:58:40 IST: WhatsApp QR sign-in; zero fresh messages/media reviewed in either group for 22–31 October. Last actual partial run-day review 28 October 12:35 IST; raw message UI timezone unverified. Diary unchanged.",
+    "status": "inaccessible QR sign-in",
+    "freshReviewCompleted": false,
+    "groupsReviewed": 0,
+    "expectedGroups": 2,
+    "authorized_window_ist": [
+      "2026-10-22",
+      "2026-10-31"
+    ],
+    "checkedAtIST": "2026-10-31T06:58:40+05:30",
+    "lastCompleteReviewIST": "2026-10-28T12:35:00+05:30",
+    "lastReviewQualification": "Partial through stated review time, not whole-day completeness; raw source UI timezone unverified.",
+    "sourceUITimezone": "unverified",
+    "freshMessagesReviewed": 0,
+    "freshAttachmentsReviewed": 0,
+    "runDayPartial": true,
+    "limitation": "No fresh overlap, silence, no-change or whole-day completeness claim; no backfill outside ten-date scope.",
+    "dayByDayLedger": {
+      "Anushasan Associates": [
+        {
+          "dateIST": "2026-10-22",
+          "status": "unavailable_this_run",
+          "qualification": "No new message or silence finding; prior history retained. Run-day coverage is partial, unavailable."
+        },
+        {
+          "dateIST": "2026-10-23",
+          "status": "unavailable_this_run",
+          "qualification": "No new message or silence finding; prior history retained. Run-day coverage is partial, unavailable."
+        },
+        {
+          "dateIST": "2026-10-24",
+          "status": "unavailable_this_run",
+          "qualification": "No new message or silence finding; prior history retained. Run-day coverage is partial, unavailable."
+        },
+        {
+          "dateIST": "2026-10-25",
+          "status": "unavailable_this_run",
+          "qualification": "No new message or silence finding; prior history retained. Run-day coverage is partial, unavailable."
+        },
+        {
+          "dateIST": "2026-10-26",
+          "status": "unavailable_this_run",
+          "qualification": "No new message or silence finding; prior history retained. Run-day coverage is partial, unavailable."
+        },
+        {
+          "dateIST": "2026-10-27",
+          "status": "unavailable_this_run",
+          "qualification": "No new message or silence finding; prior history retained. Run-day coverage is partial, unavailable."
+        },
+        {
+          "dateIST": "2026-10-28",
+          "status": "unavailable_this_run",
+          "qualification": "No new message or silence finding; prior history retained. Run-day coverage is partial, unavailable."
+        },
+        {
+          "dateIST": "2026-10-29",
+          "status": "unavailable_this_run",
+          "qualification": "No new message or silence finding; prior history retained. Run-day coverage is partial, unavailable."
+        },
+        {
+          "dateIST": "2026-10-30",
+          "status": "unavailable_this_run",
+          "qualification": "No new message or silence finding; prior history retained. Run-day coverage is partial, unavailable."
+        },
+        {
+          "dateIST": "2026-10-31",
+          "status": "unavailable_this_run",
+          "qualification": "No new message or silence finding; prior history retained. Run-day coverage is partial, unavailable."
+        }
+      ],
+      "( CA Info )Anushasan Associates": [
+        {
+          "dateIST": "2026-10-22",
+          "status": "unavailable_this_run",
+          "qualification": "No new message or silence finding; prior history retained. Run-day coverage is partial, unavailable."
+        },
+        {
+          "dateIST": "2026-10-23",
+          "status": "unavailable_this_run",
+          "qualification": "No new message or silence finding; prior history retained. Run-day coverage is partial, unavailable."
+        },
+        {
+          "dateIST": "2026-10-24",
+          "status": "unavailable_this_run",
+          "qualification": "No new message or silence finding; prior history retained. Run-day coverage is partial, unavailable."
+        },
+        {
+          "dateIST": "2026-10-25",
+          "status": "unavailable_this_run",
+          "qualification": "No new message or silence finding; prior history retained. Run-day coverage is partial, unavailable."
+        },
+        {
+          "dateIST": "2026-10-26",
+          "status": "unavailable_this_run",
+          "qualification": "No new message or silence finding; prior history retained. Run-day coverage is partial, unavailable."
+        },
+        {
+          "dateIST": "2026-10-27",
+          "status": "unavailable_this_run",
+          "qualification": "No new message or silence finding; prior history retained. Run-day coverage is partial, unavailable."
+        },
+        {
+          "dateIST": "2026-10-28",
+          "status": "unavailable_this_run",
+          "qualification": "No new message or silence finding; prior history retained. Run-day coverage is partial, unavailable."
+        },
+        {
+          "dateIST": "2026-10-29",
+          "status": "unavailable_this_run",
+          "qualification": "No new message or silence finding; prior history retained. Run-day coverage is partial, unavailable."
+        },
+        {
+          "dateIST": "2026-10-30",
+          "status": "unavailable_this_run",
+          "qualification": "No new message or silence finding; prior history retained. Run-day coverage is partial, unavailable."
+        },
+        {
+          "dateIST": "2026-10-31",
+          "status": "unavailable_this_run",
+          "qualification": "No new message or silence finding; prior history retained. Run-day coverage is partial, unavailable."
+        }
+      ]
+    }
+  },
+  "records": [
+    {
+      "evidenceId": "oct31:full:1",
+      "id": "oct31:full:1",
+      "observedAtUTC": "2026-10-31T01:30:27Z",
+      "cnr": "TSRA030015142024",
+      "case": "DVC31/2024",
+      "files": [
+        "123"
+      ],
+      "profileIds": [
+        "running:123"
+      ],
+      "fullDocketRetrieved": true,
+      "source": "https://rangareddy.dcourts.gov.in/case-status-search-by-case-number/",
+      "query": "Rangareddy PDJ Court Complex DVC31/2024",
+      "parties": "M. Vasavi alias Durga v V. Vikas and others",
+      "court": "1-II Additional Junior Civil Judge-cum-II Addl.Judicial Magistrate of First Class, RangaReddy District at L.B.Nagar",
+      "status": "Pending",
+      "stage": "SUMMONS",
+      "nextDate": "2026-10-30",
+      "businessDate": "2026-10-26",
+      "business": "PO is on ML. Case posted to 30.10.2026",
+      "judge": "Not separately stated",
+      "advocate": "Not stated",
+      "attendingAdvocate": "Not established; counsel does not prove attendance",
+      "filingRequirements": "See exact procedural business; compliance not inferred",
+      "rawObservation": {
+        "case": "DVC31/2024",
+        "cnr": "TSRA030015142024",
+        "parties": "M. Vasavi alias Durga v V. Vikas and others",
+        "source": "https://rangareddy.dcourts.gov.in/case-status-search-by-case-number/",
+        "query": "Rangareddy PDJ Court Complex DVC31/2024",
+        "checkedAtUTC": "2026-10-31T01:30:27Z",
+        "court": "1-II Additional Junior Civil Judge-cum-II Addl.Judicial Magistrate of First Class, RangaReddy District at L.B.Nagar",
+        "judge": "Not separately stated",
+        "status": "Pending",
+        "stage": "SUMMONS",
+        "nextDate": "2026-10-30",
+        "businessDate": "2026-10-26",
+        "businessExact": "PO is on ML. Case posted to 30.10.2026",
+        "result": "matched official docket; source profile association remains qualified",
+        "fullDocket": true,
+        "changed": false,
+        "qualification": "Portal still shows elapsed October30 date; no October30 outcome yet displayed. Not an upcoming hearing; do not infer disposal. Office Dharunya/Vatten Vikas name conflict retained.",
+        "captcha": {
+          "submitted": 2,
+          "accepted": 2,
+          "rejected": 0
+        },
+        "id": "oct31:full:1",
+        "fullDocketRetrieved": true,
+        "checkedUTC": "2026-10-31T01:30:27Z"
+      },
+      "importedResearchDate": null,
+      "freshCheckDate": "2026-10-31"
+    },
+    {
+      "evidenceId": "oct31:full:2",
+      "id": "oct31:full:2",
+      "observedAtUTC": "2026-10-31T01:35:20Z",
+      "cnr": "TSMM020028962025",
+      "case": "CC1627/2025",
+      "files": [
+        "263"
+      ],
+      "profileIds": [
+        "running:263"
+      ],
+      "fullDocketRetrieved": true,
+      "source": "https://medchalmalkajgiri.dcourts.gov.in/case-status-search-by-case-number/",
+      "query": "Malkajgiri PDJ Court Complex CC1627/2025",
+      "parties": "State of Telangana through PS Neredmet v Bhargava Ramulu Karne",
+      "court": "2-I Addl.Junior Civil Judge-cum-I Addl Judicial Magistrate of First Class at Malkajgiri",
+      "status": "Pending",
+      "stage": "SUMMONS TO WITNESSES",
+      "nextDate": "2027-01-20",
+      "businessDate": "2026-10-30",
+      "business": "Accused present and examined under Section 262 B.N.S.S. Charges against accused for the offence u/s 118(2) of B.N.S., Sec. 75 of the JJ Act are framed, read over and explained to them in Telugu in vernacular to which they pleaded not guilty and claimed to be tried, Issue SS to LW1 to LW3 by 20.01.2027.",
+      "judge": "Not separately stated",
+      "advocate": "Not stated",
+      "attendingAdvocate": "Not established; counsel does not prove attendance",
+      "filingRequirements": "See exact procedural business; compliance not inferred",
+      "rawObservation": {
+        "case": "CC1627/2025",
+        "cnr": "TSMM020028962025",
+        "parties": "State of Telangana through PS Neredmet v Bhargava Ramulu Karne",
+        "source": "https://medchalmalkajgiri.dcourts.gov.in/case-status-search-by-case-number/",
+        "query": "Malkajgiri PDJ Court Complex CC1627/2025",
+        "checkedAtUTC": "2026-10-31T01:35:20Z",
+        "court": "2-I Addl.Junior Civil Judge-cum-I Addl Judicial Magistrate of First Class at Malkajgiri",
+        "judge": "Not separately stated",
+        "advocate": "Not stated",
+        "status": "Pending",
+        "stage": "SUMMONS TO WITNESSES",
+        "nextDate": "2027-01-20",
+        "businessDate": "2026-10-30",
+        "businessExact": "Accused present and examined under Section 262 B.N.S.S. Charges against accused for the offence u/s 118(2) of B.N.S., Sec. 75 of the JJ Act are framed, read over and explained to them in Telugu in vernacular to which they pleaded not guilty and claimed to be tried, Issue SS to LW1 to LW3 by 20.01.2027.",
+        "result": "matched official",
+        "fullDocket": true,
+        "changed": true,
+        "qualification": "Case details Acts table states BNS118(1), while October30 business states118(2); retain source discrepancy rather than silently correcting. No finding of guilt.",
+        "captcha": {
+          "submitted": 4,
+          "accepted": 2,
+          "rejected": 2,
+          "illegibleRefresh": 1
+        },
+        "id": "oct31:full:2",
+        "fullDocketRetrieved": true,
+        "checkedUTC": "2026-10-31T01:35:20Z"
+      },
+      "importedResearchDate": null,
+      "freshCheckDate": "2026-10-31"
+    },
+    {
+      "evidenceId": "oct31:full:3",
+      "id": "oct31:full:3",
+      "observedAtUTC": "2026-10-31T01:38:20Z",
+      "cnr": "TSMM020017092026",
+      "case": "DVC19/2026",
+      "files": [
+        "266"
+      ],
+      "profileIds": [
+        "running:266"
+      ],
+      "fullDocketRetrieved": true,
+      "source": "https://medchalmalkajgiri.dcourts.gov.in/case-status-search-by-case-number/",
+      "query": "Malkajgiri PDJ Court Complex DVC19/2026",
+      "parties": "Ayyagali Shalini v Thumuluri Sai Vamsi Krishna",
+      "court": "1-Principal Junior Civil Judge-cum-Judicial Magistrate of First Class at Malkajgiri",
+      "status": "Pending",
+      "stage": "SUMMONS",
+      "nextDate": "2026-12-30",
+      "businessDate": "2026-10-30",
+      "business": "Petitioner absent and her counsel present. Respondent No.3 absent and her absence condoned on petition. Issue fresh summons to Respondent No.1 on payment of process. Call on 30-12-2026.",
+      "judge": "Not separately stated",
+      "advocate": "Portal petitioner advocate APP; attending counsel unnamed",
+      "attendingAdvocate": "Not established; counsel does not prove attendance",
+      "filingRequirements": "See exact procedural business; compliance not inferred",
+      "rawObservation": {
+        "case": "DVC19/2026",
+        "cnr": "TSMM020017092026",
+        "parties": "Ayyagali Shalini v Thumuluri Sai Vamsi Krishna",
+        "source": "https://medchalmalkajgiri.dcourts.gov.in/case-status-search-by-case-number/",
+        "query": "Malkajgiri PDJ Court Complex DVC19/2026",
+        "checkedAtUTC": "2026-10-31T01:38:20Z",
+        "court": "1-Principal Junior Civil Judge-cum-Judicial Magistrate of First Class at Malkajgiri",
+        "judge": "Not separately stated",
+        "advocate": "Portal petitioner advocate APP; attending counsel unnamed",
+        "status": "Pending",
+        "stage": "SUMMONS",
+        "nextDate": "2026-12-30",
+        "businessDate": "2026-10-30",
+        "businessExact": "Petitioner absent and her counsel present. Respondent No.3 absent and her absence condoned on petition. Issue fresh summons to Respondent No.1 on payment of process. Call on 30-12-2026.",
+        "filingRequirements": "Payment of process for fresh summons to respondent No.1; exact payment deadline not separately stated.",
+        "result": "matched official",
+        "fullDocket": true,
+        "changed": true,
+        "qualification": "Portal party list displays only respondent No.1 while business refers also to respondent No.3; do not invent name.",
+        "captcha": {
+          "submitted": 2,
+          "accepted": 2,
+          "rejected": 0,
+          "illegibleRefresh": 1
+        },
+        "id": "oct31:full:3",
+        "fullDocketRetrieved": true,
+        "checkedUTC": "2026-10-31T01:38:20Z"
+      },
+      "importedResearchDate": null,
+      "freshCheckDate": "2026-10-31"
+    },
+    {
+      "evidenceId": "oct31:full:4",
+      "id": "oct31:full:4",
+      "observedAtUTC": "2026-10-31T01:40:18Z",
+      "cnr": "TSMM020017592025",
+      "case": "DVC31/2025",
+      "files": [
+        "196"
+      ],
+      "profileIds": [
+        "running:196"
+      ],
+      "fullDocketRetrieved": true,
+      "source": "https://medchalmalkajgiri.dcourts.gov.in/case-status-search-by-case-number/",
+      "query": "Malkajgiri PDJ Court Complex DVC31/2025",
+      "parties": "Gattem Lakshmi Sai Priyanka v Gattem Babjee; G. Vishweshwar Rao; G. Satyavathi",
+      "court": "1-Principal Junior Civil Judge-cum-Judicial Magistrate of First Class at Malkajgiri",
+      "status": "Pending",
+      "stage": "AWAIT REPORTS",
+      "nextDate": "2026-12-15",
+      "businessDate": "2026-10-29",
+      "business": "P.O. is on Maternity Leave, case posted to 15-12-2026.",
+      "judge": "Not separately stated",
+      "advocate": "Portal: Not yet appointed.",
+      "attendingAdvocate": "Not established; counsel does not prove attendance",
+      "filingRequirements": "See exact procedural business; compliance not inferred",
+      "rawObservation": {
+        "case": "DVC31/2025",
+        "cnr": "TSMM020017592025",
+        "profileIds": [
+          "running:196"
+        ],
+        "parties": "Gattem Lakshmi Sai Priyanka v Gattem Babjee; G. Vishweshwar Rao; G. Satyavathi",
+        "source": "https://medchalmalkajgiri.dcourts.gov.in/case-status-search-by-case-number/",
+        "query": "Malkajgiri PDJ Court Complex DVC31/2025",
+        "checkedAtUTC": "2026-10-31T01:40:18Z",
+        "court": "1-Principal Junior Civil Judge-cum-Judicial Magistrate of First Class at Malkajgiri",
+        "judge": "Not separately stated",
+        "advocate": "Portal: Not yet appointed.",
+        "status": "Pending",
+        "stage": "AWAIT REPORTS",
+        "nextDate": "2026-12-15",
+        "businessDate": "2026-10-29",
+        "businessExact": "P.O. is on Maternity Leave, case posted to 15-12-2026.",
+        "result": "matched official",
+        "fullDocket": true,
+        "changed": true,
+        "qualification": "October30 CAPTCHA-blocked attempt now resolved by readable fresh challenge; no inference of outcome beyond adjournment.",
+        "captcha": {
+          "submitted": 4,
+          "accepted": 2,
+          "rejected": 2
+        },
+        "id": "oct31:full:4",
+        "fullDocketRetrieved": true,
+        "checkedUTC": "2026-10-31T01:40:18Z"
+      },
+      "importedResearchDate": null,
+      "freshCheckDate": "2026-10-31"
+    },
+    {
+      "evidenceId": "oct31:full:5",
+      "id": "oct31:full:5",
+      "observedAtUTC": "2026-10-31T01:41:35Z",
+      "cnr": "TSMM000003612021",
+      "case": "MC34/2021",
+      "files": [
+        "109"
+      ],
+      "profileIds": [
+        "running:109"
+      ],
+      "fullDocketRetrieved": true,
+      "source": "https://medchalmalkajgiri.dcourts.gov.in/case-status-search-by-case-number/",
+      "query": "Malkajgiri PDJ Court Complex MC34/2021",
+      "parties": "JANYA DIDLA AND ARUNA KRANTHI DIDLA v VIJAY BABU.D",
+      "court": "9-II ADJ-Cum- I Addl MSJ -cum- II Spl Sessions Judge for fast tracking the cases relating to Atrocities against women-Cum- Family Court",
+      "status": "Pending",
+      "stage": "ENQUIRY",
+      "nextDate": "2026-11-13",
+      "businessDate": "2026-10-29",
+      "business": "Both side counsels present. Crl.MP pending. For enquiry at request call on 13-11-2026 as last chance no further adjournments failing which appropriate orders will be passed.",
+      "judge": "Not separately stated",
+      "advocate": "Petitioner LAXMI NARAYANA; both side counsel present, attendance names not specified",
+      "attendingAdvocate": "Not established; counsel does not prove attendance",
+      "filingRequirements": "See exact procedural business; compliance not inferred",
+      "rawObservation": {
+        "case": "MC34/2021",
+        "cnr": "TSMM000003612021",
+        "profileIds": [
+          "running:109"
+        ],
+        "parties": "JANYA DIDLA AND ARUNA KRANTHI DIDLA v VIJAY BABU.D",
+        "source": "https://medchalmalkajgiri.dcourts.gov.in/case-status-search-by-case-number/",
+        "query": "Malkajgiri PDJ Court Complex MC34/2021",
+        "checkedAtUTC": "2026-10-31T01:41:35Z",
+        "court": "9-II ADJ-Cum- I Addl MSJ -cum- II Spl Sessions Judge for fast tracking the cases relating to Atrocities against women-Cum- Family Court",
+        "judge": "Not separately stated",
+        "advocate": "Petitioner LAXMI NARAYANA; both side counsel present, attendance names not specified",
+        "status": "Pending",
+        "stage": "ENQUIRY",
+        "nextDate": "2026-11-13",
+        "businessDate": "2026-10-29",
+        "businessExact": "Both side counsels present. Crl.MP pending. For enquiry at request call on 13-11-2026 as last chance no further adjournments failing which appropriate orders will be passed.",
+        "result": "matched official",
+        "fullDocket": true,
+        "changed": true,
+        "qualification": "Last-chance warning; no disposal or automatic adverse order inferred. Pending Crl.MP number not stated.",
+        "captcha": {
+          "submitted": 2,
+          "accepted": 2,
+          "rejected": 0
+        },
+        "id": "oct31:full:5",
+        "fullDocketRetrieved": true,
+        "checkedUTC": "2026-10-31T01:41:35Z"
+      },
+      "importedResearchDate": null,
+      "freshCheckDate": "2026-10-31"
+    },
+    {
+      "evidenceId": "oct31:full:6",
+      "id": "oct31:full:6",
+      "observedAtUTC": "2026-10-31T01:44:04Z",
+      "cnr": "TSYB070000352023",
+      "case": "HMOP66/2024",
+      "files": [
+        "140"
+      ],
+      "profileIds": [
+        "running:140"
+      ],
+      "fullDocketRetrieved": true,
+      "source": "https://yadadri.dcourts.gov.in/case-status-search-by-case-number/",
+      "query": "Ramannapet JCJ Court Complex H.M.O.P66/2024",
+      "parties": "CH.Venkata Narsimha Reddy v CH.Krsihnaveni",
+      "court": "1-Senior Civil Judge, Ramannapet",
+      "status": "Pending",
+      "stage": "CALL WITH IAS",
+      "nextDate": "2026-10-30",
+      "businessDate": "2026-09-22",
+      "business": "Petitioner present and Respondent called absent. P.O is on E.L call on 30.10.2026.",
+      "judge": "Not separately stated",
+      "advocate": "Petitioner P. Bosu Babu; respondent ANNAPURNA R.",
+      "attendingAdvocate": "Not established; counsel does not prove attendance",
+      "filingRequirements": "See exact procedural business; compliance not inferred",
+      "rawObservation": {
+        "case": "HMOP66/2024",
+        "cnr": "TSYB070000352023",
+        "profileIds": [
+          "running:140"
+        ],
+        "files": [
+          "140"
+        ],
+        "parties": "CH.Venkata Narsimha Reddy v CH.Krsihnaveni",
+        "source": "https://yadadri.dcourts.gov.in/case-status-search-by-case-number/",
+        "query": "Ramannapet JCJ Court Complex H.M.O.P66/2024",
+        "checkedAtUTC": "2026-10-31T01:44:04Z",
+        "court": "1-Senior Civil Judge, Ramannapet",
+        "judge": "Not separately stated",
+        "advocate": "Petitioner P. Bosu Babu; respondent ANNAPURNA R.",
+        "status": "Pending",
+        "stage": "CALL WITH IAS",
+        "nextDate": "2026-10-30",
+        "businessDate": "2026-09-22",
+        "businessExact": "Petitioner present and Respondent called absent. P.O is on E.L call on 30.10.2026.",
+        "result": "matched official",
+        "fullDocket": true,
+        "changed": false,
+        "qualification": "Elapsed October30 next date persists; no October30 outcome displayed. Filing128/2023 and CNR2023 coexist with displayed filing/registration27Dec2024; retain exact portal fields.",
+        "captcha": {
+          "submitted": 4,
+          "accepted": 2,
+          "rejected": 2
+        },
+        "id": "oct31:full:6",
+        "fullDocketRetrieved": true,
+        "checkedUTC": "2026-10-31T01:44:04Z"
+      },
+      "importedResearchDate": null,
+      "freshCheckDate": "2026-10-31"
+    },
+    {
+      "evidenceId": "oct31:full:7",
+      "id": "oct31:full:7",
+      "observedAtUTC": "2026-10-31T01:45:52Z",
+      "cnr": "TSHM0A0369522026",
+      "case": "STC.NI6424/2026",
+      "files": [],
+      "profileIds": [],
+      "fullDocketRetrieved": true,
+      "source": "https://hccc.dcourts.gov.in/case-status-search-by-case-number/",
+      "query": "HYD MM Court Complex STC.NI6424/2026",
+      "parties": "MYLARAM MADHUR LATHA v MANANESTHAM CHIT FUND",
+      "court": "10-X Metropolitan Magistrate, Special JFCM for Excise Cases, Hyderabad",
+      "status": "Pending",
+      "stage": "SUMMONS",
+      "nextDate": "2027-01-05",
+      "businessDate": "2026-10-30",
+      "business": "Complainant counsel present. Complainant absent. Section is directed to issue summons. call on 05-01-2027",
+      "judge": "Not separately stated",
+      "advocate": "Petitioner E.Roja Ramini; business states complainant counsel present without naming attending counsel",
+      "attendingAdvocate": "Not established; counsel does not prove attendance",
+      "filingRequirements": "See exact procedural business; compliance not inferred",
+      "rawObservation": {
+        "case": "STC.NI6424/2026",
+        "cnr": "TSHM0A0369522026",
+        "parties": "MYLARAM MADHUR LATHA v MANANESTHAM CHIT FUND",
+        "source": "https://hccc.dcourts.gov.in/case-status-search-by-case-number/",
+        "query": "HYD MM Court Complex STC.NI6424/2026",
+        "checkedAtUTC": "2026-10-31T01:45:52Z",
+        "court": "10-X Metropolitan Magistrate, Special JFCM for Excise Cases, Hyderabad",
+        "judge": "Not separately stated",
+        "advocate": "Petitioner E.Roja Ramini; business states complainant counsel present without naming attending counsel",
+        "status": "Pending",
+        "stage": "SUMMONS",
+        "nextDate": "2027-01-05",
+        "businessDate": "2026-10-30",
+        "businessExact": "Complainant counsel present. Complainant absent. Section is directed to issue summons. call on 05-01-2027",
+        "result": "matched official",
+        "fullDocket": true,
+        "changed": true,
+        "qualification": "Accepted additional firm proceeding; potential file243 linkage not established (source MVOP, different proceeding). No new physical register row inferred.",
+        "captcha": {
+          "submitted": 1,
+          "accepted": 1,
+          "rejected": 0
+        },
+        "id": "oct31:full:7",
+        "fullDocketRetrieved": true,
+        "checkedUTC": "2026-10-31T01:45:52Z"
+      },
+      "importedResearchDate": null,
+      "freshCheckDate": "2026-10-31"
+    },
+    {
+      "evidenceId": "oct31:import30:observations:1",
+      "id": "oct31:import30:observations:1",
+      "observedAtUTC": "2026-10-30T05:51:46Z",
+      "cnr": "TSFC070004982019",
+      "case": "FCOP415/2019",
+      "files": [
+        "40"
+      ],
+      "profileIds": [
+        "running:40"
+      ],
+      "fullDocketRetrieved": true,
+      "source": "https://rangareddy.dcourts.gov.in/case-status-search-by-case-number/",
+      "query": "Court Complex Rangareddy, PDJ Court Complex; F.C.O.P; 415; 2019",
+      "parties": "Petitioner 1) XXXXXXX; respondent 1) XXX",
+      "court": "2-Additional Family Court, L.B.Nagar",
+      "status": "Case Disposed",
+      "stage": "Uncontested - Transfer due to reorganization of Judicial Districts",
+      "nextDate": null,
+      "businessDate": "2022-06-28",
+      "business": "Within-establishment transfer from 1-Family Court Judge to 2-Additional Family Court, L.B.Nagar on 9 October 2021. Subsequent June 2022 reorganization transfer does not prove merits disposal.",
+      "judge": "Not separately named",
+      "advocate": "Petitioner: P. ANJANEYULU; respondent: not stated",
+      "attendingAdvocate": "Not established; counsel does not prove attendance",
+      "filingRequirements": "See exact procedural business; compliance not inferred",
+      "rawObservation": {
+        "id": "research30:fcop415rr",
+        "file": "40",
+        "originalRow": 43,
+        "sourceEntry": "OP 415/19; Ramesh",
+        "checkedUTC": "2026-10-30T05:51:46Z",
+        "source": "https://rangareddy.dcourts.gov.in/case-status-search-by-case-number/",
+        "query": "Court Complex Rangareddy, PDJ Court Complex; F.C.O.P; 415; 2019",
+        "cnr": "TSFC070004982019",
+        "case": "FCOP415/2019",
+        "filing": "439/2019",
+        "filingDate": "2019-04-02",
+        "registrationDate": "2019-04-02",
+        "partiesLiteral": "Petitioner 1) XXXXXXX; respondent 1) XXX",
+        "advocate": "Petitioner: P. ANJANEYULU; respondent: not stated",
+        "court": "2-Additional Family Court, L.B.Nagar",
+        "judge": "Not separately named",
+        "portalStatus": "Case Disposed",
+        "decisionDate": "2022-06-28",
+        "disposal": "Uncontested - Transfer due to reorganization of Judicial Districts",
+        "act": "HINDU MARRIAGE ACT",
+        "section": "13(1)(ia)",
+        "history": "Within-establishment transfer from 1-Family Court Judge to 2-Additional Family Court, L.B.Nagar on 9 October 2021. Subsequent June 2022 reorganization transfer does not prove merits disposal.",
+        "identity": "New exact-number candidate. Masked parties do not establish source Ramesh identity. Distinct from previous Secunderabad FCOP415/2019 TSHC080005802019; do not merge.",
+        "nextAction": "Obtain source pleading/order or receiving court/number/CNR identifying the June 2022 transfer. No supported receiving destination is stated on this docket. Do not close the firm file."
+      },
+      "importedResearchDate": "2026-10-30",
+      "freshCheckDate": null
+    },
+    {
+      "evidenceId": "oct31:import30:observations:2",
+      "id": "oct31:import30:observations:2",
+      "observedAtUTC": "2026-10-30T05:52:45Z",
+      "cnr": "TSRA000002432019",
+      "case": "FCOP23/2019",
+      "files": [
+        "33"
+      ],
+      "profileIds": [
+        "running:33"
+      ],
+      "fullDocketRetrieved": true,
+      "source": "https://rangareddy.dcourts.gov.in/case-status-search-by-case-number/",
+      "query": "Court Complex Rangareddy, PDJ Court Complex; F.C.O.P; 23; 2019; District Courts result",
+      "parties": "Petitioner 1) XXXXXXX; respondent 1) XXX",
+      "court": "5-IV ADJ-IV Addl.MSJ-cum-I Addl.Family Court",
+      "status": "Case Disposed",
+      "stage": "Uncontested - TRANSFERRED",
+      "nextDate": null,
+      "businessDate": "2021-10-07",
+      "business": "Uncontested - TRANSFERRED",
+      "judge": "Not separately named",
+      "advocate": "Petitioner: Syed Yakob; respondent: not stated",
+      "attendingAdvocate": "Not established; counsel does not prove attendance",
+      "filingRequirements": "See exact procedural business; compliance not inferred",
+      "rawObservation": {
+        "id": "research30:fcop23donor",
+        "file": "33",
+        "originalRow": 36,
+        "sourceEntry": "OP 23/19; Sunitha",
+        "checkedUTC": "2026-10-30T05:52:45Z",
+        "source": "https://rangareddy.dcourts.gov.in/case-status-search-by-case-number/",
+        "query": "Court Complex Rangareddy, PDJ Court Complex; F.C.O.P; 23; 2019; District Courts result",
+        "cnr": "TSRA000002432019",
+        "case": "FCOP23/2019",
+        "filing": "166/2019",
+        "filingDate": "2019-01-22",
+        "registrationDate": "2019-01-04",
+        "dateConflict": "Portal registration precedes filing; preserved as displayed, not repaired.",
+        "partiesLiteral": "Petitioner 1) XXXXXXX; respondent 1) XXX",
+        "advocate": "Petitioner: Syed Yakob; respondent: not stated",
+        "court": "5-IV ADJ-IV Addl.MSJ-cum-I Addl.Family Court",
+        "judge": "Not separately named",
+        "portalStatus": "Case Disposed",
+        "decisionDate": "2021-10-07",
+        "disposal": "Uncontested - TRANSFERRED",
+        "act": "HINDU MARRIAGE ACT",
+        "section": "9",
+        "identity": "New exact-number candidate; Sunitha identity remains unverified.",
+        "transferCandidate": "TSFC070020392021 shares exact registration23/2019, filing166/2019, counsel, HMA9 and registration date equal donor transfer date. Strong corroboration, but no explicit receiving CNR cross-reference or unmasked parties in observed record."
+      },
+      "importedResearchDate": "2026-10-30",
+      "freshCheckDate": null
+    },
+    {
+      "evidenceId": "oct31:import30:observations:3",
+      "id": "oct31:import30:observations:3",
+      "observedAtUTC": "2026-10-30T05:53:07Z",
+      "cnr": "TSFC070020392021",
+      "case": "FCOP23/2019",
+      "files": [
+        "33"
+      ],
+      "profileIds": [
+        "running:33"
+      ],
+      "fullDocketRetrieved": true,
+      "source": "https://rangareddy.dcourts.gov.in/case-status-search-by-case-number/",
+      "query": "Same search; Family Courts result",
+      "parties": "Petitioner 1) XXXXXXX; respondent 1) XXX",
+      "court": "2-Additional Family Court, L.B.Nagar",
+      "status": "Case Disposed",
+      "stage": "Uncontested - DISMISSED FOR DEFAULT",
+      "nextDate": null,
+      "businessDate": "2023-03-15",
+      "business": "Uncontested - DISMISSED FOR DEFAULT",
+      "judge": "Not separately named",
+      "advocate": "Petitioner: Syed Yakob; respondent: not stated",
+      "attendingAdvocate": "Not established; counsel does not prove attendance",
+      "filingRequirements": "See exact procedural business; compliance not inferred",
+      "rawObservation": {
+        "id": "research30:fcop23receiver",
+        "file": "33",
+        "originalRow": 36,
+        "sourceEntry": "OP 23/19; Sunitha",
+        "checkedUTC": "2026-10-30T05:53:07Z",
+        "source": "https://rangareddy.dcourts.gov.in/case-status-search-by-case-number/",
+        "query": "Same search; Family Courts result",
+        "cnr": "TSFC070020392021",
+        "case": "FCOP23/2019",
+        "filing": "166/2019",
+        "filingDate": "2021-10-07",
+        "registrationDate": "2021-10-07",
+        "partiesLiteral": "Petitioner 1) XXXXXXX; respondent 1) XXX",
+        "advocate": "Petitioner: Syed Yakob; respondent: not stated",
+        "court": "2-Additional Family Court, L.B.Nagar",
+        "judge": "Not separately named",
+        "portalStatus": "Case Disposed",
+        "decisionDate": "2023-03-15",
+        "disposal": "Uncontested - DISMISSED FOR DEFAULT",
+        "act": "HINDU MARRIAGE ACT",
+        "section": "9",
+        "identity": "New candidate receiving docket. Do not label Sunitha's file closed without identity verification; do not merge with separate Secunderabad FCOP23/2019 TSHC080000472019.",
+        "nextAction": "Source full party identity or pleading/order with court/CNR required; any restoration/appeal must be assessed before whole-file closure. No new hearing date inferred."
+      },
+      "importedResearchDate": "2026-10-30",
+      "freshCheckDate": null
+    },
+    {
+      "evidenceId": "oct31:attempt:1",
+      "id": "oct31:attempt:1",
+      "observedAtUTC": "2026-10-31T01:32:18Z",
+      "cnr": "TSRA000022282026",
+      "case": "CRLMP51/2026",
+      "files": [
+        "252"
+      ],
+      "profileIds": [
+        "running:252"
+      ],
+      "fullDocketRetrieved": false,
+      "source": "https://rangareddy.dcourts.gov.in/case-status-search-by-case-number/",
+      "query": "Rangareddy PDJ CRL.MP51/2026",
+      "parties": "Aditi/Aditya–Parag (office names; full official title retained in prior report)",
+      "court": null,
+      "status": null,
+      "stage": null,
+      "nextDate": null,
+      "businessDate": null,
+      "business": null,
+      "judge": "Not separately stated",
+      "advocate": "Not stated",
+      "attendingAdvocate": "Not established; counsel does not prove attendance",
+      "filingRequirements": "See exact procedural business; compliance not inferred",
+      "rawObservation": {
+        "cnr": "TSRA000022282026",
+        "case": "CRLMP51/2026",
+        "parties": "Aditi/Aditya–Parag (office names; full official title retained in prior report)",
+        "source": "https://rangareddy.dcourts.gov.in/case-status-search-by-case-number/",
+        "query": "Rangareddy PDJ CRL.MP51/2026",
+        "checkedAtUTC": "2026-10-31T01:32:18Z",
+        "result": "No case result; first submission Unable to reach API server, next two fresh visual CAPTCHA submissions rejected. Compliance not established; prior November6 cost condition retained.",
+        "captcha": {
+          "submitted": 3,
+          "rejected": 2,
+          "apiError": 1
+        },
+        "whyRepeat": "November6 compliance deadline; status may have changed since last saved check.",
+        "id": "oct31:attempt:1",
+        "fullDocketRetrieved": false
+      },
+      "importedResearchDate": null,
+      "freshCheckDate": "2026-10-31"
+    },
+    {
+      "evidenceId": "oct31:import30:attempts:1",
+      "id": "oct31:import30:attempts:1",
+      "observedAtUTC": "2026-10-30T05:51:46Z",
+      "cnr": null,
+      "case": null,
+      "files": [
+        "40"
+      ],
+      "profileIds": [
+        "running:40"
+      ],
+      "fullDocketRetrieved": false,
+      "source": "https://rangareddy.dcourts.gov.in/case-status-search-by-case-number/",
+      "query": "RR PDJ F.C.O.P415/2019",
+      "parties": null,
+      "court": null,
+      "status": null,
+      "stage": null,
+      "nextDate": null,
+      "businessDate": null,
+      "business": null,
+      "judge": "Not separately stated",
+      "advocate": "Not stated",
+      "attendingAdvocate": "Not established; counsel does not prove attendance",
+      "filingRequirements": "See exact procedural business; compliance not inferred",
+      "rawObservation": {
+        "file": "40",
+        "originalRow": 43,
+        "query": "RR PDJ F.C.O.P415/2019",
+        "checkedUTC": "2026-10-30T05:51:46Z",
+        "result": "Full new candidate donor docket retrieved after one rejected CAPTCHA and a fresh accepted challenge. Prior Oct28 CAPTCHA gate resolved; source identity and receiving case remain unresolved.",
+        "source": "https://rangareddy.dcourts.gov.in/case-status-search-by-case-number/",
+        "evidenceIds": [
+          "research30:fcop415rr"
+        ],
+        "whyRepeat": "Previous RR query yielded no docket because of unreadable/rejected challenges; newly readable challenge and current functioning session."
+      },
+      "importedResearchDate": "2026-10-30",
+      "freshCheckDate": null
+    },
+    {
+      "evidenceId": "oct31:import30:attempts:2",
+      "id": "oct31:import30:attempts:2",
+      "observedAtUTC": "2026-10-30T05:53:07Z",
+      "cnr": null,
+      "case": null,
+      "files": [
+        "33"
+      ],
+      "profileIds": [
+        "running:33"
+      ],
+      "fullDocketRetrieved": false,
+      "source": "https://rangareddy.dcourts.gov.in/case-status-search-by-case-number/",
+      "query": "RR PDJ F.C.O.P23/2019",
+      "parties": null,
+      "court": null,
+      "status": null,
+      "stage": null,
+      "nextDate": null,
+      "businessDate": null,
+      "business": null,
+      "judge": "Not separately stated",
+      "advocate": "Not stated",
+      "attendingAdvocate": "Not established; counsel does not prove attendance",
+      "filingRequirements": "See exact procedural business; compliance not inferred",
+      "rawObservation": {
+        "file": "33",
+        "originalRow": 36,
+        "query": "RR PDJ F.C.O.P23/2019",
+        "checkedUTC": "2026-10-30T05:53:07Z",
+        "result": "Two full new candidate dockets retrieved; strongly corroborated donor/receiver chronology, source Sunitha identity remains unverified.",
+        "source": "https://rangareddy.dcourts.gov.in/case-status-search-by-case-number/",
+        "evidenceIds": [
+          "research30:fcop23donor",
+          "research30:fcop23receiver"
+        ],
+        "whyRepeat": "Previous RR query yielded no docket due to CAPTCHA; fresh accepted challenge."
+      },
+      "importedResearchDate": "2026-10-30",
+      "freshCheckDate": null
+    },
+    {
+      "evidenceId": "oct31:import30:attempts:3",
+      "id": "oct31:import30:attempts:3",
+      "observedAtUTC": "2026-10-30T05:54:11Z",
+      "cnr": null,
+      "case": null,
+      "files": [
+        "287"
+      ],
+      "profileIds": [
+        "running:287"
+      ],
+      "fullDocketRetrieved": false,
+      "source": "https://rangareddy.dcourts.gov.in/case-status-search-by-filing-number/",
+      "query": "RR PDJ filing1548/2026",
+      "parties": null,
+      "court": null,
+      "status": null,
+      "stage": null,
+      "nextDate": null,
+      "businessDate": null,
+      "business": null,
+      "judge": "Not separately stated",
+      "advocate": "Not stated",
+      "attendingAdvocate": "Not established; counsel does not prove attendance",
+      "filingRequirements": "See exact procedural business; compliance not inferred",
+      "rawObservation": {
+        "file": "287",
+        "originalRow": 292,
+        "query": "RR PDJ filing1548/2026",
+        "checkedUTC": "2026-10-30T05:54:11Z",
+        "result": "Five result rows: bail, two masked FCOP rows, STC.NI and CC. No DVC target result. Did not open unrelated dossiers. Not proof of non-filing, disposal or absence in another establishment.",
+        "source": "https://rangareddy.dcourts.gov.in/case-status-search-by-filing-number/",
+        "whyRepeat": "Latest source WA28-M011 reports on27Oct DIR received and matter to be put before in-charge court for numbering, providing a changed-status basis after prior failed scope. Prior SR1587 conflict retained."
+      },
+      "importedResearchDate": "2026-10-30",
+      "freshCheckDate": null
+    },
+    {
+      "evidenceId": "oct31:import30:attempts:4",
+      "id": "oct31:import30:attempts:4",
+      "observedAtUTC": "2026-10-30T05:54:47Z",
+      "cnr": null,
+      "case": null,
+      "files": [
+        "287"
+      ],
+      "profileIds": [
+        "running:287"
+      ],
+      "fullDocketRetrieved": false,
+      "source": "https://rangareddy.dcourts.gov.in/case-status-search-by-petitioner-respondent/",
+      "query": "RR PDJ party Apoorva, year2026, Both statuses",
+      "parties": null,
+      "court": null,
+      "status": null,
+      "stage": null,
+      "nextDate": null,
+      "businessDate": null,
+      "business": null,
+      "judge": "Not separately stated",
+      "advocate": "Not stated",
+      "attendingAdvocate": "Not established; counsel does not prove attendance",
+      "filingRequirements": "See exact procedural business; compliance not inferred",
+      "rawObservation": {
+        "file": "287",
+        "originalRow": 292,
+        "query": "RR PDJ party Apoorva, year2026, Both statuses",
+        "checkedUTC": "2026-10-30T05:54:47Z",
+        "result": "No records found in selected scope after accepted CAPTCHA. No registered DVC/CNR established; no disposal inference.",
+        "source": "https://rangareddy.dcourts.gov.in/case-status-search-by-petitioner-respondent/",
+        "whyRepeat": "Same dated27Oct numbering lead. Stop unchanged broad repeats; need registered number/CNR or numbered filing/order."
+      },
+      "importedResearchDate": "2026-10-30",
+      "freshCheckDate": null
+    }
+  ]
+}

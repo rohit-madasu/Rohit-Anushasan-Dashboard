@@ -1,0 +1,144 @@
+{
+  "run": "2026-10-29 research-only",
+  "status": "Completed bounded research-only batch; evidence retained for next authorized revision, no Drive writes",
+  "sourceStageId": "1pDZQnCfz7Bpl7kF2jae-24wuYmz-M_9U",
+  "sourceStageSHA256": "1d68fea49227b2ffb50d3095fc36b424f11f4be55b3e59fe2c505d4233b1affb",
+  "observations": [
+    {
+      "checkedAtUTC": "2026-10-29T05:58:28Z",
+      "checkedAtIST": "2026-10-29T11:28:28+05:30",
+      "source": "https://mancherial.dcourts.gov.in/case-status-search-by-case-number/",
+      "query": "Mancherial, Spl.JFCM Court Complex; CC.NI 13/2026",
+      "case": "CC.NI 13/2026",
+      "cnr": "TSMN030015372026",
+      "fileAssociation": [
+        "179"
+      ],
+      "original188Member": false,
+      "parties": "KVR Enterprises, Rep by its Proprietor (OLD CC.NI.No.06/2016 versus M/s Master Roofing Rep by its Managing Partner",
+      "court": "Spl. JFCM Excise Court, Mancherial; 1-Spl. JFCM",
+      "judge": "Not separately stated",
+      "filingNumber": "1535/2026",
+      "filingDate": "2026-10-26",
+      "registrationDate": "2026-10-26",
+      "status": "Pending",
+      "nextDate": "2026-11-04",
+      "stage": "CALL WITH MPs",
+      "advocate": "PRATIK BANG for petitioner",
+      "attendingAdvocate": "Not established",
+      "businessDate": "2026-10-26",
+      "businessExact": "The Honorable P.O is on O.H this case is posted to 04.11.2026.",
+      "newFinding": "Exact receiving docket now independently confirms future next date and dated business; replaces stale October 26 date and empty history observed October 28. October 29 morning detail access failure retained as history.",
+      "qualification": "Do not copy companion CC.NI 12/2026 date; this date was independently read from CNR TSMN030015372026. Old-number 06/2016 versus donor 6/2026 conflict and qualified file/donor association remain unresolved. No new case profile or classification change.",
+      "captcha": {
+        "searchSubmitted": 1,
+        "searchAccepted": 1,
+        "detailChallengeRequired": false
+      },
+      "access": "Initial upstream connection failure recovered after one reload."
+    },
+    {
+      "checkedAtUTC": "2026-10-29T06:02:07Z",
+      "source": "https://hccc.dcourts.gov.in/case-status-search-by-case-number/",
+      "query": "HYD, Criminal Court Complex; CC 14445/2019",
+      "case": "CC 14445/2019",
+      "cnr": "TSHM010154052019",
+      "profileId": "running:60",
+      "original188Row": 63,
+      "parties": "State PS Malakpet v Tanddra Kashinath Reddy; Bhukya Ravi",
+      "court": "8-VII Addl. Chief Metropolitan Magistrate, Hyderabad",
+      "filingNumber": "15378/2019",
+      "filingDate": "2019-09-21",
+      "registrationDate": "2019-09-21",
+      "firstHearing": "2020-01-24",
+      "decisionDate": "2026-06-01",
+      "status": "Case Disposed",
+      "natureOfDisposal": "Contested - ACQUITTAL",
+      "fir": "Malakpet.PS. 101/2019",
+      "act": "Indian Penal Code",
+      "sections": "171 B, 171 E",
+      "advocate": "APP for State",
+      "businessDate": "2026-06-01",
+      "businessExact": "A1 and A2 are called present. Judgment pronounced in the Open court. Accused Nos.1 and 2 are found not guilty for the offence punishable u/Ss.171 (B) and 171 (E) of IPC, accordingly, they are acquitted under the Provisions of Sec.255 (1) of Cr.P.C. The case property i.e., M.O.1/Oppo Mobile phone and M.O.2/I-Phone were handed over to its owners/A2 and A1 towards interim custody vide Crl.M.P.Nos.732 and 733 of 2019, dt.03.07.2019 respectively and the same shall be made absolute after expiry of appeal time. M.O.3 i.e., cash of Rs.34,30,000/- (converted into FDR No. 38401554317) shall be confiscated to State after the expiry of appeal time.",
+      "identityConfidence": "Exact source number/year, distinctive party names, supported court and FIR. Full trial identity now verified; replaces detail-access gate, not a new physical case.",
+      "qualification": "Linked CRLA258/2026 lead has same two names and FIR, but explicit lower-case number/order link and appeal scope still being checked. Trial acquittal does not close firm file or confiscation/appeal follow-up.",
+      "captcha": {
+        "searchSubmitted": 2,
+        "searchRejected": 1,
+        "searchAccepted": 1,
+        "detailSubmitted": 1,
+        "detailAccepted": 1,
+        "detailIllegibleRefresh": 1
+      }
+    },
+    {
+      "checkedAtUTC": "2026-10-29T06:05:33Z",
+      "source": "https://hccc.dcourts.gov.in/case-status-search-by-case-number/#",
+      "query": "HYD, Criminal Court Complex; CRLA 258/2026",
+      "case": "CRLA 258/2026",
+      "cnr": "TSHM000041542026",
+      "parties": "A1 Tandra Kashinath Reddy; A2 Bhukya Ravi v Malakpet PS",
+      "court": "8-VII Addl. Metropolitan Sessions Judge, Hyderabad",
+      "judge": "Not separately stated",
+      "filingNumber": "4141/2026",
+      "filingDate": "2026-07-02",
+      "registrationDate": "2026-07-02",
+      "firstHearingDate": "2026-07-29",
+      "status": "Pending",
+      "stage": "CALL WITH MPs",
+      "nextDate": "2026-11-05",
+      "advocate": "Kapish Kumar Tiwari for petitioner",
+      "fir": "Malakpet.PS. 101/2019",
+      "act": "Indian Penal Code",
+      "sections": "171(B), 171(E)",
+      "businessDate": "2026-10-14",
+      "businessExact": "Crl.MP.Pending. Call on 05-11-2026.",
+      "firstBusinessDate": "2026-07-29",
+      "firstBusinessExact": "Appellant no.1 and 2 absent. Petition filed and allowed. CrlMP pending call on 13.08.2026.",
+      "identityQualification": "Prior accepted additional firm-proceeding docket confirmed. Exact same two accused/appellants, police station, FIR number/year and sections, with post-trial filing chronology, strongly support association to file 60 trial CC14445/2019. No explicit lower-case number table or signed appeal order was displayed. Keep linkage qualified and appeal scope unresolved; do not assert the appeal concerns confiscation merely from trial business. No profile closure.",
+      "captcha": {
+        "searchSubmitted": 1,
+        "searchAccepted": 1,
+        "detailSubmitted": 1,
+        "detailAccepted": 1
+      },
+      "unchangedDocketSinceOctober28": true
+    }
+  ],
+  "completedUTC": "2026-10-29T06:05:33Z",
+  "coverage": {
+    "distinctProceedingQueries": 3,
+    "fullDocketsRetrieved": 3,
+    "newlyEstablishedCNRs": 1,
+    "knownCNRsRevisited": 2,
+    "meaningfulNewFindings": 2,
+    "unchangedDocketConfirmations": 1,
+    "original188ProfilesRevisited": 1,
+    "currentProfileAssociationsTouched": 2,
+    "sourceProfilesReclassified": 0,
+    "newPhysicalProfiles": 0,
+    "caseSearchSubmissions": 4,
+    "acceptedSearchSubmissions": 3,
+    "rejectedSearchSubmissions": 1,
+    "detailCaptchaSubmissions": 2,
+    "acceptedDetailCaptchas": 2,
+    "unresolvedExactLinkOrScope": "File 60 appeal lower-case link and scope; file 179 donor-year conflict",
+    "SC233FreshCheck": "Not attempted in this research batch; October 29 morning failure remains. Prior October 28 facts retained."
+  },
+  "nextQueue": {
+    "avoidRepeating": [
+      "CC.NI13/2026 next date now verified; do not repeat solely to obtain next date.",
+      "CC14445/2019 CNR/disposal now verified; do not repeat missing-court or detail-access query."
+    ],
+    "actionable": [
+      "SC233/2026 morning CAPTCHA gate can be recovered later using exact TSMM090005852026 and Kukatpally ADJ source.",
+      "File60 needs appeal memorandum or an explicit court order linking CC14445/2019 to CRLA258/2026 and identifying scope; keep live appeal."
+    ],
+    "original188CountsUnchanged": {
+      "attempted": 105,
+      "excluded": 52,
+      "specificGateOrReference": 31
+    },
+    "qualification": "Cumulative counts describe historical profile attempts, not resolution or current legal proceeding counts."
+  }
+}

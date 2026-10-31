@@ -1,3 +1,27 @@
+# Latest private edition: 31 October 2026, resumed review
+
+Read `REFRESH-2026-10-31-resumed.md` for the current source checkpoints and validation limits. Extract all resumed ZIP parts into one empty folder. No public hosting is authorized.
+
+---
+
+# Latest verified private source edition: 31 October 2026
+
+See `REFRESH-2026-10-31.md` for current evidence coverage and testing limits. Extract all current ZIP parts into one empty folder. Public hosting is not authorized.
+
+---
+
+# Current private edition — 30 October 2026
+
+See `REFRESH-2026-10-30.md`, `release-manifest.json`, and the dated evidence queue for current source bindings, coverage and limitations. Extract every ZIP part into the same empty folder. `index.html` is the full searchable application; `Hearing_Calendar_Dashboard.html` is the self-contained calendar. Public publication is not authorized. Authentication configuration is unchanged.
+
+The earlier edition descriptions below are retained historical documentation, not current coverage claims.
+
+---
+
+# Current private edition:29 October2026
+
+See REFRESH-2026-10-29.md and release-manifest.json for exact fresh coverage and limitations. Earlier edition descriptions below are retained history.
+
 # Latest private comprehensive release — 28 October 2026
 
 The current verified source bindings and per-entry research limits are recorded in `release-manifest.json` and `COMPREHENSIVE_REVIEW.md`. Extract every ZIP part into the same empty folder; open `Hearing_Calendar_Dashboard.html` locally. No public hosting or live unattended research is performed. Prior release documentation below is retained as dated history and does not override the current comprehensive source version.

@@ -1,0 +1,8 @@
+{
+  "pass": true,
+  "highConfidenceSecretMarkers": 0,
+  "forbiddenCredentialOrInternalFilenames": 0,
+  "authenticationAssetsByteIdentical": true,
+  "enhancementRuntimeByteIdentical": true,
+  "scope": "Only the established private legal app and required source data, provenance, runtime assets and tests are included. Scratch helpers, browser screenshots, service-account credentials and unrelated notes are excluded. No credential values are displayed. Automated marker/filename checks are not a guarantee against every possible secret format."
+}
