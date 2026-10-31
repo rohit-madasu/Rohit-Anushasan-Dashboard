@@ -1,0 +1,42 @@
+{
+  "checkedAtUTC": "2026-10-31T01:35:58.913Z",
+  "pass": true,
+  "rows": 1306,
+  "sourceUnits": 140535,
+  "profiles": 455,
+  "currentRows": 309,
+  "historyRows": 921,
+  "undatedRows": 76,
+  "graphObservations": 365,
+  "queryCNRScopes": 217,
+  "stats": {
+    "all": {
+      "rows": 885,
+      "cards": 376
+    },
+    "matched": {
+      "rows": 261,
+      "cards": 152
+    },
+    "official": {
+      "rows": 272,
+      "cards": 159
+    },
+    "office": {
+      "rows": 284,
+      "cards": 184
+    },
+    "candidate": {
+      "rows": 234,
+      "cards": 139
+    },
+    "history": {
+      "rows": 921,
+      "cards": 356
+    }
+  },
+  "authUnchanged": true,
+  "allOldRowsAndUnitsPreserved": true,
+  "fullCurrentSourceOccurrencesVerified": true,
+  "standaloneSynchronized": true
+}

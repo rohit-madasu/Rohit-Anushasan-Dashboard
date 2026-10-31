@@ -1,0 +1,293 @@
+{
+  "baselineDataJsSha256": "30a5d52eaade20928bff621ba663ad511a10a79bc4b5ede78e32199497d3ff0b",
+  "legacyGroupingComparatorZipSha256": "84c4d2fa5cf4e6e432585a983185ce2579a1e7a4ff32e8173022d972028b7896",
+  "editionDate": "2026-10-18",
+  "policy": "Display groups only; original evidence, profiles and per-date appearances retained.",
+  "filters": [
+    {
+      "kind": "all",
+      "selectedSourceRows": 5808,
+      "beforeDisplayCards": 3242,
+      "afterDisplayCards": 3081,
+      "underlyingEvidenceRows": 5808,
+      "dates": 1059
+    },
+    {
+      "kind": "matched",
+      "selectedSourceRows": 148,
+      "beforeDisplayCards": 145,
+      "afterDisplayCards": 102,
+      "underlyingEvidenceRows": 199,
+      "dates": 46
+    },
+    {
+      "kind": "official",
+      "selectedSourceRows": 150,
+      "beforeDisplayCards": 147,
+      "afterDisplayCards": 104,
+      "underlyingEvidenceRows": 201,
+      "dates": 47
+    },
+    {
+      "kind": "office",
+      "selectedSourceRows": 227,
+      "beforeDisplayCards": 212,
+      "afterDisplayCards": 202,
+      "underlyingEvidenceRows": 289,
+      "dates": 43
+    },
+    {
+      "kind": "mirror",
+      "selectedSourceRows": 42,
+      "beforeDisplayCards": 42,
+      "afterDisplayCards": 42,
+      "underlyingEvidenceRows": 133,
+      "dates": 21
+    },
+    {
+      "kind": "candidate",
+      "selectedSourceRows": 142,
+      "beforeDisplayCards": 125,
+      "afterDisplayCards": 104,
+      "underlyingEvidenceRows": 185,
+      "dates": 49
+    },
+    {
+      "kind": "order",
+      "selectedSourceRows": 5,
+      "beforeDisplayCards": 5,
+      "afterDisplayCards": 5,
+      "underlyingEvidenceRows": 5,
+      "dates": 3
+    },
+    {
+      "kind": "named",
+      "selectedSourceRows": 26,
+      "beforeDisplayCards": 26,
+      "afterDisplayCards": 26,
+      "underlyingEvidenceRows": 26,
+      "dates": 15
+    },
+    {
+      "kind": "history",
+      "selectedSourceRows": 6079,
+      "beforeDisplayCards": 3497,
+      "afterDisplayCards": 3218,
+      "underlyingEvidenceRows": 6079,
+      "dates": 1062
+    },
+    {
+      "kind": "historical_source",
+      "selectedSourceRows": 5216,
+      "beforeDisplayCards": 2690,
+      "afterDisplayCards": 2690,
+      "underlyingEvidenceRows": 5321,
+      "dates": 1014
+    }
+  ],
+  "examples": [
+    {
+      "file": "168",
+      "date": "2026-10-22",
+      "beforeCards": 1,
+      "afterCards": 1,
+      "sourceRows": 1,
+      "summaryRowId": "manual-holiday-recast:168",
+      "summaryAsOf": "2026-10-18T17:19:24+05:30",
+      "summaryCase": "CC 406/2026",
+      "summaryParties": "Malkhed Mahesh Kumar vs Nayanala Vijay",
+      "summaryCourt": "1-Principal Junior Civil Judge cum JMFC · Jr. Civil Courts, Narayanpet",
+      "sourceRowsRetained": [
+        "manual-holiday-recast:168"
+      ]
+    },
+    {
+      "file": "169",
+      "date": "2026-10-22",
+      "beforeCards": 1,
+      "afterCards": 1,
+      "sourceRows": 1,
+      "summaryRowId": "manual-holiday-recast:169",
+      "summaryAsOf": "2026-10-18T17:19:24+05:30",
+      "summaryCase": "CC 405/2026",
+      "summaryParties": "MALKHED MAHESH KUMAR vs NAYANALA VIJAY",
+      "summaryCourt": "1-Principal Junior Civil Judge cum JMFC · Jr. Civil Courts, Narayanpet",
+      "sourceRowsRetained": [
+        "manual-holiday-recast:169"
+      ]
+    },
+    {
+      "file": "51",
+      "date": "2026-10-22",
+      "beforeCards": 1,
+      "afterCards": 1,
+      "sourceRows": 1,
+      "summaryRowId": "manual-official:51:TSMM110055252022:2026-10-22",
+      "summaryAsOf": "2026-10-18T17:24:36.619000+05:30",
+      "summaryCase": "DVC 92/2022",
+      "summaryParties": "B. SRIVIDHYA vs B. PRAVEEN REDDY / B. SUNANDA     / M. JAYASHREE     / A. VIDHYA SHREE    ",
+      "summaryCourt": "7-II Addl. Junior Civil Judge-cum-XIII Addl Judicial Magistrate of First Class Medchal-Malkajgiri Dist. at Kukatpally · Prl. Junior Civil Court, Kukatpally",
+      "sourceRowsRetained": [
+        "manual-official:51:TSMM110055252022:2026-10-22"
+      ]
+    }
+  ],
+  "changedDays": [
+    {
+      "date": "2023-11-22",
+      "before": 7,
+      "after": 4
+    },
+    {
+      "date": "2025-07-22",
+      "before": 5,
+      "after": 4
+    },
+    {
+      "date": "2026-10-03",
+      "before": 4,
+      "after": 3
+    },
+    {
+      "date": "2026-10-05",
+      "before": 25,
+      "after": 13
+    },
+    {
+      "date": "2026-10-06",
+      "before": 28,
+      "after": 16
+    },
+    {
+      "date": "2026-10-07",
+      "before": 19,
+      "after": 11
+    },
+    {
+      "date": "2026-10-08",
+      "before": 13,
+      "after": 8
+    },
+    {
+      "date": "2026-10-09",
+      "before": 29,
+      "after": 12
+    },
+    {
+      "date": "2026-10-12",
+      "before": 43,
+      "after": 31
+    },
+    {
+      "date": "2026-10-13",
+      "before": 24,
+      "after": 15
+    },
+    {
+      "date": "2026-10-14",
+      "before": 54,
+      "after": 33
+    },
+    {
+      "date": "2026-10-15",
+      "before": 57,
+      "after": 39
+    },
+    {
+      "date": "2026-10-16",
+      "before": 30,
+      "after": 24
+    },
+    {
+      "date": "2026-10-22",
+      "before": 18,
+      "after": 15
+    },
+    {
+      "date": "2026-10-26",
+      "before": 20,
+      "after": 18
+    },
+    {
+      "date": "2026-10-27",
+      "before": 20,
+      "after": 15
+    },
+    {
+      "date": "2026-10-28",
+      "before": 12,
+      "after": 10
+    },
+    {
+      "date": "2026-10-29",
+      "before": 20,
+      "after": 15
+    },
+    {
+      "date": "2026-10-30",
+      "before": 9,
+      "after": 6
+    },
+    {
+      "date": "2026-11-02",
+      "before": 11,
+      "after": 9
+    },
+    {
+      "date": "2026-11-03",
+      "before": 9,
+      "after": 7
+    },
+    {
+      "date": "2026-11-04",
+      "before": 17,
+      "after": 14
+    },
+    {
+      "date": "2026-11-05",
+      "before": 23,
+      "after": 21
+    },
+    {
+      "date": "2026-11-16",
+      "before": 7,
+      "after": 6
+    },
+    {
+      "date": "2026-11-18",
+      "before": 6,
+      "after": 5
+    },
+    {
+      "date": "2026-11-20",
+      "before": 3,
+      "after": 2
+    },
+    {
+      "date": "2026-11-25",
+      "before": 5,
+      "after": 4
+    },
+    {
+      "date": "2026-11-26",
+      "before": 4,
+      "after": 3
+    },
+    {
+      "date": "2026-11-27",
+      "before": 5,
+      "after": 4
+    },
+    {
+      "date": "2026-12-21",
+      "before": 3,
+      "after": 2
+    }
+  ],
+  "profiles": {
+    "total": 455,
+    "running": 298,
+    "closed": 157,
+    "uniqueProfileIds": 455
+  }
+}

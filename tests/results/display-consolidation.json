@@ -1,0 +1,42 @@
+{
+  "all": {
+    "evidenceRows": 6168,
+    "cards": 2654
+  },
+  "matched": {
+    "evidenceRows": 272,
+    "cards": 154
+  },
+  "official": {
+    "evidenceRows": 286,
+    "cards": 162
+  },
+  "office": {
+    "evidenceRows": 300,
+    "cards": 198
+  },
+  "candidate": {
+    "evidenceRows": 249,
+    "cards": 146
+  },
+  "mirror": {
+    "evidenceRows": 52,
+    "cards": 48
+  },
+  "order": {
+    "evidenceRows": 5,
+    "cards": 5
+  },
+  "named": {
+    "evidenceRows": 43,
+    "cards": 43
+  },
+  "history": {
+    "evidenceRows": 6200,
+    "cards": 2619
+  },
+  "historical_source": {
+    "evidenceRows": 5233,
+    "cards": 2333
+  }
+}

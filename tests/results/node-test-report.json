@@ -1,0 +1,125 @@
+{
+  "testedAt": "2026-10-31T06:26:05.622Z",
+  "scope": "Node source/model/render-event checks; browser visual and offline-file checks are separate.",
+  "files": {
+    "data.js": "c506e2509002597c5c0d11c0ac813a6e2ff2dce1c1a38918183d50c7d5120627",
+    "calendar-core.js": "1fb89f86b8dd43d53de3ec444292c7fc54faf1388aab9e12a96b5e39b5bef768",
+    "app.js": "f3f01d91634a859e720231610ad716f763b8021d634e5bc39f8956781e8a18d6",
+    "auth.js": "b92451cc15dcccb93c701eaf12d7388d66533fb5b6aa784c5fd79fd301bb3d6f",
+    "index.html": "7ed8df56d27187cca37ea5663eb7d0d2b49cebfac1f4ee89d95f73947cd3ee31",
+    "styles.css": "308963d2bde9ea66d6ef70d519e43c610156bbb0abd63d637e9c043b87924ff4",
+    "case-search-data.js": "4abc24f24565df8ab472f7de610eac298e8ed6bddf57b8671b2cfdcd0010c189",
+    "case-search-corpus-01.js": "4db1013a7e4165804289f6ff04ccbb82a9c841b76cf6085f6d63ea6a50668bba",
+    "case-search-corpus-02.js": "727991e76ff3de9d0e311ba980db0b4fde98c975a88a677d9ca5a352497f7736",
+    "case-search-corpus-03.js": "b572570caecfa8d6df6849ff27884fee76ad1c3dd3f2e6f83df2e1bff53acb9d",
+    "case-search-corpus-04.js": "8de75a25e4e136f8430c0541bb3d6d0c7d86c7376486232237a308cf4e96833a",
+    "case-search-corpus-05.js": "c80435511aff814e0455359cec49e208acf2c27e55fee15d6f0b5a6db8ea5729",
+    "case-search-corpus-06.js": "e31fcdcf8b2d5c0dd88a9885a6f39f95596c3f395b413a08f1b3a768e8eb882f",
+    "case-search-corpus-07.js": "974a72ae7666ddcd1aea0cccb7e8185398c6261d13b0bb54862def5bf3986386",
+    "case-search-corpus-08.js": "2dd95f1e5ebc2672d7ddb3fd04397465c4bed9458775fd9608f329af7b8db595",
+    "case-search-corpus-09.js": "10cc9873a2f3b5e0a51c63fde5a7d1e8cbefb63a1ea191b9636fa5f7a97e9054",
+    "case-search-corpus-10.js": "71e4adde11e95705b7dc81a093724948f8f3f6a27e5c712b6b9c8e642d30d002",
+    "case-search-corpus-11.js": "529112eb30e074a4468ac0b0ec818409bf75961fd1fbc0eefd02665e7eb212e6",
+    "case-search-corpus-12.js": "89cbc152ee9a1d23b98cf88126e4e990af6e68e87410ab0bbee1a275511b0318",
+    "display-bindings.js": "dcf805d6befcb4d419d13492c963c5447207e8310f528a8ec46bc54e13381e61",
+    "case-search-corpus-oct29.js": "d5a9b097aefe68915d305cf37c8ee90222a5d161909a04b96491402138f27a15",
+    "case-search-metadata-oct29-01.js": "0c6d46724d346078ca9635a239c1a6d1494353bb28f1ee3fc3734e74d224b44d",
+    "case-search-metadata-oct29-02.js": "8f9998a6c4d5beda39d64457f91152df2a59661cac10570f2030665d91cdd31e",
+    "case-search-metadata-oct29-03.js": "490f67962edc09da79a140a64c318aefd605d461d908f19b3bfa5e447df1dfd7",
+    "case-search-oct30.js": "6f6529bac01b335f58ad8bdc34946d0e587c6f53c933b0f91dbb365a7f97be96",
+    "case-search-oct31.js": "52994c0dc1f88da6597d44bbcb40918e2c400c4be113d648568e66916d307336",
+    "case-search-resumed-0524-corpus-01.js": "1a955272ad4a1a43a83a3670aac8976ffe2e4b7a9262f44c3b5763802850d997",
+    "case-search-resumed-0524-corpus-02.js": "1d02335c6adac4175691b6d41de74b8278eca5f3f76ae60e326a50b5d02b2547",
+    "case-search-resumed-0524-corpus-03.js": "2dcd54c9b832b95056b44f0f75ff9ebfa2842fd1a70139ec8490807b289f89d1",
+    "case-search-resumed-0524-corpus-04.js": "43bd249aaa597417e0ffbb5722ae87c5f5569f589bfcaef91c543948225e2a20",
+    "case-search-resumed-0524-corpus-05.js": "66375e605743f2ce535e4e210d3b074c399a4f50422342928822e0f09757fa56",
+    "case-search-resumed-0524-corpus-06.js": "b874edce0ea90bb6d8d054251443430c8d4c42ad8bd88cf7721c987fb53a593e",
+    "case-search-resumed-0524-corpus-07.js": "c24be4241ad1f98db67b7b5d8a7d6754398679f7ce8112c9c5e800a1d8988411",
+    "case-search-resumed-0524-corpus-08.js": "adf23dff0b454a9cad34f9704519075bc3a01a84019907977ac3f535dde7bd7c",
+    "case-search-resumed-0524-corpus-09.js": "6f584355c0b397517ee3ba1c5a9cf25e1948731a3502d0727bae965b49efee6f",
+    "case-search-resumed-0524-corpus-10.js": "c10ffc3b07de7de91e161c1f8c76043fafef7b43a31f47c9a206a27dce32f4a9",
+    "case-search-resumed-0524-corpus-11.js": "1561268097c49b6edccfd370672cbab93ad2a11346c296ace12d487b465116f7",
+    "case-search-resumed-0524-corpus-12.js": "6d864ff37964fa60ad4bf61cd5136883a7dc48e03376beb5aca6cd95da625f1f",
+    "case-search-resumed-0524-corpus-13.js": "5eb297a80d88f09ff404eceea815bd7437077498ba1791d04764995212ddef0e",
+    "case-search-resumed-0524-corpus-14.js": "2344a5237070b6690e8c711f12639960954b01a061b6aad18d86d88e247b1553",
+    "case-search-resumed-0524-corpus-15.js": "c1e72c2f5f710c4c5703b27f6769a051305e5f9876168e3bb4a9062d3d86e19f",
+    "case-search-oct31-resumed-0524.js": "f62fd74aaa7eec7b59d5a17b90bc37dcb12ffc6dd69474c6f570683150a24373",
+    "courts.js": "738c935c55c21d9869c6fa8abba783ebc84d02aa96da8c13a0de215fa138f1f8",
+    "court-colors.css": "7d58227e31ed9477cac42dccdba5737930698246f64e262ff61449acccccf1f5"
+  },
+  "tests": [
+    {
+      "name": "final-review-precision.test.cjs",
+      "status": "passed",
+      "exitCode": 0,
+      "output": "PASS: exact disposed scopes removed from current projection, historical evidence retained, dated identifier corrections active, commission separate from court hearing, all evidence mapped without duplicate row loss.\n"
+    },
+    {
+      "name": "display-consolidation.test.cjs",
+      "status": "passed",
+      "exitCode": 0,
+      "output": "PASS: all modes preserve every source row; explicit docket/day consolidation, aliases, candidates, original masks, court corrections, historical caveats, different proceedings and linked-profile name safety.\n"
+    },
+    {
+      "name": "calendar-core.test.cjs",
+      "status": "passed",
+      "exitCode": 0,
+      "output": "PASS: identity normalization only removes superficial text differences\nPASS: same exact identity/day can collapse without losing evidence or conflicts\nPASS: different file suffixes, cases, parties and locator sets remain separate\nPASS: dedup does not erase punctuation that can distinguish source identities\nPASS: same identity on different dates remains on both calendar dates\nPASS: unknown identifiers, masked party placeholders and missing locators do not invent identity matches\nPASS: eligible dated rows are not discarded just because the date has elapsed\nPASS: historical calendar can return dates before current month\nPASS: partial party labels retain known names without becoming complete dedup identities\nPASS: date helpers handle years, leap years and IST date boundary\nPASS: whole source-projection placeholders do not become party identities\nPASS: all 11 calendar-core regressions.\n"
+    },
+    {
+      "name": "case-search.test.cjs",
+      "status": "passed",
+      "exitCode": 0,
+      "output": "PASS: full-corpus live search includes running, closed and undated profiles and exact file suffixes.\n"
+    },
+    {
+      "name": "auth.test.cjs",
+      "status": "passed",
+      "exitCode": 0,
+      "output": "PASS: session duration is exactly six hours\nPASS: session valid immediately and one millisecond before expiry\nPASS: session invalid at expiry and afterwards\nPASS: malformed, future, altered-duration and foreign-verifier records fail closed\nPASS: invalid configuration cannot restore session\nPASS: expiry calculation never extends from read\nPASS: derived password verifier accepts exact input and rejects other input\nPASS: all 7 absolute-session regressions.\n"
+    },
+    {
+      "name": "auth-dom.test.cjs",
+      "status": "passed",
+      "exitCode": 0,
+      "output": "PASS: initial lock hides dashboard and clears password\nPASS: incorrect password fails and clears plaintext input\nPASS: correct login opens dashboard and stores exactly six-hour verifier-bound session\nPASS: restore and focus retain absolute expiry without extending session\nPASS: logout clears stored session, password visibility and dashboard\nPASS: expiry locks on focus\nPASS: expiry locks on pageshow\nPASS: expiry locks on visibilitychange\nPASS: timer locks at exact absolute expiry without activity\nPASS: expired and malformed stored sessions fail closed\nPASS: unavailable storage permits only temporary in-memory login with clear notice\nPASS: pending password validation cannot undo a later lock\nPASS: invalid auth configuration disables login with useful error\nPASS: all 13 auth DOM/state regressions; visual browser tests are separate.\n"
+    },
+    {
+      "name": "app-dom.test.cjs",
+      "status": "passed",
+      "exitCode": 0,
+      "output": "PASS: calendar renders complete month and month controls cross years\nPASS: historical dates render evidence and complete leap month\nPASS: calendar cards and previews put source party label before case identifier\nPASS: single live search finds closed and undated profiles independently of calendar filter/date\nPASS: raw passage search finds source text absent from every profile and escapes source markup\nPASS: search clear and no-result states are predictable\nPASS: locking clears search results and returns view to calendar\nPASS: location colours and readable location legend are shared across calendar, source details and search\nPASS: current-source resolver redirects only verified mapped predecessors and preserves raw provenance\nPASS: portal coverage distinguishes qualified retrieval coverage from submission totals\nPASS: dated current review precedes labelled historical assessment and escapes source text\nPASS: all 11 app render/event regressions; visual browser tests are separate.\n"
+    },
+    {
+      "name": "source-semantics.test.cjs",
+      "status": "passed",
+      "exitCode": 0,
+      "output": "PASS: non-history calendar counts exclude separately displayed unidentified leads\nPASS: future/current tracking-stopped rows do not re-enter non-history calendar views\nPASS: history retains every original lead and tracking-stopped evidence row\n"
+    },
+    {
+      "name": "location-colours.test.cjs",
+      "status": "passed",
+      "exitCode": 0,
+      "output": "PASS: location grouping, Kalpataru specificity, ambiguous-location neutral fallback, exact label preservation and AA contrast.\n"
+    },
+    {
+      "name": "daily-oct31-resumed.test.cjs",
+      "status": "passed",
+      "exitCode": 0,
+      "output": "{\n  \"pass\": true,\n  \"checkedAtUTC\": \"2026-10-31T06:26:46.534Z\",\n  \"sourceUnits\": 230307,\n  \"profiles\": 455,\n  \"currentRows\": 320,\n  \"historyRows\": 940,\n  \"undatedRows\": 80,\n  \"officialGraphRecords\": 387,\n  \"allPriorCorpusUnitsAndProjectionSnapshotsPreserved\": true,\n  \"completeCurrentSourceOccurrencesVerified\": true,\n  \"standaloneDecodedParity\": true,\n  \"authUnchanged\": true,\n  \"trackingStopsPreserved\": true,\n  \"sourceConfidenceAndDateConflictsPreserved\": true,\n  \"scope\": \"Code and mock-DOM checks; graphical and mobile browser QA remain unavailable.\"\n}\n"
+    },
+    {
+      "name": "june2027-navigation.test.cjs",
+      "status": "passed",
+      "exitCode": 0,
+      "output": "PASS June 2027 year rollover, long-date event and adjacent empty-date isolation\n"
+    },
+    {
+      "name": "standalone-packed.test.cjs",
+      "status": "passed",
+      "exitCode": 0,
+      "output": "PASS standalone actual embedded decoder, exact payload, inline runtime, hover/click/focus/keyboard, June2027 navigation, empty date and confidence filters\n"
+    }
+  ],
+  "passed": true
+}

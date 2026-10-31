@@ -1,0 +1,17 @@
+{
+  "pass": true,
+  "checkedAtUTC": "2026-10-31T06:26:46.534Z",
+  "sourceUnits": 230307,
+  "profiles": 455,
+  "currentRows": 320,
+  "historyRows": 940,
+  "undatedRows": 80,
+  "officialGraphRecords": 387,
+  "allPriorCorpusUnitsAndProjectionSnapshotsPreserved": true,
+  "completeCurrentSourceOccurrencesVerified": true,
+  "standaloneDecodedParity": true,
+  "authUnchanged": true,
+  "trackingStopsPreserved": true,
+  "sourceConfidenceAndDateConflictsPreserved": true,
+  "scope": "Code and mock-DOM checks; graphical and mobile browser QA remain unavailable."
+}

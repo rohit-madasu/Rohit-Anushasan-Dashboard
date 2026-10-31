@@ -1,0 +1,17 @@
+{
+  "baselineCorpusUnitsPreserved": 109621,
+  "currentCorpusUnits": 109999,
+  "profilesWithAllPriorRecordsHistoriesSearchTextPreserved": 455,
+  "currentCategoriesUnchanged": true,
+  "priorEvidenceIdsPreserved": 856,
+  "archiveEvidenceRows": 860,
+  "currentEvidenceRows": 258,
+  "completeSourceOccurrenceMaps": {
+    "stage": 65080,
+    "diary": 51831,
+    "running": 1063,
+    "active": 54612,
+    "disposed": 45450,
+    "unclear": 52577
+  }
+}

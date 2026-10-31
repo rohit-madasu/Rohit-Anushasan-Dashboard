@@ -1,0 +1,353 @@
+{
+  "auditVersion": "2026-10-18-manual-v1",
+  "verifiedAtUTC": "2026-10-18T12:53:04.053304+00:00",
+  "scope": "Independent source, exact-content, structure, searchable-map and targeted visual audit of the 18 October manual edition.",
+  "overallStatus": "Independent content, preservation, rendering, authoritative readback, source-binding and runtime gates passed. Final hash-bound browser QA receipt reviewed and consistent with frozen artifacts.",
+  "artifacts": [
+    {
+      "kind": "stage",
+      "docx": "Current_Case_Hearings_and_Stages_2026-10-18_manual_refresh.docx",
+      "docxSHA256": "03b7a8061e9f8f6be8ba903e45777aa24050055844f2c3a18a9de4808763eb67",
+      "pdf": "Current_Case_Hearings_and_Stages_2026-10-18_manual_refresh.pdf",
+      "pdfSHA256": "2e46215adcb02df9b6f47dbb374306547736560f15c745345af7c6831db14362",
+      "pdfPages": 1371
+    },
+    {
+      "kind": "diary",
+      "docx": "Anushasan_Associates_MASTER_Court_Diary_and_Case_Register-18-Oct-2026.docx",
+      "docxSHA256": "5f870d37e1d2ed158b76e976ad9281d630bc76d0e44c3dee6b75341065571e84",
+      "pdf": "Anushasan_Associates_MASTER_Court_Diary_and_Case_Register-18-Oct-2026.pdf",
+      "pdfSHA256": "036d300a4b9f97bcab193cd726891b76bb6d877f0e7dd8f4379764132b022a6f",
+      "pdfPages": 786
+    },
+    {
+      "kind": "active",
+      "docx": "Active_cases.docx",
+      "docxSHA256": "91026b0a121fe7ad9daaee361d32a9b67f67b22c487a1d8374aec26b524019fb",
+      "pdf": "Active_cases.pdf",
+      "pdfSHA256": "01e569c6477d9413b97fa9c45b925e4b07bcf805ff52a4001a1aa6b0ec596150",
+      "pdfPages": 1113
+    },
+    {
+      "kind": "disposed",
+      "docx": "disposed_cases.docx",
+      "docxSHA256": "2075a9d978fdf140e2ad783d0f5ba8e7f1cc82c7047c8dced8af739e3121cab0",
+      "pdf": "disposed_cases.pdf",
+      "pdfSHA256": "eb98a9a9b5925c448553666d08e1e3ba5423fffa012a6982cb4e967b82c73fac",
+      "pdfPages": 937
+    },
+    {
+      "kind": "unclear",
+      "docx": "unclear_partly_resolved_cases.docx",
+      "docxSHA256": "16baa8dcc80297789baec84358804a17e48eccd3ac8f924f650baaba3a47cbc5",
+      "pdf": "unclear_partly_resolved_cases.pdf",
+      "pdfSHA256": "07a90c49dcf66e97e9eab1e3ad26cea44267b01d437ac268adf013eea37c1657",
+      "pdfPages": 1118
+    },
+    {
+      "kind": "running",
+      "pdf": "Running_Cases_Register_2026-10-18_manual_refresh.pdf",
+      "pdfSHA256": "cb0f34878dea14ee185a2dccd3683f2747b5f64dcbfdcdffe6d39e4cc0b73abc",
+      "pdfPages": 523
+    }
+  ],
+  "checks": [
+    {
+      "id": "preservation",
+      "status": "passed",
+      "finding": "All original paragraph occurrences, original body blocks and section properties survive. Only documented metadata/schedule relocations and one verified source-link target in each companion change. All other package entries remain exact."
+    },
+    {
+      "id": "diary_pairs",
+      "status": "passed",
+      "finding": "121 current source-qualified rows each bind to a complete entry. All 88 predecessor pairs, including 29 plain-style entries, are preserved exactly in order in the historical archive."
+    },
+    {
+      "id": "diary_fields",
+      "status": "passed",
+      "finding": "All 121 current full entries expose the required case, parties, court, judge, location, stage, reporter, attending advocate, filing, source and verification fields. Missing or unestablished facts remain explicit."
+    },
+    {
+      "id": "tracking_scope",
+      "status": "passed",
+      "finding": "All 97 original tracking directives remain. Files 110 and 233 are absent from current dashboard listings; their new evidence is historical/conflict evidence only. No automatic reactivation is inferred."
+    },
+    {
+      "id": "source_integrity",
+      "status": "passed",
+      "finding": "48 direct uploads, 43 unique image hashes and all 244 source rows are retained. All 116 reconciliation groups and 32 conflict records remain searchable. Duplicate photographs do not erase alternative readings."
+    },
+    {
+      "id": "official_scope",
+      "status": "passed",
+      "finding": "Ten fresh official records are hash-verified across two tranches. Eight belong to the 129-CNR current queue; two are stopped-proceeding conflict checks. This is not an all-case fresh review."
+    },
+    {
+      "id": "whatsapp_scope",
+      "status": "passed",
+      "finding": "55 original text objects plus two separately retrieved messages equal 57 captures. Original source packets remain unchanged. The full-review cutoff remains 11:49:24 UTC on 18 October; targeted retrieval ran 12:20:32–12:21:40 UTC. Browser source timezone remains unverified."
+    },
+    {
+      "id": "categories",
+      "status": "passed",
+      "finding": "298 register profiles and 299 file locators remain distinct from docket counts. Categories remain 84 active, 26 disposed and 188 unclear. Two provisional office diary identities do not create running-register profiles."
+    },
+    {
+      "id": "complete_search_maps",
+      "status": "passed",
+      "finding": "Seven source occurrence maps reconstruct the complete final documents exactly: stage 47,589; diary 20,258; active 37,115; disposed 28,026; unclear 35,167 paragraphs; running 523 pages; orders 632 paragraphs, including its 622-paragraph authoritative section and 127 row headings."
+    },
+    {
+      "id": "baseline_search_preservation",
+      "status": "passed",
+      "finding": "All 58,213 original corpus units, 507 original history rows and 5,260 supplementary calendar rows remain exact. Corpus units and profile counts are not conflated."
+    },
+    {
+      "id": "render_binding",
+      "status": "passed",
+      "finding": "All five DOCX/PDF pairs match their final render receipts. Automated scans report no text outside page bounds. Internal bookmark targets resolve."
+    },
+    {
+      "id": "running_register",
+      "status": "passed",
+      "finding": "All 299 original running-register pages retain identical extracted text and raster pixels. The successor adds one cover and 223 exact stage-supplement pages, for 523 pages."
+    },
+    {
+      "id": "authoritative_readbacks",
+      "status": "passed",
+      "finding": "Seven downloaded authoritative artifacts exactly match final local bytes and hashes. Intended parents, titles and MIME types match; private permissions remain exactly unchanged with no public or domain grant."
+    },
+    {
+      "id": "source_link_binding",
+      "status": "passed",
+      "finding": "Each companion changes only its existing stage hyperlink target to the verified successor. Every body byte and every other package entry remains exact. All 3,168 rendered companion pages retain identical text and pixels, and their links use the verified successor."
+    },
+    {
+      "id": "dashboard_source_resolution",
+      "status": "passed",
+      "finding": "Six fully occurrence-mapped predecessor stage/running sources resolve to the verified current successors in profile and source-passage links. Historical raw URLs remain exact. Unmapped, unverified, ambiguous or unrelated URLs are not redirected."
+    },
+    {
+      "id": "dashboard_unknown_counts",
+      "status": "passed",
+      "finding": "Uncounted search/CAPTCHA totals display an explicit uncounted statement while structured counts remain null. Genuine zero and finite numeric values remain numeric."
+    },
+    {
+      "id": "dashboard_runtime_scope",
+      "status": "passed",
+      "finding": "The runtime delta is limited to the verified-source resolver, its two link-render sites and one truthful count-display expression. Authentication assets and unrelated runtime assets remain exact; existing court catalogue entries and style prefixes remain exact."
+    },
+    {
+      "id": "protected_source_metadata",
+      "status": "passed",
+      "finding": "Protected reference, closed register and both orders artifacts show unchanged ID, title, size, modification time, parent and permissions."
+    },
+    {
+      "id": "final_browser_receipt",
+      "status": "passed_with_stated_scope",
+      "finding": "Final browser QA used the frozen runtime/data in a private loopback preview. Desktop source links, recovered-message search, truthful count display, a 408-pixel calendar, absolute-expiry persistence across reload and six-hour lock were observed. Mobile logout, direct file execution and public hosting were not claimed."
+    }
+  ],
+  "visualReview": {
+    "method": "Targeted contact sheets and representative full-size pages, plus exact all-page running-register comparisons.",
+    "finalDiaryContactSheetPages": [
+      1,
+      2,
+      144,
+      145,
+      189,
+      190,
+      196,
+      197,
+      233,
+      234,
+      616,
+      617,
+      622,
+      623,
+      715,
+      716
+    ],
+    "finalStageContactSheetPages": [
+      1,
+      2,
+      1149,
+      1150,
+      1155,
+      1156,
+      1259,
+      1260
+    ],
+    "finalDiaryFullSizePages": [
+      144,
+      616,
+      622,
+      715
+    ],
+    "finalStageFullSizePages": [
+      1155,
+      1259
+    ],
+    "companionFullSizePages": {
+      "active": [
+        1
+      ],
+      "disposed": [
+        1
+      ],
+      "unclear": [
+        1
+      ]
+    },
+    "additionalFullEntryPagesReviewedBeforeFinalProvenanceRevision": [
+      189,
+      196,
+      197,
+      233
+    ],
+    "runningCoverReviewed": true,
+    "finding": "No visible clipping, overlap or broken table continuation in the inspected samples.",
+    "limitation": "This is targeted visual review, not a claim of line-by-line manual inspection of every rendered page.",
+    "postBindingEquivalence": {
+      "pages": 3168,
+      "allPagesTextAndPixelsIdentical": true,
+      "scope": "All three companion PDFs after source-link-only rebinding match the reviewed versions."
+    }
+  },
+  "sourceBindings": {
+    "status": "Seven authoritative artifact readbacks and final dashboard source bindings verified.",
+    "authoritativeReadbackVerified": true,
+    "parentAndPrivatePermissionsVerified": true,
+    "artifacts": [
+      {
+        "kind": "stage",
+        "driveFileId": "1AR2kuSbKzxC9PNyVm60MDH41ONLSvzQz",
+        "sha256": "03b7a8061e9f8f6be8ba903e45777aa24050055844f2c3a18a9de4808763eb67",
+        "byteExactReadback": true,
+        "intendedParentVerified": true,
+        "permissionsExactlyMatchPredecessor": true,
+        "publicOrDomainGrant": false
+      },
+      {
+        "kind": "stage_pdf",
+        "driveFileId": "1oxCHaN3Bk37nxhb6OZQccm47KaRRAEDN",
+        "sha256": "2e46215adcb02df9b6f47dbb374306547736560f15c745345af7c6831db14362",
+        "byteExactReadback": true,
+        "intendedParentVerified": true,
+        "permissionsExactlyMatchPredecessor": true,
+        "publicOrDomainGrant": false
+      },
+      {
+        "kind": "running",
+        "driveFileId": "1aB9pFJQcFalmkMnW-rc6m7XdhG2UCw25",
+        "sha256": "cb0f34878dea14ee185a2dccd3683f2747b5f64dcbfdcdffe6d39e4cc0b73abc",
+        "byteExactReadback": true,
+        "intendedParentVerified": true,
+        "permissionsExactlyMatchPredecessor": true,
+        "publicOrDomainGrant": false
+      },
+      {
+        "kind": "diary",
+        "driveFileId": "1D7lDO33jWv_pR8x2A3Eg_8NFdSDT0nnd",
+        "sha256": "5f870d37e1d2ed158b76e976ad9281d630bc76d0e44c3dee6b75341065571e84",
+        "byteExactReadback": true,
+        "intendedParentVerified": true,
+        "permissionsExactlyMatchPredecessor": true,
+        "publicOrDomainGrant": false
+      },
+      {
+        "kind": "active",
+        "driveFileId": "1pBBQl5RJcLZqfVnL9_baOc22gJYMPVqu",
+        "sha256": "91026b0a121fe7ad9daaee361d32a9b67f67b22c487a1d8374aec26b524019fb",
+        "byteExactReadback": true,
+        "intendedParentVerified": true,
+        "permissionsExactlyMatchPredecessor": true,
+        "publicOrDomainGrant": false
+      },
+      {
+        "kind": "disposed",
+        "driveFileId": "1UiCyI06VtK-hYQim2q5dyuUiPJzoeGBf",
+        "sha256": "2075a9d978fdf140e2ad783d0f5ba8e7f1cc82c7047c8dced8af739e3121cab0",
+        "byteExactReadback": true,
+        "intendedParentVerified": true,
+        "permissionsExactlyMatchPredecessor": true,
+        "publicOrDomainGrant": false
+      },
+      {
+        "kind": "unclear",
+        "driveFileId": "1SF0HF6jc0kvZV3wvQRK7ZZNMiQCao4UB",
+        "sha256": "16baa8dcc80297789baec84358804a17e48eccd3ac8f924f650baaba3a47cbc5",
+        "byteExactReadback": true,
+        "intendedParentVerified": true,
+        "permissionsExactlyMatchPredecessor": true,
+        "publicOrDomainGrant": false
+      }
+    ]
+  },
+  "remainingLimitations": [
+    "Current office listings do not establish a completed hearing, attendance, filing completion or disposal.",
+    "Masked-party and identifier-conflict records retain qualified confidence.",
+    "The 21 October notification expressly recasts criminal trials; no blanket civil or family recast is inferred.",
+    "The 5776 versus 5376 circular-number readings remain attributed alternatives pending original confirmation."
+  ],
+  "protectedSources": {
+    "status": "Protected reference, closed register and both orders artifacts retain the same ID, title, size, modification time, parent and permissions during publication.",
+    "verificationMethod": "Metadata continuity and preserved baseline bytes; unchanged references were not newly downloaded.",
+    "scopeNote": "The earlier closed-register snapshots did not include MIME; current metadata identifies it as application/pdf."
+  },
+  "dashboard": {
+    "files": {
+      "data.js": "75de814e4491ce879556b79af8ccfd031a30acae82195f807de28e15766fa2f1",
+      "case-search-data.js": "3925f083cd2e29293fcecdc6390d800696ab3c2fb4c7f71374ce7e6c92b25a02",
+      "app.js": "db5461b9adb79382e5cddc41dbd7562899f8efb3a6eb9df5971e44cf2d947eba",
+      "auth.js": "b92451cc15dcccb93c701eaf12d7388d66533fb5b6aa784c5fd79fd301bb3d6f",
+      "index.html": "f03c5b4d72f5e8a746eecaff65f43dc6d18a877affe6984638fe83fb64762dcd",
+      "styles.css": "308963d2bde9ea66d6ef70d519e43c610156bbb0abd63d637e9c043b87924ff4"
+    },
+    "independentChecks": {
+      "sourceAndOccurrenceMapChecks": 42,
+      "sourceAndOccurrenceMapsPassed": true,
+      "resolverAndRuntimeChecks": 12,
+      "resolverAndRuntimePassed": true,
+      "unknownCountDisplayChecks": 8,
+      "unknownCountDisplayPassed": true
+    },
+    "browserReview": {
+      "method": "Reviewed the final browser QA receipt and independently matched all reported production hashes to the frozen files. Browser actions were performed in a separate QA pass.",
+      "status": "passed within stated scope",
+      "browser": "Private loopback cloud Chrome",
+      "checkedAtUTC": "2026-10-18T12:52:08Z",
+      "receiptSHA256": "70a70b9eba0058d27416bcd46a21c9855ba8674bea715c93b2f643e9c6473373",
+      "previewUsesSyntheticAuthentication": true,
+      "runtimeAndDataHashesExactlyMatchProduction": true,
+      "checks": [
+        "Actual browser reload served frozen final runtime and retained the absolute session start/expiry timestamps.",
+        "Current source coverage shows 69,448 corpus units, 455 profiles, ten bounded fresh court records, and 55 original plus two targeted WhatsApp captures.",
+        "Uncounted search/CAPTCHA totals render the approved truthful sentence; no literal null totals.",
+        "Stage and PDF top-level links target verified successors.",
+        "Aditi profile source links resolve retained stage/running URLs to verified successors; diary remains unchanged.",
+        "Recovered Saturday-verification quote is searchable as 11 source passages without an invented profile; expanded passage links resolve current stage/diary sources.",
+        "Final desktop date hover preview, calendar click and party-first headings inspected.",
+        "Final 408px calendar rendered; 28 October listing included Kapil Chits EP 218/2026 with File Unassigned.",
+        "Synthetic six-hour clock advance locks the final dashboard and clears both session timestamps."
+      ],
+      "limitations": [
+        "Mobile iframe logout was not conclusively observed; the visibility wait timed out.",
+        "Direct file:// browser execution was not exercised.",
+        "No live public-hosting access test was performed."
+      ]
+    },
+    "nodeSuiteReceipt": {
+      "testedAtUTC": "2026-10-18T12:50:12.549Z",
+      "suites": 10,
+      "allPassed": true,
+      "receiptSHA256": "0b07d1de9e68861e83bcdf9f4368d8e9e6de84ae585b40363f68589424fed0a9",
+      "allReportedHashesMatchFinalFiles": true
+    }
+  },
+  "publicationScope": {
+    "packageUploadReadback": "Separate publication receipt, not part of this pre-packaging content seal.",
+    "postCleanupMetadata": "Separate publication receipt, not part of this pre-cleanup content seal.",
+    "publicHostingTested": false
+  }
+}
